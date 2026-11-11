@@ -25,6 +25,8 @@ def upstream(section, variable):
     script_end = html.index('</script>', end)
     html = html[:start] + '<script src="app.js" defer></script>' + html[script_end + len('</script>'):]
     html = html.replace('</style>', '</style>\n<link rel="stylesheet" href="../theme.css">', 1)
+    if section == 'atlas':
+        html = html.replace(" placed on 1910 county lines and month by month through the year. Hover a mark for the event table's short summary; click or tap it to read the dossier's\n account. Drafts: no entry has had human review.", " placed on 1910 county lines and month by month through the year. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.")
     html = (html.replace('family=Fraunces:opsz,wght@9..144,600', 'family=Source+Serif+4:opsz,wght@8..60,600')
             .replace('family=IBM+Plex+Sans+Condensed:wght@400;500;600', 'family=IBM+Plex+Sans:wght@400;500;600')
             .replace('--display:"Fraunces",Georgia,serif', '--display:"Source Serif 4",Georgia,serif')

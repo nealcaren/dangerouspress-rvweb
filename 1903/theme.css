@@ -58,3 +58,9 @@
 #filter-count { color:var(--muted); padding-bottom:9px; }
 .mk.selected circle[data-r] { filter:drop-shadow(0 0 2px var(--ink)); stroke:var(--ink); stroke-width:2.5; }
 @media (max-width:600px) { .filters label:first-child { flex-basis:100%; } }
+
+/* Keep the introductory text and map compact on laptop-height screens. */
+.dek { max-width: none; }
+@media (min-width:1041px) {
+  .map { width:min(100%, max(400px, calc((100vh - 315px) * 1.5936))); justify-self:center; }
+}

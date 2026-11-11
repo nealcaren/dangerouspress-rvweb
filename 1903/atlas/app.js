@@ -245,7 +245,7 @@ function hover(e, ev) {
   hov.setAttribute("d", selected && G.counties[selected.ahcb] ? G.counties[selected.ahcb] : "");
   if (e) { mg.appendChild(e.mapG); }
   if (!e) { tip.hidden = true; return; }
-  tip.innerHTML = `<b>${esc(e.title)}</b><div class="m">${esc(e.when)} · ${esc(e.place)}${e.county ? ` · ${esc(e.county)} Co.` : ""}</div>${esc(e.summary)}<div class="h">Click to read the full account</div>`;
+  tip.innerHTML = `<b>${esc(e.title)}</b><div class="m">${esc(e.when)} · ${esc(e.place)}${e.county ? ` · ${esc(e.county)} Co.` : ""}</div>${esc(e.summary)}`;
   tip.hidden = false; if (ev) moveTip(ev);
 }
 function moveTip(ev) { placeTip(ev.clientX, ev.clientY); }
