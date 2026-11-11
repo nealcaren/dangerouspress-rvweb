@@ -344,6 +344,7 @@ function route() {
 }
 addEventListener("popstate", route);
 addEventListener("hashchange", route);
+applyFilter();
 route();
 
 } catch (error) {
