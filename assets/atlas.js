@@ -279,9 +279,9 @@ function drawTimeline() {
   }
   el("line", {x1: L, x2: TW - R, y1: base, y2: base, stroke: "var(--state)", "stroke-width": 1}, ts);
   const scale = bars ? (nRows * DS - 4) / Math.max(...byC.map(l => l.length)) : 0;
-  /* on the span axis each column is labelled above its stack: the year and its count */
+  /* on the span axis each column is labelled above its stack with its year */
   if (ticks) byC.forEach((list, c) => label(xs[c] + CW / 2, base - (bars ? list.length * scale : Math.ceil(list.length / PER) * DS) - 6,
-    `${cols[c].short}: ${list.length}`, 11, "var(--ink)"));
+    cols[c].short, 11, "var(--ink)"));
   if (bars) {
     byC.forEach((list, c) => {
       let y = base; const g = el("g", {class: "mk", tabindex: "0", role: "button", "aria-label": `${cols[c].label}: ${list.length} episodes`}, ts);

@@ -4,7 +4,7 @@
 Every <year>/ folder with a manifest.json is a published collection. site.json says how they are shown:
 
 - The main atlas, atlas/, is the series: one month (August) from every collection, only the episodes dated in that
-  month of that year, on a timeline across the series span (1800-1922). Each collection is one slice, chosen with the
+  month of that year, on a timeline across the series span (1880-1922). Each collection is one slice, chosen with the
   year selector; "all" shows every slice at once.
 - Each year in full_years also keeps an atlas of its whole collection at <year>/atlas/ (1903). Other years'
   <year>/atlas/index.html only redirects old links (#case=<id>) to atlas/#year=<year>&case=<id>.
