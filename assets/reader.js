@@ -166,7 +166,7 @@ function show(k, scroll = true) {
   document.querySelectorAll("button.cite, .tl button").forEach(b => b.classList.toggle("on", b.dataset.k === k));
   const by = Object.fromEntries(ep.sources.map(x => [x.k, x]));
   const parts = (s.group || [k]).map(g => by[g]).filter(Boolean);
-  const imgs = parts.map(p => p.img ? `<figure><img src="${p.img}" alt="Clipping from the ${esc(p.paper)}, ${fmt(p.date)}, page ${p.page}">${parts.length > 1 ? `<figcaption>p. ${p.page}</figcaption>` : ""}</figure>` :
+  const imgs = parts.map(p => p.img ? `<figure><img src="${p.img}" alt="Clipping from the ${esc(p.paper)}, ${fmt(p.date)}, page ${p.page}">${parts.length > 1 || p.press === "white" ? `<figcaption>${parts.length > 1 ? `p. ${p.page}` : ""}${p.press === "white" ? `${parts.length > 1 ? " · " : ""}Cut from the Library of Congress page scan` : ""}</figcaption>` : ""}</figure>` :
     (p.n && p.press === "white" ? `<div class="wtext"><p class="small muted">White-press article: text as read (${esc(p.label || "OCR")}); open the page for the scan.</p><pre>${esc(textOf(ep, p.k) ?? "Loading text…")}</pre></div>` :
      p.n ? `<p class="small muted">Clipping unavailable (${esc(p.err || "not cropped")}); open the page.</p>` : "")).join("");
   const acc = s.acc != null ? ep.accounts[s.acc].label : null;
@@ -177,7 +177,7 @@ function show(k, scroll = true) {
     <span class="chip">${s.press} press</span>
     <a href="${s.url}" target="_blank" rel="noopener">${s.press === "white" ? "Page on Chronicling America" : "Full page on Dangerous Press"} ↗</a></header>
     <p class="note">${esc(s.note)}</p>${s.quotes.map(q => `<blockquote>${esc(q)}</blockquote>`).join("")}${imgs}
-    ${s.press === "white" ? "" : `<details><summary>OCR text</summary>`}${s.press === "white" ? "" : `<pre>${esc(parts.map(p => textOf(ep, p.k) ?? "Loading text…").join("\n\n"))}</pre></details>`}
+    ${s.press === "white" && !s.img ? "" : `<details><summary>${s.press === "white" ? `Text as read (${esc(s.label || "OCR")})` : "OCR text"}</summary><pre>${esc(parts.map(p => textOf(ep, p.k) ?? "Loading text…").join("\n\n"))}</pre></details>`}
     ${cl.length ? `<div class="claimlist">Backs ${cl.length} statement${cl.length > 1 ? "s" : ""}:<ul>${cl.slice(0, 8).map(t => `<li>${esc(t)}</li>`).join("")}${cl.length > 8 ? `<li>and ${cl.length - 8} more</li>` : ""}</ul></div>` : ""}`;
   document.getElementById("clip").scrollTop = 0;
   if (scroll && matchMedia("(max-width:980px)").matches) document.querySelector(".desk").scrollIntoView({block: "start"});
