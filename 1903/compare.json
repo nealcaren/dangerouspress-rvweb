@@ -2,16 +2,17 @@
  "schema_version": 1,
  "year": 1903,
  "month": 8,
- "generated_at": "2026-11-12T06:59:19-05:00",
+ "generated_at": "2026-11-12T09:57:57-05:00",
  "source": {
   "git": "6824195",
-  "table": "data/events/1903/events_1903_final_ddlc.json",
-  "dossiers": "data/events/1903/dossiers2_sample"
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1903/events_1903_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1903/dossiers2_sample"
  },
  "lists": {
   "B-T": "Beck–Tolnay",
   "S-R": "Seguin–Rigby",
-  "HAL": "HAL"
+  "HAL": "HAL",
+  "MWT": "Monroe Work Today"
  },
  "inventory": [
   {
@@ -33,6 +34,11 @@
     {
      "list": "HAL",
      "row": "2712",
+     "name": "John Hunter"
+    },
+    {
+     "list": "MWT",
+     "row": "3854",
      "name": "John Hunter"
     }
    ],
@@ -80,6 +86,11 @@
      "list": "HAL",
      "row": "2711",
      "name": "John Millikin"
+    },
+    {
+     "list": "MWT",
+     "row": "3855",
+     "name": "John Millikin"
     }
    ],
    "ours": [
@@ -121,6 +132,21 @@
      "list": "B-T",
      "row": "bt:4209",
      "name": "Amos Jones"
+    },
+    {
+     "list": "B-T",
+     "row": "bt:4211",
+     "name": "George Jones"
+    },
+    {
+     "list": "HAL",
+     "row": "1978",
+     "name": "George Jones"
+    },
+    {
+     "list": "MWT",
+     "row": "2775",
+     "name": "George Jones"
     }
    ],
    "ours": [
@@ -143,6 +169,26 @@
      "killed": 1,
      "killed_max": 1,
      "dossier": "amos-jones-hattiesburg-1903-08-08"
+    },
+    {
+     "id": "lean_1903-09_r2:g125",
+     "date": "1903-09-01",
+     "city": "Mayersville",
+     "county": "Issaquena",
+     "state": "MS",
+     "victims": [
+      "George Jones"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "duplicate of inventory",
+     "inventory": "B-T:bt:4211",
+     "summary": "A mob broke into the jail at Mayersville, Mississippi, and shot Black prisoner George Jones, who was charged with arson. The article says he was shot; it does not say he died.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": null,
+     "dossier": "george-jones-mayersville-1903-09"
     }
    ]
   },
@@ -160,6 +206,11 @@
     {
      "list": "B-T",
      "row": "bt:4210",
+     "name": "Manna Ponton"
+    },
+    {
+     "list": "MWT",
+     "row": "6441",
      "name": "Manna Ponton"
     }
    ],
@@ -184,51 +235,6 @@
      "killed": 1,
      "killed_max": 1,
      "dossier": "manna-ponton-halifax-1903-08-20"
-    }
-   ]
-  },
-  {
-   "date": "1903-08-31",
-   "day_known": true,
-   "name": "George Jones",
-   "place": "Jail in Mayersville",
-   "county": "Issaquena",
-   "state": "MS",
-   "status": "Lynching",
-   "method": "Shot",
-   "accusation": "Arson",
-   "rows": [
-    {
-     "list": "B-T",
-     "row": "bt:4211",
-     "name": "George Jones"
-    },
-    {
-     "list": "HAL",
-     "row": "1978",
-     "name": "George Jones"
-    }
-   ],
-   "ours": [
-    {
-     "id": "lean_1903-09_r2:g125",
-     "date": "1903-09-01",
-     "city": "Mayersville",
-     "county": "Issaquena",
-     "state": "MS",
-     "victims": [
-      "George Jones"
-     ],
-     "victim_race": "Black",
-     "type": "lynching",
-     "stage": "completed",
-     "lynch_def": "duplicate of inventory",
-     "inventory": "B-T:bt:4211",
-     "summary": "A mob broke into the jail at Mayersville, Mississippi, and shot Black prisoner George Jones, who was charged with arson. The article says he was shot; it does not say he died.",
-     "match": "linked",
-     "killed": 1,
-     "killed_max": null,
-     "dossier": "george-jones-mayersville-1903-09"
     }
    ]
   }

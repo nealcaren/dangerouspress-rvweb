@@ -2,7 +2,7 @@
  "schema_version": 1,
  "year": 1920,
  "month": 8,
- "generated_at": "2026-11-12T09:30:49-05:00",
+ "generated_at": "2026-11-12T09:56:40-05:00",
  "source": {
   "git": "6824195",
   "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1920/events_1920_final_ddlc.json",
@@ -11,7 +11,8 @@
  "lists": {
   "B-T": "Beck–Tolnay",
   "S-R": "Seguin–Rigby",
-  "HAL": "HAL"
+  "HAL": "HAL",
+  "MWT": "Monroe Work Today"
  },
  "inventory": [
   {
@@ -34,6 +35,11 @@
      "list": "S-R",
      "row": "7686",
      "name": "Lige Daniels"
+    },
+    {
+     "list": "MWT",
+     "row": "4372",
+     "name": "Elijah Daniels"
     }
    ],
    "ours": [
@@ -79,6 +85,11 @@
      "list": "HAL",
      "row": "147",
      "name": "Monroe Wood"
+    },
+    {
+     "list": "MWT",
+     "row": "319",
+     "name": "Monroe Wood"
     }
    ],
    "ours": [
@@ -105,6 +116,25 @@
    ]
   },
   {
+   "date": "1920-08-15",
+   "day_known": false,
+   "name": "John Grant",
+   "place": "",
+   "county": "Emanuel",
+   "state": "GA",
+   "status": "",
+   "method": "",
+   "accusation": "(With some details of the event uncertain) he was lynched over a wage dispute",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "6203",
+     "name": "John Grant"
+    }
+   ],
+   "ours": []
+  },
+  {
    "date": "1920-08-25",
    "day_known": true,
    "name": "John Jeffress",
@@ -123,6 +153,11 @@
     {
      "list": "HAL",
      "row": "2338",
+     "name": "John Jeffress"
+    },
+    {
+     "list": "MWT",
+     "row": "3207",
      "name": "John Jeffress"
     }
    ],
@@ -209,6 +244,11 @@
      "list": "HAL",
      "row": "1805",
      "name": "Blutcher Higgins"
+    },
+    {
+     "list": "MWT",
+     "row": "2927",
+     "name": "Blutcher Higgins"
     }
    ],
    "ours": [
@@ -255,6 +295,11 @@
      "list": "HAL",
      "row": "1806",
      "name": "Daniel Callicut"
+    },
+    {
+     "list": "MWT",
+     "row": "2928",
+     "name": "Daniel Callicut"
     }
    ],
    "ours": [
@@ -295,6 +340,11 @@
     {
      "list": "S-R",
      "row": "5900",
+     "name": "Claude Chandler"
+    },
+    {
+     "list": "MWT",
+     "row": "3488",
      "name": "Claude Chandler"
     }
    ],

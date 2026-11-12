@@ -70,7 +70,9 @@ def write_json(path, obj):
 
 COMPARE_DEK = ("<p class=\"dek\">Lynchings of Black victims in {mname} of each sampled year as the standard inventories record "
                "them (Beck and Tolnay\u2019s 2022 inventory of twelve Southern states: lynchings, probable and possible "
-               "lynchings; Seguin and Rigby\u2019s national inventory; and the Historical American Lynching data), set beside "
+               "lynchings; Seguin and Rigby\u2019s national inventory; the Historical American Lynching data; and the "
+               "<a href=\"https://monroeworktoday.org\">Monroe Work Today</a> map data, which gives the month but not the day, "
+               "used under CC BY-NC-SA 4.0), set beside "
                "our event table and dossiers. A row names one victim; when inventories list the same person, the rows are "
                "joined. Our record is the table event linked to that row, or an event that names the victim within three "
                "weeks in the same state. Below each year are the completed lynchings our sources report that no inventory "

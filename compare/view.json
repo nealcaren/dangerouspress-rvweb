@@ -4,7 +4,8 @@
  "lists": {
   "B-T": "Beck–Tolnay",
   "S-R": "Seguin–Rigby",
-  "HAL": "HAL"
+  "HAL": "HAL",
+  "MWT": "Monroe Work Today"
  },
  "years": [
   {
@@ -29,6 +30,11 @@
       {
        "list": "HAL",
        "row": "1147",
+       "name": "Henry Davis"
+      },
+      {
+       "list": "MWT",
+       "row": "1036",
        "name": "Henry Davis"
       }
      ],
@@ -115,6 +121,11 @@
        "list": "S-R",
        "row": "Pfiefer_New_SD_2",
        "name": "Hollis "
+      },
+      {
+       "list": "MWT",
+       "row": "5264",
+       "name": "Ross Hallis"
       }
      ],
      "ours": [
@@ -249,7 +260,8 @@
    "lists": {
     "B-T": "Beck–Tolnay",
     "S-R": "Seguin–Rigby",
-    "HAL": "HAL"
+    "HAL": "HAL",
+    "MWT": "Monroe Work Today"
    }
   },
   {
@@ -274,6 +286,11 @@
       {
        "list": "HAL",
        "row": "2712",
+       "name": "John Hunter"
+      },
+      {
+       "list": "MWT",
+       "row": "3854",
        "name": "John Hunter"
       }
      ],
@@ -321,6 +338,11 @@
        "list": "HAL",
        "row": "2711",
        "name": "John Millikin"
+      },
+      {
+       "list": "MWT",
+       "row": "3855",
+       "name": "John Millikin"
       }
      ],
      "ours": [
@@ -362,6 +384,21 @@
        "list": "B-T",
        "row": "bt:4209",
        "name": "Amos Jones"
+      },
+      {
+       "list": "B-T",
+       "row": "bt:4211",
+       "name": "George Jones"
+      },
+      {
+       "list": "HAL",
+       "row": "1978",
+       "name": "George Jones"
+      },
+      {
+       "list": "MWT",
+       "row": "2775",
+       "name": "George Jones"
       }
      ],
      "ours": [
@@ -384,6 +421,26 @@
        "published": true,
        "map": true,
        "title": "Lynching of Amos Jones"
+      },
+      {
+       "date": "1903-09-01",
+       "city": "Mayersville",
+       "county": "Issaquena",
+       "state": "MS",
+       "victims": [
+        "George Jones"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": "duplicate of inventory",
+       "match": "linked",
+       "killed": 1,
+       "killed_max": null,
+       "dossier": "george-jones-mayersville-1903-09",
+       "published": true,
+       "map": true,
+       "title": "Lynching of George Jones"
       }
      ]
     },
@@ -401,6 +458,11 @@
       {
        "list": "B-T",
        "row": "bt:4210",
+       "name": "Manna Ponton"
+      },
+      {
+       "list": "MWT",
+       "row": "6441",
        "name": "Manna Ponton"
       }
      ],
@@ -425,51 +487,6 @@
        "published": true,
        "map": true,
        "title": "Lynching of Manna Ponton"
-      }
-     ]
-    },
-    {
-     "date": "1903-08-31",
-     "day_known": true,
-     "name": "George Jones",
-     "place": "Jail in Mayersville",
-     "county": "Issaquena",
-     "state": "MS",
-     "status": "Lynching",
-     "method": "Shot",
-     "accusation": "Arson",
-     "rows": [
-      {
-       "list": "B-T",
-       "row": "bt:4211",
-       "name": "George Jones"
-      },
-      {
-       "list": "HAL",
-       "row": "1978",
-       "name": "George Jones"
-      }
-     ],
-     "ours": [
-      {
-       "date": "1903-09-01",
-       "city": "Mayersville",
-       "county": "Issaquena",
-       "state": "MS",
-       "victims": [
-        "George Jones"
-       ],
-       "victim_race": "Black",
-       "type": "lynching",
-       "stage": "completed",
-       "lynch_def": "duplicate of inventory",
-       "match": "linked",
-       "killed": 1,
-       "killed_max": null,
-       "dossier": "george-jones-mayersville-1903-09",
-       "published": true,
-       "map": true,
-       "title": "Lynching of George Jones"
       }
      ]
     }
@@ -499,7 +516,8 @@
    "lists": {
     "B-T": "Beck–Tolnay",
     "S-R": "Seguin–Rigby",
-    "HAL": "HAL"
+    "HAL": "HAL",
+    "MWT": "Monroe Work Today"
    }
   },
   {
@@ -525,6 +543,11 @@
        "list": "S-R",
        "row": "7686",
        "name": "Lige Daniels"
+      },
+      {
+       "list": "MWT",
+       "row": "4372",
+       "name": "Elijah Daniels"
       }
      ],
      "ours": [
@@ -570,6 +593,11 @@
        "list": "HAL",
        "row": "147",
        "name": "Monroe Wood"
+      },
+      {
+       "list": "MWT",
+       "row": "319",
+       "name": "Monroe Wood"
       }
      ],
      "ours": [
@@ -596,6 +624,25 @@
      ]
     },
     {
+     "date": "1920-08-15",
+     "day_known": false,
+     "name": "John Grant",
+     "place": "",
+     "county": "Emanuel",
+     "state": "GA",
+     "status": "",
+     "method": "",
+     "accusation": "(With some details of the event uncertain) he was lynched over a wage dispute",
+     "rows": [
+      {
+       "list": "MWT",
+       "row": "6203",
+       "name": "John Grant"
+      }
+     ],
+     "ours": []
+    },
+    {
      "date": "1920-08-25",
      "day_known": true,
      "name": "John Jeffress",
@@ -614,6 +661,11 @@
       {
        "list": "HAL",
        "row": "2338",
+       "name": "John Jeffress"
+      },
+      {
+       "list": "MWT",
+       "row": "3207",
        "name": "John Jeffress"
       }
      ],
@@ -700,6 +752,11 @@
        "list": "HAL",
        "row": "1805",
        "name": "Blutcher Higgins"
+      },
+      {
+       "list": "MWT",
+       "row": "2927",
+       "name": "Blutcher Higgins"
       }
      ],
      "ours": [
@@ -746,6 +803,11 @@
        "list": "HAL",
        "row": "1806",
        "name": "Daniel Callicut"
+      },
+      {
+       "list": "MWT",
+       "row": "2928",
+       "name": "Daniel Callicut"
       }
      ],
      "ours": [
@@ -786,6 +848,11 @@
       {
        "list": "S-R",
        "row": "5900",
+       "name": "Claude Chandler"
+      },
+      {
+       "list": "MWT",
+       "row": "3488",
        "name": "Claude Chandler"
       }
      ],
@@ -859,9 +926,10 @@
    "lists": {
     "B-T": "Beck–Tolnay",
     "S-R": "Seguin–Rigby",
-    "HAL": "HAL"
+    "HAL": "HAL",
+    "MWT": "Monroe Work Today"
    }
   }
  ],
- "dek": "<p class=\"dek\">Lynchings of Black victims in August of each sampled year as the standard inventories record them (Beck and Tolnay’s 2022 inventory of twelve Southern states: lynchings, probable and possible lynchings; Seguin and Rigby’s national inventory; and the Historical American Lynching data), set beside our event table and dossiers. A row names one victim; when inventories list the same person, the rows are joined. Our record is the table event linked to that row, or an event that names the victim within three weeks in the same state. Below each year are the completed lynchings our sources report that no inventory lists, with any victim not recorded as white. Links open the full dossier. Drafts: no entry has had human review.</p>"
+ "dek": "<p class=\"dek\">Lynchings of Black victims in August of each sampled year as the standard inventories record them (Beck and Tolnay’s 2022 inventory of twelve Southern states: lynchings, probable and possible lynchings; Seguin and Rigby’s national inventory; the Historical American Lynching data; and the <a href=\"https://monroeworktoday.org\">Monroe Work Today</a> map data, which gives the month but not the day, used under CC BY-NC-SA 4.0), set beside our event table and dossiers. A row names one victim; when inventories list the same person, the rows are joined. Our record is the table event linked to that row, or an event that names the victim within three weeks in the same state. Below each year are the completed lynchings our sources report that no inventory lists, with any victim not recorded as white. Links open the full dossier. Drafts: no entry has had human review.</p>"
 }
