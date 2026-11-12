@@ -1,0 +1,588 @@
+{
+ "schema_version": 1,
+ "year": 1895,
+ "month": 8,
+ "generated_at": "2026-11-12T17:38:59-05:00",
+ "source": {
+  "git": "6824195",
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1895/events_1895_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1895/dossiers2_all"
+ },
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL",
+  "MWT": "Monroe Work Today"
+ },
+ "inventory": [
+  {
+   "date": "1895-08-02",
+   "day_known": true,
+   "name": "James Mason",
+   "place": "3-4 miles from Daingerfield; 2 miles N of Daingerfield",
+   "county": "Morris",
+   "state": "TX",
+   "status": "Lynching",
+   "method": "Shot",
+   "accusation": "Unknown",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3321",
+     "name": "James Mason"
+    },
+    {
+     "list": "S-R",
+     "row": "7117",
+     "name": "Mrs. James Mason"
+    },
+    {
+     "list": "MWT",
+     "row": "4160",
+     "name": "Mrs. James Mason"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1895-08_r2:g22",
+     "date": "1895-08-01",
+     "city": "Dangerfield",
+     "county": "Morris",
+     "state": "TX",
+     "victims": [
+      "James Mason"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3321",
+     "summary": "Seven men called James Mason, a Black man, out at night and shot him dead at Dangerfield, Texas. His wife was shot through a crack in the house and is expected to recover.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "james-mason-dangerfield-1895-08-03"
+    }
+   ]
+  },
+  {
+   "date": "1895-08-10",
+   "day_known": true,
+   "name": "John Harris",
+   "place": "Enroute from Camilla to Colquitt Co.",
+   "county": "Colquitt",
+   "state": "GA",
+   "status": "Lynching",
+   "method": "Riddled with bullets",
+   "accusation": "Rape and murder of 65 year-old white woman",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3322",
+     "name": "John Harris"
+    },
+    {
+     "list": "HAL",
+     "row": "995",
+     "name": "John Harris"
+    },
+    {
+     "list": "MWT",
+     "row": "1150",
+     "name": "John Harris"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1895-08_r2:g0",
+     "date": "1895-08-10",
+     "city": "Moultrie",
+     "county": "Colquitt",
+     "state": "GA",
+     "victims": [
+      "John Harris"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3322",
+     "summary": "A posse of 200 pursued John Harris, a Black man said to have assaulted and killed white woman Mrs. John Monroe near Hurbfield Mill. Captured near Camilla, he was taken back to Colquitt county and killed; reports differ on method.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "john-harris-camilla-1895-08-10"
+    }
+   ]
+  },
+  {
+   "date": "1895-08-10",
+   "day_known": true,
+   "name": "Unnamed Person",
+   "place": "4 miles NW of Humboldt",
+   "county": "Gibson",
+   "state": "TN",
+   "status": "Probable lynching",
+   "method": "Hanged",
+   "accusation": "Barn burning",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3323",
+     "name": "Unnamed Person"
+    },
+    {
+     "list": "HAL",
+     "row": "2647",
+     "name": "Unnamed Negro"
+    },
+    {
+     "list": "MWT",
+     "row": "5020",
+     "name": "Unnamed"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1895-08-11",
+   "day_known": true,
+   "name": "William Stephenson",
+   "place": "Near Pacio",
+   "county": "Delta",
+   "state": "TX",
+   "status": "Probable lynching",
+   "method": "Shot",
+   "accusation": "Refusing to leave the county",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3324",
+     "name": "William Stephenson"
+    },
+    {
+     "list": "B-T",
+     "row": "bt:3328",
+     "name": "Jeff Cole"
+    },
+    {
+     "list": "MWT",
+     "row": "4161",
+     "name": "Unnamed"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1895-08_r2:g6",
+     "date": "1895-08-10",
+     "city": "Pacio",
+     "county": "Delta",
+     "state": "TX",
+     "victims": [
+      "William Stephens"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3324",
+     "summary": "Night white caps, after a ten-day notice had expired, shot and killed William Stephens at his door near Spacio, Delta County. A notice was posted within thirty yards of his house. Officers are reported pursuing the perpetrators.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "william-stephens-pacio-1895-08-11"
+    },
+    {
+     "id": "leads:dossier2:jeff-cole-delta",
+     "date": "1895-08-21",
+     "city": "",
+     "county": "Delta",
+     "state": "TX",
+     "victims": [
+      "Jeff Cole"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3328",
+     "summary": "White caps shot and killed Jeff Cole, a Black man who had stayed in Delta County after a ten-day notice to leave, on Wednesday night, Aug. 21; sixty armed, disguised men were reported riding in the county and every Black resident gone.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": null,
+     "dossier": null
+    }
+   ]
+  },
+  {
+   "date": "1895-08-15",
+   "day_known": true,
+   "name": "Emmett Divers",
+   "place": "Fulton",
+   "county": "Callaway",
+   "state": "MO",
+   "status": "",
+   "method": "Hanged",
+   "accusation": "Unknown",
+   "rows": [
+    {
+     "list": "S-R",
+     "row": "4242",
+     "name": "Emmett Divers"
+    },
+    {
+     "list": "MWT",
+     "row": "2409",
+     "name": "Emmett Divers"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1895-08_r2:g30",
+     "date": "1895-08-15",
+     "city": "Calwood",
+     "county": "Callaway",
+     "state": "MO",
+     "victims": [
+      "Emmett Divers",
+      "Emmet Divers"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "S-R:4242",
+     "summary": "A mob of over 50 men seized Emmett Divers from deputies near Fulton, Missouri, and hanged him from the Caldwell bridge after he was indicted for the murder and assault of Mrs. J. W. Cain. The body was placarded and threatened with burning.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "emmett-divers-fulton-1895-08-15"
+    }
+   ]
+  },
+  {
+   "date": "1895-08-19",
+   "day_known": true,
+   "name": "John Stormer",
+   "place": "Near Grigg’s Church in/near Wharton",
+   "county": "Wharton",
+   "state": "TX",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Murder of a white man, a deputy sheriff",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3327",
+     "name": "John Stormer"
+    },
+    {
+     "list": "S-R",
+     "row": "7121",
+     "name": "Unknown"
+    },
+    {
+     "list": "MWT",
+     "row": "4162",
+     "name": "Unnamed"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1895-08_r2:g68",
+     "date": "1895-08-20",
+     "city": "Wharton",
+     "county": "Wharton",
+     "state": "TX",
+     "victims": [
+      "John Stroman"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3327",
+     "summary": "A posse captured a Negro accused of murdering Deputy Sheriff Brown, but did not have him when they reached Wharton; the paper reports he escaped and the chase has ceased. The headline says he was probably lynched by his captors.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "john-stromaa-wharton-1895-08-20"
+    }
+   ]
+  },
+  {
+   "date": "1895-08-21",
+   "day_known": true,
+   "name": "Noah Anderson",
+   "place": "New Richmond",
+   "county": "Clermont",
+   "state": "OH",
+   "status": "",
+   "method": "Unknown",
+   "accusation": "Unknown",
+   "rows": [
+    {
+     "list": "S-R",
+     "row": "5738",
+     "name": "Noah Anderson"
+    },
+    {
+     "list": "MWT",
+     "row": "3353",
+     "name": "Noah Anderson"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1895-08_r2:g3",
+     "date": "1895-08-21",
+     "city": "New Richmond",
+     "county": "Clermont",
+     "state": "OH",
+     "victims": [
+      "Noah Anderson"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "S-R:5738",
+     "summary": "After a Black man was said to have choked an elderly farmer to death, a mob took him from the New Richmond jail and hanged him from a sycamore tree, in Clermont County, Ohio. The paper calls it the second lynching of Black men near New Richmond in two years.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "noah-anderson-new-richmond-1895-08-21"
+    }
+   ]
+  },
+  {
+   "date": "1895-08-22",
+   "day_known": true,
+   "name": "James Jones",
+   "place": "Western suburbs of Monticello",
+   "county": "Drew",
+   "state": "AR",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Murder of a white man and wounding of another",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3329",
+     "name": "James Jones"
+    },
+    {
+     "list": "HAL",
+     "row": "372",
+     "name": "James Jones"
+    },
+    {
+     "list": "MWT",
+     "row": "450",
+     "name": "James Jones"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1895-08_r2:g24",
+     "date": "1895-08-22",
+     "city": "Monticello",
+     "county": "Drew",
+     "state": "AR",
+     "victims": [
+      "Jim Jones"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3329",
+     "summary": "A mob of 25 men lynched a Black man named Jones, who was accused of murdering Whitman Beltzhoover at Ark. and of breaking jail and shooting James Bennett. The text gives no date for the lynching.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "jim-jones-monticello-1895-08-22"
+    }
+   ]
+  },
+  {
+   "date": "1895-08-26",
+   "day_known": true,
+   "name": "Harrison Lewis",
+   "place": "Courthouse yard in Springfield",
+   "county": "Washington",
+   "state": "KY",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Murder of a black man",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3330",
+     "name": "Harrison Lewis"
+    },
+    {
+     "list": "HAL",
+     "row": "1431",
+     "name": "Harrison Lewis"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1895-08_r2:g127",
+     "date": "1895-08-26",
+     "city": "Springfield",
+     "county": "Washington",
+     "state": "KY",
+     "victims": [
+      "Harrison Lewis"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3330",
+     "summary": "A mob of about a dozen men battered down the Springfield jail door with sledgehammers, took Harrison Lewis from his cell and hanged him to a tree in the court house yard. The paper says it was thought the mob was made up of colored men, which is opinion only.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "harrison-lewis-springfield-1895-08-26",
+     "set_aside": {
+      "reason": "no_racial_motive",
+      "basis": "Black victim, mob reported Black; Albert Lee precedent",
+      "ruled": true
+     }
+    },
+    {
+     "id": "lean_1895-08_r2:g126",
+     "date": "1895-08-11",
+     "city": "Springfield",
+     "county": "Washington",
+     "state": "KY",
+     "victims": [
+      "Matthew Lewis",
+      "Jesse Ray"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "attempted",
+     "lynch_def": null,
+     "inventory": null,
+     "summary": "About forty drunk men demanded the jail keys from the jailor to reach two Negro prisoners accused of assaulting Mrs. Shields. Unable to unlock or break the doors after two hours, they fired revolvers into the cells, returned the keys, and left saying they would return that night.",
+     "match": "name",
+     "killed": 0,
+     "killed_max": 1,
+     "dossier": "matthew-lewis-springfield-1895-08-12"
+    }
+   ]
+  },
+  {
+   "date": "1895-08-26",
+   "day_known": true,
+   "name": "Jerry Johnson",
+   "place": "Farmington",
+   "county": "Marshall",
+   "state": "TN",
+   "status": "Probable lynching",
+   "method": "Ridded with bullets",
+   "accusation": "Insulting proposal to a white girl",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3331",
+     "name": "Jerry Johnson"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1895-08_r2:g59",
+     "date": "1895-08-27",
+     "city": "Farmington",
+     "county": "",
+     "state": "TN",
+     "victims": [
+      "Jerry Johnson"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3331",
+     "summary": "The body of Jerry Johnson, a negro, riddled with bullets, was found near Farmington. He had been warned to leave the country for an improper proposal to a young girl and was supposed to have been killed by a mob.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "jerry-johnson-lewisburg-1895-08-28"
+    }
+   ]
+  },
+  {
+   "date": "1895-08-28",
+   "day_known": true,
+   "name": "Unnamed Person",
+   "place": "Strong River swamp, near Westville",
+   "county": "Simpson",
+   "state": "MS",
+   "status": "Lynching",
+   "method": "Hanged and riddled with bullets",
+   "accusation": "Miscegenation with a 14 year-old white girl",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3332",
+     "name": "Unnamed Person"
+    },
+    {
+     "list": "HAL",
+     "row": "2198",
+     "name": "Unnamed Negro"
+    },
+    {
+     "list": "MWT",
+     "row": "2659",
+     "name": "Unnamed"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1895-08_r2:g21",
+     "date": "1895-08-29",
+     "city": "Westville",
+     "county": "Simpson",
+     "state": "MS",
+     "victims": [],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3332",
+     "summary": "A crowd of indignant citizens in Simpson County, Mississippi, pursued a Black farm hand who had fled to the swamps, captured him, hanged him from a tree and riddled his body with bullets. The body hung 24 hours until Sheriff McInnis cut it down.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "event-1895-08-29"
+    }
+   ]
+  }
+ ],
+ "found": [
+  {
+   "id": "lean_1895-08_r2:g45",
+   "date": "~1895-08",
+   "city": "",
+   "county": "",
+   "state": "SC",
+   "victims": [],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "probable lynching",
+   "inventory": null,
+   "summary": "A party fishing in Broad River, near the North Carolina line in Spartanburg County, found the body of a white woman bound with cord and the remains of a Black man nearby. A reliable report says a local band of White Caps lynched them for miscegenation.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "event-1895-08"
+  }
+ ]
+}

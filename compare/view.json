@@ -265,6 +265,586 @@
    }
   },
   {
+   "year": 1895,
+   "inventory": [
+    {
+     "date": "1895-08-02",
+     "day_known": true,
+     "name": "James Mason",
+     "place": "3-4 miles from Daingerfield; 2 miles N of Daingerfield",
+     "county": "Morris",
+     "state": "TX",
+     "status": "Lynching",
+     "method": "Shot",
+     "accusation": "Unknown",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3321",
+       "name": "James Mason"
+      },
+      {
+       "list": "S-R",
+       "row": "7117",
+       "name": "Mrs. James Mason"
+      },
+      {
+       "list": "MWT",
+       "row": "4160",
+       "name": "Mrs. James Mason"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1895-08-01",
+       "city": "Dangerfield",
+       "county": "Morris",
+       "state": "TX",
+       "victims": [
+        "James Mason"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "james-mason-dangerfield-1895-08-03",
+       "published": true,
+       "map": true,
+       "title": "Killing of James Mason"
+      }
+     ]
+    },
+    {
+     "date": "1895-08-10",
+     "day_known": true,
+     "name": "John Harris",
+     "place": "Enroute from Camilla to Colquitt Co.",
+     "county": "Colquitt",
+     "state": "GA",
+     "status": "Lynching",
+     "method": "Riddled with bullets",
+     "accusation": "Rape and murder of 65 year-old white woman",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3322",
+       "name": "John Harris"
+      },
+      {
+       "list": "HAL",
+       "row": "995",
+       "name": "John Harris"
+      },
+      {
+       "list": "MWT",
+       "row": "1150",
+       "name": "John Harris"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1895-08-10",
+       "city": "Moultrie",
+       "county": "Colquitt",
+       "state": "GA",
+       "victims": [
+        "John Harris"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "john-harris-camilla-1895-08-10",
+       "published": true,
+       "map": true,
+       "title": "Lynching of John Harris"
+      }
+     ]
+    },
+    {
+     "date": "1895-08-10",
+     "day_known": true,
+     "name": "Unnamed Person",
+     "place": "4 miles NW of Humboldt",
+     "county": "Gibson",
+     "state": "TN",
+     "status": "Probable lynching",
+     "method": "Hanged",
+     "accusation": "Barn burning",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3323",
+       "name": "Unnamed Person"
+      },
+      {
+       "list": "HAL",
+       "row": "2647",
+       "name": "Unnamed Negro"
+      },
+      {
+       "list": "MWT",
+       "row": "5020",
+       "name": "Unnamed"
+      }
+     ],
+     "ours": []
+    },
+    {
+     "date": "1895-08-11",
+     "day_known": true,
+     "name": "William Stephenson",
+     "place": "Near Pacio",
+     "county": "Delta",
+     "state": "TX",
+     "status": "Probable lynching",
+     "method": "Shot",
+     "accusation": "Refusing to leave the county",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3324",
+       "name": "William Stephenson"
+      },
+      {
+       "list": "B-T",
+       "row": "bt:3328",
+       "name": "Jeff Cole"
+      },
+      {
+       "list": "MWT",
+       "row": "4161",
+       "name": "Unnamed"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1895-08-10",
+       "city": "Pacio",
+       "county": "Delta",
+       "state": "TX",
+       "victims": [
+        "William Stephens"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "william-stephens-pacio-1895-08-11",
+       "published": true,
+       "map": true,
+       "title": "Killing of William Stephens"
+      },
+      {
+       "date": "1895-08-21",
+       "city": "",
+       "county": "Delta",
+       "state": "TX",
+       "victims": [
+        "Jeff Cole"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": null,
+       "dossier": null,
+       "published": false,
+       "map": false,
+       "title": null
+      }
+     ]
+    },
+    {
+     "date": "1895-08-15",
+     "day_known": true,
+     "name": "Emmett Divers",
+     "place": "Fulton",
+     "county": "Callaway",
+     "state": "MO",
+     "status": "",
+     "method": "Hanged",
+     "accusation": "Unknown",
+     "rows": [
+      {
+       "list": "S-R",
+       "row": "4242",
+       "name": "Emmett Divers"
+      },
+      {
+       "list": "MWT",
+       "row": "2409",
+       "name": "Emmett Divers"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1895-08-15",
+       "city": "Calwood",
+       "county": "Callaway",
+       "state": "MO",
+       "victims": [
+        "Emmett Divers",
+        "Emmet Divers"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "emmett-divers-fulton-1895-08-15",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Emmett Divers"
+      }
+     ]
+    },
+    {
+     "date": "1895-08-19",
+     "day_known": true,
+     "name": "John Stormer",
+     "place": "Near Grigg’s Church in/near Wharton",
+     "county": "Wharton",
+     "state": "TX",
+     "status": "Lynching",
+     "method": "Hanged",
+     "accusation": "Murder of a white man, a deputy sheriff",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3327",
+       "name": "John Stormer"
+      },
+      {
+       "list": "S-R",
+       "row": "7121",
+       "name": "Unknown"
+      },
+      {
+       "list": "MWT",
+       "row": "4162",
+       "name": "Unnamed"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1895-08-20",
+       "city": "Wharton",
+       "county": "Wharton",
+       "state": "TX",
+       "victims": [
+        "John Stroman"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "john-stromaa-wharton-1895-08-20",
+       "published": true,
+       "map": true,
+       "title": "Lynching of John Stroman"
+      }
+     ]
+    },
+    {
+     "date": "1895-08-21",
+     "day_known": true,
+     "name": "Noah Anderson",
+     "place": "New Richmond",
+     "county": "Clermont",
+     "state": "OH",
+     "status": "",
+     "method": "Unknown",
+     "accusation": "Unknown",
+     "rows": [
+      {
+       "list": "S-R",
+       "row": "5738",
+       "name": "Noah Anderson"
+      },
+      {
+       "list": "MWT",
+       "row": "3353",
+       "name": "Noah Anderson"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1895-08-21",
+       "city": "New Richmond",
+       "county": "Clermont",
+       "state": "OH",
+       "victims": [
+        "Noah Anderson"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "noah-anderson-new-richmond-1895-08-21",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Noah Anderson"
+      }
+     ]
+    },
+    {
+     "date": "1895-08-22",
+     "day_known": true,
+     "name": "James Jones",
+     "place": "Western suburbs of Monticello",
+     "county": "Drew",
+     "state": "AR",
+     "status": "Lynching",
+     "method": "Hanged",
+     "accusation": "Murder of a white man and wounding of another",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3329",
+       "name": "James Jones"
+      },
+      {
+       "list": "HAL",
+       "row": "372",
+       "name": "James Jones"
+      },
+      {
+       "list": "MWT",
+       "row": "450",
+       "name": "James Jones"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1895-08-22",
+       "city": "Monticello",
+       "county": "Drew",
+       "state": "AR",
+       "victims": [
+        "Jim Jones"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "jim-jones-monticello-1895-08-22",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Jim Jones"
+      }
+     ]
+    },
+    {
+     "date": "1895-08-26",
+     "day_known": true,
+     "name": "Harrison Lewis",
+     "place": "Courthouse yard in Springfield",
+     "county": "Washington",
+     "state": "KY",
+     "status": "Lynching",
+     "method": "Hanged",
+     "accusation": "Murder of a black man",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3330",
+       "name": "Harrison Lewis"
+      },
+      {
+       "list": "HAL",
+       "row": "1431",
+       "name": "Harrison Lewis"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1895-08-26",
+       "city": "Springfield",
+       "county": "Washington",
+       "state": "KY",
+       "victims": [
+        "Harrison Lewis"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "harrison-lewis-springfield-1895-08-26",
+       "set_aside": {
+        "reason": "no_racial_motive",
+        "basis": "Black victim, mob reported Black; Albert Lee precedent",
+        "ruled": true
+       },
+       "published": false,
+       "map": false,
+       "title": null
+      },
+      {
+       "date": "1895-08-11",
+       "city": "Springfield",
+       "county": "Washington",
+       "state": "KY",
+       "victims": [
+        "Matthew Lewis",
+        "Jesse Ray"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "attempted",
+       "lynch_def": null,
+       "match": "name",
+       "killed": 0,
+       "killed_max": 1,
+       "dossier": "matthew-lewis-springfield-1895-08-12",
+       "published": true,
+       "map": true,
+       "title": "Attempted lynching of Matthew Lewis and Jesse Ray"
+      }
+     ]
+    },
+    {
+     "date": "1895-08-26",
+     "day_known": true,
+     "name": "Jerry Johnson",
+     "place": "Farmington",
+     "county": "Marshall",
+     "state": "TN",
+     "status": "Probable lynching",
+     "method": "Ridded with bullets",
+     "accusation": "Insulting proposal to a white girl",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3331",
+       "name": "Jerry Johnson"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1895-08-27",
+       "city": "Farmington",
+       "county": "",
+       "state": "TN",
+       "victims": [
+        "Jerry Johnson"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "jerry-johnson-lewisburg-1895-08-28",
+       "published": true,
+       "map": true,
+       "title": "Killing of Jerry Johnson"
+      }
+     ]
+    },
+    {
+     "date": "1895-08-28",
+     "day_known": true,
+     "name": "Unnamed Person",
+     "place": "Strong River swamp, near Westville",
+     "county": "Simpson",
+     "state": "MS",
+     "status": "Lynching",
+     "method": "Hanged and riddled with bullets",
+     "accusation": "Miscegenation with a 14 year-old white girl",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3332",
+       "name": "Unnamed Person"
+      },
+      {
+       "list": "HAL",
+       "row": "2198",
+       "name": "Unnamed Negro"
+      },
+      {
+       "list": "MWT",
+       "row": "2659",
+       "name": "Unnamed"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1895-08-29",
+       "city": "Westville",
+       "county": "Simpson",
+       "state": "MS",
+       "victims": [],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "event-1895-08-29",
+       "published": true,
+       "map": true,
+       "title": "Lynching of a farm hand in Simpson County, Mississippi (1895)"
+      }
+     ]
+    }
+   ],
+   "found": [
+    {
+     "date": "~1895-08",
+     "city": "",
+     "county": "",
+     "state": "SC",
+     "victims": [],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "probable lynching",
+     "match": "found",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "event-1895-08",
+     "published": true,
+     "map": false,
+     "title": "Broad River lynching (Spartanburg County, 1895)"
+    }
+   ],
+   "lists": {
+    "B-T": "Beck–Tolnay",
+    "S-R": "Seguin–Rigby",
+    "HAL": "HAL",
+    "MWT": "Monroe Work Today"
+   }
+  },
+  {
    "year": 1903,
    "inventory": [
     {
