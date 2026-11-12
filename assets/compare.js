@@ -27,12 +27,13 @@
     if (d === "lynching") return "Lynching";
     if (d === "probable lynching") return "Probable lynching";
     if (d === "not a lynching") return "Not a lynching (our check)";
-    if (d) return d[0].toUpperCase() + d.slice(1);
+    // "duplicate of inventory" is the lynching check's bookkeeping (the inventory row already counts it), not a type
+    if (d && d !== "duplicate of inventory") return d[0].toUpperCase() + d.slice(1);
     if (o.type === "lynching") return {completed: "Lynching", attempted: "Attempted lynching", threatened: "Threatened lynching"}[o.stage] || "Lynching";
     return (o.type || "event").replace(/_/g, " ").replace(/^./, c => c.toUpperCase());
   };
 
-  function ours(o, y, root, brief = false) {
+  function ours(o, y, root, brief = false, also = "", rows = 0) {
     const t = o.title || (o.victims || []).join(", ") || "Untitled event";
     let head;
     if (o.published) {
@@ -47,21 +48,35 @@
       + (extra(o.screened) ? ` (${esc(o.screened.basis)})` : "") + ".";
     else if (o.held) status = `<span class="flag">held</span>Held for the ${esc(o.held)} run.`;
     else if (!o.published) status = `<span class="flag">no dossier</span>No published dossier yet.`;
-    const match = o.match === "name" ? `<div class="sub">Same victim by name; our table links this event to another inventory row.</div>` : "";
-    return `<div class="ours">${head}<div class="sub">${bits.join(" · ")}</div>${match}${status ? `<div class="sub">${status}</div>` : ""}</div>`;
+    // matched by name: usually one event with several victims, whose inventory link names one row (another victim's)
+    const match = o.match !== "name" ? "" : also
+      ? `<div class="sub">One event in our table with ${esc(also)}; it names both victims.</div>`
+      : `<div class="sub">Matched by the victim's name; our table links this event to a different inventory row.</div>`;
+    // the inventories count more deaths in this event than our record does (e.g. one victim's death contested)
+    const n = o.killed ?? 0, hi = Math.max(n, o.killed_max ?? 0);
+    const deaths = rows > n ? `<div class="sub"><span class="flag">deaths differ</span>The inventories list ${rows} victims of this event; `
+      + `our record counts ${n || "no"} Black ${n === 1 ? "person" : "people"} killed${hi > n ? ` (reports allow up to ${hi})` : ""}. The dossier explains why.</div>` : "";
+    return `<div class="ours">${head}<div class="sub">${bits.join(" · ")}</div>${match}${deaths}${status ? `<div class="sub">${status}</div>` : ""}</div>`;
   }
 
   function year(Y, lists, root, mname) {
     const y = Y.year, inv = Y.inventory, found = Y.found;
     const hit = inv.filter(v => v.ours.length).length;
     const linked = inv.filter(v => v.ours.some(o => o.published)).length;
+    // the victim whose row an event's inventory link holds, for victims matched to that event by name
+    const holder = {};
+    inv.forEach(v => v.ours.forEach(o => { if (o.match === "linked" && o.dossier) holder[o.dossier] = v.name; }));
+    // inventory victims per event, shown once (on the victim whose row the event links)
+    const nrows = {};
+    inv.forEach(v => v.ours.forEach(o => { if (o.dossier) nrows[o.dossier] = (nrows[o.dossier] || 0) + 1; }));
     const listLabel = r => esc(lists[r.list] || r.list) + (r.list === "HAL" ? "" : ` ${esc(r.row)}`);
     const rows = inv.map(v => `<tr>
       <td class="d" data-l="Date">${esc(when(v.date, v.day_known))}</td>
       <td data-l="Victim"><span class="name">${esc(v.name || "Unnamed")}</span>${v.status && v.status !== "Lynching" ? `<div class="sub">${esc(v.status)}</div>` : ""}</td>
       <td data-l="Place">${place(v)}${v.accusation && !/^unknown$/i.test(v.accusation) ? `<div class="sub">Accused of: ${esc(v.accusation)}</div>` : ""}</td>
       <td data-l="Inventories">${v.rows.map(r => `<div>${listLabel(r)}</div>`).join("")}</td>
-      <td data-l="Our record">${v.ours.length ? v.ours.map(o => ours(o, y, root)).join("") : `<span class="flag miss">not found</span><span class="empty">Not in our ${esc(mname)} ${y} table.</span>`}</td>
+      <td data-l="Our record">${v.ours.length ? v.ours.map(o => ours(o, y, root, false, o.match === "name" ? holder[o.dossier] || "" : "",
+        o.match === "linked" ? nrows[o.dossier] || 0 : 0)).join("") : `<span class="flag miss">not found</span><span class="empty">Not in our ${esc(mname)} ${y} table.</span>`}</td>
     </tr>`).join("");
     const frows = found.map(o => `<tr>
       <td class="d" data-l="Date">${esc(when(o.date))}</td>

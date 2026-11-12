@@ -46,6 +46,8 @@
        "stage": "completed",
        "lynch_def": null,
        "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
        "dossier": "henry-davis-cuthbert-1885-08-09",
        "published": true,
        "map": true,
@@ -70,7 +72,33 @@
        "name": "Albert Lee"
       }
      ],
-     "ours": []
+     "ours": [
+      {
+       "date": "1885-08-22",
+       "city": "Milton",
+       "county": "Santa Rosa",
+       "state": "FL",
+       "victims": [
+        "Albert Lee"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": null,
+       "dossier": "albert-lee-milton-1885-08-22",
+       "set_aside": {
+        "reason": "no_racial_motive",
+        "basis": "the Milton News supposed the hangers were colored people and the accusers (Moses Hoffman and his daughters) were Black: Black on Black (B-T bt:1959 still counts it as a lynching)",
+        "ruled": true
+       },
+       "published": false,
+       "map": false,
+       "title": null
+      }
+     ]
     },
     {
      "date": "1885-08-25",
@@ -103,6 +131,8 @@
        "stage": "completed",
        "lynch_def": null,
        "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
        "dossier": "ross-hollis-sturgis-1885-08-25",
        "published": true,
        "map": true,
@@ -125,6 +155,8 @@
      "stage": "completed",
      "lynch_def": "probable lynching",
      "match": "found",
+     "killed": null,
+     "killed_max": null,
      "dossier": "james-holbrook-1885-08",
      "set_aside": {
       "reason": "race_unstated",
@@ -148,6 +180,8 @@
      "stage": "completed",
      "lynch_def": "lynching",
      "match": "found",
+     "killed": 1,
+     "killed_max": 1,
      "dossier": "jack-allison-jackson-1885-08-18",
      "published": true,
      "map": true,
@@ -166,6 +200,8 @@
      "stage": "completed",
      "lynch_def": "lynching",
      "match": "found",
+     "killed": 1,
+     "killed_max": 1,
      "dossier": "tom-carver-dalton-1885-08-19",
      "published": true,
      "map": true,
@@ -184,6 +220,8 @@
      "stage": "completed",
      "lynch_def": "lynching",
      "match": "found",
+     "killed": 1,
+     "killed_max": 1,
      "dossier": "jake-evans-auburn-1885-08",
      "published": true,
      "map": true,
@@ -200,6 +238,8 @@
      "stage": "completed",
      "lynch_def": "probable lynching",
      "match": "found",
+     "killed": 1,
+     "killed_max": 1,
      "dossier": "event-1885-08",
      "published": true,
      "map": true,
@@ -252,6 +292,8 @@
        "stage": "completed",
        "lynch_def": null,
        "match": "linked",
+       "killed": 1,
+       "killed_max": 2,
        "dossier": "john-hunter-lewisburg-1903-08-04",
        "published": true,
        "map": true,
@@ -296,6 +338,8 @@
        "stage": "completed",
        "lynch_def": null,
        "match": "name",
+       "killed": 1,
+       "killed_max": 2,
        "dossier": "john-hunter-lewisburg-1903-08-04",
        "published": true,
        "map": true,
@@ -334,6 +378,8 @@
        "stage": "completed",
        "lynch_def": null,
        "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
        "dossier": "amos-jones-hattiesburg-1903-08-08",
        "published": true,
        "map": true,
@@ -373,6 +419,8 @@
        "stage": "completed",
        "lynch_def": null,
        "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
        "dossier": "manna-ponton-halifax-1903-08-20",
        "published": true,
        "map": true,
@@ -416,6 +464,8 @@
        "stage": "completed",
        "lynch_def": "duplicate of inventory",
        "match": "linked",
+       "killed": 1,
+       "killed_max": null,
        "dossier": "george-jones-mayersville-1903-09",
        "published": true,
        "map": true,
@@ -438,10 +488,372 @@
      "stage": "completed",
      "lynch_def": "lynching",
      "match": "found",
+     "killed": 1,
+     "killed_max": 1,
      "dossier": "william-washington-1903-08-15",
      "published": true,
      "map": true,
      "title": "Lynching of William (Bee) Washington"
+    }
+   ],
+   "lists": {
+    "B-T": "Beck–Tolnay",
+    "S-R": "Seguin–Rigby",
+    "HAL": "HAL"
+   }
+  },
+  {
+   "year": 1920,
+   "inventory": [
+    {
+     "date": "1920-08-02",
+     "day_known": true,
+     "name": "Elijah Daniels",
+     "place": "Court house yard",
+     "county": "Shelby",
+     "state": "TX",
+     "status": "Lynching",
+     "method": "Hanged",
+     "accusation": "Murder of a married white woman",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:5351",
+       "name": "Elijah Daniels"
+      },
+      {
+       "list": "S-R",
+       "row": "7686",
+       "name": "Lige Daniels"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1920-08-02",
+       "city": "Center",
+       "county": "Shelby",
+       "state": "TX",
+       "victims": [
+        "Lige Daniels"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "lige-daniels-center-1920-08-02",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Lige Daniels"
+      }
+     ]
+    },
+    {
+     "date": "1920-08-08",
+     "day_known": true,
+     "name": "Monroe Wood",
+     "place": "North of Newville",
+     "county": "Henry",
+     "state": "AL",
+     "status": "Lynching",
+     "method": "Shot",
+     "accusation": "Insulted a white woman",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:5352",
+       "name": "Monroe Wood"
+      },
+      {
+       "list": "HAL",
+       "row": "147",
+       "name": "Monroe Wood"
+      }
+     ],
+     "ours": [
+      {
+       "date": "~1920-08",
+       "city": "Newville",
+       "county": "Henry",
+       "state": "AL",
+       "victims": [
+        "Monroe Wood"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "monroe-wood-newville-1920-08",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Monroe Wood"
+      }
+     ]
+    },
+    {
+     "date": "1920-08-25",
+     "day_known": true,
+     "name": "John Jeffress",
+     "place": "Halfway between Burlington and Belmont cotton mills, west of Graham",
+     "county": "Alamance",
+     "state": "NC",
+     "status": "Lynching",
+     "method": "Riddled with bullets",
+     "accusation": "Assaulting a 4 year-old white child",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:5353",
+       "name": "John Jeffress"
+      },
+      {
+       "list": "HAL",
+       "row": "2338",
+       "name": "John Jeffress"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1920-08-25",
+       "city": "Graham",
+       "county": "Alamance",
+       "state": "NC",
+       "victims": [
+        "John Jeffress"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "john-jeffress-graham-1920-08-25",
+       "published": true,
+       "map": true,
+       "title": "Lynching of John Jeffress"
+      }
+     ]
+    },
+    {
+     "date": "1920-08-27",
+     "day_known": true,
+     "name": "Leslie Allen",
+     "place": "Virgiliana",
+     "county": "Halifax",
+     "state": "VA",
+     "status": "",
+     "method": "Shot",
+     "accusation": "Unknown",
+     "rows": [
+      {
+       "list": "S-R",
+       "row": "7950",
+       "name": "Leslie Allen"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1920-08-26",
+       "city": "Virgilina",
+       "county": "Halifax",
+       "state": "VA",
+       "victims": [
+        "Leslie Allen"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "leslie-allen-virgilina-1920-08-25",
+       "published": true,
+       "map": true,
+       "title": "Killing of Leslie Allen"
+      }
+     ]
+    },
+    {
+     "date": "1920-08-28",
+     "day_known": true,
+     "name": "Blutcher Higgins",
+     "place": "2 miles from Corinth",
+     "county": "Alcorn",
+     "state": "MS",
+     "status": "Lynching",
+     "method": "Hanged",
+     "accusation": "Assaulting a white prison guard while escaping prison.",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:5354",
+       "name": "Blutcher Higgins"
+      },
+      {
+       "list": "HAL",
+       "row": "1805",
+       "name": "Blutcher Higgins"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1920-08-28",
+       "city": "Corinth",
+       "county": "Alcorn",
+       "state": "MS",
+       "victims": [
+        "Blutcher Higgins",
+        "Dan Callicut"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 2,
+       "killed_max": 2,
+       "dossier": "dan-calicut-corinth-1920-08-27",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Blutcher Higgins and Dan Callicut"
+      }
+     ]
+    },
+    {
+     "date": "1920-08-28",
+     "day_known": true,
+     "name": "Daniel Callicut",
+     "place": "2 miles from Corinth",
+     "county": "Alcorn",
+     "state": "MS",
+     "status": "Lynching",
+     "method": "Hanged",
+     "accusation": "Assaulting a white prison guard while escaping prison.",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:5355",
+       "name": "Daniel Callicut"
+      },
+      {
+       "list": "HAL",
+       "row": "1806",
+       "name": "Daniel Callicut"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1920-08-28",
+       "city": "Corinth",
+       "county": "Alcorn",
+       "state": "MS",
+       "victims": [
+        "Blutcher Higgins",
+        "Dan Callicut"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "name",
+       "killed": 2,
+       "killed_max": 2,
+       "dossier": "dan-calicut-corinth-1920-08-27",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Blutcher Higgins and Dan Callicut"
+      }
+     ]
+    },
+    {
+     "date": "1920-08-29",
+     "day_known": true,
+     "name": "Claude Chandler",
+     "place": "Oklahoma City",
+     "county": "Oklahoma",
+     "state": "OK",
+     "status": "",
+     "method": "Unknown",
+     "accusation": "Unknown",
+     "rows": [
+      {
+       "list": "S-R",
+       "row": "5900",
+       "name": "Claude Chandler"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1920-08-29",
+       "city": "Oklahoma City",
+       "county": "Oklahoma",
+       "state": "OK",
+       "victims": [
+        "Claude Chandler"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "calude-chandler-oklahoma-city-1920-08-29",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Claude Chandler"
+      },
+      {
+       "date": "1920-08-28",
+       "city": "Arcadia",
+       "county": "Logan",
+       "state": "OK",
+       "victims": [
+        "Charles Chandler",
+        "Claude Chandler"
+       ],
+       "victim_race": "Black",
+       "type": "police_violence",
+       "stage": "",
+       "lynch_def": "not a lynching",
+       "match": "name",
+       "killed": 1,
+       "killed_max": 2,
+       "dossier": "charles-chandler-arcadia-1920-08-28",
+       "published": true,
+       "map": true,
+       "title": "Arcadia moonshine raid shooting"
+      }
+     ]
+    }
+   ],
+   "found": [
+    {
+     "date": "1920-08-14",
+     "city": "Alton",
+     "county": "Halifax",
+     "state": "VA",
+     "victims": [
+      "Leroy Mitchell"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "probable lynching",
+     "match": "found",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "leroy-mitchell-alton-1920-08",
+     "published": true,
+     "map": true,
+     "title": "Killing of Leroy Mitchell"
     }
    ],
    "lists": {

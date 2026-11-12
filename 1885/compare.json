@@ -2,7 +2,7 @@
  "schema_version": 1,
  "year": 1885,
  "month": 8,
- "generated_at": "2026-11-12T06:13:44-05:00",
+ "generated_at": "2026-11-12T09:32:14-05:00",
  "source": {
   "git": "6824195",
   "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1885/events_1885_final_ddlc.json",
@@ -53,6 +53,8 @@
      "inventory": "B-T:bt:1958",
      "summary": "At 4 a.m. about 100 masked men demanded Henry Davis, a 19-year-old Black man held for assaulting a girl, from the Cuthbert jail. The jailer refused, the crowd broke in, and they hanged Davis to a railroad bridge rafter and riddled him with bullets.",
      "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
      "dossier": "henry-davis-cuthbert-1885-08-09"
     }
    ]
@@ -74,7 +76,33 @@
      "name": "Albert Lee"
     }
    ],
-   "ours": []
+   "ours": [
+    {
+     "id": "leads:trunc:albert-lee-milton",
+     "date": "1885-08-22",
+     "city": "Milton",
+     "county": "Santa Rosa",
+     "state": "FL",
+     "victims": [
+      "Albert Lee"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:1959",
+     "summary": "Albert Lee (alias Jack Johnson; Elbert Lee), a Black man jailed at Milton, Florida, on a charge of assaulting two girls, was taken from the jail after midnight on Saturday by a crowd of men who had tricked the jailer, and hanged near an old mill about a mile from town.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": null,
+     "dossier": "albert-lee-milton-1885-08-22",
+     "set_aside": {
+      "reason": "no_racial_motive",
+      "basis": "the Milton News supposed the hangers were colored people and the accusers (Moses Hoffman and his daughters) were Black: Black on Black (B-T bt:1959 still counts it as a lynching)",
+      "ruled": true
+     }
+    }
+   ]
   },
   {
    "date": "1885-08-25",
@@ -110,6 +138,8 @@
      "inventory": "S-R:Pfiefer_New_SD_2",
      "summary": "A mob lynched Ross Hollis, a Black soldier said to be the assassin of Dr. Lynch, at Sturgis. Armed Black soldiers from Fort Meade then threatened to burn the town until a 7th cavalry patrol secured it and returned them to post.",
      "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
      "dossier": "ross-hollis-sturgis-1885-08-25"
     }
    ]
@@ -132,6 +162,8 @@
    "inventory": null,
    "summary": "A mob hanged James Holbrook about forty miles south of Homer, Arkansas, for a killing in Union County in late July. The article gives no race for the victim.",
    "match": "found",
+   "killed": null,
+   "killed_max": null,
    "dossier": "james-holbrook-1885-08",
    "set_aside": {
     "reason": "race_unstated",
@@ -155,6 +187,8 @@
    "inventory": null,
    "summary": "A mob in the Seventeenth District of the county went to William Cooper's house, a Black man, and fired several shots, killing him. Jack Allison, a young white man, was hit by buckshot and was expected to die.",
    "match": "found",
+   "killed": 1,
+   "killed_max": 1,
    "dossier": "jack-allison-jackson-1885-08-18"
   },
   {
@@ -173,6 +207,8 @@
    "inventory": null,
    "summary": "A band of about 50 disguised Ku Klux entered Dalton after midnight, whipped women at Jane Kidd's house, beat Tom Carver to death after torture, badly beat Armstead, and ordered several people to leave town. The second account adds shots exchanged and a demolished house.",
    "match": "found",
+   "killed": 1,
+   "killed_max": 1,
    "dossier": "tom-carver-dalton-1885-08-19"
   },
   {
@@ -191,6 +227,8 @@
    "inventory": null,
    "summary": "A mob overpowered officers who had arrested Jake Evans, a Black man said to have assaulted a white woman, and hanged him to a tree at Auburn, Alabama. Date is not given; placed by issue date.",
    "match": "found",
+   "killed": 1,
+   "killed_max": 1,
    "dossier": "jake-evans-auburn-1885-08"
   },
   {
@@ -207,6 +245,8 @@
    "inventory": null,
    "summary": "A crowd intending to beat a Black man in Humphreys County shot him as he tried to escape. His body was found near his cabin the next morning. No perpetrators were found.",
    "match": "found",
+   "killed": 1,
+   "killed_max": 1,
    "dossier": "event-1885-08"
   }
  ]

@@ -1,0 +1,368 @@
+{
+ "schema_version": 1,
+ "year": 1920,
+ "month": 8,
+ "generated_at": "2026-11-12T09:30:49-05:00",
+ "source": {
+  "git": "6824195",
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1920/events_1920_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1920/dossiers2_all"
+ },
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL"
+ },
+ "inventory": [
+  {
+   "date": "1920-08-02",
+   "day_known": true,
+   "name": "Elijah Daniels",
+   "place": "Court house yard",
+   "county": "Shelby",
+   "state": "TX",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Murder of a married white woman",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:5351",
+     "name": "Elijah Daniels"
+    },
+    {
+     "list": "S-R",
+     "row": "7686",
+     "name": "Lige Daniels"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1920-08_r2:g46",
+     "date": "1920-08-02",
+     "city": "Center",
+     "county": "Shelby",
+     "state": "TX",
+     "victims": [
+      "Lige Daniels"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:5351",
+     "summary": "A mob of over a thousand took Lige Daniels, a Black man charged with the murder of Mrs. Maggie Hall, from the Center county jail, wrecked the steel cell, and hanged him from a tree in the courthouse yard. Troops ordered to protect him were not mobilized in time.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "lige-daniels-center-1920-08-02"
+    }
+   ]
+  },
+  {
+   "date": "1920-08-08",
+   "day_known": true,
+   "name": "Monroe Wood",
+   "place": "North of Newville",
+   "county": "Henry",
+   "state": "AL",
+   "status": "Lynching",
+   "method": "Shot",
+   "accusation": "Insulted a white woman",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:5352",
+     "name": "Monroe Wood"
+    },
+    {
+     "list": "HAL",
+     "row": "147",
+     "name": "Monroe Wood"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1920-08_r2:g38",
+     "date": "~1920-08",
+     "city": "Newville",
+     "county": "Henry",
+     "state": "AL",
+     "victims": [
+      "Monroe Wood"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:5352",
+     "summary": "Monroe Wood, a Black man, was reportedly lynched near Newville, Henry County, for insulting a white woman the previous week. He was said to have been caught north of town and shot to death by a mob.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "monroe-wood-newville-1920-08"
+    }
+   ]
+  },
+  {
+   "date": "1920-08-25",
+   "day_known": true,
+   "name": "John Jeffress",
+   "place": "Halfway between Burlington and Belmont cotton mills, west of Graham",
+   "county": "Alamance",
+   "state": "NC",
+   "status": "Lynching",
+   "method": "Riddled with bullets",
+   "accusation": "Assaulting a 4 year-old white child",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:5353",
+     "name": "John Jeffress"
+    },
+    {
+     "list": "HAL",
+     "row": "2338",
+     "name": "John Jeffress"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1920-08_r2:g1",
+     "date": "1920-08-25",
+     "city": "Graham",
+     "county": "Alamance",
+     "state": "NC",
+     "victims": [
+      "John Jeffress"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:5353",
+     "summary": "An unmasked mob of 25 to 50 men overpowered Sheriff Story and seven officers at the Alamance jail in Graham, took John Jeffress, a Negro prisoner accused of assaulting a four-year-old white girl, and riddled his body with bullets between Graham and Burlington.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "john-jeffress-graham-1920-08-25"
+    }
+   ]
+  },
+  {
+   "date": "1920-08-27",
+   "day_known": true,
+   "name": "Leslie Allen",
+   "place": "Virgiliana",
+   "county": "Halifax",
+   "state": "VA",
+   "status": "",
+   "method": "Shot",
+   "accusation": "Unknown",
+   "rows": [
+    {
+     "list": "S-R",
+     "row": "7950",
+     "name": "Leslie Allen"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1920-08_r2:g17",
+     "date": "1920-08-26",
+     "city": "Virgilina",
+     "county": "Halifax",
+     "state": "VA",
+     "victims": [
+      "Leslie Allen"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "S-R:7950",
+     "summary": "A posse of 300 men killed an unidentified Black man near Norfolk on Wednesday night after bloodhounds trailed him to a thicket. He was said to have insulted two white girls and had reportedly shot John Baptiste and wounded two posse members. The governor will investigate.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "leslie-allen-virgilina-1920-08-25"
+    }
+   ]
+  },
+  {
+   "date": "1920-08-28",
+   "day_known": true,
+   "name": "Blutcher Higgins",
+   "place": "2 miles from Corinth",
+   "county": "Alcorn",
+   "state": "MS",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Assaulting a white prison guard while escaping prison.",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:5354",
+     "name": "Blutcher Higgins"
+    },
+    {
+     "list": "HAL",
+     "row": "1805",
+     "name": "Blutcher Higgins"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1920-08_r2:g25",
+     "date": "1920-08-28",
+     "city": "Corinth",
+     "county": "Alcorn",
+     "state": "MS",
+     "victims": [
+      "Blutcher Higgins",
+      "Dan Callicut"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:5354",
+     "summary": "A mob forced the jailer to turn over his keys and hanged Butcher Higgins and Dan Calicut, two Negro escaped chain-gang prisoners who had surrendered, from a telegraph pole outside the Corinth jail. The county attorney said at least one was innocent.",
+     "match": "linked",
+     "killed": 2,
+     "killed_max": 2,
+     "dossier": "dan-calicut-corinth-1920-08-27"
+    }
+   ]
+  },
+  {
+   "date": "1920-08-28",
+   "day_known": true,
+   "name": "Daniel Callicut",
+   "place": "2 miles from Corinth",
+   "county": "Alcorn",
+   "state": "MS",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Assaulting a white prison guard while escaping prison.",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:5355",
+     "name": "Daniel Callicut"
+    },
+    {
+     "list": "HAL",
+     "row": "1806",
+     "name": "Daniel Callicut"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1920-08_r2:g25",
+     "date": "1920-08-28",
+     "city": "Corinth",
+     "county": "Alcorn",
+     "state": "MS",
+     "victims": [
+      "Blutcher Higgins",
+      "Dan Callicut"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:5354",
+     "summary": "A mob forced the jailer to turn over his keys and hanged Butcher Higgins and Dan Calicut, two Negro escaped chain-gang prisoners who had surrendered, from a telegraph pole outside the Corinth jail. The county attorney said at least one was innocent.",
+     "match": "name",
+     "killed": 2,
+     "killed_max": 2,
+     "dossier": "dan-calicut-corinth-1920-08-27"
+    }
+   ]
+  },
+  {
+   "date": "1920-08-29",
+   "day_known": true,
+   "name": "Claude Chandler",
+   "place": "Oklahoma City",
+   "county": "Oklahoma",
+   "state": "OK",
+   "status": "",
+   "method": "Unknown",
+   "accusation": "Unknown",
+   "rows": [
+    {
+     "list": "S-R",
+     "row": "5900",
+     "name": "Claude Chandler"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1920-08_r2:g31",
+     "date": "1920-08-29",
+     "city": "Oklahoma City",
+     "county": "Oklahoma",
+     "state": "OK",
+     "victims": [
+      "Claude Chandler"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "S-R:5900",
+     "summary": "Calude Chandler, a Black man, was taken from the Oklahoma City jail the night before by a group of 30 masked men. His body was found hanging from a tree near Council Grove, about eight miles west of the city.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "calude-chandler-oklahoma-city-1920-08-29"
+    },
+    {
+     "id": "lean_1920-08_r2:g30",
+     "date": "1920-08-28",
+     "city": "Arcadia",
+     "county": "Logan",
+     "state": "OK",
+     "victims": [
+      "Charles Chandler",
+      "Claude Chandler"
+     ],
+     "victim_race": "Black",
+     "type": "police_violence",
+     "stage": "",
+     "lynch_def": "not a lynching",
+     "inventory": null,
+     "summary": "Officers raiding Charles Chandler's home near Arcadia for a suspected still were met with gunfire. Deputies Adrean and Weiss were killed and Deputy Tyler wounded; Chandler was killed, believed shot by Tyler as he lay wounded. Armed possemen went to the scene and about 100 negroes were said to be organizing.",
+     "match": "name",
+     "killed": 1,
+     "killed_max": 2,
+     "dossier": "charles-chandler-arcadia-1920-08-28"
+    }
+   ]
+  }
+ ],
+ "found": [
+  {
+   "id": "lean_1920-08_r2:g23",
+   "date": "1920-08-14",
+   "city": "Alton",
+   "county": "Halifax",
+   "state": "VA",
+   "victims": [
+    "Leroy Mitchell"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "probable lynching",
+   "inventory": null,
+   "summary": "A Black man, Leroy Mitchell, said to have attempted to attack a white girl near Alton, Halifax County, was trailed by a posse, caught, and shot in the stomach by the girl's brother. He died after being taken to the Houston jail.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "leroy-mitchell-alton-1920-08"
+  }
+ ]
+}
