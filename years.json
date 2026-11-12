@@ -1,5 +1,5 @@
 {
- "default": "all",
+ "month": "August",
  "years": [
   {
    "year": 1885,
@@ -8,10 +8,10 @@
     7,
     8
    ],
-   "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes of anti-Black violence reported in August 1885 from our\n <a href=\"../reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a>, our first month from the 1880s, placed on 1910 county lines\n and by month (some July events were first reported in August). Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>",
    "atlas_count": 30,
    "reader_count": 31,
-   "export_id": "1885-20261111222606"
+   "export_id": "1885-20261111222606",
+   "full": false
   },
   {
    "year": 1903,
@@ -20,10 +20,10 @@
     1,
     12
    ],
-   "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes of anti-Black violence in 1903 from our\n <a href=\"../reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a>, one for every eligible event in the year table,\n placed on 1910 county lines and month by month through the year. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>",
    "atlas_count": 584,
    "reader_count": 590,
-   "export_id": "1903-20261111225003"
+   "export_id": "1903-20261111225003",
+   "full": true
   }
  ]
 }

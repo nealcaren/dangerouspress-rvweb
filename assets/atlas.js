@@ -1,12 +1,15 @@
 (async () => {
 try {
-/* One map for every collection. years.json lists them; each year's episodes load the first time that year is shown,
-   and the base map (1910 counties) is one shared file. The page lives at atlas/, a year's files at ../<year>/. */
+/* One map over several collections. view.json, beside the page, lists them and where their files are (root): the main
+   atlas (atlas/) shows one month from every collection, only the episodes dated in that month of that year (view
+   month), across the series span; a full-year atlas (<year>/atlas/) shows one whole collection. Each collection's
+   episodes load the first time it is shown, and the base map (1910 counties) is one shared file. */
 const get = url => fetch(url).then(r => { if (!r.ok) throw new Error(`HTTP ${r.status} for ${url}`); return r.json(); });
-/* years.json is always revalidated; a year's files carry its export id, so a browser never pairs new code with an
+/* view.json is always revalidated; a year's files carry its export id, so a browser never pairs new code with an
    older export it has cached (GitHub Pages lets browsers cache for ten minutes) */
-const YL = await fetch("../years.json", {cache: "no-cache"}).then(r => { if (!r.ok) throw new Error(`HTTP ${r.status} for years.json`); return r.json(); });
-const YEARS = YL.years.slice().sort((a, b) => a.year - b.year), BY = Object.fromEntries(YEARS.map(y => [y.year, y]));
+const V = await fetch("view.json", {cache: "no-cache"}).then(r => { if (!r.ok) throw new Error(`HTTP ${r.status} for view.json`); return r.json(); });
+const YEARS = V.years.slice().sort((a, b) => a.year - b.year), BY = Object.fromEntries(YEARS.map(y => [y.year, y]));
+const ROOT = V.root, ONE = YEARS.length === 1;
 const NS = "http://www.w3.org/2000/svg";
 const CATS = [
  {k:"lyn", label:"Lynchings: completed, attempted, threatened", short:"Lynching", v:"--s1", test:e=>e.type==="lynching"},
@@ -42,16 +45,21 @@ function prep(y, ep) {
   return {...ep, coll: y, key: `${y}:${ep.dir}`, t, t0, t1, prec, yr, m, d, cat: CATS.find(c => c.test(ep)),
     when: (approx && prec !== "year" ? "about " : "") + base, place: [ep.city, ep.state].filter(Boolean).join(", ") || ep.state};
 }
+/* in the series, a slice keeps the episodes whose stated date (approximate or not) falls in its month; the build
+   counts them with the same rule */
 function load(y) {
-  return loaded[y] ||= get(`../${y}/atlas/data.json?v=${BY[y].export_id}`).then(g => ({...g, E: g.episodes.map(ep => prep(y, ep))}));
+  return loaded[y] ||= get(`${ROOT}${y}/atlas/data.json?v=${BY[y].export_id}`).then(g => {
+    const E = g.episodes.map(ep => prep(y, ep));
+    return {...g, E: V.month ? E.filter(e => e.yr === y && e.m === V.month) : E};
+  });
 }
 const first = await load(YEARS[YEARS.length - 1].year);
-const G = await get(`basemap-${first.basemap}.json`);
+const G = await get(`${V.basemaps}basemap-${first.basemap}.json`);
 
 /* controls: year, search, state, month */
 const controls = document.createElement("div");
 controls.className = "filters";
-controls.innerHTML = `<label>Year<select id="year-filter"><option value="all">All years</option>${YEARS.map(y => `<option value="${y.year}">${esc(y.label)}</option>`).join("")}</select></label>
+controls.innerHTML = `<label${ONE ? " hidden" : ""}>Year<select id="year-filter"><option value="all">All years</option>${YEARS.map(y => `<option value="${y.year}">${esc(y.label)}</option>`).join("")}</select></label>
 <label class="grow">Search cases<input id="case-search" type="search" placeholder="Name, place, or keyword" autocomplete="off"></label>
 <label>State<select id="state-filter"></select></label>
 <label id="month-wrap">Month<select id="month-filter"></select></label>
@@ -68,6 +76,7 @@ function matches(e) {
 }
 [search,stateFilter,monthFilter].forEach(x => x.addEventListener(x === search ? "input" : "change", applyFilter));
 yearSel.addEventListener("change", () => { history.pushState(null, "", `#year=${yearSel.value}`); route(); });
+const listHash = () => ONE ? location.pathname + location.search : `#year=${sel}`;
 function resetFilters() {
   search.value = stateFilter.value = monthFilter.value = "";
   CATS.forEach(c => on.add(c.k));
@@ -209,57 +218,93 @@ function sizeMarks() {
 addEventListener("resize", sizeMarks);
 
 /* timeline. One year: a column per covered month (other years and months fold into the end columns), plus one for
-   episodes whose month is unknown. All years: a column per year. Each episode is one dot, stacked in a small grid by
-   type, then date; when a column would need too many rows, columns show stacked bars by type instead (select a bar to
-   open that year). */
+   episodes whose month is unknown; a one-month slice gets a column per day, plus one for episodes known only to the
+   month. All years: a column per collection, or, when the view has a span (the series), each collection's column at
+   its year on an axis across the span, so years not yet collected show as gaps. Each episode is one dot, stacked in a
+   small grid by type, then date; when a column would need too many rows, columns show stacked bars by type instead
+   (select a bar to open that year). */
 const tlEl = document.getElementById("tl"), tlCap = document.getElementById("tlcap");
 function drawTimeline() {
   tlEl.textContent = "";
-  let cols, byC, pick = null;
+  const TW = 960, L = 8, R = 8, AW = TW - L - R, DS = 13;
+  let cols, byC, pick = null, xs = null, CW, ticks = null, unit = "month";
   if (sel === "all") {
-    cols = YEARS.map(y => y.label); byC = YEARS.map(y => E.filter(e => e.coll === y.year));
+    unit = "year";
+    cols = YEARS.map(y => ({label: y.label, short: String(y.year)})); byC = YEARS.map(y => E.filter(e => e.coll === y.year));
     pick = i => { history.pushState(null, "", `#year=${YEARS[i].year}`); route(); };
+    if (V.span) {
+      const [S0, S1] = V.span, py = AW / (S1 - S0 + 1);
+      CW = py * Math.min(5, ...YEARS.slice(1).map((y, i) => y.year - YEARS[i].year));
+      xs = YEARS.map(y => L + (y.year - S0 + .5) * py - CW / 2);
+      ticks = [];
+      for (let t = Math.ceil(S0 / 10) * 10; t <= S1; t += 10) ticks.push([L + (t - S0 + .5) * py, t]);
+    }
   } else {
-    const [M0, M1] = BY[sel].months || [1, 12], undated = E.some(e => e.prec === "year"), NM = M1 - M0 + 1;
-    cols = Array.from({length: NM}, (_, i) => MON[M0 - 1 + i].slice(0, 3)).concat(undated ? ["Month unknown"] : []);
-    byC = cols.map(() => []);
-    E.forEach(e => byC[e.prec === "year" ? cols.length - 1 : e.yr < sel ? 0 : e.yr > sel ? NM - 1 : Math.min(NM - 1, Math.max(0, e.m - M0))].push(e));
+    const [M0, M1] = BY[sel].months || [1, 12];
+    if (M0 === M1) {
+      unit = "day";
+      const nd = new Date(Date.UTC(sel, M0, 0)).getUTCDate(), noDay = E.some(e => e.prec !== "day" && e.prec !== "week");
+      cols = Array.from({length: nd}, (_, i) => ({label: `${MON[M0 - 1].slice(0, 3)} ${i + 1}`, short: String(i + 1)}))
+        .concat(noDay ? [{label: "Day unknown", short: "?"}] : []);
+      byC = cols.map(() => []);
+      E.forEach(e => byC[e.prec === "day" || e.prec === "week" ? Math.min(nd, e.d) - 1 : cols.length - 1].push(e));
+    } else {
+      const undated = E.some(e => e.prec === "year"), NM = M1 - M0 + 1;
+      cols = Array.from({length: NM}, (_, i) => MON[M0 - 1 + i].slice(0, 3)).concat(undated ? ["Month unknown"] : []).map(c => ({label: c, short: c.slice(-2)}));
+      byC = cols.map(() => []);
+      E.forEach(e => byC[e.prec === "year" ? cols.length - 1 : e.yr < sel ? 0 : e.yr > sel ? NM - 1 : Math.min(NM - 1, Math.max(0, e.m - M0))].push(e));
+    }
   }
-  const NC = cols.length, TW = 960, L = 8, R = 8, CW = (TW - L - R) / NC, DS = 13, PER = Math.max(1, Math.floor((CW - 8) / DS));
+  const NC = cols.length;
+  if (!xs) { CW = AW / NC; xs = cols.map((_, c) => L + c * CW); }
+  const PER = Math.max(1, Math.floor((CW - 8) / DS));
   const catIx = c => CATS.indexOf(c);
   byC.forEach(list => list.sort((a, b) => catIx(a.cat) - catIx(b.cat) || a.t - b.t));
   const dotRows = Math.max(1, ...byC.map(list => Math.ceil(list.length / PER))), bars = dotRows > 40;
-  const nRows = bars ? 12 : dotRows, PADT = 12, TH = PADT + nRows * DS + 34, base = PADT + nRows * DS + 2;
-  const ts = el("svg", {viewBox: `0 0 ${TW} ${TH}`, role: "img", "aria-label": sel === "all" ? "Episodes by year" : `Episodes by month, ${BY[sel].label}`});
+  const nRows = bars ? 12 : dotRows, PADT = ticks ? 24 : 12, TH = PADT + nRows * DS + 34, base = PADT + nRows * DS + 2;
+  const ts = el("svg", {viewBox: `0 0 ${TW} ${TH}`, role: "img", "aria-label": sel === "all" ? "Episodes by year"
+    : `Episodes by ${unit}, ${BY[sel].label}`});
   tlEl.appendChild(ts);
-  const small = NC > 16;
-  for (let c = 0; c <= NC; c++) {
-    const x = L + c * CW;
-    el("line", {x1: x, x2: x, y1: PADT - 8, y2: base + 22, stroke: "var(--rule)", "stroke-width": 1}, ts);
-    if (c < NC) { const tx = el("text", {x: x + CW / 2, y: base + 18, "text-anchor": "middle", fill: "var(--muted)", "font-size": small ? 10 : 13}, ts);
-      tx.textContent = small ? cols[c].slice(-2) : `${cols[c]} ${byC[c].length}`; }
+  const small = NC > 16, label = (x, y, t, size, fill = "var(--muted)") => {
+    const tx = el("text", {x, y, "text-anchor": "middle", fill, "font-size": size}, ts); tx.textContent = t; };
+  if (ticks) {
+    ticks.forEach(([x, t]) => { el("line", {x1: x, x2: x, y1: PADT - 8, y2: base + 6, stroke: "var(--rule)", "stroke-width": 1}, ts);
+      label(x, base + 18, t, 12); });
+  } else {
+    for (let c = 0; c <= NC; c++) {
+      const x = L + c * CW;
+      el("line", {x1: x, x2: x, y1: PADT - 8, y2: base + 22, stroke: "var(--rule)", "stroke-width": 1}, ts);
+      if (c < NC) label(x + CW / 2, base + 18, small ? cols[c].short : `${cols[c].label} ${byC[c].length}`, small ? 10 : 13);
+    }
   }
   el("line", {x1: L, x2: TW - R, y1: base, y2: base, stroke: "var(--state)", "stroke-width": 1}, ts);
+  const scale = bars ? (nRows * DS - 4) / Math.max(...byC.map(l => l.length)) : 0;
+  /* on the span axis each column is labelled above its stack: the year and its count */
+  if (ticks) byC.forEach((list, c) => label(xs[c] + CW / 2, base - (bars ? list.length * scale : Math.ceil(list.length / PER) * DS) - 6,
+    `${cols[c].short}: ${list.length}`, 11, "var(--ink)"));
   if (bars) {
-    const max = Math.max(...byC.map(l => l.length)), scale = (nRows * DS - 4) / max;
     byC.forEach((list, c) => {
-      let y = base; const g = el("g", {class: "mk", tabindex: "0", role: "button", "aria-label": `${cols[c]}: ${list.length} episodes`}, ts);
+      let y = base; const g = el("g", {class: "mk", tabindex: "0", role: "button", "aria-label": `${cols[c].label}: ${list.length} episodes`}, ts);
       CATS.forEach(cat => { const n = list.filter(e => e.cat === cat).length, hgt = n * scale; y -= hgt;
-        if (n) el("rect", {x: L + c * CW + 3, y, width: Math.max(1, CW - 6), height: hgt, fill: `var(${cat.v})`}, g); });
+        if (n) el("rect", {x: xs[c] + 3, y, width: Math.max(1, CW - 6), height: hgt, fill: `var(${cat.v})`}, g); });
       if (pick) { g.addEventListener("click", () => pick(c)); g.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); pick(c); } }); }
     });
-    tlCap.textContent = `Episodes per ${sel === "all" ? "year" : "month"}, stacked by type; select a year to see its episodes one by one.`;
+    tlCap.textContent = `Episodes per ${unit}, stacked by type; select a ${unit === "year" ? "year" : "bar"} to see its episodes one by one.`
+      + (ticks ? ` Years with no bar have not been collected yet.` : "");
     return;
   }
   byC.forEach((list, c) => {
-    const x0 = L + c * CW + (CW - PER * DS) / 2 + DS / 2;
+    const x0 = xs[c] + (CW - PER * DS) / 2 + DS / 2;
     list.forEach((e, i) => {
       const x = x0 + (i % PER) * DS, y = base - DS / 2 - 1 - Math.floor(i / PER) * DS, g = el("g", {}, ts);
       el("rect", {x: x - DS / 2, y: y - DS / 2, width: DS, height: DS, fill: "transparent"}, g);
       mark(g, e, x, y, 4.5); wire(g, e); e.tlG = g;
     });
   });
-  tlCap.innerHTML = sel === "all" ? "Each dot is an episode, in its collection&rsquo;s column, grouped by type; the number is the collection&rsquo;s total."
+  tlCap.innerHTML = sel === "all"
+    ? (ticks ? "Each dot is an episode, in its year&rsquo;s column on the axis, grouped by type; years with no column have not been collected yet."
+      : "Each dot is an episode, in its collection&rsquo;s column, grouped by type; the number is the collection&rsquo;s total.")
+    : unit === "day" ? "Each dot is an episode, on the day it happened, grouped by type; episodes dated only to the month are in the last column."
     : "Each dot is an episode, in the month it happened, grouped by type; the number is the month&rsquo;s total.";
 }
 
@@ -281,15 +326,14 @@ async function showYear(y) {
   const st = [...new Set(E.map(e => e.state).filter(Boolean))].sort((a, b) => (states[a] || a).localeCompare(states[b] || b));
   stateFilter.innerHTML = `<option value="">All states</option>` + st.map(s => `<option value="${esc(s)}">${esc(states[s] || s)}</option>`).join("");
   const [M0, M1] = y === "all" ? [1, 12] : BY[y].months || [1, 12];
+  const allLabel = V.all_label || "all years";
   monthFilter.innerHTML = `<option value="">All months</option>` + MON.map((m, i) => i + 1 >= M0 && i + 1 <= M1 ? `<option value="${i + 1}">${m}</option>` : "").join("");
-  document.getElementById("month-wrap").hidden = y === "all";
+  document.getElementById("month-wrap").hidden = y === "all" || M0 === M1;
   resetFilters();
   CATS.forEach(c => { c.btn.innerHTML = `<span class="dot" style="background:var(${c.v})"></span>${esc(c.label)} <span class="muted">${E.filter(e => e.cat === c).length}</span>`; });
-  titleEl.textContent = `Atlas of Anti-Black Violence, ${y === "all" ? "all years" : BY[y].label}`;
+  titleEl.textContent = `Atlas of Anti-Black Violence, ${y === "all" ? allLabel : BY[y].label}`;
   document.title = titleEl.textContent;
-  dekEl.innerHTML = y === "all"
-    ? `<p class="dek">${E.length} episodes from ${YEARS.length} collections (${YEARS.map(x => esc(x.label)).join("; ")}), placed on 1910 county lines. Choose a year to see it month by month. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>`
-    : (BY[y].atlas_dek || "").replaceAll('href="../reader/"', `href="../${y}/reader/"`);
+  dekEl.innerHTML = y === "all" ? V.all_dek || "" : BY[y].atlas_dek || "";
   const nEl = document.getElementById("n"); if (nEl) nEl.textContent = E.length;
   const nCentre = E.filter(e => e.loc !== "place").length;
   document.getElementById("mapcap").innerHTML = `County lines as of 1910 (Atlas of Historical County Boundaries). The county under a selected episode is outlined. `
@@ -332,13 +376,13 @@ function placeTip(x, y, r) {
 /* side panel */
 const side = document.getElementById("sidein");
 const marks = e => [e.mapG, e.tlG].filter(Boolean);
-const caseHash = e => `#year=${e.coll}&case=${encodeURIComponent(e.dir)}`;
+const caseHash = e => `#${ONE ? "" : `year=${e.coll}&`}case=${encodeURIComponent(e.dir)}`;
 function showList(updateUrl = true) {
   if (cur) marks(cur).forEach(g => g.classList.remove("selected"));
   cur = null; hov.setAttribute("d", "");
-  if (updateUrl) history.pushState(null, "", `#year=${sel}`);
+  if (updateUrl) history.pushState(null, "", listHash());
   const many = sel === "all";
-  side.innerHTML = `<p class="eyebrow">Episodes by date</p><h2>${E.length} episodes, ${esc(many ? "all years" : BY[sel].label)}</h2>
+  side.innerHTML = `<p class="eyebrow">Episodes by date</p><h2>${E.length} episodes, ${esc(many ? V.all_label || "all years" : BY[sel].label)}</h2>
    <p class="cap">Select one to read its account.</p><ul class="list" id="list"></ul>`;
   const ul = side.querySelector("#list");
   E.forEach(e => {
@@ -363,7 +407,7 @@ async function openEp(e, updateUrl = true) {
   side.querySelector("#back").onclick = () => showList();
   if (matchMedia("(max-width:1040px)").matches) document.getElementById("side").scrollIntoView({block: "start"});
   try {
-    const response = await fetch(`../${e.coll}/cases/${encodeURIComponent(e.dir)}.json?v=${BY[e.coll].export_id}`);
+    const response = await fetch(`${ROOT}${e.coll}/cases/${encodeURIComponent(e.dir)}.json?v=${BY[e.coll].export_id}`);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const detail = await response.json();
     if (cur !== e) return;
@@ -386,7 +430,7 @@ async function openEp(e, updateUrl = true) {
    ${e.doubt ? `<div class="doubt"><b>Doubt noted:</b> ${esc(e.doubt)}</div>` : ""}
    ${text}
    <p><a class="more" href="${caseHash(e)}">Link to this case</a></p>
-   <p><a class="more" href="../${e.coll}/reader/#${encodeURIComponent(e.dir)}" target="_blank" rel="noopener">Clippings and sources in the dossier reader ↗</a></p>`;
+   <p><a class="more" href="${ROOT}${e.coll}/reader/#${encodeURIComponent(e.dir)}" target="_blank" rel="noopener">Clippings and sources in the dossier reader ↗</a></p>`;
   side.querySelector("#back").onclick = () => { showList(); };
   document.getElementById("side").scrollTop = 0;
   if (matchMedia("(max-width:1040px)").matches) document.getElementById("side").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion:reduce)").matches ? "auto" : "smooth", block: "start"});
@@ -404,15 +448,17 @@ function applyFilter() {
   const empty = document.getElementById("no-results"); if (empty) empty.hidden = count !== 0;
   if (cur && !matches(cur)) showList();
 }
-/* #year=<year|all>[&case=<id>]; without a year, the default from years.json */
+/* #year=<year|all>[&case=<id>]; without a year, the default from view.json. A case outside the series month goes to
+   its year's full atlas when there is one. */
 async function route() {
   const params = new URLSearchParams(location.hash.slice(1));
-  const last = YEARS[YEARS.length - 1].year, want = params.get("year") || String(YL.default || last);
+  const last = YEARS[YEARS.length - 1].year, want = params.get("year") || String(V.default || last);
   const y = want === "all" ? "all" : BY[+want] ? +want : last;
   const changed = sel !== y;
   await showYear(y);
   const id = params.get("case");
   const e = id && E.find(item => item.dir === id && (sel === "all" || item.coll === sel));
+  if (id && !e && sel !== "all" && BY[sel].full) { location.replace(`${BY[sel].full}#case=${encodeURIComponent(id)}`); return; }
   if (e) {
     if (!matches(e)) { resetFilters(); applyFilter(); }
     if (changed || !side.querySelector("#list") && !cur) showList(false);

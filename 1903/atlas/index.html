@@ -2,10 +2,26 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Atlas of Anti-Black Violence, 1903</title>
-<script>
-var c = new URLSearchParams(location.hash.slice(1)).get("case");
-location.replace("../../atlas/#year=1903" + (c ? "&case=" + encodeURIComponent(c) : ""));
-</script>
-<p>The atlas has moved: <a href="../../atlas/#year=1903">Atlas of Anti-Black Violence, 1903</a>.</p>
-</html>
+<title>Atlas of Anti-Black Violence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../assets/atlas.css?v=a11db2cae9">
+<link rel="stylesheet" href="../../assets/theme.css?v=3b6d1aaff3">
+<div class="wrap">
+<header class="top">
+ <h1 id="title">Atlas of Anti-Black Violence</h1>
+ <div id="dek"></div>
+</header>
+<div class="grid">
+ <div class="figs">
+  <div class="legend" id="legend" role="group" aria-label="Show or hide episode types"></div>
+  <div class="map" id="map"></div>
+  <p class="cap" id="mapcap"></p>
+  <div class="tl" id="tl"></div>
+  <p class="cap" id="tlcap"></p>
+ </div>
+ <aside class="side" id="side" aria-live="polite"><div class="in" id="sidein"></div></aside>
+</div>
+</div>
+<div class="tip" id="tip" hidden></div>
+<script src="../../assets/atlas.js?v=3de127e56a" defer></script>
