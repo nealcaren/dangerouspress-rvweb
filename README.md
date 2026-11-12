@@ -23,6 +23,8 @@ templates/                    # page shells for the atlas and the readers
 <year>/cases/<id>.json        # one shared case file (atlas narrative + full reader record)
 <year>/reader/text/tNN.json   # article-text shards
 <year>/reader/img/            # clipping images
+<year>/compare.json           # the series month's inventory lynchings of Black victims beside our records (research: inventory_compare.py)
+compare/index.html, view.json  # the inventory comparison page (templates/compare.html, assets/compare.js; written by build_site.py)
 ```
 
 Code and layout live in `assets/` and `templates/` and are maintained here. Everything under `<year>/` except the `index.html` shells and `view.json` is a publication export from the research repository and is replaced whole on each import, so do not make case corrections here.

@@ -1,0 +1,455 @@
+{
+ "root": "../",
+ "month": "August",
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL"
+ },
+ "years": [
+  {
+   "year": 1885,
+   "inventory": [
+    {
+     "date": "1885-08-09",
+     "day_known": true,
+     "name": "Henry Davis",
+     "place": "Railroad bridge in Cuthbert",
+     "county": "Randolph",
+     "state": "GA",
+     "status": "Lynching",
+     "method": "Hanged and riddled with bullets",
+     "accusation": "Outraging a 9 year-old white girl, daughter of a preacher/farmer",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:1958",
+       "name": "Henry Davis"
+      },
+      {
+       "list": "HAL",
+       "row": "1147",
+       "name": "Henry Davis"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1885-08-09",
+       "city": "Cuthbert",
+       "county": "Randolph",
+       "state": "GA",
+       "victims": [
+        "Henry Davis"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "dossier": "henry-davis-cuthbert-1885-08-09",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Henry Davis"
+      }
+     ]
+    },
+    {
+     "date": "1885-08-22",
+     "day_known": true,
+     "name": "Albert Lee",
+     "place": "0.25 miles from Milton, near the graveyard",
+     "county": "Santa Rosa",
+     "state": "FL",
+     "status": "Lynching",
+     "method": "Hanged",
+     "accusation": "Outraging two young black girls, aged 14 and 16",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:1959",
+       "name": "Albert Lee"
+      }
+     ],
+     "ours": []
+    },
+    {
+     "date": "1885-08-25",
+     "day_known": true,
+     "name": "Hollis ",
+     "place": "Sturgis",
+     "county": "Meade",
+     "state": "SD",
+     "status": "",
+     "method": "Unknown",
+     "accusation": "Murder",
+     "rows": [
+      {
+       "list": "S-R",
+       "row": "Pfiefer_New_SD_2",
+       "name": "Hollis "
+      }
+     ],
+     "ours": [
+      {
+       "date": "1885-08-25",
+       "city": "Sturgis",
+       "county": "",
+       "state": "SD",
+       "victims": [
+        "Ross Hollis"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "dossier": "ross-hollis-sturgis-1885-08-25",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Ross Hollis"
+      }
+     ]
+    }
+   ],
+   "found": [
+    {
+     "date": "1885-08-12",
+     "city": "",
+     "county": "",
+     "state": "AR",
+     "victims": [
+      "James Halbrook"
+     ],
+     "victim_race": "unclear",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "probable lynching",
+     "match": "found",
+     "dossier": "james-holbrook-1885-08",
+     "set_aside": {
+      "reason": "race_unstated",
+      "basis": "no report gives anyone's race",
+      "ruled": true
+     },
+     "published": false,
+     "map": false,
+     "title": null
+    },
+    {
+     "date": "1885-08-18",
+     "city": "Jackson",
+     "county": "Madison",
+     "state": "TN",
+     "victims": [
+      "William Cooper"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "lynching",
+     "match": "found",
+     "dossier": "jack-allison-jackson-1885-08-18",
+     "published": true,
+     "map": true,
+     "title": "Lynching of William Cooper"
+    },
+    {
+     "date": "1885-08-19",
+     "city": "Dalton",
+     "county": "Whitfield",
+     "state": "GA",
+     "victims": [
+      "Tom Tarver"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "lynching",
+     "match": "found",
+     "dossier": "tom-carver-dalton-1885-08-19",
+     "published": true,
+     "map": true,
+     "title": "Lynching of Tom Tarver"
+    },
+    {
+     "date": "~1885-08",
+     "city": "Auburn",
+     "county": "Lee",
+     "state": "AL",
+     "victims": [
+      "Jake Evans"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "lynching",
+     "match": "found",
+     "dossier": "jake-evans-auburn-1885-08",
+     "published": true,
+     "map": true,
+     "title": "Lynching of Jake Evans"
+    },
+    {
+     "date": "~1885-08",
+     "city": "",
+     "county": "Humphreys",
+     "state": "TN",
+     "victims": [],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "probable lynching",
+     "match": "found",
+     "dossier": "event-1885-08",
+     "published": true,
+     "map": true,
+     "title": "Killing of a Black man in Humphreys County, Tennessee (1885)"
+    }
+   ],
+   "lists": {
+    "B-T": "Beck–Tolnay",
+    "S-R": "Seguin–Rigby",
+    "HAL": "HAL"
+   }
+  },
+  {
+   "year": 1903,
+   "inventory": [
+    {
+     "date": "1903-08-03",
+     "day_known": true,
+     "name": "John L. Hunter",
+     "place": "Needmore, near Lewisburg",
+     "county": "Marshall",
+     "state": "TN",
+     "status": "Lynching",
+     "method": "Shot",
+     "accusation": "Unknown",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:4207",
+       "name": "John L. Hunter"
+      },
+      {
+       "list": "HAL",
+       "row": "2712",
+       "name": "John Hunter"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1903-08-04",
+       "city": "Needmore",
+       "county": "Marshall",
+       "state": "TN",
+       "victims": [
+        "John Millikin",
+        "John Hunter"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "dossier": "john-hunter-lewisburg-1903-08-04",
+       "published": true,
+       "map": true,
+       "title": "Needmore whitecap raid"
+      }
+     ]
+    },
+    {
+     "date": "1903-08-03",
+     "day_known": true,
+     "name": "John Millikin",
+     "place": "Needmore, near Lewisburg",
+     "county": "Marshall",
+     "state": "TN",
+     "status": "Lynching",
+     "method": "Shot",
+     "accusation": "Unknown",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:4208",
+       "name": "John Millikin"
+      },
+      {
+       "list": "HAL",
+       "row": "2711",
+       "name": "John Millikin"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1903-08-04",
+       "city": "Needmore",
+       "county": "Marshall",
+       "state": "TN",
+       "victims": [
+        "John Millikin",
+        "John Hunter"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "name",
+       "dossier": "john-hunter-lewisburg-1903-08-04",
+       "published": true,
+       "map": true,
+       "title": "Needmore whitecap raid"
+      }
+     ]
+    },
+    {
+     "date": "1903-08-08",
+     "day_known": true,
+     "name": "Amos Jones",
+     "place": "Gordon Creek bridge in Hattiesburg",
+     "county": "Perry",
+     "state": "MS",
+     "status": "Lynching",
+     "method": "Hanged and shot",
+     "accusation": "Mortally wounding a white man, a jailer",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:4209",
+       "name": "Amos Jones"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1903-08-08",
+       "city": "Hattiesburg",
+       "county": "Perry",
+       "state": "MS",
+       "victims": [
+        "Amos Jones"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "dossier": "amos-jones-hattiesburg-1903-08-08",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Amos Jones"
+      }
+     ]
+    },
+    {
+     "date": "1903-08-21",
+     "day_known": true,
+     "name": "Manna Ponton",
+     "place": "Halifax",
+     "county": "Halifax",
+     "state": "NC",
+     "status": "Lynching",
+     "method": "Hanged and riddled with bullets",
+     "accusation": "Criminal assault and murder of a 13 year-old white girl, daughter of his employer",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:4210",
+       "name": "Manna Ponton"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1903-08-20",
+       "city": "Halifax",
+       "county": "Halifax",
+       "state": "NC",
+       "victims": [
+        "Manna Ponton",
+        "Mary Jenkins"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "dossier": "manna-ponton-halifax-1903-08-20",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Manna Ponton"
+      }
+     ]
+    },
+    {
+     "date": "1903-08-31",
+     "day_known": true,
+     "name": "George Jones",
+     "place": "Jail in Mayersville",
+     "county": "Issaquena",
+     "state": "MS",
+     "status": "Lynching",
+     "method": "Shot",
+     "accusation": "Arson",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:4211",
+       "name": "George Jones"
+      },
+      {
+       "list": "HAL",
+       "row": "1978",
+       "name": "George Jones"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1903-09-01",
+       "city": "Mayersville",
+       "county": "Issaquena",
+       "state": "MS",
+       "victims": [
+        "George Jones"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": "duplicate of inventory",
+       "match": "linked",
+       "dossier": "george-jones-mayersville-1903-09",
+       "published": true,
+       "map": true,
+       "title": "Lynching of George Jones"
+      }
+     ]
+    }
+   ],
+   "found": [
+    {
+     "date": "1903-08-15",
+     "city": "Tarbert",
+     "county": "Wilkinson",
+     "state": "MS",
+     "victims": [
+      "William (Bee) Washington"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "lynching",
+     "match": "found",
+     "dossier": "william-washington-1903-08-15",
+     "published": true,
+     "map": true,
+     "title": "Lynching of William (Bee) Washington"
+    }
+   ],
+   "lists": {
+    "B-T": "Beck–Tolnay",
+    "S-R": "Seguin–Rigby",
+    "HAL": "HAL"
+   }
+  }
+ ],
+ "dek": "<p class=\"dek\">Lynchings of Black victims in August of each sampled year as the standard inventories record them (Beck and Tolnay’s 2022 inventory of twelve Southern states: lynchings, probable and possible lynchings; Seguin and Rigby’s national inventory; and the Historical American Lynching data), set beside our event table and dossiers. A row names one victim; when inventories list the same person, the rows are joined. Our record is the table event linked to that row, or an event that names the victim within three weeks in the same state. Below each year are the completed lynchings our sources report that no inventory lists, with any victim not recorded as white. Links open the full dossier. Drafts: no entry has had human review.</p>"
+}

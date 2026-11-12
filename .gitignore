@@ -1,2 +1,4 @@
 .DS_Store
 .staging/
+.playwright-mcp/
+__pycache__/

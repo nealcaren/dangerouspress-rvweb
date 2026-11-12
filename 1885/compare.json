@@ -1,0 +1,213 @@
+{
+ "schema_version": 1,
+ "year": 1885,
+ "month": 8,
+ "generated_at": "2026-11-12T06:13:44-05:00",
+ "source": {
+  "git": "6824195",
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1885/events_1885_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1885/dossiers2_all"
+ },
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL"
+ },
+ "inventory": [
+  {
+   "date": "1885-08-09",
+   "day_known": true,
+   "name": "Henry Davis",
+   "place": "Railroad bridge in Cuthbert",
+   "county": "Randolph",
+   "state": "GA",
+   "status": "Lynching",
+   "method": "Hanged and riddled with bullets",
+   "accusation": "Outraging a 9 year-old white girl, daughter of a preacher/farmer",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:1958",
+     "name": "Henry Davis"
+    },
+    {
+     "list": "HAL",
+     "row": "1147",
+     "name": "Henry Davis"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1885-08_r2:g20",
+     "date": "1885-08-09",
+     "city": "Cuthbert",
+     "county": "Randolph",
+     "state": "GA",
+     "victims": [
+      "Henry Davis"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:1958",
+     "summary": "At 4 a.m. about 100 masked men demanded Henry Davis, a 19-year-old Black man held for assaulting a girl, from the Cuthbert jail. The jailer refused, the crowd broke in, and they hanged Davis to a railroad bridge rafter and riddled him with bullets.",
+     "match": "linked",
+     "dossier": "henry-davis-cuthbert-1885-08-09"
+    }
+   ]
+  },
+  {
+   "date": "1885-08-22",
+   "day_known": true,
+   "name": "Albert Lee",
+   "place": "0.25 miles from Milton, near the graveyard",
+   "county": "Santa Rosa",
+   "state": "FL",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Outraging two young black girls, aged 14 and 16",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:1959",
+     "name": "Albert Lee"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1885-08-25",
+   "day_known": true,
+   "name": "Hollis ",
+   "place": "Sturgis",
+   "county": "Meade",
+   "state": "SD",
+   "status": "",
+   "method": "Unknown",
+   "accusation": "Murder",
+   "rows": [
+    {
+     "list": "S-R",
+     "row": "Pfiefer_New_SD_2",
+     "name": "Hollis "
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1885-08_r2:g11",
+     "date": "1885-08-25",
+     "city": "Sturgis",
+     "county": "",
+     "state": "SD",
+     "victims": [
+      "Ross Hollis"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "S-R:Pfiefer_New_SD_2",
+     "summary": "A mob lynched Ross Hollis, a Black soldier said to be the assassin of Dr. Lynch, at Sturgis. Armed Black soldiers from Fort Meade then threatened to burn the town until a 7th cavalry patrol secured it and returned them to post.",
+     "match": "linked",
+     "dossier": "ross-hollis-sturgis-1885-08-25"
+    }
+   ]
+  }
+ ],
+ "found": [
+  {
+   "id": "lean_1885-08_r2:g62",
+   "date": "1885-08-12",
+   "city": "",
+   "county": "",
+   "state": "AR",
+   "victims": [
+    "James Halbrook"
+   ],
+   "victim_race": "unclear",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "probable lynching",
+   "inventory": null,
+   "summary": "A mob hanged James Holbrook about forty miles south of Homer, Arkansas, for a killing in Union County in late July. The article gives no race for the victim.",
+   "match": "found",
+   "dossier": "james-holbrook-1885-08",
+   "set_aside": {
+    "reason": "race_unstated",
+    "basis": "no report gives anyone's race",
+    "ruled": true
+   }
+  },
+  {
+   "id": "lean_1885-08_r2:g42",
+   "date": "1885-08-18",
+   "city": "Jackson",
+   "county": "Madison",
+   "state": "TN",
+   "victims": [
+    "William Cooper"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "A mob in the Seventeenth District of the county went to William Cooper's house, a Black man, and fired several shots, killing him. Jack Allison, a young white man, was hit by buckshot and was expected to die.",
+   "match": "found",
+   "dossier": "jack-allison-jackson-1885-08-18"
+  },
+  {
+   "id": "lean_1885-08_r2:g1",
+   "date": "1885-08-19",
+   "city": "Dalton",
+   "county": "Whitfield",
+   "state": "GA",
+   "victims": [
+    "Tom Tarver"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "A band of about 50 disguised Ku Klux entered Dalton after midnight, whipped women at Jane Kidd's house, beat Tom Carver to death after torture, badly beat Armstead, and ordered several people to leave town. The second account adds shots exchanged and a demolished house.",
+   "match": "found",
+   "dossier": "tom-carver-dalton-1885-08-19"
+  },
+  {
+   "id": "lean_1885-08_r2:g17",
+   "date": "~1885-08",
+   "city": "Auburn",
+   "county": "Lee",
+   "state": "AL",
+   "victims": [
+    "Jake Evans"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "A mob overpowered officers who had arrested Jake Evans, a Black man said to have assaulted a white woman, and hanged him to a tree at Auburn, Alabama. Date is not given; placed by issue date.",
+   "match": "found",
+   "dossier": "jake-evans-auburn-1885-08"
+  },
+  {
+   "id": "lean_1885-08_r2:g23",
+   "date": "~1885-08",
+   "city": "",
+   "county": "Humphreys",
+   "state": "TN",
+   "victims": [],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "probable lynching",
+   "inventory": null,
+   "summary": "A crowd intending to beat a Black man in Humphreys County shot him as he tried to escape. His body was found near his cabin the next morning. No perpetrators were found.",
+   "match": "found",
+   "dossier": "event-1885-08"
+  }
+ ]
+}

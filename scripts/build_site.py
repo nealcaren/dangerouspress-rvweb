@@ -11,7 +11,10 @@ Every <year>/ folder with a manifest.json is a published collection. site.json s
 
 Every atlas page is templates/atlas.html plus a view.json beside it that lists its collections, where their files are,
 and the header texts; assets/atlas.js reads it. Each year keeps its dossier reader at <year>/reader/ (shell from
-templates/reader.html). years.json lists the collections for the readers' header links. The base map is the same for
+templates/reader.html). years.json lists the collections for the readers' header links. compare/ sets the
+inventory lynchings of Black victims in the series month beside our records, for every year whose export has a
+compare.json (research repo: inventory_compare.py); compare/view.json joins it with the published reader and atlas so
+only dossiers on the site are linked. The base map is the same for
 every year: the import leaves it in <year>/atlas/basemap-<id>.json and this moves it to atlas/. Rerun after an import,
 a site.json change or a template change.
 """
@@ -65,6 +68,46 @@ def write_json(path, obj):
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
+COMPARE_DEK = ("<p class=\"dek\">Lynchings of Black victims in {mname} of each sampled year as the standard inventories record "
+               "them (Beck and Tolnay\u2019s 2022 inventory of twelve Southern states: lynchings, probable and possible "
+               "lynchings; Seguin and Rigby\u2019s national inventory; and the Historical American Lynching data), set beside "
+               "our event table and dossiers. A row names one victim; when inventories list the same person, the rows are "
+               "joined. Our record is the table event linked to that row, or an event that names the victim within three "
+               "weeks in the same state. Below each year are the completed lynchings our sources report that no inventory "
+               "lists, with any victim not recorded as white. Links open the full dossier. {draft}</p>")
+
+
+def compare_page(ms, mname):
+    """compare/: each year's compare.json, with every dossier marked published (in the reader) and mapped (in the atlas)."""
+    years = []
+    for m in ms:
+        y = str(m["year"])
+        f = ROOT / y / "compare.json"
+        if not f.is_file():
+            continue
+        c = json.loads(f.read_text(encoding="utf-8"))
+        titles = {e["id"]: e["title"] for e in json.loads((ROOT / y / "reader/data.json").read_text(encoding="utf-8"))["episodes"]}
+        mapped = {e["dir"] for e in json.loads((ROOT / y / "atlas/data.json").read_text(encoding="utf-8"))["episodes"]}
+        for o in [o for v in c["inventory"] for o in v["ours"]] + c["found"]:
+            o["published"] = o.get("dossier") in titles
+            o["map"] = o.get("dossier") in mapped
+            o["title"] = titles.get(o.get("dossier"))
+            for k in ("summary", "inventory", "id"):
+                o.pop(k, None)
+        years.append({"year": m["year"], "inventory": c["inventory"], "found": c["found"], "lists": c["lists"]})
+    out = ROOT / "compare"
+    if not years:
+        return 0
+    out.mkdir(exist_ok=True)
+    write_json(out / "view.json", {"root": "../", "month": mname, "lists": years[-1]["lists"], "years": years,
+                                   "dek": COMPARE_DEK.format(mname=mname, draft=DRAFT.split(". ", 1)[1])})
+    title = f"Lynchings in the Inventories and in Our Sources, {mname}"
+    page = (ROOT / "templates/compare.html").read_text(encoding="utf-8")
+    (out / "index.html").write_text(stamp(page.replace("{{TITLE}}", html.escape(title)).replace("{{ROOT}}", "../"), "../"),
+                                    encoding="utf-8")
+    return len(years)
+
+
 def main():
     cfg = json.loads((ROOT / "site.json").read_text(encoding="utf-8"))
     month, span = cfg["series"]["month"], cfg["series"]["span"]
@@ -100,11 +143,13 @@ def main():
                                                      encoding="utf-8")
         n = sum(in_month(ep, m["year"], month) for ep in data["episodes"])
         also = (f' The whole year is mapped in the <a href="../{y}/atlas/">{y} atlas</a>.' if m["year"] in full else "")
+        cmp = (f' <a href="../compare/#y{y}">Compare its lynchings with the inventories</a>.'
+               if (ROOT / y / "compare.json").is_file() else "")
         slices.append({"year": m["year"], "label": f"{mname} {y}", "months": [month, month], "month": month,
                        "atlas_count": n, "export_id": m["export_id"], "full": f"../{y}/atlas/" if m["year"] in full else None,
                        "atlas_dek": f'<p class="dek">The <span id="n"></span> episodes of anti-Black violence that took place '
                                     f'in {mname} {y}, from our <a href="../{y}/reader/" target="_blank" rel="noopener">dossiers</a>, '
-                                    f'placed on 1910 county lines and by day of the month.{also} {DRAFT}</p>'})
+                                    f'placed on 1910 county lines and by day of the month.{also}{cmp} {DRAFT}</p>'})
         if m["year"] in full:
             write_json(ROOT / y / "atlas/view.json", {
                 "root": "../../", "basemaps": "../../atlas/", "default": m["year"], "month": None,
@@ -131,6 +176,8 @@ def main():
                    f'placed on 1910 county lines. Years with nothing on the timeline have not been collected yet. Choose a year '
                    f'to see its {mname} day by day.'
                    + (f' Full-year atlas{"es" if len(fulls) > 1 else ""}: {", ".join(fulls)}.' if fulls else "")
+                   + (' <a href="../compare/">Compare the lynchings with the inventories</a>.'
+                      if any((ROOT / str(m["year"]) / "compare.json").is_file() for m in ms) else "")
                    + f' {DRAFT}</p>',
         "years": slices})
     (shared / "index.html").write_text(atlas_page("../"), encoding="utf-8")
@@ -147,8 +194,10 @@ def main():
 <p>Opening the <a href="atlas/">Atlas of Anti-Black Violence</a>.</p>
 </html>
 """, encoding="utf-8")
+    nc = compare_page(ms, mname)
     print(f"Built the {mname} atlas for {', '.join(s['label'] for s in slices)} ({total} episodes on the map), "
-          f"full-year atlases for {', '.join(map(str, sorted(full))) or 'none'}, {len(ms)} reader shells; wrote years.json.")
+          f"full-year atlases for {', '.join(map(str, sorted(full))) or 'none'}, {len(ms)} reader shells, "
+          f"the inventory comparison for {nc} years; wrote years.json.")
 
 
 if __name__ == "__main__":

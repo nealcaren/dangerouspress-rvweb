@@ -1,0 +1,246 @@
+{
+ "schema_version": 1,
+ "year": 1903,
+ "month": 8,
+ "generated_at": "2026-11-12T06:15:01-05:00",
+ "source": {
+  "git": "6824195",
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1903/events_1903_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1903/dossiers2_sample"
+ },
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL"
+ },
+ "inventory": [
+  {
+   "date": "1903-08-03",
+   "day_known": true,
+   "name": "John L. Hunter",
+   "place": "Needmore, near Lewisburg",
+   "county": "Marshall",
+   "state": "TN",
+   "status": "Lynching",
+   "method": "Shot",
+   "accusation": "Unknown",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4207",
+     "name": "John L. Hunter"
+    },
+    {
+     "list": "HAL",
+     "row": "2712",
+     "name": "John Hunter"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1903-08_r2:g167",
+     "date": "1903-08-04",
+     "city": "Needmore",
+     "county": "Marshall",
+     "state": "TN",
+     "victims": [
+      "John Millikin",
+      "John Hunter"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4207",
+     "summary": "A band of fifteen to thirty Whitecappers came to the home of Black preacher John Millikin in Lewisburg, Tennessee, and shot him dead. His son-in-law John Hunter was forced on a search and fatally shot in the back; Millikin's wife was struck with a gun.",
+     "match": "linked",
+     "dossier": "john-hunter-lewisburg-1903-08-04"
+    }
+   ]
+  },
+  {
+   "date": "1903-08-03",
+   "day_known": true,
+   "name": "John Millikin",
+   "place": "Needmore, near Lewisburg",
+   "county": "Marshall",
+   "state": "TN",
+   "status": "Lynching",
+   "method": "Shot",
+   "accusation": "Unknown",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4208",
+     "name": "John Millikin"
+    },
+    {
+     "list": "HAL",
+     "row": "2711",
+     "name": "John Millikin"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1903-08_r2:g167",
+     "date": "1903-08-04",
+     "city": "Needmore",
+     "county": "Marshall",
+     "state": "TN",
+     "victims": [
+      "John Millikin",
+      "John Hunter"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4207",
+     "summary": "A band of fifteen to thirty Whitecappers came to the home of Black preacher John Millikin in Lewisburg, Tennessee, and shot him dead. His son-in-law John Hunter was forced on a search and fatally shot in the back; Millikin's wife was struck with a gun.",
+     "match": "name",
+     "dossier": "john-hunter-lewisburg-1903-08-04"
+    }
+   ]
+  },
+  {
+   "date": "1903-08-08",
+   "day_known": true,
+   "name": "Amos Jones",
+   "place": "Gordon Creek bridge in Hattiesburg",
+   "county": "Perry",
+   "state": "MS",
+   "status": "Lynching",
+   "method": "Hanged and shot",
+   "accusation": "Mortally wounding a white man, a jailer",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4209",
+     "name": "Amos Jones"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1903-08_r2:g26",
+     "date": "1903-08-08",
+     "city": "Hattiesburg",
+     "county": "Perry",
+     "state": "MS",
+     "victims": [
+      "Amos Jones"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4209",
+     "summary": "A mob of about 500 seized Amos Jones, a Black prisoner who had shot jailer Sexton, cut him from his cell with chisels, dragged him through town and hanged and shot him at Gordon creek bridge. Sheriff Batson was tied up and the fire brigade refused to disperse the mob.",
+     "match": "linked",
+     "dossier": "amos-jones-hattiesburg-1903-08-08"
+    }
+   ]
+  },
+  {
+   "date": "1903-08-21",
+   "day_known": true,
+   "name": "Manna Ponton",
+   "place": "Halifax",
+   "county": "Halifax",
+   "state": "NC",
+   "status": "Lynching",
+   "method": "Hanged and riddled with bullets",
+   "accusation": "Criminal assault and murder of a 13 year-old white girl, daughter of his employer",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4210",
+     "name": "Manna Ponton"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1903-08_r2:g131",
+     "date": "1903-08-20",
+     "city": "Halifax",
+     "county": "Halifax",
+     "state": "NC",
+     "victims": [
+      "Manna Ponton",
+      "Mary Jenkins"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4210",
+     "summary": "A mob at Halifax, N.C., hanged a Black man to a tree and riddled his body with bullets after he confessed to assaulting and murdering Mary Jenkins, a 13-year-old white girl. The mob made no attempt at concealment and dispersed.",
+     "match": "linked",
+     "dossier": "manna-ponton-halifax-1903-08-20"
+    }
+   ]
+  },
+  {
+   "date": "1903-08-31",
+   "day_known": true,
+   "name": "George Jones",
+   "place": "Jail in Mayersville",
+   "county": "Issaquena",
+   "state": "MS",
+   "status": "Lynching",
+   "method": "Shot",
+   "accusation": "Arson",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4211",
+     "name": "George Jones"
+    },
+    {
+     "list": "HAL",
+     "row": "1978",
+     "name": "George Jones"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1903-09_r2:g125",
+     "date": "1903-09-01",
+     "city": "Mayersville",
+     "county": "Issaquena",
+     "state": "MS",
+     "victims": [
+      "George Jones"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "duplicate of inventory",
+     "inventory": "B-T:bt:4211",
+     "summary": "A mob broke into the jail at Mayersville, Mississippi, and shot Black prisoner George Jones, who was charged with arson. The article says he was shot; it does not say he died.",
+     "match": "linked",
+     "dossier": "george-jones-mayersville-1903-09"
+    }
+   ]
+  }
+ ],
+ "found": [
+  {
+   "id": "lean_1903-08_r2:g257",
+   "date": "1903-08-15",
+   "city": "Tarbert",
+   "county": "Wilkinson",
+   "state": "MS",
+   "victims": [
+    "William (Bee) Washington"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "William Washington, a Black man said to have killed white man Stanley Woods near Talbert on the Louisiana-Mississippi line, was lynched on Saturday night a short distance into Mississippi, according to a New Orleans report.",
+   "match": "found",
+   "dossier": "william-washington-1903-08-15"
+  }
+ ]
+}
