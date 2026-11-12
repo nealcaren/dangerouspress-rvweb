@@ -3,7 +3,9 @@ try {
 /* One map for every collection. years.json lists them; each year's episodes load the first time that year is shown,
    and the base map (1910 counties) is one shared file. The page lives at atlas/, a year's files at ../<year>/. */
 const get = url => fetch(url).then(r => { if (!r.ok) throw new Error(`HTTP ${r.status} for ${url}`); return r.json(); });
-const YL = await get("../years.json");
+/* years.json is always revalidated; a year's files carry its export id, so a browser never pairs new code with an
+   older export it has cached (GitHub Pages lets browsers cache for ten minutes) */
+const YL = await fetch("../years.json", {cache: "no-cache"}).then(r => { if (!r.ok) throw new Error(`HTTP ${r.status} for years.json`); return r.json(); });
 const YEARS = YL.years.slice().sort((a, b) => a.year - b.year), BY = Object.fromEntries(YEARS.map(y => [y.year, y]));
 const NS = "http://www.w3.org/2000/svg";
 const CATS = [
@@ -41,7 +43,7 @@ function prep(y, ep) {
     when: (approx && prec !== "year" ? "about " : "") + base, place: [ep.city, ep.state].filter(Boolean).join(", ") || ep.state};
 }
 function load(y) {
-  return loaded[y] ||= get(`../${y}/atlas/data.json`).then(g => ({...g, E: g.episodes.map(ep => prep(y, ep))}));
+  return loaded[y] ||= get(`../${y}/atlas/data.json?v=${BY[y].export_id}`).then(g => ({...g, E: g.episodes.map(ep => prep(y, ep))}));
 }
 const first = await load(YEARS[YEARS.length - 1].year);
 const G = await get(`basemap-${first.basemap}.json`);
@@ -361,7 +363,7 @@ async function openEp(e, updateUrl = true) {
   side.querySelector("#back").onclick = () => showList();
   if (matchMedia("(max-width:1040px)").matches) document.getElementById("side").scrollIntoView({block: "start"});
   try {
-    const response = await fetch(`../${e.coll}/cases/${encodeURIComponent(e.dir)}.json`);
+    const response = await fetch(`../${e.coll}/cases/${encodeURIComponent(e.dir)}.json?v=${BY[e.coll].export_id}`);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const detail = await response.json();
     if (cur !== e) return;
@@ -427,7 +429,7 @@ await route();
 console.error(error);
 const notice = document.createElement("p");
 notice.setAttribute("role", "alert");
-notice.textContent = "The page data could not be loaded. Please reload or serve this site over HTTP.";
+notice.textContent = `The page data could not be loaded (${error.message}). Please reload; if it persists, serve this site over HTTP.`;
 document.body.prepend(notice);
 }
 })();

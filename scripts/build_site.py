@@ -8,6 +8,7 @@ shading; its index.html only redirects old links (#case=<id>) to atlas/#year=<ye
 for every year: the import leaves it in <year>/atlas/basemap-<id>.json and this moves it to atlas/. Rerun after an
 import or a template change.
 """
+import hashlib
 import html
 import json
 from pathlib import Path
@@ -27,6 +28,14 @@ location.replace("../../atlas/#year={year}" + (c ? "&case=" + encodeURIComponent
 <p>The atlas has moved: <a href="../../atlas/#year={year}">Atlas of Anti-Black Violence, {label}</a>.</p>
 </html>
 """
+
+
+def stamp(page, prefix):
+    """Add ?v=<content hash> to every shared asset a page loads, so a browser never runs new HTML with cached code."""
+    for f in sorted((ROOT / "assets").iterdir()):
+        h = hashlib.sha256(f.read_bytes()).hexdigest()[:10]
+        page = page.replace(f'"{prefix}assets/{f.name}"', f'"{prefix}assets/{f.name}?v={h}"')
+    return page
 
 
 def main():
@@ -52,13 +61,13 @@ def main():
             raise SystemExit(f"{y}: base map {bid} missing")
         (ROOT / y / "atlas/index.html").write_text(REDIRECT.format(year=y, label=html.escape(m["label"])), encoding="utf-8")
         reader = (ROOT / "templates/reader.html").read_text(encoding="utf-8")
-        (ROOT / y / "reader/index.html").write_text(reader.replace("{{TITLE}}", html.escape(m["reader_title"])),
+        (ROOT / y / "reader/index.html").write_text(stamp(reader.replace("{{TITLE}}", html.escape(m["reader_title"])), "../../"),
                                                      encoding="utf-8")
     for f in shared.glob("basemap-*.json"):
         if f.name not in used:
             f.unlink()
-    (shared / "index.html").write_text((ROOT / "templates/atlas.html").read_text(encoding="utf-8")
-                                       .replace("{{TITLE}}", "Atlas of Anti-Black Violence"), encoding="utf-8")
+    (shared / "index.html").write_text(stamp((ROOT / "templates/atlas.html").read_text(encoding="utf-8")
+                                             .replace("{{TITLE}}", "Atlas of Anti-Black Violence"), "../"), encoding="utf-8")
     keep = ("year", "label", "months", "atlas_dek", "atlas_count", "reader_count", "export_id")
     listing = [{k: m.get(k) for k in keep} for m in sorted(ms, key=lambda m: m["year"])]
     total = sum(m["atlas_count"] for m in ms)

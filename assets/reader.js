@@ -1,9 +1,10 @@
 (async () => {
 try {
-const response = await fetch("data.json");
+const M = await SITE.manifest;
+const V = `?v=${M.export_id}`; /* the export id keeps a browser from mixing cached files from different exports */
+const response = await fetch(`data.json${V}`);
 if (!response.ok) throw new Error(`HTTP ${response.status}`);
 const DATA = await response.json();
-const M = await SITE.manifest;
 const L = DATA.labels, E = DATA.episodes;
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const col = i => i == null ? "var(--other)" : `var(--k${i % 7})`;
@@ -79,7 +80,7 @@ async function renderEpisode(id, key) {
   document.getElementById("main").innerHTML = '<p role="status">Loading dossier…</p>';
   let ep;
   try {
-    const response = await fetch(`../cases/${encodeURIComponent(id)}.json`);
+    const response = await fetch(`../cases/${encodeURIComponent(id)}.json${V}`);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     ep = (await response.json()).reader;
     if (!ep) throw new Error("Dossier missing");
@@ -155,7 +156,7 @@ function textOf(ep, k) {
 function show(k, scroll = true) {
   const ep = cur; if (!ep || !k) return;
   if (!(ep.tx in TX)) {
-    TX[ep.tx] = fetch(`text/t${String(ep.tx).padStart(2, "0")}.json`).then(r => r.ok ? r.json() : {}).catch(() => ({}))
+    TX[ep.tx] = fetch(`text/t${String(ep.tx).padStart(2, "0")}.json${V}`).then(r => r.ok ? r.json() : {}).catch(() => ({}))
       .then(j => { TX[ep.tx] = j; if (cur === ep && active) show(active, false); });
   }
   const s = ep.sources.find(x => x.k === k);
@@ -234,7 +235,7 @@ route();
 console.error(error);
 const notice = document.createElement("p");
 notice.setAttribute("role", "alert");
-notice.textContent = "The page data could not be loaded. Please reload or serve this site over HTTP.";
+notice.textContent = `The page data could not be loaded (${error.message}). Please reload; if it persists, serve this site over HTTP.`;
 document.body.prepend(notice);
 }
 })();

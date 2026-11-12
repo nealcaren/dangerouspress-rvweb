@@ -2,7 +2,7 @@
    shared atlas and to the other years' readers. */
 window.SITE = (() => {
   const get = url => fetch(url).then(r => { if (!r.ok) throw new Error(`HTTP ${r.status} for ${url}`); return r.json(); });
-  const manifest = get("../manifest.json");
+  const manifest = fetch("../manifest.json", {cache: "no-cache"}).then(r => { if (!r.ok) throw new Error(`HTTP ${r.status} for manifest.json`); return r.json(); });
   const years = get("../../years.json").catch(() => ({years: []}));
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
   Promise.all([manifest, years]).then(([m, y]) => {
