@@ -147,7 +147,7 @@ def check(base):
                 errors.append(f"case {i}: source {s['k']} account index {s['acc']} of {nacc}")
             if not s.get("url"):
                 errors.append(f"case {i}: source {s['k']} has no link")
-            if s.get("img") and not (base / "reader" / s["img"]).is_file():
+            if s.get("img") and not s["img"].startswith("https://") and not (base / "reader" / s["img"]).is_file():
                 errors.append(f"case {i}: missing image {s['img']}")
             for g in s.get("group") or []:
                 if g not in src:

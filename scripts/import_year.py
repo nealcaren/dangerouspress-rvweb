@@ -7,7 +7,9 @@
 
 The research repo writes data/site_export/<YEAR>/ with scripts/events/writeups/site_export.py. This copies it to
 .staging/<YEAR>, runs scripts/check_pages.py on the copy, refuses removed public IDs unless --allow-removals, then swaps
-the whole folder into <YEAR>/ (indexes, cases, text and images together) and rebuilds the page shells and years.json.
+the whole folder into <YEAR>/ (indexes, cases and text together) and rebuilds the page shells and years.json. Before
+the swap, scripts/r2_images.py moves the clipping images to Cloudflare R2 and points the case files at them, so the
+repo carries no images.
 """
 import argparse
 import json
@@ -15,6 +17,8 @@ import shutil
 import subprocess
 import sys
 from pathlib import Path
+
+from r2_images import publish as publish_images
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT = "office:GitHub/dangerouspress-racialviolence/data/site_export"
@@ -44,6 +48,7 @@ def main():
     if removed and not a.allow_removals:
         raise SystemExit(f"{len(removed)} public IDs would disappear and break old links; rerun with --allow-removals:\n  "
                          + "\n  ".join(removed))
+    publish_images(stage, y)
     old = ROOT / ".staging" / f"old-{y}"
     if old.exists():
         shutil.rmtree(old)
