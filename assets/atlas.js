@@ -15,6 +15,10 @@ const CATS = [
  {k:"lyn", label:"Lynchings: completed, attempted, threatened", short:"Lynching", v:"--s1", test:e=>e.type==="lynching"},
  {k:"mob", label:"Mob, night-rider and community violence", short:"Mob or community", v:"--s2", test:e=>!["lynching","police_violence","posse_killing"].includes(e.type)},
  {k:"pol", label:"Police and posse violence", short:"Police or posse", v:"--s3", test:e=>["police_violence","posse_killing"].includes(e.type)}];
+/* a second legend row filters on outcome: a Black person killed (filled dot) or no one killed (ring) */
+const DEATH = [
+ {k:"dead", label:"A Black person killed", cls:"solid", test:e=>e.killed>0},
+ {k:"none", label:"No one killed", cls:"ring", test:e=>!(e.killed>0)}];
 const TYPE = {lynching:"Lynching", mob_assault:"Mob assault", police_violence:"Police violence", posse_killing:"Posse killing",
  whitecapping:"Whitecapping", expulsion:"Expulsion", labor:"Labor conflict", intimidation:"Intimidation",
  community_attack:"Attack on a community", arson_bombing:"Arson or bombing", peonage:"Peonage", insufficient:"Unclassified",
@@ -67,11 +71,11 @@ controls.innerHTML = `<label${ONE ? " hidden" : ""}>Year<select id="year-filter"
 document.getElementById("legend").before(controls);
 const yearSel = controls.querySelector("#year-filter"), search = controls.querySelector("#case-search"),
   stateFilter = controls.querySelector("#state-filter"), monthFilter = controls.querySelector("#month-filter");
-const on = new Set(CATS.map(c => c.k));
+const on = new Set(CATS.map(c => c.k)), onD = new Set(DEATH.map(d => d.k));
 let E = [], sel = null, cur = null;
 function matches(e) {
   const q = search.value.trim().toLocaleLowerCase();
-  return on.has(e.cat.k) && (!stateFilter.value || e.state === stateFilter.value) && (!monthFilter.value || e.m === Number(monthFilter.value)) &&
+  return on.has(e.cat.k) && DEATH.some(d => onD.has(d.k) && d.test(e)) && (!stateFilter.value || e.state === stateFilter.value) && (!monthFilter.value || e.m === Number(monthFilter.value)) &&
     (!q || [e.title,e.city,e.state,states[e.state],e.county,e.summary].filter(Boolean).join(" ").toLocaleLowerCase().includes(q));
 }
 [search,stateFilter,monthFilter].forEach(x => x.addEventListener(x === search ? "input" : "change", applyFilter));
@@ -79,7 +83,7 @@ yearSel.addEventListener("change", () => { history.pushState(null, "", `#year=${
 const listHash = () => ONE ? location.pathname + location.search : `#year=${sel}`;
 function resetFilters() {
   search.value = stateFilter.value = monthFilter.value = "";
-  CATS.forEach(c => on.add(c.k));
+  CATS.forEach(c => on.add(c.k)); DEATH.forEach(d => onD.add(d.k));
   leg.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", "true"));
 }
 controls.querySelector("#clear-filters").onclick = () => { resetFilters(); applyFilter(); };
@@ -92,7 +96,13 @@ CATS.forEach(c => {
   b.onclick = () => { on.has(c.k) ? on.delete(c.k) : on.add(c.k); b.setAttribute("aria-pressed", on.has(c.k)); applyFilter(); };
   leg.appendChild(b);
 });
-leg.insertAdjacentHTML("beforeend", `<span class="key"><span class="solid"></span>a Black person killed <span class="ring"></span>no one killed</span>`);
+leg.insertAdjacentHTML("beforeend", `<span class="brk"></span>`);
+DEATH.forEach(d => {
+  const b = document.createElement("button");
+  b.type = "button"; b.setAttribute("aria-pressed", "true"); d.btn = b;
+  b.onclick = () => { onD.has(d.k) ? onD.delete(d.k) : onD.add(d.k); b.setAttribute("aria-pressed", onD.has(d.k)); applyFilter(); };
+  leg.appendChild(b);
+});
 
 /* marks share one drawing rule */
 function mark(g, e, x, y, r) {
@@ -331,6 +341,7 @@ async function showYear(y) {
   document.getElementById("month-wrap").hidden = y === "all" || M0 === M1;
   resetFilters();
   CATS.forEach(c => { c.btn.innerHTML = `<span class="dot" style="background:var(${c.v})"></span>${esc(c.label)} <span class="muted">${E.filter(e => e.cat === c).length}</span>`; });
+  DEATH.forEach(d => { d.btn.innerHTML = `<span class="${d.cls}"></span>${esc(d.label)} <span class="muted">${E.filter(d.test).length}</span>`; });
   titleEl.textContent = `Atlas of Anti-Black Violence, ${y === "all" ? allLabel : BY[y].label}`;
   document.title = titleEl.textContent;
   dekEl.innerHTML = y === "all" ? V.all_dek || "" : BY[y].atlas_dek || "";
