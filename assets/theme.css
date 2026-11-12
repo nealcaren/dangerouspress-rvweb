@@ -50,7 +50,8 @@
 /* Atlas controls and the selected case. */
 .filters { display:flex; flex-wrap:wrap; align-items:end; gap:10px 12px; font:500 13px/1.3 var(--ui); }
 .filters label { display:grid; gap:4px; color:var(--muted); }
-.filters label:first-child { flex:1 1 190px; }
+.filters label.grow { flex:1 1 190px; }
+.filters label[hidden] { display:none; }
 .filters input, .filters select, .filters button { min-height:38px; border:1px solid var(--rule); background:var(--sheet); color:var(--ink); padding:7px 9px; font:inherit; }
 .filters input { width:100%; }
 .filters button { cursor:pointer; }
@@ -64,3 +65,11 @@
 @media (min-width:1041px) {
   .map { width:min(100%, max(400px, calc((100vh - 315px) * 1.5936))); justify-self:center; }
 }
+
+/* year switcher (assets/site.js) */
+.years { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; font: 500 13.5px/1.3 var(--ui, system-ui, sans-serif); color: var(--muted); }
+.years:empty { display: none; }
+.years .lbl { text-transform: uppercase; letter-spacing: .06em; font-size: 11.5px; }
+.years a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+.years a[href]:hover { border-bottom-color: currentColor; }
+.years a[aria-current] { color: var(--ink); font-weight: 600; border-bottom-color: var(--ink); }

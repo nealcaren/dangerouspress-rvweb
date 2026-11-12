@@ -1,36 +1,57 @@
-# Anti-Black Violence in 1903: web publication
+# Atlas of Anti-Black Violence: web publication
 
-A static GitHub Pages site containing the atlas and its supplementary dossier reader. The repository root opens the atlas at `1903/atlas/`, with a link to the supplementary dossiers and sources at `1903/reader/`. All paths are relative, so the site works under a GitHub Pages project path as well as at a domain root.
+A static GitHub Pages site for the atlas and dossiers, built one collection (year) at a time: 1903 and August 1885 now, 1880–1922 eventually. There is one atlas, at `atlas/` (the site root redirects there), with a year selector over every collection, including all years at once; each year's episodes load only when that year is shown. Each collection keeps its own dossier reader, with the clippings and sources, at `<year>/reader/`. Old `<year>/atlas/#case=<id>` links redirect to `atlas/#year=<year>&case=<id>`. All paths are relative, so the site works under a GitHub Pages project path as well as at a domain root.
 
-## Update the site
+## Layout
 
-The research repository is the source of the cases. Do not make substantive case corrections in this publication repository: they would be overwritten on the next export. The current upstream generators are `scripts/events/writeups/dossier2_atlas.py` and `dossier2_reader.py` in `dangerouspress-racialviolence` on office. Export both views together, then copy their generated directories here and run:
-
-```sh
-rsync -a office:GitHub/dangerouspress-racialviolence/data/events/1903/dossiers2_sample/reader/ 1903/reader/
-rsync -a office:GitHub/dangerouspress-racialviolence/data/events/1903/dossiers2_sample/atlas/ 1903/atlas/
-python3 scripts/prepare_pages.py
-python3 scripts/check_pages.py
-python3 -m http.server 8000
+```text
+index.html, years.json        # redirect to the atlas, and the year list the atlas reads (written by build_site.py)
+atlas/index.html              # the atlas (from templates/atlas.html)
+atlas/basemap-<id>.json       # 1910 counties, states and nation as SVG paths, shared by every year
+assets/                       # shared code and styles: atlas.js, reader.js, site.js, *.css
+templates/                    # page shells for the atlas and the readers
+<year>/manifest.json          # export metadata: label, titles, header texts, months covered, counts, source revision
+<year>/atlas/data.json        # that year's atlas episodes and paper shading; index.html redirects old links
+<year>/reader/data.json       # reader index and section labels
+<year>/cases/<id>.json        # one shared case file (atlas narrative + full reader record)
+<year>/reader/text/tNN.json   # article-text shards
+<year>/reader/img/            # clipping images
 ```
 
-Visit `http://localhost:8000/`. A web server is required because the pages fetch JSON. The preparation script extracts the generated records, simplifies map paths, and writes the indexes and shared case files described below. It retains the site’s `app.js` files, which are maintained here; it is safe to rerun on prepared pages. Check the resulting changes before committing. Copy images and `reader/text/` along with the pages; the reader loads those files separately.
+Code and layout live in `assets/` and `templates/` and are maintained here. Everything under `<year>/` except the two `index.html` shells is a publication export from the research repository and is replaced whole on each import, so do not make case corrections here.
 
-## Publishing interface for upstream
+## Update or add a year
 
-The adapter currently creates:
+The research repository (`dangerouspress-racialviolence`, on office) exports a year in the contract described in the [data export specification](docs/data-export-spec.md):
 
-- `1903/atlas/data.json`: map geometry and a compact `episodes` index. Each entry retains its metadata, short summary, coordinates, and `dir` linking it to a case, but excludes the long narrative.
-- `1903/reader/data.json`: reader labels and an index of case IDs, titles, locations, dates, lead summaries, classifications, and source counts.
-- `1903/cases/<id>.json`: one shared file per reader case, containing `id`, `atlas` (the atlas narrative, or null for reader-only cases), and `reader` (the complete reader record). The atlas and reader fetch this file only when a case is opened. The two narrative representations remain separate within the file because their source and citation structures differ.
-- `1903/reader/text/tNN.json` and `1903/reader/img/`: the existing article text shards and clipping images.
+```sh
+# on office, from the research repo root
+python3 scripts/events/writeups/site_export.py 1885 data/events/1885/dossiers2_all --label "August 1885" \
+    --reader-intro data/site_export/intros/1885_reader.html --atlas-dek data/site_export/intros/1885_atlas.html
+```
 
-The atlas `dir` must match the reader `id` and case filename. Reader hashes use that ID and sometimes an article suffix; changing an ID can break saved links. Preserve identifiers across updates or provide redirects. Treat these JSON files as **publication exports**, not authoritative research records. Upstream can produce this interface directly, or adopt a canonical case schema and generate both view-specific indexes and the shared case file from it. Keep the two representations and their provenance explicit until the upstream team decides how to reconcile them.
+It runs the atlas and reader generators into a staging folder, writes `data/site_export/<year>/` (manifest, indexes, cases, text, images from one run) and swaps it into place. Then, here:
 
-Map paths are simplified with a 0.12-unit tolerance in the atlas’s 960-unit coordinate system; this is a display transformation and does not change case locations or underlying research data. The preparation script checks that fresh atlas and reader exports are supplied together. It does not delete old case files automatically, so review obsolete files when cases are removed.
+```sh
+python3 scripts/import_year.py 1885      # rsync from office, validate, swap into 1885/, rebuild shells and years.json
+python3 -m http.server 8000              # http://localhost:8000/ (the pages fetch JSON, so a server is required)
+```
+
+`import_year.py` refuses an export in which public IDs disappear (old links would break) unless given `--allow-removals`. After editing `assets/` or `templates/`, run `python3 scripts/build_site.py`. `python3 scripts/check_pages.py` validates every published year: manifest and counts, unique safe IDs, atlas-to-reader links, case files, every citation, account index, clipping number, image and text shard, source dates, agreement between indexes and case details, and atlas dates, types, counts and coordinates.
+
+## Publication interface
+
+- `atlas/data.json`: the base-map id, `w`/`h`, `papers` (counties to shade) and a compact `episodes` index. Each entry has its metadata, short summary, coordinates, and `dir` linking it to a case, without the long narrative. The base map itself is `atlas/basemap-<id>.json` (export schema version 2).
+- `reader/data.json`: reader labels and an index of case IDs, titles, locations, dates, lead summaries, classifications and source counts.
+- `cases/<id>.json`: `id`, `atlas` (the atlas narrative, or null for reader-only cases) and `reader` (the complete reader record), fetched only when a case is opened.
+- `manifest.json`: `schema_version`, `export_id`, `generated_at`, `year`, `label`, `atlas_title`, `reader_title`, `atlas_dek` and `reader_intro` (HTML for the atlas header and the reader's index page), `months` (first and last timeline column), `atlas_count`, `reader_count`, `source` (research git revision and table hash) and `id_changes`.
+
+The atlas `dir` must match the reader `id` and case filename. Reader hashes use that ID and sometimes an article suffix; changing an ID can break saved links, so preserve identifiers across updates. Map paths are simplified with a 0.12-unit tolerance in the atlas's 960-unit coordinate system, a display transformation only.
+
+For one year, the atlas timeline has one column per month in the manifest's `months` range, plus a "Month unknown" column when an episode's date has no month; for all years it has one column per collection, and switches from dots to stacked bars when a column gets too tall. `years.json` sets the first view: all years while the total is at most 3,000 episodes, else the latest year. Dates marked approximate (`~` or precision `approx`) read "about".
 
 ## GitHub Pages
 
-Push the repository to GitHub, then in **Settings → Pages**, select **Deploy from a branch**, the desired branch (currently `master` locally), and `/ (root)`. GitHub will provide the site URL there. No build service or server-side code is needed.
+Push the repository to GitHub, then in **Settings → Pages**, select **Deploy from a branch**, the desired branch (currently `master` locally), and `/ (root)`. No build service or server-side code is needed.
 
-Atlas case links use `#case=<id>`. Search, state, month, and episode-type filters affect the map, timeline, and case list together.
+Atlas links use `#year=<year|all>&case=<id>`. Search, state, month, and episode-type filters affect the map, timeline, and case list together.

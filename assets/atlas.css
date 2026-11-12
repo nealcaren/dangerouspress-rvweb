@@ -1,0 +1,81 @@
+/* Layout: a survey sheet. Map of 1910 counties over twelve month columns; a reading column at the right (below on phones). */
+:root{
+ --paper:#f1f3f0;--panel:#e6e9e4;--sheet:#fbfcfa;--land:#e3e7e1;--press:#d3dccf;--county:#cdd3cc;--state:#8f9a93;
+ --ink:#1b211f;--muted:#5a645f;--rule:#c9cfc8;--accent:#7a3b1d;--focus:#1b211f;
+ --s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--hl:#e8d38f;
+ --display:"Source Serif 4",Georgia,serif;--body:"Newsreader",Georgia,"Times New Roman",serif;
+ --ui:"IBM Plex Sans",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#151918;--panel:#1d2321;--sheet:#212826;
+ --land:#1f2624;--press:#28322e;--county:#2e3734;--state:#5f6b66;--ink:#e5e9e5;--muted:#9aa49f;--rule:#323b38;--accent:#e0a37f;--focus:#e5e9e5;
+ --s1:#3987e5;--s2:#d95926;--s3:#199e70;--hl:#7a6526;color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#151918;--panel:#1d2321;--sheet:#212826;--land:#1f2624;--press:#28322e;--county:#2e3734;--state:#5f6b66;
+ --ink:#e5e9e5;--muted:#9aa49f;--rule:#323b38;--accent:#e0a37f;--focus:#e5e9e5;
+ --s1:#3987e5;--s2:#d95926;--s3:#199e70;--hl:#7a6526;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--paper);color:var(--ink)}
+body{font:17px/1.55 var(--body);padding-inline:16px;padding-block:0 48px}
+.wrap{max-width:1480px;margin:0 auto}
+header.top{display:grid;gap:6px;padding-block:22px 14px;border-bottom:1px solid var(--rule)}
+h1{font:600 34px/1.1 var(--display);margin:0;text-wrap:balance}
+.dek{margin:0;max-width:78ch;color:var(--muted);font-size:16px}
+.dek a{color:var(--accent)}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,440px);gap:28px;padding-top:16px;align-items:start}
+.figs{min-width:0;display:grid;gap:10px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font:500 14px/1.2 var(--ui)}
+.legend button{font:inherit;color:var(--ink);background:var(--sheet);border:1px solid var(--rule);padding:6px 10px;
+ display:inline-flex;align-items:center;gap:7px;cursor:pointer;font-variant-numeric:tabular-nums}
+.legend button[aria-pressed="false"]{color:var(--muted);background:transparent;text-decoration:line-through}
+.legend button[aria-pressed="false"] .dot{opacity:.35}
+.legend .key{color:var(--muted);display:inline-flex;align-items:center;gap:6px;margin-left:6px}
+.dot{width:11px;height:11px;border-radius:50%;display:inline-block;flex:none}
+.ring{width:11px;height:11px;border-radius:50%;display:inline-block;border:2px solid var(--muted);flex:none}
+.solid{width:11px;height:11px;border-radius:50%;display:inline-block;background:var(--muted);flex:none}
+.map{background:var(--sheet);border:1px solid var(--rule);min-width:0;position:relative;overflow:hidden}
+.map svg,.tl svg{display:block;width:100%;height:auto}
+.map svg{cursor:grab;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.map.zoomed svg{touch-action:none}
+.map svg.drag{cursor:grabbing}
+.zoom{position:absolute;top:8px;left:8px;display:grid;gap:4px}
+.zoom button{font:600 17px/1 var(--ui);width:34px;height:34px;padding:0;background:var(--sheet);color:var(--ink);
+ border:1px solid var(--rule);cursor:pointer}
+.zoom button:hover{background:var(--panel)}
+.zoom button:focus-visible{outline:2px solid var(--focus);outline-offset:1px}
+.zoom button[disabled]{color:var(--muted);opacity:.5;cursor:default}
+.swatch{display:inline-block;width:12px;height:10px;background:var(--press);border:1px solid var(--county);vertical-align:-1px}
+.cap{font:13px/1.4 var(--ui);color:var(--muted);margin:0}
+.tl{background:var(--sheet);border:1px solid var(--rule);padding:6px 8px 2px;min-width:0;overflow-x:auto}
+@media (max-width:700px){.tl svg{min-width:760px}}
+svg text{font-family:var(--ui)}
+.mk{cursor:pointer}
+.mk:focus-visible{outline:none}
+.mk:focus-visible circle,.mk:focus-visible rect{stroke:var(--focus);stroke-width:2.5}
+.dim{opacity:.12;pointer-events:none}
+.side{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);max-height:calc(100vh - 24px);overflow:auto;
+ background:var(--panel);border:1px solid var(--rule);min-width:0}
+.side .in{padding:16px 18px 22px}
+.eyebrow{font:500 12.5px/1 var(--ui);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.side h2{font:600 25px/1.15 var(--display);margin:0 0 10px;text-wrap:balance}
+.side h3{font:600 13px/1.2 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:18px 0 6px}
+.side p{margin:0 0 10px}
+.back{font:500 14px var(--ui);color:var(--accent);background:none;border:0;padding:0;cursor:pointer;margin-bottom:12px}
+.facts{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:3px 14px;margin:8px 0 6px;padding:10px 0;
+ border-block:1px solid var(--rule);font:14.5px/1.4 var(--ui)}
+.facts dt{color:var(--muted)}.facts dd{margin:0;font-variant-numeric:tabular-nums}
+.doubt{font:14px/1.45 var(--ui);background:var(--sheet);border-left:3px solid var(--accent);padding:8px 10px;margin:10px 0}
+.more{font:500 14.5px var(--ui);color:var(--accent)}
+.list{list-style:none;margin:0;padding:0;display:grid}
+.list button{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:14px 74px minmax(0,1fr);gap:8px;
+ padding:7px 4px;border-top:1px solid var(--rule);cursor:pointer;font:14.5px/1.35 var(--ui)}
+.list button:hover,.list button:focus-visible{background:var(--sheet)}
+.list button:focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
+.list .d{color:var(--muted);font-variant-numeric:tabular-nums}
+.list .dot,.list .ring2{margin-top:4px}
+.ring2{width:11px;height:11px;border-radius:50%;display:inline-block;border:2.5px solid;flex:none}
+.list li[hidden]{display:none}
+.tip{position:fixed;z-index:30;cursor:pointer;background:var(--ink);color:var(--paper);max-width:340px;
+ padding:9px 11px;font:14px/1.4 var(--ui)}
+.tip b{display:block;font:600 16px/1.25 var(--body);margin-bottom:2px}
+.tip .m{opacity:.75;font-size:13px;margin-bottom:5px}
+.tip .h{opacity:.85;font-size:12.5px;margin-top:6px;text-decoration:underline;text-underline-offset:2px}
+@media (max-width:1040px){.grid{grid-template-columns:minmax(0,1fr)}.side{position:static;max-height:none}h1{font-size:28px}}
+@media (hover:none){.tip{display:none}}

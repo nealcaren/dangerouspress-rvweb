@@ -3,6 +3,7 @@ try {
 const response = await fetch("data.json");
 if (!response.ok) throw new Error(`HTTP ${response.status}`);
 const DATA = await response.json();
+const M = await SITE.manifest;
 const L = DATA.labels, E = DATA.episodes;
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const col = i => i == null ? "var(--other)" : `var(--k${i % 7})`;
@@ -28,24 +29,7 @@ function renderIndex() {
   document.querySelectorAll("#eps a").forEach(a => a.getAttribute("href") === "#overview"
     ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
   document.getElementById("main").innerHTML = `<section class="index">
-  <p>Encyclopedia-style accounts of 590 episodes of anti-Black violence in 1903, written from both the Black press
-(Dangerous Press) and the white press (Chronicling America). They come from 911 dossiers on events drawn at random, in
-seeded draws, from our 1903 event table, until the whole table had been drawn; when a drawn event already had a dossier
-from one of our other 1903 runs, that dossier was used. Two more cover events first found as leads inside other dossiers. Thirty-eight more drawn events were recognized before any work as
-duplicates of episodes already covered and were merged instead, and from the later draws sixty-two were set aside from
-the table entry alone, without a dossier, as plainly out of scope (twenty-seven routine arrests, twelve manhunts or
-forecasts with no one hurt, seven with no race given, seven objections or strikes with no force, six with Black attackers
-or no racial motive, three white victims). Of the 911 dossiers, 321 were set aside: eighty-nine shootings or beatings in
-routine arrests, escapes or custody; fifty-nine manhunts, chases, sieges, rumors or quarrels in which no Black person was
-hurt (including manhunts where a lynching was only &ldquo;feared&rdquo; or talked of, with no threat made and no crowd
-formed); thirty-six where no report gives the victim&rsquo;s race; thirty-six with no racial motive or with Black
-attackers; twenty-eight objections, boycotts, strikes or taunts against Black people with no force or threat; nineteen
-duplicates of other entries; nineteen whose victims were white or other; nineteen two-sided fights; eight that took place
-in another year (1870 to 1902, reprinted or recalled in 1903); seven that a contemporary source disputes, that no located
-article supports, or that come from fiction; and a legal execution. Each entry gives the type the papers support. A
-research agent found and judged the coverage; a second agent read it and wrote the account; code checked every citation
-and quotation. At most ten clippings per entry, the fewest that back every statement; Black-press clippings are page
-images, white-press ones the article text. Drafts: no entry has had human review.</p>
+  ${M.reader_intro || ""}
   ${E.map(ep => {
     const lead = ep.lead;
     const nThis = ep.n_this;
