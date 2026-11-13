@@ -1,0 +1,429 @@
+{
+ "schema_version": 1,
+ "year": 1900,
+ "month": 8,
+ "generated_at": "2026-11-13T07:19:19-05:00",
+ "source": {
+  "git": "d87f073",
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1900/events_1900_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1900/dossiers2_all"
+ },
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL",
+  "MWT": "Monroe Work Today"
+ },
+ "inventory": [
+  {
+   "date": "1900-08-04",
+   "day_known": true,
+   "name": "Unnamed Person",
+   "place": "Bayou Vidal",
+   "county": "Tensas",
+   "state": "LA",
+   "status": "Lynching",
+   "method": "Drown",
+   "accusation": "Murder and robbery of a black/white man, a farmer",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3914",
+     "name": "Unnamed Person"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1900-08_r2:g23",
+     "date": "1900-08-04",
+     "city": "Bayou Vidal",
+     "county": "Concordia",
+     "state": "LA",
+     "victims": [
+      "Scott"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3914",
+     "summary": "A strange Black man suspected of murdering an old farmer was tortured at Bayou Vidal, La., with a chain tied to his waist and repeatedly sunk in the bayou until he confessed. He was then sewn into a weighted sack and dropped into the water.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "bayou-vidal-bayou-vidal-1900-08-04"
+    }
+   ]
+  },
+  {
+   "date": "1900-08-13",
+   "day_known": true,
+   "name": "Jack Betts",
+   "place": "Public square in Corinth",
+   "county": "Alcorn",
+   "state": "MS",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Criminal assault on a 10 year-old white girl",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3915",
+     "name": "Jack Betts"
+    },
+    {
+     "list": "HAL",
+     "row": "1803",
+     "name": "Jack Betts"
+    },
+    {
+     "list": "MWT",
+     "row": "2724",
+     "name": "Jack Betts"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1900-08_r2:g1",
+     "date": "1900-08-13",
+     "city": "Corinth",
+     "county": "Alcorn",
+     "state": "MS",
+     "victims": [
+      "Jack Betts"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3915",
+     "summary": "A masked mob of about fifty took Betts, a Black man held in the jail for criminally assaulting a ten-year-old girl, and hanged him to a telegraph pole on Filmore street. The sheriff pleaded in vain. The body was cut down at daylight.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "jack-betts-corinth-1900-08-13"
+    }
+   ]
+  },
+  {
+   "date": "1900-08-17",
+   "day_known": true,
+   "name": "Peter Wesley",
+   "place": "Near/at Tchula; near Bowling Green",
+   "county": "Holmes",
+   "state": "MS",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Criminal assault on a 8-10 year-old black girl",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3916",
+     "name": "Peter Wesley"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1900-08_r2:g0",
+     "date": "1900-08-17",
+     "city": "Tehula",
+     "county": "Holmes",
+     "state": "MS",
+     "victims": [
+      "Peter Westley"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3916",
+     "summary": "Peter Westley, arrested by a white constable for assault on a Black girl, was seized from the constable by a crowd of Black men near Tchula, Holmes County, and hanged to a tree. The date is inferred from the dispatch dateline.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": null,
+     "screened": {
+      "reason": "no_racial_motive",
+      "basis": "Tchula MS: Peter Westley hanged by a crowd of Black men for assaulting a Black girl (B-T bt:3916)"
+     }
+    }
+   ]
+  },
+  {
+   "date": "1900-08-18",
+   "day_known": true,
+   "name": "Bill Cato",
+   "place": "Doerun",
+   "county": "Colquitt",
+   "state": "GA",
+   "status": "Lynching",
+   "method": "Riddled with bullets",
+   "accusation": "Attempted rape of white woman",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3917",
+     "name": "Bill Cato"
+    },
+    {
+     "list": "MWT",
+     "row": "6182",
+     "name": "Bill Cato"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1900-08_r2:g179",
+     "date": "1900-08-17",
+     "city": "Doe Run",
+     "county": "Colquitt",
+     "state": "GA",
+     "victims": [
+      "Bill Cater"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3917",
+     "summary": "An armed mob of about fifty men forcibly entered the Doe Run jail on the night of August 17 and took out Bill Cater, a Negro charged with attempted criminal assault on a white woman, and shot him to death.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "bill-cater-doe-run-1900-08-17"
+    }
+   ]
+  },
+  {
+   "date": "1900-08-28",
+   "day_known": true,
+   "name": "Avery Mills",
+   "place": "Near Forest City",
+   "county": "Rutherford",
+   "state": "NC",
+   "status": "Lynching",
+   "method": "Riddled with bullets",
+   "accusation": "Murder of a prominent white planter",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3918",
+     "name": "Avery Mills"
+    },
+    {
+     "list": "HAL",
+     "row": "2418",
+     "name": "Avery Mills"
+    },
+    {
+     "list": "MWT",
+     "row": "3175",
+     "name": "Avery Mills"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1900-08_r2:g69",
+     "date": "1900-08-28",
+     "city": "Forest City",
+     "county": "Rutherford",
+     "state": "NC",
+     "victims": [
+      "Avery Mills"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3918",
+     "summary": "A mob seized Avery Mills, a Negro prisoner, from Town Marshal Hamrick and Constable Hardin near Forest City, NC, after he shot landlord M. H. Flack. The mob marched him off and fired a volley, killing him.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "avery-mills-forest-city-1900-08-28"
+    }
+   ]
+  },
+  {
+   "date": "1900-08-29",
+   "day_known": true,
+   "name": "Thomas J. Amos",
+   "place": "Cheneyville",
+   "county": "Rapides",
+   "state": "LA",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Murder of a white man",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:3919",
+     "name": "Thomas J. Amos"
+    },
+    {
+     "list": "HAL",
+     "row": "1690",
+     "name": "Thomas J. Amos"
+    },
+    {
+     "list": "MWT",
+     "row": "2161",
+     "name": "Thomas J Amos"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1900-08_r2:g22",
+     "date": "1900-08-29",
+     "city": "Bennettville",
+     "county": "Rapides",
+     "state": "LA",
+     "victims": [
+      "Thomas J. Amos"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:3919",
+     "summary": "A mob went to the home of Thomas J. Amos, a Black man suspected of ambush-killing storekeeper Alanson G. Jackson, took him after his father disarmed him, and hanged him from a tree near Cheneyville.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "thomas-j-amos-cheneyville-1900-08-29"
+    }
+   ]
+  }
+ ],
+ "found": [
+  {
+   "id": "lean_1900-08_r2:g35",
+   "date": "1900-08-22",
+   "city": "Whitehall",
+   "county": "Livingston",
+   "state": "LA",
+   "victims": [
+    "Sam Fields"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "A Negro named Samuel Fields was said to have entered a farmhouse in Livingston Parish and attacked a white woman; help arrived, he fled into the swamps, was overtaken near the river and lynched. OCR is poor and the death is implied by the headline and dispatch rather than stated in clear text.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "sam-fields-whitehall-1900-08-22"
+  },
+  {
+   "id": "lean_1900-08_r2:g109",
+   "date": "1900-08-22",
+   "city": "Norfield",
+   "county": "Lincoln",
+   "state": "MS",
+   "victims": [
+    "Irvin Love"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "A mob took Irwin Love, a Black prisoner held by Justice Albritton after confessing to burglary, theft and arson, from a locked back room and hanged him from a gum tree near Mt. Pleasant Church. Sheriff Applewhite was lured away by a false message.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "irwin-love-norfield-1900-08-22"
+  },
+  {
+   "id": "lean_1900-08_r2:g97",
+   "date": "1900-08-26",
+   "city": "Gilman",
+   "county": "Iroquois",
+   "state": "IL",
+   "victims": [
+    "John Myers",
+    "Charlotte E. M. Wright"
+   ],
+   "victim_race": "unclear",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "probable lynching",
+   "inventory": null,
+   "summary": "A constable's posse with citizens besieged Mrs. G. W. Wright's house after a warrant for murder; two men were killed, several wounded, and the house burned. A mob then threatened lynching at city hall and fired through a window.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": "john-myers-gilman-1900-08-27",
+   "set_aside": {
+    "reason": "race_unstated",
+    "basis": "no report gives anyone's race",
+    "ruled": true
+   }
+  },
+  {
+   "id": "lean_1900-08_r2:g102",
+   "date": "~1900-08",
+   "city": "Portageville",
+   "county": "Pemiscot",
+   "state": "MO",
+   "victims": [
+    "Thomas Cook"
+   ],
+   "victim_race": "unclear",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "probable lynching",
+   "inventory": null,
+   "summary": "Citizens of Portageville, said to be incensed at a gambler and two companions who had tried to run things there, secretly banded together, arrested the three men, and drowned them in the Mississippi. The three disappeared the week before the report.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": "thomas-cook-portageville-1900-08",
+   "set_aside": {
+    "reason": "race_unstated",
+    "basis": "no report gives anyone's race",
+    "ruled": true
+   }
+  },
+  {
+   "id": "lean_1900-08_r2:g85",
+   "date": "~1900-08-02",
+   "city": "Chipley",
+   "county": "Washington",
+   "state": "FL",
+   "victims": [],
+   "victim_race": "Black",
+   "type": "whitecapping",
+   "stage": "completed",
+   "lynch_def": "probable lynching",
+   "inventory": null,
+   "summary": "About a dozen masked men fired volleys into a turpentine camp's quarters near Chipley, Washington County, Florida, mostly occupied by Negroes. One was killed instantly and four were wounded, two of whom reportedly died later. Two farmers were jailed as suspects.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 3,
+   "dossier": "event-1900-08-09"
+  },
+  {
+   "id": "leads:dossier2:carson-hardy-shell-creek",
+   "date": "~1900-08-21",
+   "city": "Shell Creek",
+   "county": "Carter",
+   "state": "TN",
+   "victims": [
+    "Carson Hardy"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "probable lynching",
+   "inventory": null,
+   "summary": "A Black man believed to be Carson Hardy, arrested on suspicion of burning a barn after threatening his prosecutors, was shot to death while in an officer's charge; his body, with thirty or more bullet holes, was found near Shell Creek.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": null,
+   "dossier": "carson-hardy-shell-creek-1900-08-21"
+  }
+ ]
+}

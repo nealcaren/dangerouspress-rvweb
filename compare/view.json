@@ -845,6 +845,427 @@
    }
   },
   {
+   "year": 1900,
+   "inventory": [
+    {
+     "date": "1900-08-04",
+     "day_known": true,
+     "name": "Unnamed Person",
+     "place": "Bayou Vidal",
+     "county": "Tensas",
+     "state": "LA",
+     "status": "Lynching",
+     "method": "Drown",
+     "accusation": "Murder and robbery of a black/white man, a farmer",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3914",
+       "name": "Unnamed Person"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1900-08-04",
+       "city": "Bayou Vidal",
+       "county": "Concordia",
+       "state": "LA",
+       "victims": [
+        "Scott"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "bayou-vidal-bayou-vidal-1900-08-04",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Scott at Bayou Vidal"
+      }
+     ]
+    },
+    {
+     "date": "1900-08-13",
+     "day_known": true,
+     "name": "Jack Betts",
+     "place": "Public square in Corinth",
+     "county": "Alcorn",
+     "state": "MS",
+     "status": "Lynching",
+     "method": "Hanged",
+     "accusation": "Criminal assault on a 10 year-old white girl",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3915",
+       "name": "Jack Betts"
+      },
+      {
+       "list": "HAL",
+       "row": "1803",
+       "name": "Jack Betts"
+      },
+      {
+       "list": "MWT",
+       "row": "2724",
+       "name": "Jack Betts"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1900-08-13",
+       "city": "Corinth",
+       "county": "Alcorn",
+       "state": "MS",
+       "victims": [
+        "Jack Betts"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "jack-betts-corinth-1900-08-13",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Jack Betts"
+      }
+     ]
+    },
+    {
+     "date": "1900-08-17",
+     "day_known": true,
+     "name": "Peter Wesley",
+     "place": "Near/at Tchula; near Bowling Green",
+     "county": "Holmes",
+     "state": "MS",
+     "status": "Lynching",
+     "method": "Hanged",
+     "accusation": "Criminal assault on a 8-10 year-old black girl",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3916",
+       "name": "Peter Wesley"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1900-08-17",
+       "city": "Tehula",
+       "county": "Holmes",
+       "state": "MS",
+       "victims": [
+        "Peter Westley"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": null,
+       "screened": {
+        "reason": "no_racial_motive",
+        "basis": "Tchula MS: Peter Westley hanged by a crowd of Black men for assaulting a Black girl (B-T bt:3916)"
+       },
+       "published": false,
+       "map": false,
+       "title": null
+      }
+     ]
+    },
+    {
+     "date": "1900-08-18",
+     "day_known": true,
+     "name": "Bill Cato",
+     "place": "Doerun",
+     "county": "Colquitt",
+     "state": "GA",
+     "status": "Lynching",
+     "method": "Riddled with bullets",
+     "accusation": "Attempted rape of white woman",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3917",
+       "name": "Bill Cato"
+      },
+      {
+       "list": "MWT",
+       "row": "6182",
+       "name": "Bill Cato"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1900-08-17",
+       "city": "Doe Run",
+       "county": "Colquitt",
+       "state": "GA",
+       "victims": [
+        "Bill Cater"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "bill-cater-doe-run-1900-08-17",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Bill Cater"
+      }
+     ]
+    },
+    {
+     "date": "1900-08-28",
+     "day_known": true,
+     "name": "Avery Mills",
+     "place": "Near Forest City",
+     "county": "Rutherford",
+     "state": "NC",
+     "status": "Lynching",
+     "method": "Riddled with bullets",
+     "accusation": "Murder of a prominent white planter",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3918",
+       "name": "Avery Mills"
+      },
+      {
+       "list": "HAL",
+       "row": "2418",
+       "name": "Avery Mills"
+      },
+      {
+       "list": "MWT",
+       "row": "3175",
+       "name": "Avery Mills"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1900-08-28",
+       "city": "Forest City",
+       "county": "Rutherford",
+       "state": "NC",
+       "victims": [
+        "Avery Mills"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "avery-mills-forest-city-1900-08-28",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Avery Mills"
+      }
+     ]
+    },
+    {
+     "date": "1900-08-29",
+     "day_known": true,
+     "name": "Thomas J. Amos",
+     "place": "Cheneyville",
+     "county": "Rapides",
+     "state": "LA",
+     "status": "Lynching",
+     "method": "Hanged",
+     "accusation": "Murder of a white man",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:3919",
+       "name": "Thomas J. Amos"
+      },
+      {
+       "list": "HAL",
+       "row": "1690",
+       "name": "Thomas J. Amos"
+      },
+      {
+       "list": "MWT",
+       "row": "2161",
+       "name": "Thomas J Amos"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1900-08-29",
+       "city": "Bennettville",
+       "county": "Rapides",
+       "state": "LA",
+       "victims": [
+        "Thomas J. Amos"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "thomas-j-amos-cheneyville-1900-08-29",
+       "published": true,
+       "map": false,
+       "title": "Lynching of Thomas J. Amos"
+      }
+     ]
+    }
+   ],
+   "found": [
+    {
+     "date": "1900-08-22",
+     "city": "Whitehall",
+     "county": "Livingston",
+     "state": "LA",
+     "victims": [
+      "Sam Fields"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "lynching",
+     "match": "found",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "sam-fields-whitehall-1900-08-22",
+     "published": true,
+     "map": true,
+     "title": "Lynching of Sam Fields"
+    },
+    {
+     "date": "1900-08-22",
+     "city": "Norfield",
+     "county": "Lincoln",
+     "state": "MS",
+     "victims": [
+      "Irvin Love"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "lynching",
+     "match": "found",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "irwin-love-norfield-1900-08-22",
+     "published": true,
+     "map": true,
+     "title": "Lynching of Irvin Love"
+    },
+    {
+     "date": "1900-08-26",
+     "city": "Gilman",
+     "county": "Iroquois",
+     "state": "IL",
+     "victims": [
+      "John Myers",
+      "Charlotte E. M. Wright"
+     ],
+     "victim_race": "unclear",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "probable lynching",
+     "match": "found",
+     "killed": null,
+     "killed_max": null,
+     "dossier": "john-myers-gilman-1900-08-27",
+     "set_aside": {
+      "reason": "race_unstated",
+      "basis": "no report gives anyone's race",
+      "ruled": true
+     },
+     "published": false,
+     "map": false,
+     "title": null
+    },
+    {
+     "date": "~1900-08",
+     "city": "Portageville",
+     "county": "Pemiscot",
+     "state": "MO",
+     "victims": [
+      "Thomas Cook"
+     ],
+     "victim_race": "unclear",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "probable lynching",
+     "match": "found",
+     "killed": null,
+     "killed_max": null,
+     "dossier": "thomas-cook-portageville-1900-08",
+     "set_aside": {
+      "reason": "race_unstated",
+      "basis": "no report gives anyone's race",
+      "ruled": true
+     },
+     "published": false,
+     "map": false,
+     "title": null
+    },
+    {
+     "date": "~1900-08-02",
+     "city": "Chipley",
+     "county": "Washington",
+     "state": "FL",
+     "victims": [],
+     "victim_race": "Black",
+     "type": "whitecapping",
+     "stage": "completed",
+     "lynch_def": "probable lynching",
+     "match": "found",
+     "killed": 1,
+     "killed_max": 3,
+     "dossier": "event-1900-08-09",
+     "published": true,
+     "map": true,
+     "title": "Chipley turpentine camp shooting"
+    },
+    {
+     "date": "~1900-08-21",
+     "city": "Shell Creek",
+     "county": "Carter",
+     "state": "TN",
+     "victims": [
+      "Carson Hardy"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "probable lynching",
+     "match": "found",
+     "killed": 1,
+     "killed_max": null,
+     "dossier": "carson-hardy-shell-creek-1900-08-21",
+     "published": true,
+     "map": true,
+     "title": "Killing of Carson Hardy"
+    }
+   ],
+   "lists": {
+    "B-T": "Beck–Tolnay",
+    "S-R": "Seguin–Rigby",
+    "HAL": "HAL",
+    "MWT": "Monroe Work Today"
+   }
+  },
+  {
    "year": 1903,
    "inventory": [
     {

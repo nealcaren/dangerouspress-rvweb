@@ -26,6 +26,18 @@
    "full": false
   },
   {
+   "year": 1900,
+   "label": "August 1900",
+   "months": [
+    7,
+    8
+   ],
+   "atlas_count": 84,
+   "reader_count": 86,
+   "export_id": "1900-20261113071919",
+   "full": false
+  },
+  {
    "year": 1903,
    "label": "1903",
    "months": [
