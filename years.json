@@ -50,6 +50,18 @@
    "full": true
   },
   {
+   "year": 1910,
+   "label": "August 1910",
+   "months": [
+    7,
+    8
+   ],
+   "atlas_count": 67,
+   "reader_count": 69,
+   "export_id": "1910-20261113104709",
+   "full": false
+  },
+  {
    "year": 1920,
    "label": "August 1920",
    "months": [

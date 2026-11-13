@@ -1,0 +1,221 @@
+{
+ "schema_version": 1,
+ "year": 1910,
+ "month": 8,
+ "generated_at": "2026-11-13T10:47:09-05:00",
+ "source": {
+  "git": "d87f073",
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1910/events_1910_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1910/dossiers2_all"
+ },
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL",
+  "MWT": "Monroe Work Today"
+ },
+ "inventory": [
+  {
+   "date": "1910-08-01",
+   "day_known": true,
+   "name": "Unnamed Negro",
+   "place": "Bonifay",
+   "county": "Holmes",
+   "state": "FL",
+   "status": "",
+   "method": "",
+   "accusation": "Rape & murder",
+   "rows": [
+    {
+     "list": "HAL",
+     "row": "650",
+     "name": "Unnamed Negro"
+    },
+    {
+     "list": "HAL",
+     "row": "651",
+     "name": "Unnamed Negro"
+    },
+    {
+     "list": "HAL",
+     "row": "652",
+     "name": "Unnamed Negro"
+    },
+    {
+     "list": "MWT",
+     "row": "898",
+     "name": "Unnamed #1"
+    },
+    {
+     "list": "MWT",
+     "row": "899",
+     "name": "Unnamed #2"
+    },
+    {
+     "list": "MWT",
+     "row": "900",
+     "name": "Unnamed #3"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1910-08-03",
+   "day_known": true,
+   "name": "Unnamed Person",
+   "place": "Nottingham",
+   "county": "Talladega",
+   "state": "AL",
+   "status": "Lynching",
+   "method": "Hanged and riddled with bullets",
+   "accusation": "Unknown",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4745",
+     "name": "Unnamed Person"
+    }
+   ],
+   "ours": [
+    {
+     "id": "leads:unplaced:nottingham-al",
+     "date": "1910-08-03",
+     "city": "Fredericksburg",
+     "county": "Talladega",
+     "state": "AL",
+     "victims": [
+      "William Robertson"
+     ],
+     "victim_race": "Black",
+     "type": "other",
+     "stage": "",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4745",
+     "summary": "The body of a Black man, riddled with shot, was found hanging from a tree near Nottingham, Alabama, in a Black settlement; officers believed he was killed by members of his own race.",
+     "match": "linked",
+     "killed": 0,
+     "killed_max": null,
+     "dossier": "nottingham-nottingham-1910-08-03",
+     "set_aside": {
+      "reason": "contested",
+      "basis": "coroner's jury found suicide (hanging from a rafter, no bullet holes); Talladega papers called the lynching report erroneous; B-T bt:4745 link kept",
+      "ruled": true
+     }
+    }
+   ]
+  },
+  {
+   "date": "1910-08-11",
+   "day_known": true,
+   "name": "Jim Toler",
+   "place": "Near Alamo",
+   "county": "Montgomery",
+   "state": "GA",
+   "status": "Lynching",
+   "method": "Riddled with bullets",
+   "accusation": "Entered girls’ room of a prominent white family",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4746",
+     "name": "Jim Toler"
+    },
+    {
+     "list": "HAL",
+     "row": "1103",
+     "name": "Jim Toler"
+    },
+    {
+     "list": "MWT",
+     "row": "1342",
+     "name": "Jim Toler"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1910-08_r2:g3",
+     "date": "1910-08-11",
+     "city": "Alamo",
+     "county": "Montgomery",
+     "state": "GA",
+     "victims": [
+      "Jim Toler"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4746",
+     "summary": "A mob of over 100 men lynched Jim Toler, a Black man, at Alamo, Montgomery County, Georgia, in the early morning of August 11. A posse had found him in a cornfield and accused him; he was tied to a tree and shot. The mob then dispersed.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "jim-toler-alamo-1910-08-11"
+    }
+   ]
+  },
+  {
+   "date": "1910-08-21",
+   "day_known": true,
+   "name": "Tom Weaver",
+   "place": "2.5 miles from Seville, a station on the Seaboard Air Line RR, 12 miles from Cordele",
+   "county": "Wilcox",
+   "state": "GA",
+   "status": "Lynching",
+   "method": "Shot",
+   "accusation": "Murderous assault on the white postmaster",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4747",
+     "name": "Tom Weaver"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1910-08_r2:g37",
+     "date": "1910-08-22",
+     "city": "Seville",
+     "county": "Wilcox",
+     "state": "GA",
+     "victims": [
+      "Tom Weaver"
+     ],
+     "victim_race": "Black",
+     "type": "posse_killing",
+     "stage": "",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4747",
+     "summary": "A posse of citizens, including Mayor Wilson, pursued Tom Weaver, a Black man who had earlier fired a shotgun at the mayor. They chased him to a small house near Seville and killed him in an exchange of shots. Posse members were unhurt.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "tom-weaver-seville-1910-08-22"
+    }
+   ]
+  }
+ ],
+ "found": [
+  {
+   "id": "lean_1910-08_r2:g87",
+   "date": "~1910-08-08",
+   "city": "Woodbury",
+   "county": "Meriwether",
+   "state": "GA",
+   "victims": [
+    "John Lovelace",
+    "Edward Lovelace"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "A mob at Woodbury, Ga., shot to death John and Edward Loyelace, colored, who were accused of stealing corn.",
+   "match": "found",
+   "killed": 2,
+   "killed_max": 2,
+   "dossier": "john-loyelace-woodbury-1910-08"
+  }
+ ]
+}

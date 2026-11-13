@@ -1522,6 +1522,219 @@
    }
   },
   {
+   "year": 1910,
+   "inventory": [
+    {
+     "date": "1910-08-01",
+     "day_known": true,
+     "name": "Unnamed Negro",
+     "place": "Bonifay",
+     "county": "Holmes",
+     "state": "FL",
+     "status": "",
+     "method": "",
+     "accusation": "Rape & murder",
+     "rows": [
+      {
+       "list": "HAL",
+       "row": "650",
+       "name": "Unnamed Negro"
+      },
+      {
+       "list": "HAL",
+       "row": "651",
+       "name": "Unnamed Negro"
+      },
+      {
+       "list": "HAL",
+       "row": "652",
+       "name": "Unnamed Negro"
+      },
+      {
+       "list": "MWT",
+       "row": "898",
+       "name": "Unnamed #1"
+      },
+      {
+       "list": "MWT",
+       "row": "899",
+       "name": "Unnamed #2"
+      },
+      {
+       "list": "MWT",
+       "row": "900",
+       "name": "Unnamed #3"
+      }
+     ],
+     "ours": []
+    },
+    {
+     "date": "1910-08-03",
+     "day_known": true,
+     "name": "Unnamed Person",
+     "place": "Nottingham",
+     "county": "Talladega",
+     "state": "AL",
+     "status": "Lynching",
+     "method": "Hanged and riddled with bullets",
+     "accusation": "Unknown",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:4745",
+       "name": "Unnamed Person"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1910-08-03",
+       "city": "Fredericksburg",
+       "county": "Talladega",
+       "state": "AL",
+       "victims": [
+        "William Robertson"
+       ],
+       "victim_race": "Black",
+       "type": "other",
+       "stage": "",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 0,
+       "killed_max": null,
+       "dossier": "nottingham-nottingham-1910-08-03",
+       "set_aside": {
+        "reason": "contested",
+        "basis": "coroner's jury found suicide (hanging from a rafter, no bullet holes); Talladega papers called the lynching report erroneous; B-T bt:4745 link kept",
+        "ruled": true
+       },
+       "published": false,
+       "map": false,
+       "title": null
+      }
+     ]
+    },
+    {
+     "date": "1910-08-11",
+     "day_known": true,
+     "name": "Jim Toler",
+     "place": "Near Alamo",
+     "county": "Montgomery",
+     "state": "GA",
+     "status": "Lynching",
+     "method": "Riddled with bullets",
+     "accusation": "Entered girls’ room of a prominent white family",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:4746",
+       "name": "Jim Toler"
+      },
+      {
+       "list": "HAL",
+       "row": "1103",
+       "name": "Jim Toler"
+      },
+      {
+       "list": "MWT",
+       "row": "1342",
+       "name": "Jim Toler"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1910-08-11",
+       "city": "Alamo",
+       "county": "Montgomery",
+       "state": "GA",
+       "victims": [
+        "Jim Toler"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "jim-toler-alamo-1910-08-11",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Jim Toler"
+      }
+     ]
+    },
+    {
+     "date": "1910-08-21",
+     "day_known": true,
+     "name": "Tom Weaver",
+     "place": "2.5 miles from Seville, a station on the Seaboard Air Line RR, 12 miles from Cordele",
+     "county": "Wilcox",
+     "state": "GA",
+     "status": "Lynching",
+     "method": "Shot",
+     "accusation": "Murderous assault on the white postmaster",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:4747",
+       "name": "Tom Weaver"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1910-08-22",
+       "city": "Seville",
+       "county": "Wilcox",
+       "state": "GA",
+       "victims": [
+        "Tom Weaver"
+       ],
+       "victim_race": "Black",
+       "type": "posse_killing",
+       "stage": "",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "tom-weaver-seville-1910-08-22",
+       "published": true,
+       "map": true,
+       "title": "Killing of Tom Weaver"
+      }
+     ]
+    }
+   ],
+   "found": [
+    {
+     "date": "~1910-08-08",
+     "city": "Woodbury",
+     "county": "Meriwether",
+     "state": "GA",
+     "victims": [
+      "John Lovelace",
+      "Edward Lovelace"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "lynching",
+     "match": "found",
+     "killed": 2,
+     "killed_max": 2,
+     "dossier": "john-loyelace-woodbury-1910-08",
+     "published": true,
+     "map": true,
+     "title": "Lynching of John and Edward Lovelace"
+    }
+   ],
+   "lists": {
+    "B-T": "Beck–Tolnay",
+    "S-R": "Seguin–Rigby",
+    "HAL": "HAL",
+    "MWT": "Monroe Work Today"
+   }
+  },
+  {
    "year": 1920,
    "inventory": [
     {
