@@ -2,9 +2,9 @@
  "schema_version": 1,
  "year": 1920,
  "month": 8,
- "generated_at": "2026-11-12T11:13:50-05:00",
+ "generated_at": "2026-11-13T20:53:49-05:00",
  "source": {
-  "git": "6824195",
+  "git": "d87f073",
   "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1920/events_1920_final_ddlc.json",
   "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1920/dossiers2_all"
  },

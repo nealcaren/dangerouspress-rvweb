@@ -1,0 +1,230 @@
+{
+ "schema_version": 1,
+ "year": 1880,
+ "month": 8,
+ "generated_at": "2026-11-13T20:43:26-05:00",
+ "source": {
+  "git": "d87f073",
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1880/events_1880_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1880/dossiers2_all"
+ },
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL",
+  "MWT": "Monroe Work Today"
+ },
+ "inventory": [
+  {
+   "date": "1880-08-05",
+   "day_known": false,
+   "name": "Unnamed #1",
+   "place": "",
+   "county": "Mason",
+   "state": "KY",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched after being accused of killing a white man",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "8251",
+     "name": "Unnamed #1"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1880-08_r2:g3",
+     "date": "1880-08-03",
+     "city": "Mays Lick",
+     "county": "Mason",
+     "state": "KY",
+     "victims": [
+      "two unnamed Black men"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "duplicate of inventory",
+     "inventory": "MWT:8251",
+     "summary": "Two Negroes, said to have fatally shot Perry Jefferson at Mays Lick, were lynched after the shooting. No further particulars were received. The date of the lynching is not given; the shooting was on August 3.",
+     "match": "linked",
+     "killed": 2,
+     "killed_max": 2,
+     "dossier": "perry-jefferson-mays-lick-1880-08-03"
+    }
+   ]
+  },
+  {
+   "date": "1880-08-05",
+   "day_known": false,
+   "name": "Unnamed #2",
+   "place": "",
+   "county": "Mason",
+   "state": "KY",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched after being accused of killing a white man",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "8252",
+     "name": "Unnamed #2"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1880-08-15",
+   "day_known": false,
+   "name": "Green Ellis",
+   "place": "",
+   "county": "Todd",
+   "state": "KY",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched after being accused of robbing and beating a white woman",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "8246",
+     "name": "Green Ellis"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1880-08_r2:g6",
+     "date": "1880-08-26",
+     "city": "Guthrie",
+     "county": "Todd",
+     "state": "KY",
+     "victims": [
+      "Green Ellis"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "MWT:8246",
+     "summary": "A mob of about one hundred men rode to Guthrie before dawn, took accused Black man Green Ellis from officers and hanged him for the robbery and beating of Mrs. Duncan. Some citizens had urged the law be left to act.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "green-ellis-guthrie-1880-08-26"
+    }
+   ]
+  }
+ ],
+ "found": [
+  {
+   "id": "lean_1880-08_r2:g4",
+   "date": "1880-08-01",
+   "city": "Pennington",
+   "county": "Trinity",
+   "state": "TX",
+   "victims": [
+    "Reed Evans"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "A party of armed men took Reed Evans, a Black man held in a jail for killing Johnnie Dwyer in Trinity county, Texas, and hanged him. The paper gives the jail as Pennsylvania and the day as garbled.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "reed-evans-pennington-1880-08-02"
+  },
+  {
+   "id": "lean_1880-08_r2:g1",
+   "date": "1880-08-16",
+   "city": "Greenvine",
+   "county": "Washington",
+   "state": "TX",
+   "victims": [
+    "Rube Carothers"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "About 40 to 50 masked men took Rube Carothers, a Black man accused of selling stolen cattle, from a guard deputized by Justice Campbell at Greenvine at night and hanged him on the Labahia prairie.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "rube-caruthers-brenham-1880-08-17"
+  },
+  {
+   "id": "lean_1880-08_r2:g27",
+   "date": "1880-08-17",
+   "city": "Fort Scott",
+   "county": "Bourbon",
+   "state": "KS",
+   "victims": [
+    "Thomas Wadkins"
+   ],
+   "victim_race": "unclear",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "About fifty men rode to the Fort Scott jail before dawn, got the sheriff to unlock it, locked him in a cell, and took out prisoner Thomas Watkins, confined for stealing. No trace of the party or Watkins was found; one theory is that he was lynched.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": "thomas-watkins-fort-scott-1880-08-17",
+   "set_aside": {
+    "reason": "race_unstated",
+    "basis": "no report gives anyone's race",
+    "ruled": true
+   }
+  },
+  {
+   "id": "lean_1880-08_r2:g14",
+   "date": "1880-08-19",
+   "city": "Sunnyside",
+   "county": "Spalding",
+   "state": "GA",
+   "victims": [
+    "Waldron"
+   ],
+   "victim_race": "unclear",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "probable lynching",
+   "inventory": null,
+   "summary": "Waldron (or Waldroup), arrested in Spalding County, Ga., for running away with his wife's young sister, was taken by a mob from the sheriff; an Atlanta dispatch of August 19 said his captors beheaded him at Sunnyside, a later Maryland report that he was shot and left hanging from a tree.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "waldron-sunnyside-1880-08-19",
+   "set_aside": {
+    "reason": "race_unstated",
+    "basis": "no report gives Waldron's race (29 white-press reports)",
+    "ruled": true
+   }
+  },
+  {
+   "id": "lean_1880-08_r2:g32",
+   "date": "~1880-08",
+   "city": "",
+   "county": "Webster",
+   "state": "LA",
+   "victims": [
+    "unnamed Black man"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "A Black man arrested for murdering his wife in Webster parish, Louisiana, tried to escape, wounding two guards. A number of citizens took him from the officers and killed him by firing more than twenty bullets into his body.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "event-1880-08"
+  }
+ ]
+}

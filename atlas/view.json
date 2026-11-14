@@ -8,8 +8,21 @@
   1922
  ],
  "all_label": "August, 1880–1922",
- "all_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes of anti-Black violence that took place in August of the years sampled so far (1885, 1895, 1900, 1903, 1910, and 1920), from a series that will reach across 1880–1922, placed on 1910 county lines. Years with nothing on the timeline have not been collected yet. Choose a year to see its August day by day. Full-year atlas: <a href=\"../1903/atlas/\">1903</a>. <a href=\"../compare/\">Compare the lynchings with the inventories</a>. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>",
+ "all_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes of anti-Black violence that took place in August of the years sampled so far (1880, 1885, 1895, 1900, 1903, 1910, and 1920), from a series that will reach across 1880–1922, placed on 1910 county lines. Years with nothing on the timeline have not been collected yet. Choose a year to see its August day by day. Full-year atlas: <a href=\"../1903/atlas/\">1903</a>. <a href=\"../compare/\">Compare the lynchings with the inventories</a>. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>",
  "years": [
+  {
+   "year": 1880,
+   "label": "August 1880",
+   "months": [
+    8,
+    8
+   ],
+   "month": 8,
+   "atlas_count": 35,
+   "export_id": "1880-20261113204326",
+   "full": null,
+   "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes of anti-Black violence that took place in August 1880, from our <a href=\"../1880/reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a>, placed on 1910 county lines and by day of the month. <a href=\"../compare/#y1880\">Compare its lynchings with the inventories</a>. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
+  },
   {
    "year": 1885,
    "label": "August 1885",
@@ -18,8 +31,8 @@
     8
    ],
    "month": 8,
-   "atlas_count": 19,
-   "export_id": "1885-20261112111339",
+   "atlas_count": 20,
+   "export_id": "1885-20261113204430",
    "full": null,
    "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes of anti-Black violence that took place in August 1885, from our <a href=\"../1885/reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a>, placed on 1910 county lines and by day of the month. <a href=\"../compare/#y1885\">Compare its lynchings with the inventories</a>. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
   },
@@ -31,8 +44,8 @@
     8
    ],
    "month": 8,
-   "atlas_count": 38,
-   "export_id": "1895-20261112182047",
+   "atlas_count": 40,
+   "export_id": "1895-20261113205055",
    "full": null,
    "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes of anti-Black violence that took place in August 1895, from our <a href=\"../1895/reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a>, placed on 1910 county lines and by day of the month. <a href=\"../compare/#y1895\">Compare its lynchings with the inventories</a>. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
   },
@@ -44,8 +57,8 @@
     8
    ],
    "month": 8,
-   "atlas_count": 70,
-   "export_id": "1900-20261113074409",
+   "atlas_count": 74,
+   "export_id": "1900-20261113205251",
    "full": null,
    "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes of anti-Black violence that took place in August 1900, from our <a href=\"../1900/reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a>, placed on 1910 county lines and by day of the month. <a href=\"../compare/#y1900\">Compare its lynchings with the inventories</a>. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
   },
@@ -71,7 +84,7 @@
    ],
    "month": 8,
    "atlas_count": 51,
-   "export_id": "1910-20261113110549",
+   "export_id": "1910-20261113205302",
    "full": null,
    "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes of anti-Black violence that took place in August 1910, from our <a href=\"../1910/reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a>, placed on 1910 county lines and by day of the month. <a href=\"../compare/#y1910\">Compare its lynchings with the inventories</a>. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
   },
@@ -83,8 +96,8 @@
     8
    ],
    "month": 8,
-   "atlas_count": 37,
-   "export_id": "1920-20261112111350",
+   "atlas_count": 43,
+   "export_id": "1920-20261113205349",
    "full": null,
    "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes of anti-Black violence that took place in August 1920, from our <a href=\"../1920/reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a>, placed on 1910 county lines and by day of the month. <a href=\"../compare/#y1920\">Compare its lynchings with the inventories</a>. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
   }

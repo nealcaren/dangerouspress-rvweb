@@ -9,6 +9,228 @@
  },
  "years": [
   {
+   "year": 1880,
+   "inventory": [
+    {
+     "date": "1880-08-05",
+     "day_known": false,
+     "name": "Unnamed #1",
+     "place": "",
+     "county": "Mason",
+     "state": "KY",
+     "status": "",
+     "method": "",
+     "accusation": "He was lynched after being accused of killing a white man",
+     "rows": [
+      {
+       "list": "MWT",
+       "row": "8251",
+       "name": "Unnamed #1"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1880-08-03",
+       "city": "Mays Lick",
+       "county": "Mason",
+       "state": "KY",
+       "victims": [
+        "two unnamed Black men"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": "duplicate of inventory",
+       "match": "linked",
+       "killed": 2,
+       "killed_max": 2,
+       "dossier": "perry-jefferson-mays-lick-1880-08-03",
+       "published": true,
+       "map": true,
+       "title": "Lynching of two Black men at May's Lick, Kentucky"
+      }
+     ]
+    },
+    {
+     "date": "1880-08-05",
+     "day_known": false,
+     "name": "Unnamed #2",
+     "place": "",
+     "county": "Mason",
+     "state": "KY",
+     "status": "",
+     "method": "",
+     "accusation": "He was lynched after being accused of killing a white man",
+     "rows": [
+      {
+       "list": "MWT",
+       "row": "8252",
+       "name": "Unnamed #2"
+      }
+     ],
+     "ours": []
+    },
+    {
+     "date": "1880-08-15",
+     "day_known": false,
+     "name": "Green Ellis",
+     "place": "",
+     "county": "Todd",
+     "state": "KY",
+     "status": "",
+     "method": "",
+     "accusation": "He was lynched after being accused of robbing and beating a white woman",
+     "rows": [
+      {
+       "list": "MWT",
+       "row": "8246",
+       "name": "Green Ellis"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1880-08-26",
+       "city": "Guthrie",
+       "county": "Todd",
+       "state": "KY",
+       "victims": [
+        "Green Ellis"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "green-ellis-guthrie-1880-08-26",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Green Ellis"
+      }
+     ]
+    }
+   ],
+   "found": [
+    {
+     "date": "1880-08-01",
+     "city": "Pennington",
+     "county": "Trinity",
+     "state": "TX",
+     "victims": [
+      "Reed Evans"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "lynching",
+     "match": "found",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "reed-evans-pennington-1880-08-02",
+     "published": true,
+     "map": true,
+     "title": "Lynching of Reed Evans"
+    },
+    {
+     "date": "1880-08-16",
+     "city": "Greenvine",
+     "county": "Washington",
+     "state": "TX",
+     "victims": [
+      "Rube Carothers"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "lynching",
+     "match": "found",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "rube-caruthers-brenham-1880-08-17",
+     "published": true,
+     "map": true,
+     "title": "Lynching of Rube Carothers"
+    },
+    {
+     "date": "1880-08-17",
+     "city": "Fort Scott",
+     "county": "Bourbon",
+     "state": "KS",
+     "victims": [
+      "Thomas Wadkins"
+     ],
+     "victim_race": "unclear",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "match": "found",
+     "killed": null,
+     "killed_max": null,
+     "dossier": "thomas-watkins-fort-scott-1880-08-17",
+     "set_aside": {
+      "reason": "race_unstated",
+      "basis": "no report gives anyone's race",
+      "ruled": true
+     },
+     "published": false,
+     "map": false,
+     "title": null
+    },
+    {
+     "date": "1880-08-19",
+     "city": "Sunnyside",
+     "county": "Spalding",
+     "state": "GA",
+     "victims": [
+      "Waldron"
+     ],
+     "victim_race": "unclear",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "probable lynching",
+     "match": "found",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "waldron-sunnyside-1880-08-19",
+     "set_aside": {
+      "reason": "race_unstated",
+      "basis": "no report gives Waldron's race (29 white-press reports)",
+      "ruled": true
+     },
+     "published": false,
+     "map": false,
+     "title": null
+    },
+    {
+     "date": "~1880-08",
+     "city": "",
+     "county": "Webster",
+     "state": "LA",
+     "victims": [
+      "unnamed Black man"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "lynching",
+     "match": "found",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "event-1880-08",
+     "published": true,
+     "map": true,
+     "title": "Lynching of an unnamed Black man in Webster Parish, Louisiana (1880)"
+    }
+   ],
+   "lists": {
+    "B-T": "Beck–Tolnay",
+    "S-R": "Seguin–Rigby",
+    "HAL": "HAL",
+    "MWT": "Monroe Work Today"
+   }
+  },
+  {
    "year": 1885,
    "inventory": [
     {

@@ -2,15 +2,27 @@
  "month": "August",
  "years": [
   {
+   "year": 1880,
+   "label": "August 1880",
+   "months": [
+    4,
+    8
+   ],
+   "atlas_count": 50,
+   "reader_count": 60,
+   "export_id": "1880-20261113204326",
+   "full": false
+  },
+  {
    "year": 1885,
    "label": "August 1885",
    "months": [
     7,
     8
    ],
-   "atlas_count": 30,
-   "reader_count": 31,
-   "export_id": "1885-20261112111339",
+   "atlas_count": 31,
+   "reader_count": 32,
+   "export_id": "1885-20261113204430",
    "full": false
   },
   {
@@ -20,9 +32,9 @@
     7,
     8
    ],
-   "atlas_count": 54,
-   "reader_count": 58,
-   "export_id": "1895-20261112182047",
+   "atlas_count": 56,
+   "reader_count": 61,
+   "export_id": "1895-20261113205055",
    "full": false
   },
   {
@@ -32,9 +44,9 @@
     7,
     8
    ],
-   "atlas_count": 84,
-   "reader_count": 86,
-   "export_id": "1900-20261113074409",
+   "atlas_count": 89,
+   "reader_count": 91,
+   "export_id": "1900-20261113205251",
    "full": false
   },
   {
@@ -58,19 +70,19 @@
    ],
    "atlas_count": 67,
    "reader_count": 69,
-   "export_id": "1910-20261113110549",
+   "export_id": "1910-20261113205302",
    "full": false
   },
   {
    "year": 1920,
    "label": "August 1920",
    "months": [
-    7,
+    6,
     8
    ],
-   "atlas_count": 51,
-   "reader_count": 52,
-   "export_id": "1920-20261112111350",
+   "atlas_count": 58,
+   "reader_count": 59,
+   "export_id": "1920-20261113205349",
    "full": false
   }
  ]
