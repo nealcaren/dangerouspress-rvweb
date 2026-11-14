@@ -1,0 +1,569 @@
+{
+ "schema_version": 1,
+ "year": 1890,
+ "month": 8,
+ "generated_at": "2026-11-14T11:33:12-05:00",
+ "source": {
+  "git": "d87f073",
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1890/events_1890_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1890/dossiers2_all"
+ },
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL",
+  "MWT": "Monroe Work Today"
+ },
+ "inventory": [
+  {
+   "date": "1890-08-04",
+   "day_known": true,
+   "name": "John Brown",
+   "place": "2 miles from Anderson",
+   "county": "Grimes",
+   "state": "TX",
+   "status": "Lynching",
+   "method": "Hanged and riddled with bullets",
+   "accusation": "Outraging a white girl",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:2547",
+     "name": "John Brown"
+    },
+    {
+     "list": "S-R",
+     "row": "6952",
+     "name": "John Brown"
+    },
+    {
+     "list": "MWT",
+     "row": "4093",
+     "name": "Unnamed"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1890-08_r2:g16",
+     "date": "1890-08-05",
+     "city": "Anderson",
+     "county": "Grimes",
+     "state": "TX",
+     "victims": [
+      "John Brown"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:2547",
+     "summary": "A crowd of about 500 citizens demanded John Brown, a colored prisoner held by Sheriff Scott at Anderson after being brought from the Houston jail. Sheriff refused, a search found him, and he was carried five miles out and hanged by at least 1000 people, after an alleged rape of a white girl.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "john-brown-anderson-1890-08-05"
+    }
+   ]
+  },
+  {
+   "date": "1890-08-09",
+   "day_known": true,
+   "name": "Ike Cook",
+   "place": "",
+   "county": "Montgomery",
+   "state": "AL",
+   "status": "",
+   "method": "",
+   "accusation": "Terrorism",
+   "rows": [
+    {
+     "list": "HAL",
+     "row": "229",
+     "name": "Ike Cook"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1890-08-09",
+   "day_known": true,
+   "name": "Unnamed Person",
+   "place": "Near Old Courthouse",
+   "county": "Russell",
+   "state": "VA",
+   "status": "Lynching",
+   "method": "Hanged and riddled with bullets",
+   "accusation": "Outraging a married white woman",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:2548",
+     "name": "Unnamed Person"
+    },
+    {
+     "list": "S-R",
+     "row": "new_tolnaybeck_va_3",
+     "name": "Unknown"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1890-08_r2:g19",
+     "date": "1890-08-02",
+     "city": "Dickinsonville",
+     "county": "Russell",
+     "state": "VA",
+     "victims": [
+      "Henry Jessies"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:2548",
+     "summary": "A posse of about one hundred men captured Henry Jessies, a Negro accused of assaulting a white woman near Dickinsonville, identified him, hanged him from a tree and riddled his body with bullets. The Saturday-night event is reported from Abingdon.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "john-jones-dickinsonville-1890-08-02"
+    }
+   ]
+  },
+  {
+   "date": "1890-08-10",
+   "day_known": true,
+   "name": "William Beaver",
+   "place": "Public square in Warren",
+   "county": "Bradley",
+   "state": "AR",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Attempted criminal assault on an unmarried white girl and criminal assault on a black girl",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:2549",
+     "name": "William Beaver"
+    },
+    {
+     "list": "HAL",
+     "row": "329",
+     "name": "Wm. Beaver"
+    },
+    {
+     "list": "MWT",
+     "row": "4714",
+     "name": "William Beaver"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1890-08_r2:g9",
+     "date": "1890-08-10",
+     "city": "Warren",
+     "county": "Bradley",
+     "state": "AR",
+     "victims": [
+      "William Beaver"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:2549",
+     "summary": "A posse captured William Beaver, a Black man said to have attempted to assault a white woman near Warren. An armed mob of eight or ten men took him from Sheriff Watson, locked the sheriff and deputy in jail, and hanged him. His body was found dangling the next morning.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "william-beaver-warren-1890-08-10"
+    }
+   ]
+  },
+  {
+   "date": "1890-08-12",
+   "day_known": true,
+   "name": "Jim Winget",
+   "place": "1.5 miles from Bossier City",
+   "county": "Bossier",
+   "state": "LA",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Witness to a murder",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:2551",
+     "name": "Jim Winget"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1890-08_r2:g44",
+     "date": "1890-08-12",
+     "city": "",
+     "county": "Bossier",
+     "state": "LA",
+     "victims": [
+      "Jim Winget, alias Jim CaSon"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:2551",
+     "summary": "Jim Winget, alias Jim Cason, was taken from his house in Bossier parish by parties unknown on Tuesday night, carried a mile and a half and hanged in N. H. Wyche's yard. He had been a witness in a murder case.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "jim-winget-alias-jim-cason-1890-08-12"
+    }
+   ]
+  },
+  {
+   "date": "1890-08-15",
+   "day_known": false,
+   "name": "Unnamed #1",
+   "place": "Mexia",
+   "county": "Limestone",
+   "state": "TX",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched after being accused of rape",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "4094",
+     "name": "Unnamed #1"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1890-08-15",
+   "day_known": false,
+   "name": "Unnamed #2",
+   "place": "Mexia",
+   "county": "Limestone",
+   "state": "TX",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched after being accused of rape",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "4095",
+     "name": "Unnamed #2"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1890-08-16",
+   "day_known": true,
+   "name": "Henderson Fox",
+   "place": "SE corner of the courthouse yard in Trenton",
+   "county": "Gibson",
+   "state": "TN",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Rape of a young unmarried white woman",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:2552",
+     "name": "Henderson Fox"
+    },
+    {
+     "list": "HAL",
+     "row": "2645",
+     "name": "Henderson Fox"
+    },
+    {
+     "list": "MWT",
+     "row": "3722",
+     "name": "Henderson Fox"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1890-08_r2:g26",
+     "date": "1890-08-17",
+     "city": "Trenton",
+     "county": "Gibson",
+     "state": "TN",
+     "victims": [
+      "Henderson Fox",
+      "Henderson Fax"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:2552",
+     "summary": "A mob of about 200 men from the neighborhood overran a jail guard summoned by the sheriff, forced the jailer to give up his keys, took Henderson Fox and hanged him to a tree.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "henderson-fox-trenton-1890-08-17"
+    }
+   ]
+  },
+  {
+   "date": "1890-08-16",
+   "day_known": true,
+   "name": "Thomas Woodward",
+   "place": "Humboldt",
+   "county": "Gibson",
+   "state": "TN",
+   "status": "Lynching",
+   "method": "",
+   "accusation": "Assault and robbery of a white man",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:2553",
+     "name": "Thomas Woodward"
+    },
+    {
+     "list": "HAL",
+     "row": "2646",
+     "name": "Thomas Woodward"
+    },
+    {
+     "list": "MWT",
+     "row": "3723",
+     "name": "Thomas Woodward"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1890-08_r2:g14",
+     "date": "1890-08-16",
+     "city": "Humboldt",
+     "county": "Gibson",
+     "state": "TN",
+     "victims": [
+      "Thomas Woodward"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:2553",
+     "summary": "About midnight on Saturday a mob took Thomas Woodward, a Black prisoner, from jail at Humboldt, Tenn., and hanged him. He was one of three Black men accused of assaulting and robbing J. A. Greer.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "thomas-woodward-humboldt-1890-08-16"
+    }
+   ]
+  },
+  {
+   "date": "1890-08-21",
+   "day_known": true,
+   "name": "John Henderson",
+   "place": "Edge of Midway",
+   "county": "Woodford",
+   "state": "KY",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Murder of a prominent white farmer, his employer",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:2554",
+     "name": "John Henderson"
+    },
+    {
+     "list": "HAL",
+     "row": "1438",
+     "name": "John Henderson"
+    },
+    {
+     "list": "MWT",
+     "row": "1779",
+     "name": "John Henderson"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1890-08_r2:g24",
+     "date": "1890-08-21",
+     "city": "Midway",
+     "county": "Woodford",
+     "state": "KY",
+     "victims": [
+      "John Henderson"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:2554",
+     "summary": "Masked men, about twenty-five in all, took John Henderson, a Negro held for killing Gilbert Satterwhite, from the Woodford County jail by threatening the jailer's deputy and hanged him from a locust tree near Versailles. A coroner's jury returned a verdict of death at the hands of persons unknown.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "john-henderson-midway-1890-08-21"
+    }
+   ]
+  },
+  {
+   "date": "1890-08-21",
+   "day_known": true,
+   "name": "William Alexander",
+   "place": "Greenwell Springs road just beyond the Comite bridge, near Baton Rouge",
+   "county": "East Baton Rouge",
+   "state": "LA",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Attempted rape of an 11 year-old white girl; entering the bedroom of two young white girls",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:2555",
+     "name": "William Alexander"
+    },
+    {
+     "list": "HAL",
+     "row": "1554",
+     "name": "Wm. Alexander"
+    },
+    {
+     "list": "MWT",
+     "row": "2002",
+     "name": "William Alexander"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1890-08_r2:g41",
+     "date": "1890-08-21",
+     "city": "Baton Rouge",
+     "county": "East Baton Rouge",
+     "state": "LA",
+     "victims": [
+      "Willis Alexander"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:2555",
+     "summary": "Willis Alexander, a seventeen-year-old colored youth, was lynched in the Baton Rouge parish area on the night of August 21, according to a Picayune special. He was accused of attempting to assault an eleven-year-old white girl. His body was found hanging from a roadside tree.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "willis-alexander-baton-rouge-1890-08-21"
+    }
+   ]
+  },
+  {
+   "date": "1890-08-26",
+   "day_known": true,
+   "name": "James Robertson",
+   "place": "4 miles from Shaw’s, in Bogue Falaya swamp",
+   "county": "Bolivar",
+   "state": "MS",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Outraging a 8 year-old white girl",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:2556",
+     "name": "James Robertson"
+    }
+   ],
+   "ours": [
+    {
+     "id": "leads:inventory_recall:shaw-jim-robinson",
+     "date": "1890-08-26",
+     "city": "Shaw",
+     "county": "Bolivar",
+     "state": "MS",
+     "victims": [
+      "Jim Robinson"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:2556",
+     "summary": "Jim Robinson, a Black man accused of raping the 8-year-old daughter of Henry Meyers near Shaw, Mississippi, was hanged by a mob on Tuesday night, August 26.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": null,
+     "dossier": "jim-robinson-shaw-1890-08-26"
+    }
+   ]
+  },
+  {
+   "date": "1890-08-29",
+   "day_known": true,
+   "name": "Will Waters",
+   "place": ".",
+   "county": "Lafayette",
+   "state": "MO",
+   "status": "",
+   "method": "Unknown",
+   "accusation": "Murder and robbery",
+   "rows": [
+    {
+     "list": "S-R",
+     "row": "Frazier_3",
+     "name": "Will Waters"
+    },
+    {
+     "list": "MWT",
+     "row": "5523",
+     "name": "Will Waters"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1890-08_r2:g5",
+     "date": "1890-08-29",
+     "city": "Lexington",
+     "county": "Lafayette",
+     "state": "MO",
+     "victims": [
+      "William Walters",
+      "VIM. Walton",
+      "Capt. J. I. Parker"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "S-R:Frazier_3",
+     "summary": "Near Mayview, Missouri, Black man William Walters was accused of murdering merchant Capt. J. I. Parker. An organized pursuit captured him, and the paper reports he was lynched after being given five minutes to pray. The text is partly garbled at the end.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "william-walters-lexington-1890-08-29"
+    }
+   ]
+  }
+ ],
+ "found": [
+  {
+   "id": "lean_1890-08_r2:g52",
+   "date": "1890-08-18",
+   "city": "West Carroll",
+   "county": "West Carroll",
+   "state": "LA",
+   "victims": [],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "probable lynching",
+   "inventory": null,
+   "summary": "Carroll Banner reports that last Monday night two negroes and one white man were lynched in West Carroll. The paper gives the accusations against each man, but no description of the mob.",
+   "match": "found",
+   "killed": 2,
+   "killed_max": 2,
+   "dossier": "west-carroll-west-carroll-1890-08-18"
+  }
+ ]
+}
