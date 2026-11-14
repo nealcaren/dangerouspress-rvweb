@@ -1532,7 +1532,7 @@
       {
        "date": "1895-08-27",
        "city": "Farmington",
-       "county": "",
+       "county": "Marshall",
        "state": "TN",
        "victims": [
         "Jerry Johnson"
@@ -1604,7 +1604,7 @@
     {
      "date": "~1895-08",
      "city": "",
-     "county": "",
+     "county": "Spartanburg",
      "state": "SC",
      "victims": [],
      "victim_race": "Black",
@@ -1616,7 +1616,7 @@
      "killed_max": 1,
      "dossier": "event-1895-08",
      "published": true,
-     "map": false,
+     "map": true,
      "title": "Broad River lynching (Spartanburg County, 1895)"
     }
    ],
