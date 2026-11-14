@@ -1,0 +1,462 @@
+{
+ "schema_version": 1,
+ "year": 1915,
+ "month": 8,
+ "generated_at": "2026-11-14T08:11:13-05:00",
+ "source": {
+  "git": "d87f073",
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1915/events_1915_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1915/dossiers2_all"
+ },
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL",
+  "MWT": "Monroe Work Today"
+ },
+ "inventory": [
+  {
+   "date": "1915-08-05",
+   "day_known": true,
+   "name": "Will Leach",
+   "place": "In front of the railway station at Trilby",
+   "county": "Pasco",
+   "state": "FL",
+   "status": "Lynching",
+   "method": "Hanged and riddled with bullets",
+   "accusation": "Attempted criminal assault on a 13 year-old white girl",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:5057",
+     "name": "Will Leach"
+    },
+    {
+     "list": "HAL",
+     "row": "734",
+     "name": "Will Leach"
+    },
+    {
+     "list": "MWT",
+     "row": "4754",
+     "name": "Will Leach"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1915-08_r2:g7",
+     "date": "1915-08-05",
+     "city": "Dade City",
+     "county": "Pasco",
+     "state": "FL",
+     "victims": [
+      "Will Leach",
+      "Ed Leach",
+      "Win Leach"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:5057",
+     "summary": "A mob attacked the jail at Dade City, Florida, overpowered the jailer, seized Will Leach, a Negro, and hanged him in front of the railway station. He was said to have attacked a 13-year-old white girl.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "will-leach-dade-city-1915-08-05"
+    }
+   ]
+  },
+  {
+   "date": "1915-08-06",
+   "day_known": true,
+   "name": "Edward Berry",
+   "place": "Shawnee",
+   "county": "Pottawatomie",
+   "state": "OK",
+   "status": "",
+   "method": "Hanged",
+   "accusation": "Unknown",
+   "rows": [
+    {
+     "list": "S-R",
+     "row": "5883",
+     "name": "Edward Berry"
+    },
+    {
+     "list": "MWT",
+     "row": "3479",
+     "name": "Edward Berry"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1915-08_r2:g115",
+     "date": "1915-08-06",
+     "city": "Shawnee",
+     "county": "Pottawatomie",
+     "state": "OK",
+     "victims": [
+      "Ed Berry",
+      "SD Berry"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "S-R:5883",
+     "summary": "Masked men overpowered guards who had brought Ed Barry, a Negro held for trial on two criminal assault charges and suspected in ten others, from the penitentiary at McAlester, took him from officers and hanged him to a telegraph pole in Shawnee. The paper says he confessed before the hanging.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 2,
+     "dossier": "ed-berry-shawnee-1915-08-06"
+    }
+   ]
+  },
+  {
+   "date": "1915-08-08",
+   "day_known": true,
+   "name": "James Fox",
+   "place": "8 miles N of Tunnel Springs, at the Alger-Sullivan Lumber Co.",
+   "county": "Monroe",
+   "state": "AL",
+   "status": "Lynching",
+   "method": "Shot",
+   "accusation": "Murderous assault on a white man, a deputy sheriff",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:5060",
+     "name": "James Fox"
+    },
+    {
+     "list": "HAL",
+     "row": "228",
+     "name": "James Fox"
+    },
+    {
+     "list": "MWT",
+     "row": "296",
+     "name": "James Fox"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1915-08_r2:g55",
+     "date": "1915-08-10",
+     "city": "Tunnel Springs",
+     "county": "Monroe",
+     "state": "AL",
+     "victims": [
+      "James Fox"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:5060",
+     "summary": "A negro named Fox was lynched by a mob at the Alger-Sullivan Lumber company camp eight miles north of Tunnel Springs, Alabama, after he allegedly shot and dangerously wounded a deputy sheriff.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "james-fox-tunnel-springs-1915-08-10"
+    }
+   ]
+  },
+  {
+   "date": "1915-08-11",
+   "day_known": true,
+   "name": "Bert Springs",
+   "place": "",
+   "county": "Mississippi",
+   "state": "AR",
+   "status": "",
+   "method": "",
+   "accusation": "Murder",
+   "rows": [
+    {
+     "list": "HAL",
+     "row": "457",
+     "name": "Bert Springs"
+    },
+    {
+     "list": "MWT",
+     "row": "4736",
+     "name": "Bert Springs"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1915-08_r2:g25",
+     "date": "1915-07-31",
+     "city": "Osceola",
+     "county": "Mississippi",
+     "state": "AR",
+     "victims": [
+      "Bert Spring"
+     ],
+     "victim_race": "White",
+     "type": "posse_killing",
+     "stage": "",
+     "lynch_def": null,
+     "inventory": "B-T:bt:5061",
+     "summary": "A posse and citizens attacked residents of Island 81 in Mississippi County, Arkansas, who had barricaded themselves in a cabin resisting arrest of a negro accused of liquor sale. Sheriff Maiden was killed, a Black man was killed in the cabin, and a later mob of several hundred burned every house on the island and seized men.",
+     "match": "name",
+     "killed": 1,
+     "killed_max": 2,
+     "dossier": "bert-spring-osceola-1915-07-31",
+     "set_aside": {
+      "reason": "outside_month",
+      "basis": "Island 37 raid and Bert Spring, July 31; held for 1915-07 (held.json)",
+      "ruled": true
+     },
+     "held": null
+    }
+   ]
+  },
+  {
+   "date": "1915-08-17",
+   "day_known": true,
+   "name": "John Riggins",
+   "place": "Amsterdman",
+   "county": "Decatur",
+   "state": "GA",
+   "status": "Lynching",
+   "method": "Riddled with bullets",
+   "accusation": "Criminal assault on a married white woman, wife of a prominent planter",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:5064",
+     "name": "John Riggins"
+    },
+    {
+     "list": "HAL",
+     "row": "905",
+     "name": "John Riggins"
+    },
+    {
+     "list": "MWT",
+     "row": "1409",
+     "name": "John Riggins"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1915-08_r2:g0",
+     "date": "1915-08-17",
+     "city": "Bainbridge",
+     "county": "Decatur",
+     "state": "GA",
+     "victims": [
+      "John Riggins",
+      "John Higgins",
+      "John RIG gins"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:5064",
+     "summary": "Searching parties captured John Riggins, a Negro accused of attacking a white woman, took him before his accuser, who identified him, and killed him with about 100 shots.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "john-riggins-bainbridge-1915-08-17"
+    }
+   ]
+  },
+  {
+   "date": "1915-08-18",
+   "day_known": true,
+   "name": "Henry Russell",
+   "place": "Hope Hill",
+   "county": "Montgomery",
+   "state": "AL",
+   "status": "Lynching",
+   "method": "Riddled with bullets",
+   "accusation": "Poisoning mules and burning a barn",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:5066",
+     "name": "Henry Russell"
+    },
+    {
+     "list": "B-T",
+     "row": "bt:5067",
+     "name": "\"Kid\" Jackson"
+    },
+    {
+     "list": "HAL",
+     "row": "234",
+     "name": "\"Kid\" Jackson"
+    },
+    {
+     "list": "HAL",
+     "row": "235",
+     "name": "Unnamed Negro"
+    },
+    {
+     "list": "HAL",
+     "row": "236",
+     "name": "Henry Russell"
+    },
+    {
+     "list": "MWT",
+     "row": "297",
+     "name": "’Kid’ Jackson"
+    },
+    {
+     "list": "MWT",
+     "row": "298",
+     "name": "Henry Russell"
+    },
+    {
+     "list": "MWT",
+     "row": "299",
+     "name": "Unnamed"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1915-08_r2:g108",
+     "date": "1915-08-18",
+     "city": "Hope Hull",
+     "county": "Montgomery",
+     "state": "AL",
+     "victims": [
+      "Henry Russell",
+      "Kid Jackson",
+      "Ed Russell",
+      "Sid Jackson",
+      "Kit Jackson",
+      "Frank Russell",
+      "Harry Russell"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:5066",
+     "summary": "Three Negroes, recently released from jail where they were held on a charge of poisoning mules, were lynched near Hopehull, Alabama, on August 18, according to a Montgomery dispatch. Named only in passing in this editorial, with the facts taken from the adjoining item.",
+     "match": "linked",
+     "killed": 3,
+     "killed_max": 3,
+     "dossier": "henry-russell-hope-hull-1915-08-18"
+    }
+   ]
+  },
+  {
+   "date": "1915-08-20",
+   "day_known": true,
+   "name": "Bob —",
+   "place": "Near Coushatta, Grand Bayou swamp",
+   "county": "Red River",
+   "state": "LA",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Attempted criminal assault on a 17 year-old unmarried white girl, daughter of a farmer",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:5072",
+     "name": "Bob —"
+    },
+    {
+     "list": "HAL",
+     "row": "1698",
+     "name": "Bob —"
+    },
+    {
+     "list": "MWT",
+     "row": "2285",
+     "name": "Bob —"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1915-08_r2:g22",
+     "date": "1915-08-21",
+     "city": "Coushatta",
+     "county": "Red River",
+     "state": "LA",
+     "victims": [],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:5072",
+     "summary": "Armed men near Coushama lynched an unknown Black man early Saturday, after he allegedly tried to assault a 17-year-old farmer's daughter. Neighbors had caught him and turned him over to a deputy, whom a mob forced to give him up; they hanged him in a swamp.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "coushatta-coushatta-1915-08-21"
+    }
+   ]
+  },
+  {
+   "date": "1915-08-29",
+   "day_known": true,
+   "name": "King Richmond",
+   "place": "Buford Park in Sulphur Springs",
+   "county": "Hopkins",
+   "state": "TX",
+   "status": "Lynching",
+   "method": "Burning",
+   "accusation": "Killing one white man, a deputy sheriff, and seriously wounding another, a sheriff",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:5075",
+     "name": "King Richmond"
+    },
+    {
+     "list": "S-R",
+     "row": "7505",
+     "name": "King Richmond"
+    },
+    {
+     "list": "S-R",
+     "row": "New_TX_Emily_13",
+     "name": "Joe Richmond"
+    },
+    {
+     "list": "MWT",
+     "row": "4327",
+     "name": "Joseph Richmond"
+    },
+    {
+     "list": "MWT",
+     "row": "4328",
+     "name": "King Richmond"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1915-08_r2:g17",
+     "date": "1915-08-29",
+     "city": "Sulphur Springs",
+     "county": "Hopkins",
+     "state": "TX",
+     "victims": [
+      "Joe Richmond",
+      "King Richmond",
+      "sheriff (unnamed)"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:5075",
+     "summary": "Posses hunted King and Joe Richmond, Negroes, after they allegedly shot a deputy and struck a sheriff. One was killed in a wood battle; the wounded survivor was dragged to Sulphur Springs by a crowd of about 1,500 and burned at the stake with his brother's body.",
+     "match": "linked",
+     "killed": 2,
+     "killed_max": 2,
+     "dossier": "joe-richmond-sulphur-springs-1915-08-29"
+    }
+   ]
+  }
+ ],
+ "found": []
+}

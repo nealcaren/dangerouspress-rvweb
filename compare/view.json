@@ -1957,6 +1957,460 @@
    }
   },
   {
+   "year": 1915,
+   "inventory": [
+    {
+     "date": "1915-08-05",
+     "day_known": true,
+     "name": "Will Leach",
+     "place": "In front of the railway station at Trilby",
+     "county": "Pasco",
+     "state": "FL",
+     "status": "Lynching",
+     "method": "Hanged and riddled with bullets",
+     "accusation": "Attempted criminal assault on a 13 year-old white girl",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:5057",
+       "name": "Will Leach"
+      },
+      {
+       "list": "HAL",
+       "row": "734",
+       "name": "Will Leach"
+      },
+      {
+       "list": "MWT",
+       "row": "4754",
+       "name": "Will Leach"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1915-08-05",
+       "city": "Dade City",
+       "county": "Pasco",
+       "state": "FL",
+       "victims": [
+        "Will Leach",
+        "Ed Leach",
+        "Win Leach"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "will-leach-dade-city-1915-08-05",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Will Leach"
+      }
+     ]
+    },
+    {
+     "date": "1915-08-06",
+     "day_known": true,
+     "name": "Edward Berry",
+     "place": "Shawnee",
+     "county": "Pottawatomie",
+     "state": "OK",
+     "status": "",
+     "method": "Hanged",
+     "accusation": "Unknown",
+     "rows": [
+      {
+       "list": "S-R",
+       "row": "5883",
+       "name": "Edward Berry"
+      },
+      {
+       "list": "MWT",
+       "row": "3479",
+       "name": "Edward Berry"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1915-08-06",
+       "city": "Shawnee",
+       "county": "Pottawatomie",
+       "state": "OK",
+       "victims": [
+        "Ed Berry",
+        "SD Berry"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 2,
+       "dossier": "ed-berry-shawnee-1915-08-06",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Ed Berry"
+      }
+     ]
+    },
+    {
+     "date": "1915-08-08",
+     "day_known": true,
+     "name": "James Fox",
+     "place": "8 miles N of Tunnel Springs, at the Alger-Sullivan Lumber Co.",
+     "county": "Monroe",
+     "state": "AL",
+     "status": "Lynching",
+     "method": "Shot",
+     "accusation": "Murderous assault on a white man, a deputy sheriff",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:5060",
+       "name": "James Fox"
+      },
+      {
+       "list": "HAL",
+       "row": "228",
+       "name": "James Fox"
+      },
+      {
+       "list": "MWT",
+       "row": "296",
+       "name": "James Fox"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1915-08-10",
+       "city": "Tunnel Springs",
+       "county": "Monroe",
+       "state": "AL",
+       "victims": [
+        "James Fox"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "james-fox-tunnel-springs-1915-08-10",
+       "published": true,
+       "map": true,
+       "title": "Lynching of James Fox"
+      }
+     ]
+    },
+    {
+     "date": "1915-08-11",
+     "day_known": true,
+     "name": "Bert Springs",
+     "place": "",
+     "county": "Mississippi",
+     "state": "AR",
+     "status": "",
+     "method": "",
+     "accusation": "Murder",
+     "rows": [
+      {
+       "list": "HAL",
+       "row": "457",
+       "name": "Bert Springs"
+      },
+      {
+       "list": "MWT",
+       "row": "4736",
+       "name": "Bert Springs"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1915-07-31",
+       "city": "Osceola",
+       "county": "Mississippi",
+       "state": "AR",
+       "victims": [
+        "Bert Spring"
+       ],
+       "victim_race": "White",
+       "type": "posse_killing",
+       "stage": "",
+       "lynch_def": null,
+       "match": "name",
+       "killed": 1,
+       "killed_max": 2,
+       "dossier": "bert-spring-osceola-1915-07-31",
+       "set_aside": {
+        "reason": "outside_month",
+        "basis": "Island 37 raid and Bert Spring, July 31; held for 1915-07 (held.json)",
+        "ruled": true
+       },
+       "held": null,
+       "published": false,
+       "map": false,
+       "title": null
+      }
+     ]
+    },
+    {
+     "date": "1915-08-17",
+     "day_known": true,
+     "name": "John Riggins",
+     "place": "Amsterdman",
+     "county": "Decatur",
+     "state": "GA",
+     "status": "Lynching",
+     "method": "Riddled with bullets",
+     "accusation": "Criminal assault on a married white woman, wife of a prominent planter",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:5064",
+       "name": "John Riggins"
+      },
+      {
+       "list": "HAL",
+       "row": "905",
+       "name": "John Riggins"
+      },
+      {
+       "list": "MWT",
+       "row": "1409",
+       "name": "John Riggins"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1915-08-17",
+       "city": "Bainbridge",
+       "county": "Decatur",
+       "state": "GA",
+       "victims": [
+        "John Riggins",
+        "John Higgins",
+        "John RIG gins"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "john-riggins-bainbridge-1915-08-17",
+       "published": true,
+       "map": true,
+       "title": "Lynching of John Riggins"
+      }
+     ]
+    },
+    {
+     "date": "1915-08-18",
+     "day_known": true,
+     "name": "Henry Russell",
+     "place": "Hope Hill",
+     "county": "Montgomery",
+     "state": "AL",
+     "status": "Lynching",
+     "method": "Riddled with bullets",
+     "accusation": "Poisoning mules and burning a barn",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:5066",
+       "name": "Henry Russell"
+      },
+      {
+       "list": "B-T",
+       "row": "bt:5067",
+       "name": "\"Kid\" Jackson"
+      },
+      {
+       "list": "HAL",
+       "row": "234",
+       "name": "\"Kid\" Jackson"
+      },
+      {
+       "list": "HAL",
+       "row": "235",
+       "name": "Unnamed Negro"
+      },
+      {
+       "list": "HAL",
+       "row": "236",
+       "name": "Henry Russell"
+      },
+      {
+       "list": "MWT",
+       "row": "297",
+       "name": "’Kid’ Jackson"
+      },
+      {
+       "list": "MWT",
+       "row": "298",
+       "name": "Henry Russell"
+      },
+      {
+       "list": "MWT",
+       "row": "299",
+       "name": "Unnamed"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1915-08-18",
+       "city": "Hope Hull",
+       "county": "Montgomery",
+       "state": "AL",
+       "victims": [
+        "Henry Russell",
+        "Kid Jackson",
+        "Ed Russell",
+        "Sid Jackson",
+        "Kit Jackson",
+        "Frank Russell",
+        "Harry Russell"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 3,
+       "killed_max": 3,
+       "dossier": "henry-russell-hope-hull-1915-08-18",
+       "published": true,
+       "map": true,
+       "title": "Lynching of Kit Jackson and Harry Russell"
+      }
+     ]
+    },
+    {
+     "date": "1915-08-20",
+     "day_known": true,
+     "name": "Bob —",
+     "place": "Near Coushatta, Grand Bayou swamp",
+     "county": "Red River",
+     "state": "LA",
+     "status": "Lynching",
+     "method": "Hanged",
+     "accusation": "Attempted criminal assault on a 17 year-old unmarried white girl, daughter of a farmer",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:5072",
+       "name": "Bob —"
+      },
+      {
+       "list": "HAL",
+       "row": "1698",
+       "name": "Bob —"
+      },
+      {
+       "list": "MWT",
+       "row": "2285",
+       "name": "Bob —"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1915-08-21",
+       "city": "Coushatta",
+       "county": "Red River",
+       "state": "LA",
+       "victims": [],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 1,
+       "killed_max": 1,
+       "dossier": "coushatta-coushatta-1915-08-21",
+       "published": true,
+       "map": true,
+       "title": "Lynching near Coushatta, Louisiana (1915)"
+      }
+     ]
+    },
+    {
+     "date": "1915-08-29",
+     "day_known": true,
+     "name": "King Richmond",
+     "place": "Buford Park in Sulphur Springs",
+     "county": "Hopkins",
+     "state": "TX",
+     "status": "Lynching",
+     "method": "Burning",
+     "accusation": "Killing one white man, a deputy sheriff, and seriously wounding another, a sheriff",
+     "rows": [
+      {
+       "list": "B-T",
+       "row": "bt:5075",
+       "name": "King Richmond"
+      },
+      {
+       "list": "S-R",
+       "row": "7505",
+       "name": "King Richmond"
+      },
+      {
+       "list": "S-R",
+       "row": "New_TX_Emily_13",
+       "name": "Joe Richmond"
+      },
+      {
+       "list": "MWT",
+       "row": "4327",
+       "name": "Joseph Richmond"
+      },
+      {
+       "list": "MWT",
+       "row": "4328",
+       "name": "King Richmond"
+      }
+     ],
+     "ours": [
+      {
+       "date": "1915-08-29",
+       "city": "Sulphur Springs",
+       "county": "Hopkins",
+       "state": "TX",
+       "victims": [
+        "Joe Richmond",
+        "King Richmond",
+        "sheriff (unnamed)"
+       ],
+       "victim_race": "Black",
+       "type": "lynching",
+       "stage": "completed",
+       "lynch_def": null,
+       "match": "linked",
+       "killed": 2,
+       "killed_max": 2,
+       "dossier": "joe-richmond-sulphur-springs-1915-08-29",
+       "published": true,
+       "map": true,
+       "title": "Lynching of King and Joe Richmond"
+      }
+     ]
+    }
+   ],
+   "found": [],
+   "lists": {
+    "B-T": "Beck–Tolnay",
+    "S-R": "Seguin–Rigby",
+    "HAL": "HAL",
+    "MWT": "Monroe Work Today"
+   }
+  },
+  {
    "year": 1920,
    "inventory": [
     {
