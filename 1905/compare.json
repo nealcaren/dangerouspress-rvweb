@@ -1,0 +1,505 @@
+{
+ "schema_version": 1,
+ "year": 1905,
+ "month": 8,
+ "generated_at": "2026-11-14T17:34:03-05:00",
+ "source": {
+  "git": "d87f073",
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1905/events_1905_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1905/dossiers2_all"
+ },
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL",
+  "MWT": "Monroe Work Today"
+ },
+ "inventory": [
+  {
+   "date": "1905-08-03",
+   "day_known": true,
+   "name": "Isaac Kinney",
+   "place": "Doella, 6 miles S of Lewisville",
+   "county": "Lafayette",
+   "state": "AR",
+   "status": "Possible lynching",
+   "method": "Shot",
+   "accusation": "Murder of two persons and shooting multiple others",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4351",
+     "name": "Isaac Kinney"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1905-08_r2:g18",
+     "date": "1905-08-03",
+     "city": "Doella",
+     "county": "Lafayette",
+     "state": "AR",
+     "victims": [
+      "Ike Kinney",
+      "E. R. Ferguson",
+      "Black Tracy"
+     ],
+     "victim_race": "Black",
+     "type": "posse_killing",
+     "stage": "",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4351",
+     "summary": "After Claim agent E. R. Ferguson was shot dead by a Negro, posses formed to hunt the suspect, Ike Kinney. In the woods Kinney fired on a posse, killing Ferguson, and escaped; a reward and bloodhounds were used. Lynching was said to be likely if he was found.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "ike-kinney-doella-1905-08-02"
+    }
+   ]
+  },
+  {
+   "date": "1905-08-04",
+   "day_known": true,
+   "name": "\"Kid\" George",
+   "place": "Bridge in or near Hattiesburg",
+   "county": "Perry",
+   "state": "MS",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Accessories to the murder of a white man, a convict guard",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4353",
+     "name": "\"Kid\" George"
+    },
+    {
+     "list": "HAL",
+     "row": "1902",
+     "name": "\"Kid\" George"
+    },
+    {
+     "list": "MWT",
+     "row": "2802",
+     "name": "’Kid’ George"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1905-08_r2:g9",
+     "date": "1905-08-04",
+     "city": "Hattiesburg",
+     "county": "Perry",
+     "state": "MS",
+     "victims": [
+      "Kid George",
+      "Ed Lewis",
+      "Ed Lewis (alias Brock)",
+      "Win Horn",
+      "George Horn"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4352",
+     "summary": "A mob took two Black men, George Horn and Ed Lewis (Brock), from the Hattiesburg city jail at night and hanged them from a bridge under electric lights. Lewis had been whipped in custody to make him talk. A posse pursued a third suspect, William Horn.",
+     "match": "name",
+     "killed": 2,
+     "killed_max": 2,
+     "dossier": "kid-george-hattiesburg-1905-08-04"
+    }
+   ]
+  },
+  {
+   "date": "1905-08-04",
+   "day_known": true,
+   "name": "Edward Lewis",
+   "place": "Bridge in or near Hattiesburg",
+   "county": "Perry",
+   "state": "MS",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Accessories to the murder of a white man, a convict guard",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4352",
+     "name": "Edward Lewis"
+    },
+    {
+     "list": "HAL",
+     "row": "1901",
+     "name": "Edward Lewis"
+    },
+    {
+     "list": "MWT",
+     "row": "2803",
+     "name": "Edward Lewis"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1905-08_r2:g9",
+     "date": "1905-08-04",
+     "city": "Hattiesburg",
+     "county": "Perry",
+     "state": "MS",
+     "victims": [
+      "Kid George",
+      "Ed Lewis",
+      "Ed Lewis (alias Brock)",
+      "Win Horn",
+      "George Horn"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4352",
+     "summary": "A mob took two Black men, George Horn and Ed Lewis (Brock), from the Hattiesburg city jail at night and hanged them from a bridge under electric lights. Lewis had been whipped in custody to make him talk. A posse pursued a third suspect, William Horn.",
+     "match": "linked",
+     "killed": 2,
+     "killed_max": 2,
+     "dossier": "kid-george-hattiesburg-1905-08-04"
+    }
+   ]
+  },
+  {
+   "date": "1905-08-08",
+   "day_known": true,
+   "name": "Frank Majors",
+   "place": "Waco, bridge over Brazos river on Washington St.",
+   "county": "McLennan",
+   "state": "TX",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Criminal assault on a married white woman",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4354",
+     "name": "Frank Majors"
+    },
+    {
+     "list": "S-R",
+     "row": "7306",
+     "name": "Frank Majors"
+    },
+    {
+     "list": "MWT",
+     "row": "4248",
+     "name": "Sank Majors"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1905-08_r2:g38",
+     "date": "1905-08-08",
+     "city": "Waco",
+     "county": "Mclennan",
+     "state": "TX",
+     "victims": [
+      "Sank Majors",
+      "Haig Majors"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4354",
+     "summary": "Mounted citizens, about a crowd of several hundred, surrounded the Waco courthouse and jail at about 2 a.m., seized and held the sheriff, jailer and deputies, broke open the jail, and hanged Sank Majors, a Black prisoner, from the new bridge after taking his confession.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "sank-majors-waco-1905-08-08"
+    }
+   ]
+  },
+  {
+   "date": "1905-08-11",
+   "day_known": true,
+   "name": "Unnamed Person",
+   "place": "Near Eros",
+   "county": "Jackson",
+   "state": "LA",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Shot and wounded a white man, a merchant and deputy sheriff in Eros, who was acting as a quarantine guard",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4356",
+     "name": "Unnamed Person"
+    },
+    {
+     "list": "HAL",
+     "row": "1587",
+     "name": "Unnamed Negro"
+    },
+    {
+     "list": "MWT",
+     "row": "2212",
+     "name": "Unnamed"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1905-08_r2:g31",
+     "date": "1905-08-11",
+     "city": "Eros",
+     "county": "Jackson",
+     "state": "LA",
+     "victims": [],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4356",
+     "summary": "Negro said to have shot and dangerously wounded merchant J. H. Sanders at Eros, La., was lynched the night of August 11, per a Monroe special; a second suspect was said to face lynching if captured.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "eros-eros-1905-08-11"
+    }
+   ]
+  },
+  {
+   "date": "1905-08-11",
+   "day_known": true,
+   "name": "Thomas Williams",
+   "place": "Public square in Sulphur Springs",
+   "county": "Hopkins",
+   "state": "TX",
+   "status": "Lynching",
+   "method": "Burned",
+   "accusation": "Beating and attempted rape of a 14-19 year-old white girl",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4355",
+     "name": "Thomas Williams"
+    },
+    {
+     "list": "S-R",
+     "row": "7309",
+     "name": "Tom Williams"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1905-08_r2:g109",
+     "date": "1905-08-11",
+     "city": "Sulphur Springs",
+     "county": "Hopkins",
+     "state": "TX",
+     "victims": [
+      "Tom Williams",
+      "Torn Williams"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4355",
+     "summary": "A crowd at Sulphur Springs, Texas, took Tom Williams, an eighteen-year-old Black man, from officers who had caught him hiding in a barn, and burned him at the courthouse square after the white victim identified him. Threats against Black residents followed, and many left town.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "tom-williams-sulphur-springs-1905-08-11"
+    }
+   ]
+  },
+  {
+   "date": "1905-08-16",
+   "day_known": true,
+   "name": "Henry Young",
+   "place": "Bass Plantation, near Lake Cormorant",
+   "county": "DeSoto",
+   "state": "MS",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Murder of a white man",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4357",
+     "name": "Henry Young"
+    },
+    {
+     "list": "HAL",
+     "row": "1892",
+     "name": "Henry Young"
+    },
+    {
+     "list": "MWT",
+     "row": "2804",
+     "name": "Henry Young"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1905-08_r2:g15",
+     "date": "1905-08-16",
+     "city": "Lake Cormorant",
+     "county": "De Soto",
+     "state": "MS",
+     "victims": [
+      "Henry Young"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4357",
+     "summary": "A mob of about 100 armed men overpowered Sheriff Withers and a deputy at the Trenton station, took Henry Young, a Black man who confessed to shooting Edward E. Perry, and hanged him from a tree on the Bass plantation. A posse of forty had been hunting him.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "henry-young-lake-cormorant-1905-08-16"
+    }
+   ]
+  },
+  {
+   "date": "1905-08-25",
+   "day_known": true,
+   "name": "Cleveland McBee",
+   "place": "Griffith",
+   "county": "Clay",
+   "state": "MS",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Criminal assault on an 11-12 year-old white girl, daughter of a prominent citizen",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4358",
+     "name": "Cleveland McBee"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1905-08_r2:g16",
+     "date": "1905-08-24",
+     "city": "Cedar Bluff",
+     "county": "Clay",
+     "state": "MS",
+     "victims": [
+      "Cleveland McBee"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "lynching",
+     "inventory": "B-T:bt:4358",
+     "summary": "A mob at Cedar Bluff, Mississippi, hanged a Black youth whom the paper says assaulted a farmer's twelve-year-old daughter. He was captured a few hours after the assault; the text is truncated before the details of the hanging.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "cedar-bluff-cedar-bluff-1905-08-24"
+    }
+   ]
+  },
+  {
+   "date": "1905-08-27",
+   "day_known": true,
+   "name": "John Moore",
+   "place": "1/3 mile from Newbern, Neuse river bridge",
+   "county": "Craven",
+   "state": "NC",
+   "status": "Lynching",
+   "method": "Hanged and riddled with bullets",
+   "accusation": "Murderous assault on married white woman and robbery",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4359",
+     "name": "John Moore"
+    },
+    {
+     "list": "HAL",
+     "row": "2365",
+     "name": "John Moore"
+    },
+    {
+     "list": "MWT",
+     "row": "3182",
+     "name": "John Moore"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1905-08_r2:g112",
+     "date": "1905-08-27",
+     "city": "New Bern",
+     "county": "Craven",
+     "state": "NC",
+     "victims": [
+      "John Moore"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4359",
+     "summary": "A mob of about one hundred masked men forced the Craven County jail at Newburn, took John Moore, a Black prisoner, and hanged him from a Neuse River bridge brace, then riddled his body with bullets. Naval reserves were called out but did not stop it.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "john-moore-new-bern-1905-08-27"
+    }
+   ]
+  },
+  {
+   "date": "1905-08-31",
+   "day_known": true,
+   "name": "— Bees",
+   "place": "Near Leake plantation, 5 miles N of Rosetta",
+   "county": "Wilkinson",
+   "state": "MS",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Entered a 17 year-old white girl’s bedroom, daughter of a prominent planter",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:4360",
+     "name": "— Bees"
+    },
+    {
+     "list": "HAL",
+     "row": "2301",
+     "name": "— Bees"
+    },
+    {
+     "list": "MWT",
+     "row": "2805",
+     "name": "— Bees"
+    }
+   ],
+   "ours": [
+    {
+     "id": "leads:inventory_recall:rosetta-bees",
+     "date": "1905-08-31",
+     "city": "Rosetta",
+     "county": "Wilkinson",
+     "state": "MS",
+     "victims": [
+      "Bees"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:4360",
+     "summary": "A mob near the Leake plantation, north of Rosetta, Mississippi, lynched a Black man named Bees (also given as Rees or Beese), charged with an attempted criminal assault on a white girl.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": null,
+     "dossier": "bees-rosetta-1905-08-31"
+    }
+   ]
+  }
+ ],
+ "found": []
+}
