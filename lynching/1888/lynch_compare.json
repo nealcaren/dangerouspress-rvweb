@@ -7,12 +7,12 @@
   "S-R": "Seguin–Rigby",
   "MWT": "Monroe Work Today"
  },
- "generated_at": "2026-11-16T07:05:12-05:00",
+ "generated_at": "2026-11-16T07:21:46-05:00",
  "counts": {
   "inventory_victims": 202,
   "matched": 191,
-  "agree": 121,
-  "differ": 70,
+  "agree": 122,
+  "differ": 69,
   "inventory_only": 11,
   "found_here": 52,
   "standard_definition": 169
@@ -6288,38 +6288,6 @@
    "match": "linked",
    "ours": [
     {
-     "id": "lean_1888-06_lyn:g20",
-     "dossier": "sycamore-sycamore",
-     "set_aside": null,
-     "title": "Shooting and disappearance of a Black man near Sycamore, Georgia",
-     "date": "~1888-06",
-     "prec": "month",
-     "city": "Sycamore",
-     "county": "Worth",
-     "state": "GA",
-     "victims": [],
-     "race": "Black",
-     "type": "lynching",
-     "stage": "threatened",
-     "lynch_def": "insufficient",
-     "killed": 0,
-     "method": [],
-     "accusation": "said to have made insulting proposals to a white girl",
-     "evidence": "single_source",
-     "inventory": "B-T:bt:2292",
-     "county10": 4426,
-     "lead": "The shooting and disappearance of a Black man near Sycamore, Georgia, took place in June 1888, after J. F. Horkan shot an unnamed \"negro man\" accused of making \"insulting proposals\" to a white girl in his household. Neighbors threatened to lynch the wounded man, but Horkan refused; days later the man vanished, and it was \"generally supposed he was lynched.\"",
-     "grade": {
-      "date": "differ",
-      "state": "agree",
-      "county": "agree",
-      "name": "unknown",
-      "race": "agree",
-      "outcome": "differ",
-      "method": "unknown"
-     }
-    },
-    {
      "id": "lean_1888-06_lyn:g26",
      "dossier": "ned-clark-1888-06-26",
      "set_aside": null,
@@ -6354,7 +6322,7 @@
      }
     }
    ],
-   "verdict": "differ"
+   "verdict": "agree"
   },
   {
    "key": "S-R:2745",
