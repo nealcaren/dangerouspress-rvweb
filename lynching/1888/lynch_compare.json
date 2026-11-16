@@ -7,13 +7,13 @@
   "S-R": "Seguin–Rigby",
   "MWT": "Monroe Work Today"
  },
- "generated_at": "2026-11-16T07:02:57-05:00",
+ "generated_at": "2026-11-16T07:05:12-05:00",
  "counts": {
   "inventory_victims": 202,
-  "matched": 192,
-  "agree": 120,
-  "differ": 72,
-  "inventory_only": 10,
+  "matched": 191,
+  "agree": 121,
+  "differ": 70,
+  "inventory_only": 11,
   "found_here": 52,
   "standard_definition": 169
  },
@@ -12350,44 +12350,9 @@
     }
    ],
    "county10": 7065,
-   "match": "linked",
-   "ours": [
-    {
-     "id": "lean_1888-11_lyn:g4",
-     "dossier": "jerry-taylor-1888-11-22",
-     "set_aside": null,
-     "title": "Lynching of Jerry Taylor",
-     "date": "1888-11-22",
-     "prec": "day",
-     "city": "",
-     "county": "St. Helena",
-     "state": "LA",
-     "victims": [
-      "Jerry Taylor"
-     ],
-     "race": "Black",
-     "type": "lynching",
-     "stage": "completed",
-     "lynch_def": "probable lynching",
-     "killed": 1,
-     "method": [],
-     "accusation": "accused of criminal assault on a young girl",
-     "evidence": "single_source",
-     "inventory": "B-T:bt:2348",
-     "county10": 7049,
-     "lead": "The lynching of Jerry Taylor was the killing of a Black man in St. Helena Parish, Louisiana, on the night of November 22, 1888. He was accused of criminally assaulting the thirteen-year-old daughter of J. C. Williams. The case reached the press only as one-sentence wire and digest items, which ran in papers from Washington and New York to Minnesota, Wisconsin, Iowa and Dakota over the following week.",
-     "grade": {
-      "date": "differ",
-      "state": "agree",
-      "county": "differ",
-      "name": "differ",
-      "race": "agree",
-      "outcome": "agree",
-      "method": "unknown"
-     }
-    }
-   ],
-   "verdict": "differ"
+   "match": null,
+   "ours": [],
+   "verdict": "inventory only"
   },
   {
    "key": "S-R:5696",
@@ -12956,39 +12921,41 @@
    "match": "linked",
    "ours": [
     {
-     "id": "lean_1888-11_lyn:g27",
-     "dossier": "greensburg-greensburg-1888-11",
+     "id": "lean_1888-11_lyn:g4",
+     "dossier": "jerry-taylor-1888-11-22",
      "set_aside": null,
-     "title": "Greensburg jail fire",
-     "date": "~1888-10-31",
+     "title": "Lynching of Jerry Taylor",
+     "date": "1888-11-22",
      "prec": "day",
-     "city": "Greensburg",
+     "city": "",
      "county": "St. Helena",
      "state": "LA",
-     "victims": [],
+     "victims": [
+      "Jerry Taylor"
+     ],
      "race": "Black",
-     "type": "other",
-     "stage": "",
-     "lynch_def": "insufficient",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "probable lynching",
      "killed": 1,
      "method": [],
-     "accusation": "charged with horse stealing",
-     "evidence": "corroborated",
+     "accusation": "accused of criminal assault on a young girl",
+     "evidence": "single_source",
      "inventory": "B-T:bt:2354",
      "county10": 7049,
-     "lead": "The Greensburg jail fire destroyed the wooden jail at Greensburg, Louisiana, on the night of October 31 or November 1, 1888, killing its only prisoner, a Black youth held on a charge of horse stealing. The cause of the fire was not reported, and the story circulated nationally as a one-sentence wire brief.",
+     "lead": "The lynching of Jerry Taylor was the killing of a Black man in St. Helena Parish, Louisiana, on the night of November 22, 1888. He was accused of criminally assaulting the thirteen-year-old daughter of J. C. Williams. The case reached the press only as one-sentence wire and digest items, which ran in papers from Washington and New York to Minnesota, Wisconsin, Iowa and Dakota over the following week.",
      "grade": {
-      "date": "differ",
+      "date": "agree",
       "state": "agree",
       "county": "agree",
-      "name": "unknown",
+      "name": "agree",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "unknown"
      }
     }
    ],
-   "verdict": "differ"
+   "verdict": "agree"
   },
   {
    "key": "bt:2355",
