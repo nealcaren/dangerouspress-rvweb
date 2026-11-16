@@ -7,15 +7,15 @@
   "S-R": "Seguin–Rigby",
   "MWT": "Monroe Work Today"
  },
- "generated_at": "2026-11-16T07:34:21-05:00",
+ "generated_at": "2026-11-16T07:43:23-05:00",
  "counts": {
   "inventory_victims": 202,
   "matched": 189,
-  "agree": 130,
-  "differ": 59,
+  "agree": 131,
+  "differ": 58,
   "inventory_only": 13,
   "found_here": 53,
-  "standard_definition": 171
+  "standard_definition": 172
  },
  "victims": [
   {
@@ -1142,10 +1142,10 @@
       "Clark"
      ],
      "race": "Black",
-     "type": "mob_assault",
-     "stage": "",
-     "lynch_def": null,
-     "killed": 0,
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "probable lynching",
+     "killed": null,
      "method": [],
      "accusation": "said to have assaulted a white lady",
      "evidence": null,
@@ -1158,12 +1158,12 @@
       "county": "agree",
       "name": "agree",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "unknown"
      }
     }
    ],
-   "verdict": "differ"
+   "verdict": "agree"
   },
   {
    "key": "bt:2242",
