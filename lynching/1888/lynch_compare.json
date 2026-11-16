@@ -7,15 +7,15 @@
   "S-R": "Seguin–Rigby",
   "MWT": "Monroe Work Today"
  },
- "generated_at": "2026-11-16T07:21:46-05:00",
+ "generated_at": "2026-11-16T07:27:48-05:00",
  "counts": {
   "inventory_victims": 202,
   "matched": 191,
-  "agree": 122,
-  "differ": 69,
+  "agree": 130,
+  "differ": 61,
   "inventory_only": 11,
-  "found_here": 52,
-  "standard_definition": 169
+  "found_here": 53,
+  "standard_definition": 171
  },
  "victims": [
   {
@@ -2043,8 +2043,8 @@
      ],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 8,
      "method": [
       "burned",
@@ -2061,7 +2061,7 @@
       "county": "agree",
       "name": "differ",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "differ"
      }
     }
@@ -2115,8 +2115,8 @@
      ],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 8,
      "method": [
       "burned",
@@ -2133,7 +2133,7 @@
       "county": "agree",
       "name": "differ",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "differ"
      }
     }
@@ -2187,8 +2187,8 @@
      ],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 8,
      "method": [
       "burned",
@@ -2205,7 +2205,7 @@
       "county": "agree",
       "name": "differ",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "differ"
      }
     }
@@ -2259,8 +2259,8 @@
      ],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 8,
      "method": [
       "burned",
@@ -2277,7 +2277,7 @@
       "county": "agree",
       "name": "differ",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "differ"
      }
     }
@@ -2331,8 +2331,8 @@
      ],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 8,
      "method": [
       "burned",
@@ -2349,7 +2349,7 @@
       "county": "agree",
       "name": "differ",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "differ"
      }
     }
@@ -2403,8 +2403,8 @@
      ],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 8,
      "method": [
       "burned",
@@ -2421,7 +2421,7 @@
       "county": "agree",
       "name": "differ",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "differ"
      }
     }
@@ -2475,8 +2475,8 @@
      ],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 8,
      "method": [
       "burned",
@@ -2493,12 +2493,12 @@
       "county": "agree",
       "name": "agree",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "agree"
      }
     }
    ],
-   "verdict": "differ"
+   "verdict": "agree"
   },
   {
    "key": "bt:2258",
@@ -8804,40 +8804,6 @@
       "outcome": "differ",
       "method": "unknown"
      }
-    },
-    {
-     "id": "lean_1888-08_lyn:g34",
-     "dossier": "big-cypress-bayou-big-cypress-bayou-1888-08-14",
-     "set_aside": null,
-     "title": "Lynching near Big Cypress Bayou, Bossier Parish (1888)",
-     "date": "1888-08-14",
-     "prec": "day",
-     "city": "Big Cypress Bayou",
-     "county": "Bossier",
-     "state": "LA",
-     "victims": [],
-     "race": "Black",
-     "type": "lynching",
-     "stage": "completed",
-     "lynch_def": "lynching",
-     "killed": 1,
-     "method": [
-      "hanged"
-     ],
-     "accusation": "accused of breaking into a store and stealing a sum of money",
-     "evidence": "single_source",
-     "inventory": "B-T:bt:2312",
-     "county10": 6817,
-     "lead": "The lynching near Big Cypress Bayou was the hanging of an unnamed Black man by a mob near Big Cypress Bayou in Bossier Parish, Louisiana, on Tuesday, August 14, 1888. He was accused of breaking into a store and stealing a sum of money. The report reached the national press mainly as a short addendum to dispatches about the killing of Black people by 'regulators' near Freetown.",
-     "grade": {
-      "date": "close",
-      "state": "agree",
-      "county": "differ",
-      "name": "unknown",
-      "race": "agree",
-      "outcome": "agree",
-      "method": "differ"
-     }
     }
    ],
    "verdict": "differ"
@@ -9734,8 +9700,8 @@
      "victims": [],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 7,
      "method": [],
      "accusation": "said to have been leaders in the attack on Milburn's house",
@@ -9749,12 +9715,12 @@
       "county": "agree",
       "name": "unknown",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "unknown"
      }
     }
    ],
-   "verdict": "differ"
+   "verdict": "agree"
   },
   {
    "key": "bt:2324",
@@ -9801,8 +9767,8 @@
      "victims": [],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 7,
      "method": [],
      "accusation": "said to have been leaders in the attack on Milburn's house",
@@ -9816,12 +9782,12 @@
       "county": "agree",
       "name": "unknown",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "unknown"
      }
     }
    ],
-   "verdict": "differ"
+   "verdict": "agree"
   },
   {
    "key": "bt:2325",
@@ -9868,8 +9834,8 @@
      "victims": [],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 7,
      "method": [],
      "accusation": "said to have been leaders in the attack on Milburn's house",
@@ -9883,12 +9849,12 @@
       "county": "agree",
       "name": "unknown",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "unknown"
      }
     }
    ],
-   "verdict": "differ"
+   "verdict": "agree"
   },
   {
    "key": "bt:2326",
@@ -9935,8 +9901,8 @@
      "victims": [],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 7,
      "method": [],
      "accusation": "said to have been leaders in the attack on Milburn's house",
@@ -9950,12 +9916,12 @@
       "county": "agree",
       "name": "unknown",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "unknown"
      }
     }
    ],
-   "verdict": "differ"
+   "verdict": "agree"
   },
   {
    "key": "bt:2327",
@@ -10002,8 +9968,8 @@
      "victims": [],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 7,
      "method": [],
      "accusation": "said to have been leaders in the attack on Milburn's house",
@@ -10017,12 +9983,12 @@
       "county": "agree",
       "name": "unknown",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "unknown"
      }
     }
    ],
-   "verdict": "differ"
+   "verdict": "agree"
   },
   {
    "key": "bt:2328",
@@ -10069,8 +10035,8 @@
      "victims": [],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 7,
      "method": [],
      "accusation": "said to have been leaders in the attack on Milburn's house",
@@ -10084,12 +10050,12 @@
       "county": "agree",
       "name": "unknown",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "unknown"
      }
     }
    ],
-   "verdict": "differ"
+   "verdict": "agree"
   },
   {
    "key": "bt:2329",
@@ -10136,8 +10102,8 @@
      "victims": [],
      "race": "Black",
      "type": "lynching",
-     "stage": "",
-     "lynch_def": null,
+     "stage": "completed",
+     "lynch_def": "lynching",
      "killed": 7,
      "method": [],
      "accusation": "said to have been leaders in the attack on Milburn's house",
@@ -10151,12 +10117,12 @@
       "county": "agree",
       "name": "unknown",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "unknown"
      }
     }
    ],
-   "verdict": "differ"
+   "verdict": "agree"
   },
   {
    "key": "bt:2330",
@@ -15850,6 +15816,31 @@
    "inventory": null,
    "county10": 9307,
    "lead": "The lynching of Will Robinson was the hanging of a Black man by a crowd of about 100 people at Staton's stretch, Tallahatchie County, Mississippi, on the morning of August 8, 1888. Robinson had been accused of attempting to assault a white woman, and the only report found, a Dublin dispatch printed in the Grenada Sentinel, said he confessed before he was hanged \"without law or ceremony.\""
+  },
+  {
+   "id": "lean_1888-08_lyn:g34",
+   "dossier": "big-cypress-bayou-big-cypress-bayou-1888-08-14",
+   "set_aside": null,
+   "title": "Lynching near Big Cypress Bayou, Bossier Parish (1888)",
+   "date": "1888-08-14",
+   "prec": "day",
+   "city": "Big Cypress Bayou",
+   "county": "Bossier",
+   "state": "LA",
+   "victims": [],
+   "race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "killed": 1,
+   "method": [
+    "hanged"
+   ],
+   "accusation": "accused of breaking into a store and stealing a sum of money",
+   "evidence": "single_source",
+   "inventory": null,
+   "county10": 6817,
+   "lead": "The lynching near Big Cypress Bayou was the hanging of an unnamed Black man by a mob near Big Cypress Bayou in Bossier Parish, Louisiana, on Tuesday, August 14, 1888. He was accused of breaking into a store and stealing a sum of money. The report reached the national press mainly as a short addendum to dispatches about the killing of Black people by 'regulators' near Freetown."
   },
   {
    "id": "lean_1888-08_lyn:g111",
