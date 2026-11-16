@@ -7,7 +7,7 @@
   "S-R": "Seguin–Rigby",
   "MWT": "Monroe Work Today"
  },
- "generated_at": "2026-11-16T05:44:22-05:00",
+ "generated_at": "2026-11-16T07:02:57-05:00",
  "counts": {
   "inventory_victims": 202,
   "matched": 192,
@@ -11167,40 +11167,6 @@
    "county10": 14902,
    "match": "linked",
    "ours": [
-    {
-     "id": "lean_1888-06_lyn:g17",
-     "dossier": "john-johnson-crockett-1888-06-15",
-     "set_aside": null,
-     "title": "Attempted lynching of John Andrew Johnson",
-     "date": "~1888-06-15",
-     "prec": "day",
-     "city": "Crockett",
-     "county": "Houston",
-     "state": "TX",
-     "victims": [
-      "John Andrew Johnson"
-     ],
-     "race": "Black",
-     "type": "lynching",
-     "stage": "attempted",
-     "lynch_def": "not a lynching",
-     "killed": 0,
-     "method": [],
-     "accusation": "accused of raping Miss Simms, about six miles from Crockett",
-     "evidence": "corroborated",
-     "inventory": "B-T:bt:2339",
-     "county10": 15026,
-     "lead": "The attempted lynching of John Andrew Johnson refers to repeated mob threats in June and October 1888 against Johnson, a nineteen-year-old Black man held at Crockett, Houston County, Texas, on a charge of raping a white girl. Officers moved him to Houston and later guarded the Crockett jail to keep him from the crowds, and he was legally hanged on December 21, 1888, after a conviction in the district court. Texas papers followed the threats as near misses, and the execution ran as a wire item across the country.",
-     "grade": {
-      "date": "differ",
-      "state": "agree",
-      "county": "differ",
-      "name": "agree",
-      "race": "agree",
-      "outcome": "differ",
-      "method": "unknown"
-     }
-    },
     {
      "id": "lean_1888-11_lyn:g24",
      "dossier": "lamar-johnson-1888-10",
