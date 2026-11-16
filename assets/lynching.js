@@ -88,7 +88,8 @@ items.forEach(it => { it.m = month(it.date); });
 /* ---------- header tally ---------- */
 const n = s => items.filter(i => i.status === s).length;
 document.getElementById("tally").innerHTML =
-  `<span><b>${C.counts.standard_definition}</b> completed lynchings in our table</span>` +
+  `<span><b>${C.counts.standard_definition}</b> lynchings (Tolnay&ndash;Beck/NAACP definition)</span>` +
+  (C.counts.broad_events != null ? `<span><b>${C.counts.broad_events}</b> under the broad definition</span>` : "") +
   `<span><b>${C.counts.matched}</b> of <b>${C.counts.inventory_victims}</b> inventory victims matched</span>` +
   `<span><b>${C.counts.agree}</b> agree, <b>${C.counts.differ}</b> differ</span>` +
   `<span><b>${C.counts.found_here}</b> found here only</span><span><b>${C.counts.inventory_only}</b> inventory only</span>`;
@@ -225,6 +226,15 @@ function compareTable(v, o) {
     lines.map(([k, lab, ours, inv]) => `<tr class="${k && g[k] === "differ" ? "row-differ" : ""}"><th>${lab}</th><td>${esc(ours)}</td><td>${esc(inv)}</td><td class="g">${k ? gradeChip(g[k]) : ""}</td></tr>`).join("") +
     `</tbody></table>`;
 }
+/* the two lynching definitions (lynch_compare.json "defs"): verdict and the elements that failed or were uncertain */
+const DEFL = {lynching: "lynching", probable: "probable lynching", possible: "possible lynching", no: "not a lynching"};
+function defsRows(id) {
+  const d = (C.defs || {})[id];
+  if (!d) return "";
+  const one = (v, w) => esc(DEFL[v] || v) + (w && w.length ? ` <span class="sub">(${esc(w.join("; ").replace(/_/g, " "))})</span>` : "");
+  return `<dt>Tolnay&ndash;Beck/NAACP</dt><dd>${one(d.tb, d.tb_why)}</dd>` + (d.broad !== d.tb || JSON.stringify(d.broad_why) !== JSON.stringify(d.tb_why) ?
+    `<dt>Broad definition</dt><dd>${one(d.broad, d.broad_why)}</dd>` : `<dt>Broad definition</dt><dd>same</dd>`);
+}
 const rowsLine = v => `<p class="rows">${v.rows.map(r => `${esc(C.lists[r.list] || r.list)} ${esc(r.row)}`).join(" · ")}${v.match ? ` · matched by ${esc(v.match === "linked" ? "inventory link" : v.match)}` : ""}</p>`;
 
 function select(it) {
@@ -245,11 +255,11 @@ function select(it) {
       `<dt>Type</dt><dd>${esc([(e.type || o.type || "").replace(/_/g, " "), e.stage || o.stage, o.lynch_def].filter(Boolean).join(", "))}</dd>` +
       (victims ? `<dt>Victims</dt><dd>${esc(victims)}</dd>` : "") + (o.race ? `<dt>Race (our sources)</dt><dd>${esc(o.race)}</dd>` : "") +
       ((e.evidence || o.evidence) ? `<dt>Evidence</dt><dd>${esc((e.evidence || o.evidence).replace(/_/g, " "))}</dd>` : "") +
-      (o.inventory ? `<dt>Linked row</dt><dd>${esc(o.inventory)}</dd>` : "") + `</dl>`;
+      (o.inventory ? `<dt>Linked row</dt><dd>${esc(o.inventory)}</dd>` : "") + defsRows(it.key) + `</dl>`;
     if (it.vics.length) {
       it.vics.forEach(v => { const oo = v.ours.find(x => x.id === it.key); h += `<h3>Compared with ${esc(v.name || "an unnamed victim")}</h3>${rowsLine(v)}${compareTable(v, oo)}`; });
     } else if (it.status === "found") {
-      h += `<p class="doubt">A completed lynching in our sources that no inventory lists (Beck&ndash;Tolnay, Seguin&ndash;Rigby, Monroe Work Today).</p>`;
+      h += `<p class="doubt">A lynching (Tolnay&ndash;Beck/NAACP definition) in our sources that no inventory lists (Beck&ndash;Tolnay, Seguin&ndash;Rigby, Monroe Work Today).</p>`;
     }
     if (it.summary) h += `<h3>Summary</h3><p>${esc(it.summary)}</p>`;
     if (it.dir) h += `<p><button class="readbtn" type="button" id="readit">Read the dossier here</button> <a class="more" href="${DATA}reader/#${encodeURIComponent(it.dir)}" target="_blank" rel="noopener">Clippings and sources ↗</a></p><div class="dossier-text" id="dtext"></div>`;
