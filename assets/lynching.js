@@ -25,7 +25,10 @@ const STATUS = {
   differ: {label: "In an inventory, facts differ", short: "Differs", v: "--differ", cls: "v-differ"},
   found:  {label: "Found here only", short: "Found here", v: "--found", cls: "v-found"},
   inv:    {label: "Inventory only (not in our sources)", short: "Inventory only", v: "--inv", cls: "v-inv"},
-  other:  {label: "Other episodes (not a completed lynching)", short: "Other episode", v: "--other", cls: "v-other"}};
+  threat: {label: "Threatened or attempted lynchings (no one killed)", short: "Threatened or attempted", v: "--other", cls: "v-threat"},
+  uncounted: {label: "Reported lynchings we do not count (false, thin or undated)", short: "Reported, not counted", v: "--k4", cls: "v-uncounted"},
+  violence: {label: "Other racial violence", short: "Other violence", v: "--k6", cls: "v-violence"}};
+const MINOR = new Set(["threat", "uncounted", "violence"]);
 const FIELDS = [["date","Date"],["state","State"],["county","County"],["name","Victim"],["race","Race"],["outcome","Outcome"],["method","Method"]];
 const byEvent = {};                      /* our event id -> the inventory victims it matches */
 C.victims.forEach(v => v.ours.forEach(o => (byEvent[o.id] = byEvent[o.id] || []).push(v)));
@@ -55,14 +58,15 @@ const placeOf = o => [o.city, o.county ? `${o.county} Co.` : "", o.state].filter
 
 const items = [], byKey = {};
 function add(it) { items.push(it); byKey[it.key] = it; }
-function eventStatus(id, isLynch) {
+function eventStatus(id, e) {
   const vs = byEvent[id];
   if (vs) return vs.some(v => v.verdict === "differ") ? "differ" : "agree";
   if (foundIds.has(id)) return "found";
-  return "other";
+  if (!e || e.type !== "lynching") return "violence";
+  return e.stage === "completed" ? "uncounted" : "threat";
 }
 A.episodes.forEach(e => {
-  const st = eventStatus(e.id);
+  const st = eventStatus(e.id, e);
   add({key: e.id, kind: "event", status: st, title: e.title, date: e.date, prec: e.prec, place: placeOf(e),
        x: e.x, y: e.y, ep: e, rec: ourRec[e.id], vics: byEvent[e.id] || [], summary: e.summary, dir: e.dir});
 });
@@ -90,7 +94,7 @@ document.getElementById("tally").innerHTML =
   `<span><b>${C.counts.found_here}</b> found here only</span><span><b>${C.counts.inventory_only}</b> inventory only</span>`;
 
 /* ---------- legend ---------- */
-const show = {agree: true, differ: true, found: true, inv: true, other: true};
+const show = Object.fromEntries(Object.keys(STATUS).map(k => [k, true]));
 const legend = document.getElementById("legend");
 Object.entries(STATUS).forEach(([k, s]) => {
   const b = document.createElement("button");
@@ -109,12 +113,12 @@ const cg = el("g", {fill: "none", stroke: "var(--county)", "stroke-width": .35},
 Object.values(G.counties).forEach(p => el("path", {d: p}, cg));
 el("path", {d: G.states, fill: "none", stroke: "var(--state)", "stroke-width": .8}, svg);
 const mg = el("g", {}, svg);
-const ORDER = {other: 0, agree: 1, found: 2, differ: 3, inv: 4};
+const ORDER = {threat: 0, violence: 0, uncounted: 0, agree: 1, found: 2, differ: 3, inv: 4};
 items.filter(i => i.x != null).sort((a, b) => ORDER[a.status] - ORDER[b.status]).forEach(it => {
   const g = el("g", {class: "mk", tabindex: 0, role: "button", "aria-label": `${it.title}, ${fmtDate(it.date, it.prec)}`}, mg);
-  const r = it.status === "other" ? 3.2 : 5;
+  const r = MINOR.has(it.status) ? 3.2 : 5;
   if (it.status === "inv") el("circle", {cx: it.x, cy: it.y, r, fill: "var(--sheet)", stroke: "var(--inv)", "stroke-width": 2, "stroke-dasharray": "2.5 1.8"}, g);
-  else el("circle", {cx: it.x, cy: it.y, r, fill: `var(${STATUS[it.status].v})`, stroke: "var(--sheet)", "stroke-width": .8, opacity: it.status === "other" ? .7 : 1}, g);
+  else el("circle", {cx: it.x, cy: it.y, r, fill: `var(${STATUS[it.status].v})`, stroke: "var(--sheet)", "stroke-width": .8, opacity: MINOR.has(it.status) ? .75 : 1}, g);
   it.mapG = g; wire(g, it);
 });
 /* zoom: buttons, wheel and drag move the viewBox */
@@ -154,7 +158,7 @@ colItems.forEach((list, i) => {
     const cx = x0 + cell * (j % per + 1), cy = TH - 30 - cell * (Math.floor(j / per) + .5);
     const g = el("g", {class: "mk", tabindex: -1}, tsvg);
     if (it.status === "inv") el("circle", {cx, cy, r: cell * .36, fill: "var(--sheet)", stroke: "var(--inv)", "stroke-width": 1.6, "stroke-dasharray": "2 1.5"}, g);
-    else el("circle", {cx, cy, r: cell * (it.status === "other" ? .3 : .4), fill: `var(${STATUS[it.status].v})`}, g);
+    else el("circle", {cx, cy, r: cell * (MINOR.has(it.status) ? .3 : .4), fill: `var(${STATUS[it.status].v})`}, g);
     it.tlG = g; wire(g, it);
   });
 });

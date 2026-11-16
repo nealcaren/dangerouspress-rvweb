@@ -32,4 +32,4 @@ header.top .nav a{color:var(--accent)}
 #ct .d{color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
 #ct .sub{color:var(--muted);font-size:12.5px}
 .vchip{font:600 11.5px/1 var(--ui);padding:3px 7px;border-radius:999px;white-space:nowrap;color:var(--paper)}
-.v-agree{background:var(--agree)}.v-differ{background:var(--differ)}.v-found{background:var(--found)}.v-inv{background:var(--inv)}.v-other{background:var(--other)}
+.v-agree{background:var(--agree)}.v-differ{background:var(--differ)}.v-found{background:var(--found)}.v-inv{background:var(--inv)}.v-threat{background:var(--other)}.v-uncounted{background:var(--k4)}.v-violence{background:var(--k6)}
