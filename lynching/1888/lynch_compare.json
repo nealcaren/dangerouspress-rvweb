@@ -7,15 +7,15 @@
   "S-R": "Seguin–Rigby",
   "MWT": "Monroe Work Today"
  },
- "generated_at": "2026-11-16T07:59:39-05:00",
+ "generated_at": "2026-11-16T08:14:10-05:00",
  "counts": {
   "inventory_victims": 202,
   "matched": 189,
-  "agree": 132,
-  "differ": 57,
+  "agree": 133,
+  "differ": 56,
   "inventory_only": 13,
   "found_here": 53,
-  "standard_definition": 173
+  "standard_definition": 174
  },
  "victims": [
   {
@@ -6999,7 +6999,7 @@
     }
    ],
    "county10": 767,
-   "match": "name",
+   "match": "linked",
    "ours": [
     {
      "id": "lean_1888-07_lyn:g13",
@@ -7022,7 +7022,7 @@
      "method": [],
      "accusation": "said to have eloped with a white girl, Maude Broyles",
      "evidence": "corroborated",
-     "inventory": "B-T:bt:2298",
+     "inventory": "B-T:bt:2297",
      "county10": 767,
      "lead": "The killing of Jim Torney was the reported killing of a Black farm laborer by a crowd of white men near Pell City, Alabama, in July 1888, after he eloped with Maude Broyles, the sixteen-year-old white daughter of his employer. Birmingham dispatches said the pursuers recovered the girl and were believed to have killed Torney and thrown his body into the Coosa River, though no report said a body was found. The story broke the same week as the lynching of Frank Stone at Pell City, and a national news digest joined the two cases in a single sentence.",
      "grade": {
@@ -7086,41 +7086,43 @@
    "match": "linked",
    "ours": [
     {
-     "id": "lean_1888-07_lyn:g13",
-     "dossier": "jim-ferney-pell-city-1888-07-14",
+     "id": "lean_1888-07_lyn:g12",
+     "dossier": "frank-stone-pell-city-1888-07-13",
      "set_aside": null,
-     "title": "Killing of Jim Torney",
-     "date": "1888-07-14",
+     "title": "Lynching of Frank Stone",
+     "date": "1888-07-13",
      "prec": "day",
      "city": "Pell City",
      "county": "St. Clair",
      "state": "AL",
      "victims": [
-      "Jim Torney"
+      "Frank Stone"
      ],
      "race": "Black",
      "type": "lynching",
      "stage": "completed",
-     "lynch_def": "probable lynching",
+     "lynch_def": "lynching",
      "killed": 1,
-     "method": [],
-     "accusation": "said to have eloped with a white girl, Maude Broyles",
+     "method": [
+      "hanged"
+     ],
+     "accusation": "accused of an outrage on Mrs. Orr, white",
      "evidence": "corroborated",
      "inventory": "B-T:bt:2298",
      "county10": 767,
-     "lead": "The killing of Jim Torney was the reported killing of a Black farm laborer by a crowd of white men near Pell City, Alabama, in July 1888, after he eloped with Maude Broyles, the sixteen-year-old white daughter of his employer. Birmingham dispatches said the pursuers recovered the girl and were believed to have killed Torney and thrown his body into the Coosa River, though no report said a body was found. The story broke the same week as the lynching of Frank Stone at Pell City, and a national news digest joined the two cases in a single sentence.",
+     "lead": "The lynching of Frank Stone took place on the evening of July 13, 1888, near Pell City, Alabama, when a crowd of about fifty white men hanged Stone, a Black man, to a tree and riddled his body with bullets. Stone had been accused the day before of attempting to assault Mrs. Orr, a white woman, and was lynched within hours of his capture. Birmingham dispatches carried the story to papers in Memphis, Louisville, Atlanta and Ohio, and a one-line summary ran in Northern weeklies.",
      "grade": {
       "date": "agree",
       "state": "agree",
       "county": "agree",
-      "name": "differ",
+      "name": "agree",
       "race": "agree",
       "outcome": "agree",
       "method": "unknown"
      }
     }
    ],
-   "verdict": "differ"
+   "verdict": "agree"
   },
   {
    "key": "bt:2299",
