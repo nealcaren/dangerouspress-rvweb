@@ -7,26 +7,26 @@
   "S-R": "Seguin–Rigby",
   "MWT": "Monroe Work Today"
  },
- "generated_at": "2026-11-16T11:34:03-05:00",
+ "generated_at": "2026-11-16T11:42:52-05:00",
  "counts": {
   "inventory_victims": 202,
   "matched": 189,
   "agree": 133,
   "differ": 56,
   "inventory_only": 13,
-  "found_here": 51,
-  "standard_definition": 167,
+  "found_here": 43,
+  "standard_definition": 158,
   "tb": {
-   "lynching": 154,
-   "probable": 13,
-   "possible": 22
+   "lynching": 150,
+   "probable": 8,
+   "possible": 20
   },
   "broad": {
-   "lynching": 183,
-   "probable": 18,
-   "possible": 25
+   "lynching": 178,
+   "probable": 11,
+   "possible": 24
   },
-  "broad_events": 201
+  "broad_events": 189
  },
  "victims": [
   {
@@ -912,10 +912,14 @@
      "inventory": "HAL:1029",
      "county10": 3788,
      "lead": "The abduction of Henry Burney was the removal of a Black prisoner from the Laurens County jail at Dublin, Georgia, by a party of masked men on the night of Tuesday, January 10, 1888. Burney was being held on a charge of knocking down and robbing J. M. Reinhart of Dublin. Georgia papers said only that he was believed, or possibly, lynched, while national news summaries reported flatly that he had been lynched, placing the event in Laurens County, Kentucky, or at Macon. A month later a Savannah paper reported that he had been sentenced to four years' imprisonment.",
-     "tb": "possible",
-     "tb_why": [],
-     "broad": "possible",
-     "broad_why": [],
+     "tb": "no",
+     "tb_why": [
+      "false report"
+     ],
+     "broad": "no",
+     "broad_why": [
+      "false report"
+     ],
      "def_from": "dossier",
      "grade": {
       "date": "agree",
@@ -1068,10 +1072,14 @@
      "inventory": "S-R:2716",
      "county10": null,
      "lead": "The Limestone bank robbery lynching was the reported hanging of an unnamed robber by a \"Judge Lynch\" court at Limestone, Indian Territory, in January 1888, after four masked men robbed the Citizens' Bank and killed its cashier, W. T. Reynolds. According to a widely reprinted despatch, a second robber, Thomas Evan, was shot dead in a gunfight with townspeople, and the two remaining robbers were sent to Fort Washita for the federal authorities. The story ran in papers from South Carolina to Wyoming, but a letter from Atoka printed in the Fort Worth Gazette said there had never been a bank, or a town, at Limestone Gap.",
-     "tb": "probable",
-     "tb_why": [],
-     "broad": "probable",
-     "broad_why": [],
+     "tb": "no",
+     "tb_why": [
+      "false report"
+     ],
+     "broad": "no",
+     "broad_why": [
+      "false report"
+     ],
      "def_from": "dossier",
      "grade": {
       "date": "close",
@@ -1079,7 +1087,7 @@
       "county": "unknown",
       "name": "differ",
       "race": "unstated",
-      "outcome": "agree",
+      "outcome": "differ",
       "method": "differ"
      }
     }
@@ -16273,42 +16281,6 @@
    "def_from": "dossier"
   },
   {
-   "id": "lean_1888-02_lyn:g20",
-   "dossier": "a-j-norris-no-mans-land",
-   "set_aside": null,
-   "title": "Reported lynching of A. J. Morris",
-   "date": "~1888-02-10",
-   "prec": "week",
-   "city": "No Mans Land",
-   "county": "",
-   "state": "",
-   "victims": [
-    "A. J. Morris"
-   ],
-   "race": "",
-   "type": "lynching",
-   "stage": "completed",
-   "lynch_def": "not a lynching",
-   "killed": null,
-   "method": [
-    "hanged"
-   ],
-   "accusation": "accused of murdering J. B. Brusher",
-   "evidence": "contested",
-   "inventory": null,
-   "county10": null,
-   "lead": "The reported lynching of A. J. Morris was the hanging, reported in wire briefs in February 1888, of a man accused of murdering Eugene Brusher, a Kansas cattleman, at Beaver City in No Man's Land. According to the brief, a mob captured Morris and hanged him to a rafter in the principal saloon of the town. Kansas papers closer to the scene said only that Morris had been arrested and \"probably\" lynched, and a later dispatch from Beaver City named a different killer, John Clark, who was tried and set free.",
-   "tb": "probable",
-   "tb_why": [
-    "group size inferred"
-   ],
-   "broad": "probable",
-   "broad_why": [
-    "group size inferred"
-   ],
-   "def_from": "dossier"
-  },
-  {
    "id": "lean_1888-03_lyn:g53",
    "dossier": "aaron-dlckey-button-1888-03",
    "set_aside": null,
@@ -16538,36 +16510,6 @@
    "inventory": null,
    "county10": 3292,
    "lead": "The lynching of Henry Pope took place at Summerville, Chattooga county, Georgia, on the night of April 30-May 1, 1888, when a mob of about fifty masked men took Pope, a Black prisoner, from the county jail and hanged him from the court-house banisters. Pope had twice been convicted of assaulting a young white woman, Minnie Kendrick, and had been respited by Governor Gordon days before his scheduled execution on evidence that he had been in Alabama at the time. The killing was reported across the country, and one Atlanta dispatch called Pope an innocent man.",
-   "tb": "lynching",
-   "tb_why": [],
-   "broad": "lynching",
-   "broad_why": [],
-   "def_from": "dossier"
-  },
-  {
-   "id": "lean_1888-05_lyn:g37",
-   "dossier": "bectou-1888-05",
-   "set_aside": null,
-   "title": "Reported flaying of a Black man in Craven County, North Carolina (1888)",
-   "date": "~1888-05",
-   "prec": "month",
-   "city": "",
-   "county": "Craven",
-   "state": "NC",
-   "victims": [],
-   "race": "Black",
-   "type": "lynching",
-   "stage": "completed",
-   "lynch_def": "insufficient",
-   "killed": 1,
-   "method": [
-    "mutilated"
-   ],
-   "accusation": "accused of assaulting a young white woman teacher",
-   "evidence": "single_source",
-   "inventory": null,
-   "county10": 9899,
-   "lead": "The reported flaying of a Black man in Craven County, North Carolina, was a story carried by Southern newspapers in late May and early June 1888 that a man described as 'a negro' had been skinned alive by the friends of a young woman teacher he was accused of assaulting. According to the story he died a few minutes after the flaying, which was done at the teacher's request. The account traced to a single source, J. T. Winfield of Craven County, and the Washington Gazette, which first printed it, called it a rumor whose truth was 'not vouched for.'",
    "tb": "lynching",
    "tb_why": [],
    "broad": "lynching",
@@ -16846,40 +16788,6 @@
    "def_from": "dossier"
   },
   {
-   "id": "lean_1888-06_lyn:g86",
-   "dossier": "michael-dohm",
-   "set_aside": null,
-   "title": "Reported lynching of Michael Dohm",
-   "date": "~1888-06",
-   "prec": "month",
-   "city": "",
-   "county": "",
-   "state": "TX",
-   "victims": [
-    "Michael Dohm"
-   ],
-   "race": "",
-   "type": "lynching",
-   "stage": "completed",
-   "lynch_def": "insufficient",
-   "killed": null,
-   "method": [],
-   "accusation": "said to have stolen horses",
-   "evidence": "single_source",
-   "inventory": null,
-   "county10": null,
-   "lead": "The reported lynching of Michael Dohm was an unconfirmed account, published in Wahpeton, Dakota Territory, in June 1888, that a local man had been lynched in Texas for horse stealing. The story rested on a letter his wife was said to have received, which the Wahpeton paper never saw and which men who knew him doubted.",
-   "tb": "probable",
-   "tb_why": [
-    "group size inferred"
-   ],
-   "broad": "probable",
-   "broad_why": [
-    "group size inferred"
-   ],
-   "def_from": "dossier"
-  },
-  {
    "id": "lean_1888-08_lyn:g99",
    "dossier": "morgan-williams-canton-1888-07",
    "set_aside": null,
@@ -16937,38 +16845,6 @@
    "inventory": null,
    "county10": 980,
    "lead": "The lynching of James Hagley was the shooting death of a Black man at Alma, Arkansas, on the night of July 2-3, 1888, after he was taken from the town jail at midnight. He had been held on an accusation of attempting to assault a 12-year-old girl, and according to a wire dispatch he was tied to a tree and \"slowly shot to pieces.\" The killing reached distant newspapers only as a one-sentence telegraphic item.",
-   "tb": "lynching",
-   "tb_why": [
-    "group size inferred"
-   ],
-   "broad": "lynching",
-   "broad_why": [
-    "group size inferred"
-   ],
-   "def_from": "dossier"
-  },
-  {
-   "id": "lean_1888-07_lyn:g57",
-   "dossier": "roanoke-roanoke-1888-07-12",
-   "set_aside": null,
-   "title": "Reported lynching at Roanoke, Virginia (July 1888)",
-   "date": "1888-07-12",
-   "prec": "day",
-   "city": "Roanoke",
-   "county": "Roanoke",
-   "state": "VA",
-   "victims": [],
-   "race": "Black",
-   "type": "lynching",
-   "stage": "completed",
-   "lynch_def": "not a lynching",
-   "killed": 1,
-   "method": [],
-   "accusation": "said to have confessed to numbering two women (as printed; likely OCR for an assault or murder)",
-   "evidence": "single_source",
-   "inventory": null,
-   "county10": 16388,
-   "lead": "The reported lynching at Roanoke, Virginia, was the killing of an unnamed Black man, described as \"a colored man,\" said in a single newspaper brief to have been lynched at Roanoke in July 1888. The brief stated that he had confessed to murdering two women, and it gave no other details of the victim, the lynchers or the killing.",
    "tb": "lynching",
    "tb_why": [
     "group size inferred"
@@ -17278,41 +17154,6 @@
    "def_from": "dossier"
   },
   {
-   "id": "lean_1888-08_lyn:g80",
-   "dossier": "event-1888-08-2",
-   "set_aside": null,
-   "title": "Disappearance of Mormon elders Davis and Weaver",
-   "date": "~1888-08-21",
-   "prec": "day",
-   "city": "",
-   "county": "Clay",
-   "state": "AL",
-   "victims": [
-    "Davis",
-    "Weaver"
-   ],
-   "race": "other",
-   "type": "lynching",
-   "stage": "completed",
-   "lynch_def": "probable lynching",
-   "killed": 2,
-   "method": [],
-   "accusation": "",
-   "evidence": "single_source",
-   "inventory": null,
-   "county10": 334,
-   "lead": "The disappearance of Mormon elders Davis and Weaver occurred in Clay County, Alabama, in August 1888, when two missionaries vanished a day after a body of masked men ordered them to leave the county. A Birmingham dispatch reported that they were \"generally believed\" to have been murdered by local citizens and their bodies concealed, and a later item credited to the Clay County Leader said flatly that they had been killed. No report of their bodies being found appears in the coverage.",
-   "tb": "lynching",
-   "tb_why": [
-    "group size inferred"
-   ],
-   "broad": "lynching",
-   "broad_why": [
-    "group size inferred"
-   ],
-   "def_from": "dossier"
-  },
-  {
    "id": "lean_1888-08_lyn:g36",
    "dossier": "beaswell-beaswell-1888-08-26",
    "set_aside": null,
@@ -17482,38 +17323,6 @@
    "def_from": "dossier"
   },
   {
-   "id": "lean_1888-01_lyn:g70",
-   "dossier": "lewis-davis-cuba-junction-1888-01",
-   "set_aside": null,
-   "title": "Lynching of Lewis Davis",
-   "date": "1888-09-23",
-   "prec": "day",
-   "city": "Cuba Junction",
-   "county": "Crawford",
-   "state": "MO",
-   "victims": [
-    "Lewis Davis"
-   ],
-   "race": "",
-   "type": "lynching",
-   "stage": "completed",
-   "lynch_def": "lynching",
-   "killed": null,
-   "method": [
-    "hanged"
-   ],
-   "accusation": "accused of murdering David Miller near Cuba Junction, Mo.",
-   "evidence": "corroborated",
-   "inventory": null,
-   "county10": 8403,
-   "lead": "The lynching of Lewis Davis took place early on September 23, 1888, when a masked mob broke into the jail at Steelville, Missouri, and hanged Davis, who was awaiting trial for the murder of farmer David Miller. He was hanged over the grave of Pat Wallace, lynched in the same county in 1886, a detail that headlined the coverage. Judge Bland ordered a special grand jury, but no report of its findings appears in the coverage.",
-   "tb": "lynching",
-   "tb_why": [],
-   "broad": "lynching",
-   "broad_why": [],
-   "def_from": "dossier"
-  },
-  {
    "id": "lean_1888-10_lyn:g38",
    "dossier": "frank-easterling-1888-10-06",
    "set_aside": null,
@@ -17579,42 +17388,6 @@
     "group size inferred"
    ],
    "broad": "lynching",
-   "broad_why": [
-    "group size inferred"
-   ],
-   "def_from": "dossier"
-  },
-  {
-   "id": "lean_1888-11_lyn:g10",
-   "dossier": "joe-taylor-texarkana",
-   "set_aside": null,
-   "title": "Reported lynching of Joe Taylor",
-   "date": "~1888-11",
-   "prec": "month",
-   "city": "Texarkana",
-   "county": "Bowie",
-   "state": "TX",
-   "victims": [
-    "Joe Taylor"
-   ],
-   "race": "",
-   "type": "lynching",
-   "stage": "completed",
-   "lynch_def": "insufficient",
-   "killed": null,
-   "method": [
-    "hanged"
-   ],
-   "accusation": "said to have shot a man",
-   "evidence": "single_source",
-   "inventory": null,
-   "county10": 14730,
-   "lead": "The reported lynching of Joe Taylor was a mob killing said to have taken place in Texas, apparently at Texarkana, in early November 1888, known only from a dispatch received by Taylor's relatives in West Virginia. One version held that Taylor, accused of shooting a man, was about to be lynched, while a Parkersburg wire said a mob had taken him from prison and hanged him. Papers outside Texas carried the story as news of a native West Virginian, and no report from Texas confirming it appears in the coverage.",
-   "tb": "probable",
-   "tb_why": [
-    "group size inferred"
-   ],
-   "broad": "probable",
    "broad_why": [
     "group size inferred"
    ],
@@ -17717,36 +17490,6 @@
    "broad_why": [
     "group size inferred"
    ],
-   "def_from": "dossier"
-  },
-  {
-   "id": "lean_1888-12_lyn:g46",
-   "dossier": "james-mcdonald-agria-1888-12-10",
-   "set_aside": null,
-   "title": "Reported White Cap whipping of James McDonald at Agra, Kansas",
-   "date": "1888-12-10",
-   "prec": "day",
-   "city": "Agria",
-   "county": "Phillips",
-   "state": "KS",
-   "victims": [
-    "James McDonald"
-   ],
-   "race": "",
-   "type": "whitecapping",
-   "stage": "completed",
-   "lynch_def": "not a lynching",
-   "killed": 1,
-   "method": [],
-   "accusation": "",
-   "evidence": "contested",
-   "inventory": null,
-   "county10": 6031,
-   "lead": "The reported White Cap whipping of James McDonald took place, according to a correspondent of the Kansas City Times, at Agra, Kansas, on the night of Monday, December 10, 1888, when a masked band calling itself the \"Kansas Division of White Caps\" tied him to a telegraph pole and flogged him. Later dispatches said McDonald died of his injuries, and newspapers across the country ran the story as a White Cap murder. Phillips County officials and Kansas papers denounced the whole report as a fabrication, and no independent confirmation of the whipping or the death appears in the coverage.",
-   "tb": "probable",
-   "tb_why": [],
-   "broad": "probable",
-   "broad_why": [],
    "def_from": "dossier"
   },
   {
@@ -18203,40 +17946,6 @@
    "def_from": "dossier"
   },
   {
-   "id": "lean_1888-08_lyn:g107",
-   "dossier": "jim-thomas-1888-08-08",
-   "set_aside": null,
-   "title": "Killing of Jim Thomas",
-   "date": "1888-08-08",
-   "prec": "day",
-   "city": "",
-   "county": "",
-   "state": "GA",
-   "victims": [
-    "Jim Thomas"
-   ],
-   "race": "Black",
-   "type": "lynching",
-   "stage": "completed",
-   "lynch_def": "insufficient",
-   "killed": 1,
-   "method": [],
-   "accusation": "",
-   "evidence": "single_source",
-   "inventory": null,
-   "county10": null,
-   "lead": "The killing of Jim Thomas was the shooting of a Black man by a party of mounted men on a plantation in Georgia on a Wednesday night in August 1888, most likely August 8. The killers and their motive were unknown when the only report appeared, and no arrest or follow-up was found.",
-   "tb": "no",
-   "tb_why": [
-    "pretext none_stated"
-   ],
-   "broad": "lynching",
-   "broad_why": [
-    "any pretext (none_stated)"
-   ],
-   "def_from": "dossier"
-  },
-  {
    "id": "lean_1888-08_lyn:g111",
    "dossier": "f-p-smith-freetown-1888-08-16",
    "set_aside": null,
@@ -18275,43 +17984,6 @@
     "officers did the killing"
    ],
    "broad": "lynching",
-   "broad_why": [
-    "officer/posse killing with a lynching character"
-   ],
-   "def_from": "dossier"
-  },
-  {
-   "id": "lean_1888-08_lyn:g113",
-   "dossier": "frank-gallop-shenandoah-1888-08-11",
-   "set_aside": null,
-   "title": "Killing of Frank Gallup",
-   "date": "1888-08-11",
-   "prec": "day",
-   "city": "Shenandoah",
-   "county": "Page",
-   "state": "IA",
-   "victims": [
-    "Frank Gallup"
-   ],
-   "race": "",
-   "type": "posse_killing",
-   "stage": "completed",
-   "lynch_def": "not a lynching",
-   "killed": 2,
-   "method": [
-    "mutilated",
-    "body_displayed"
-   ],
-   "accusation": "accused of said to have killed F. J. Pine, a merchant, and fired on officers",
-   "evidence": "contested",
-   "inventory": null,
-   "county10": 4662,
-   "lead": "The killing of Frank Gallup took place at Shenandoah, Iowa, on the night of August 11, 1888, when militiamen besieging his family's house shot dead a man accused of killing a merchant, F. J. Pine, and a crowd dragged his body through the streets on a rope. The first wire said a mob had hanged him to a tree, and the case circulated as a lynching before fuller dispatches described a militiaman's shot and the dragging of a corpse.",
-   "tb": "no",
-   "tb_why": [
-    "lawful"
-   ],
-   "broad": "probable",
    "broad_why": [
     "officer/posse killing with a lynching character"
    ],
@@ -18661,47 +18333,6 @@
    "broad": "lynching",
    "broad_why": [
     "any pretext (none_stated)"
-   ],
-   "def_from": "dossier"
-  },
-  {
-   "id": "lean_1888-11_lyn:g29",
-   "dossier": "joe-inman-springfield-1888-11-13",
-   "set_aside": null,
-   "title": "Reported lynching of Bald Knobber witnesses (1888)",
-   "date": "1888-11-13",
-   "prec": "day",
-   "city": "Springfield",
-   "county": "Christian",
-   "state": "MO",
-   "victims": [
-    "Charles Green",
-    "James Eden",
-    "William Enders",
-    "Jonathan Wiley",
-    "Emmett Anderson"
-   ],
-   "race": "",
-   "type": "lynching",
-   "stage": "completed",
-   "lynch_def": "not a lynching",
-   "killed": 5,
-   "method": [
-    "hanged",
-    "mutilated"
-   ],
-   "accusation": "",
-   "evidence": "contested",
-   "inventory": null,
-   "county10": 8367,
-   "lead": "The reported lynching of Bald Knobber witnesses was a November 1888 telegraph story that five men who had testified against the Bald Knobber leader Dave Walker had been hanged by former members of the band on Bull Creek in Christian County, Missouri. A detailed special from Ozark named the dead and described about 200 disguised riders, but on the same day a messenger from Bull Creek said no one had been lynched. No confirmation followed, and a Springfield resident later called the story \"an unmitigated hoax.\"",
-   "tb": "no",
-   "tb_why": [
-    "pretext revenge"
-   ],
-   "broad": "probable",
-   "broad_why": [
-    "any pretext (revenge)"
    ],
    "def_from": "dossier"
   },
@@ -19080,10 +18711,14 @@
    ]
   },
   "lean_1888-01_lyn:g14": {
-   "tb": "probable",
-   "tb_why": [],
-   "broad": "probable",
-   "broad_why": []
+   "tb": "no",
+   "tb_why": [
+    "false report"
+   ],
+   "broad": "no",
+   "broad_why": [
+    "false report"
+   ]
   },
   "lean_1888-01_lyn:g16": {
    "tb": "no",
@@ -19192,10 +18827,14 @@
    ]
   },
   "lean_1888-01_lyn:g35": {
-   "tb": "possible",
-   "tb_why": [],
-   "broad": "possible",
-   "broad_why": []
+   "tb": "no",
+   "tb_why": [
+    "false report"
+   ],
+   "broad": "no",
+   "broad_why": [
+    "false report"
+   ]
   },
   "lean_1888-01_lyn:g38": {
    "tb": "no",
@@ -19366,12 +19005,6 @@
    "broad_why": [
     "table verdict, no dossier"
    ]
-  },
-  "lean_1888-01_lyn:g70": {
-   "tb": "lynching",
-   "tb_why": [],
-   "broad": "lynching",
-   "broad_why": []
   },
   "lean_1888-01_lyn:g71": {
    "tb": "lynching",
@@ -19586,13 +19219,13 @@
    "broad_why": []
   },
   "lean_1888-02_lyn:g20": {
-   "tb": "probable",
+   "tb": "no",
    "tb_why": [
-    "group size inferred"
+    "false report"
    ],
-   "broad": "probable",
+   "broad": "no",
    "broad_why": [
-    "group size inferred"
+    "false report"
    ]
   },
   "lean_1888-02_lyn:g21": {
@@ -19870,15 +19503,13 @@
    ]
   },
   "lean_1888-03_lyn:g10": {
-   "tb": "possible",
+   "tb": "no",
    "tb_why": [
-    "legality unclear",
-    "group size inferred"
+    "false report"
    ],
-   "broad": "possible",
+   "broad": "no",
    "broad_why": [
-    "legality unclear",
-    "group size inferred"
+    "false report"
    ]
   },
   "lean_1888-03_lyn:g11": {
@@ -20894,10 +20525,14 @@
    ]
   },
   "lean_1888-05_lyn:g37": {
-   "tb": "lynching",
-   "tb_why": [],
-   "broad": "lynching",
-   "broad_why": []
+   "tb": "possible",
+   "tb_why": [
+    "thin source: upper bound only"
+   ],
+   "broad": "possible",
+   "broad_why": [
+    "thin source: upper bound only"
+   ]
   },
   "lean_1888-05_lyn:g38": {
    "tb": "no",
@@ -21116,15 +20751,13 @@
    ]
   },
   "lean_1888-05_lyn:g78": {
-   "tb": "possible",
+   "tb": "no",
    "tb_why": [
-    "legality unclear",
-    "group size inferred"
+    "false report"
    ],
-   "broad": "possible",
+   "broad": "no",
    "broad_why": [
-    "legality unclear",
-    "group size inferred"
+    "false report"
    ]
   },
   "lean_1888-05_lyn:g79": {
@@ -21536,13 +21169,15 @@
    ]
   },
   "lean_1888-06_lyn:g40": {
-   "tb": "lynching",
+   "tb": "possible",
    "tb_why": [
-    "group size inferred"
+    "group size inferred",
+    "thin source: upper bound only"
    ],
-   "broad": "lynching",
+   "broad": "possible",
    "broad_why": [
-    "group size inferred"
+    "group size inferred",
+    "thin source: upper bound only"
    ]
   },
   "lean_1888-06_lyn:g41": {
@@ -21794,13 +21429,15 @@
    ]
   },
   "lean_1888-06_lyn:g86": {
-   "tb": "probable",
+   "tb": "possible",
    "tb_why": [
-    "group size inferred"
+    "group size inferred",
+    "thin source: upper bound only"
    ],
-   "broad": "probable",
+   "broad": "possible",
    "broad_why": [
-    "group size inferred"
+    "group size inferred",
+    "thin source: upper bound only"
    ]
   },
   "lean_1888-06_lyn:g90": {
@@ -22092,13 +21729,13 @@
    ]
   },
   "lean_1888-07_lyn:g46": {
-   "tb": "possible",
+   "tb": "no",
    "tb_why": [
-    "group size inferred"
+    "false report"
    ],
-   "broad": "possible",
+   "broad": "no",
    "broad_why": [
-    "group size inferred"
+    "false report"
    ]
   },
   "lean_1888-07_lyn:g47": {
@@ -22182,13 +21819,13 @@
    ]
   },
   "lean_1888-07_lyn:g57": {
-   "tb": "lynching",
+   "tb": "no",
    "tb_why": [
-    "group size inferred"
+    "false report"
    ],
-   "broad": "lynching",
+   "broad": "no",
    "broad_why": [
-    "group size inferred"
+    "false report"
    ]
   },
   "lean_1888-07_lyn:g58": {
@@ -22432,13 +22069,13 @@
    ]
   },
   "lean_1888-08_lyn:g25": {
-   "tb": "possible",
+   "tb": "no",
    "tb_why": [
-    "group size inferred"
+    "false report"
    ],
-   "broad": "possible",
+   "broad": "no",
    "broad_why": [
-    "group size inferred"
+    "false report"
    ]
   },
   "lean_1888-08_lyn:g27": {
@@ -22814,11 +22451,11 @@
    ]
   },
   "lean_1888-08_lyn:g80": {
-   "tb": "lynching",
+   "tb": "possible",
    "tb_why": [
     "group size inferred"
    ],
-   "broad": "lynching",
+   "broad": "possible",
    "broad_why": [
     "group size inferred"
    ]
@@ -22994,9 +22631,10 @@
    "tb_why": [
     "pretext none_stated"
    ],
-   "broad": "lynching",
+   "broad": "possible",
    "broad_why": [
-    "any pretext (none_stated)"
+    "any pretext (none_stated)",
+    "thin source: upper bound only"
    ]
   },
   "lean_1888-08_lyn:g110": {
@@ -23034,9 +22672,9 @@
    "tb_why": [
     "lawful"
    ],
-   "broad": "probable",
+   "broad": "no",
    "broad_why": [
-    "officer/posse killing with a lynching character"
+    "false report"
    ]
   },
   "lean_1888-08_lyn:g116": {
@@ -23218,9 +22856,10 @@
    "tb_why": [
     "pretext none_stated"
    ],
-   "broad": "lynching",
+   "broad": "possible",
    "broad_why": [
-    "any pretext (none_stated)"
+    "any pretext (none_stated)",
+    "thin source: upper bound only"
    ]
   },
   "lean_1888-09_lyn:g40": {
@@ -23936,13 +23575,13 @@
    ]
   },
   "lean_1888-10_lyn:g64": {
-   "tb": "possible",
+   "tb": "no",
    "tb_why": [
-    "group size inferred"
+    "false report"
    ],
-   "broad": "possible",
+   "broad": "no",
    "broad_why": [
-    "group size inferred"
+    "false report"
    ]
   },
   "lean_1888-10_lyn:g65": {
@@ -24142,13 +23781,15 @@
    ]
   },
   "lean_1888-11_lyn:g10": {
-   "tb": "probable",
+   "tb": "possible",
    "tb_why": [
-    "group size inferred"
+    "group size inferred",
+    "thin source: upper bound only"
    ],
-   "broad": "probable",
+   "broad": "possible",
    "broad_why": [
-    "group size inferred"
+    "group size inferred",
+    "thin source: upper bound only"
    ]
   },
   "lean_1888-11_lyn:g11": {
@@ -24248,9 +23889,9 @@
    "tb_why": [
     "pretext revenge"
    ],
-   "broad": "probable",
+   "broad": "no",
    "broad_why": [
-    "any pretext (revenge)"
+    "false report"
    ]
   },
   "lean_1888-11_lyn:g30": {
@@ -24996,10 +24637,14 @@
    ]
   },
   "lean_1888-12_lyn:g46": {
-   "tb": "probable",
-   "tb_why": [],
-   "broad": "probable",
-   "broad_why": []
+   "tb": "no",
+   "tb_why": [
+    "false report"
+   ],
+   "broad": "no",
+   "broad_why": [
+    "false report"
+   ]
   },
   "lean_1888-12_lyn:g47": {
    "tb": "no",
