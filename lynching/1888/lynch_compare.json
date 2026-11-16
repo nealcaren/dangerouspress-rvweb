@@ -7,15 +7,15 @@
   "S-R": "Seguin–Rigby",
   "MWT": "Monroe Work Today"
  },
- "generated_at": "2026-11-16T07:43:23-05:00",
+ "generated_at": "2026-11-16T07:59:39-05:00",
  "counts": {
   "inventory_victims": 202,
   "matched": 189,
-  "agree": 131,
-  "differ": 58,
+  "agree": 132,
+  "differ": 57,
   "inventory_only": 13,
   "found_here": 53,
-  "standard_definition": 172
+  "standard_definition": 173
  },
  "victims": [
   {
@@ -63,15 +63,15 @@
     }
    ],
    "county10": 351,
-   "match": "name",
+   "match": "linked",
    "ours": [
     {
      "id": "lean_1888-01_lyn:g19",
-     "dossier": null,
+     "dossier": "oscar-coger-cherokee-1887-12",
      "set_aside": null,
-     "title": null,
-     "date": "~1887-12",
-     "prec": "week",
+     "title": "Lynching of Oscar Coger",
+     "date": "~1888-01-01",
+     "prec": "approx",
      "city": "Cherokee",
      "county": "Colbert",
      "state": "AL",
@@ -83,26 +83,28 @@
      "race": "Black",
      "type": "lynching",
      "stage": "completed",
-     "lynch_def": null,
+     "lynch_def": "lynching",
      "killed": 1,
-     "method": [],
+     "method": [
+      "hanged"
+     ],
      "accusation": "accused of incendiarism",
-     "evidence": null,
-     "inventory": null,
+     "evidence": "corroborated",
+     "inventory": "B-T:bt:2234",
      "county10": 351,
-     "lead": "",
+     "lead": "The lynching of Oscar Coger was the hanging of a Black man by neighbors at Cherokee, Colbert County, Alabama, in late December 1887. Coger, accused of trying twice to set fire to the house of a widow, Mrs. Lindsay, was caught by men watching the house and hanged from a tree limb. A Montgomery Advertiser dispatch carried the story across the country, and a later local report said that men arrested for the lynching were released when no prosecutor appeared.",
      "grade": {
-      "date": "differ",
+      "date": "agree",
       "state": "agree",
       "county": "agree",
       "name": "agree",
       "race": "agree",
       "outcome": "agree",
-      "method": "unknown"
+      "method": "agree"
      }
     }
    ],
-   "verdict": "differ"
+   "verdict": "agree"
   },
   {
    "key": "S-R:6869",
