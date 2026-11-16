@@ -169,6 +169,39 @@ def lynching_pages(shared):
     return used
 
 
+RS_LABEL = "Red Spring, March 1\u2013July 15, 1919"
+
+
+def redspring_pages(shared):
+    """redspring/: the Red Spring atlas (templates/atlas.html, one collection) over redspring/1919/, a site export of the
+    research collection 1919_dp (Black press only, issues March 1 - July 15, 1919). Kept out of the August series and
+    years.json, like lynching/. Returns the base-map files it uses, so the shared atlas/ keeps them."""
+    base, y = ROOT / "redspring", "1919"
+    if not (base / y / "manifest.json").is_file():
+        return set()
+    m = json.loads((base / y / "manifest.json").read_text(encoding="utf-8"))
+    bid = json.loads((base / y / "atlas/data.json").read_text(encoding="utf-8"))["basemap"]
+    for f in (base / y / "atlas").glob("basemap-*.json"):
+        if not (shared / f.name).exists():
+            f.replace(shared / f.name)
+        else:
+            f.unlink()
+    if not (shared / f"basemap-{bid}.json").exists():
+        raise SystemExit(f"redspring/{y}: base map {bid} missing")
+    reader = (ROOT / "templates/reader.html").read_text(encoding="utf-8").replace('"../../assets/', '"../../../assets/')
+    (base / y / "reader/index.html").write_text(stamp(reader.replace("{{TITLE}}", html.escape(f"Racial Violence Dossiers, {RS_LABEL}")),
+                                                      "../../../"), encoding="utf-8")
+    (base / y / "atlas/index.html").write_text(LYN_REDIRECT.format(title=f"Atlas of Anti-Black Violence, {RS_LABEL}", to="../../"),
+                                               encoding="utf-8")
+    write_json(base / "years.json", {"month": "", "years": [{"year": m["year"], "label": RS_LABEL, "full": True}]})
+    write_json(base / "view.json", {
+        "root": "", "basemaps": "../atlas/", "default": m["year"], "month": None,
+        "years": [{"year": m["year"], "label": RS_LABEL, "months": m["months"], "atlas_count": m["atlas_count"],
+                   "export_id": m["export_id"], "full": None, "atlas_dek": m.get("atlas_dek") or ""}]})
+    (base / "index.html").write_text(atlas_page("../"), encoding="utf-8")
+    return {f"basemap-{bid}.json"}
+
+
 def main():
     cfg = json.loads((ROOT / "site.json").read_text(encoding="utf-8"))
     month, span = cfg["series"]["month"], cfg["series"]["span"]
@@ -223,6 +256,7 @@ def main():
         else:
             (ROOT / y / "atlas/index.html").write_text(REDIRECT.format(year=y, label=html.escape(m["label"])), encoding="utf-8")
     used |= lynching_pages(shared)
+    used |= redspring_pages(shared)
     for f in shared.glob("basemap-*.json"):
         if f.name not in used:
             f.unlink()

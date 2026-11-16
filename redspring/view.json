@@ -1,0 +1,20 @@
+{
+ "root": "",
+ "basemaps": "../atlas/",
+ "default": 1919,
+ "month": null,
+ "years": [
+  {
+   "year": 1919,
+   "label": "Red Spring, March 1–July 15, 1919",
+   "months": [
+    3,
+    7
+   ],
+   "atlas_count": 101,
+   "export_id": "1919_dp-20261116151559",
+   "full": null,
+   "atlas_dek": "<p class=\"dek\">Red Spring: the <span id=\"n\"></span> episodes of anti-Black violence reported in the Black press from March 1 to July 15, 1919, before the Red Summer, from our\n <a href=\"1919/reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a>, placed on 1910 county lines and by month. Built from Black weeklies only; the white press is not searched. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
+  }
+ ]
+}
