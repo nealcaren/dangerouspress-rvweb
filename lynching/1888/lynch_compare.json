@@ -7,7 +7,7 @@
   "S-R": "Seguin–Rigby",
   "MWT": "Monroe Work Today"
  },
- "generated_at": "2026-11-16T11:22:53-05:00",
+ "generated_at": "2026-11-16T11:34:03-05:00",
  "counts": {
   "inventory_victims": 202,
   "matched": 189,
@@ -22,11 +22,11 @@
    "possible": 22
   },
   "broad": {
-   "lynching": 179,
+   "lynching": 183,
    "probable": 18,
-   "possible": 24
+   "possible": 25
   },
-  "broad_events": 197
+  "broad_events": 201
  },
  "victims": [
   {
@@ -7940,11 +7940,11 @@
      "lead": "The killing of Levi Lally was the fatal shooting of a farmer at his house near Montevallo, Alabama, on the night of Saturday, July 21, 1888, by two white men and a Black man who had called him outside. Lally died the next day, and warrants were issued on suspicion against men with whom he had quarrelled over work. The case reached distant papers through a single Montgomery dispatch, and a moonshiner killing in Bibb County, reported about ten days later, bore some resemblance to it.",
      "tb": "no",
      "tb_why": [
-      "not killed"
+      "pretext revenge"
      ],
-     "broad": "no",
+     "broad": "lynching",
      "broad_why": [
-      "not killed"
+      "any pretext (revenge)"
      ],
      "def_from": "dossier",
      "grade": {
@@ -15111,7 +15111,9 @@
      "stage": "",
      "lynch_def": null,
      "killed": 0,
-     "method": [],
+     "method": [
+      "hanged"
+     ],
      "accusation": "",
      "evidence": "single_source",
      "inventory": "B-T:bt:2247",
@@ -15119,11 +15121,11 @@
      "lead": "In February 1888 two hunters found the body of an unidentified, heavily armed man in the Boston Mountains of Arkansas, near a still where a revenue collector had killed its owner the previous fall. No marks showed how he died, but newspapers supposed he was a detective gathering evidence against illicit distilling and headlined the death \"Murdered by Moonshiners.\"",
      "tb": "no",
      "tb_why": [
-      "not killed"
+      "pretext none_stated"
      ],
-     "broad": "no",
+     "broad": "lynching",
      "broad_why": [
-      "not killed"
+      "any pretext (none_stated)"
      ],
      "def_from": "dossier",
      "grade": {
@@ -15133,7 +15135,7 @@
       "name": "unknown",
       "race": "unstated",
       "outcome": "differ",
-      "method": "unknown"
+      "method": "agree"
      }
     }
    ],
@@ -18738,6 +18740,40 @@
    "def_from": "dossier"
   },
   {
+   "id": "lean_1888-11_lyn:g82",
+   "dossier": "jeff-davis-s-wife-unnamed-lake-city-1888-11",
+   "set_aside": null,
+   "title": "Killing of Jeff Davis's wife at Lake City",
+   "date": "~1888-11",
+   "prec": "month",
+   "city": "Lake City",
+   "county": "Williamsburg",
+   "state": "SC",
+   "victims": [
+    "Jeff Davis's wife (unnamed)"
+   ],
+   "race": "Black",
+   "type": "mob_assault",
+   "stage": "",
+   "lynch_def": "not a lynching",
+   "killed": 1,
+   "method": [],
+   "accusation": "",
+   "evidence": "single_source",
+   "inventory": null,
+   "county10": 13216,
+   "lead": "The killing of Jeff Davis's wife at Lake City was the fatal stabbing of a Black woman by three white men near Lake City, Williamsburg County, South Carolina, reported in November 1888. She was killed while trying to protect her son, whom the men were beating, and the dispatch reporting the killing said the attackers remained at large with no effort made to arrest them.",
+   "tb": "no",
+   "tb_why": [
+    "pretext revenge"
+   ],
+   "broad": "lynching",
+   "broad_why": [
+    "any pretext (revenge)"
+   ],
+   "def_from": "dossier"
+  },
+  {
    "id": "lean_1888-12_lyn:g41",
    "dossier": "bennett-hihln-tackett-s-mills-1888-12-25",
    "set_aside": null,
@@ -18846,6 +18882,74 @@
    "def_from": "dossier"
   },
   {
+   "id": "leads:split:mack-henry-killed",
+   "dossier": "mack-henry-ichetuchnee-1888-07-27",
+   "set_aside": null,
+   "title": "Killing of Mack Henry",
+   "date": "1888-07-27",
+   "prec": "approx",
+   "city": "Ichetuchnee",
+   "county": "Suwannee",
+   "state": "FL",
+   "victims": [
+    "Mack Henry"
+   ],
+   "race": "",
+   "type": "other",
+   "stage": "",
+   "lynch_def": null,
+   "killed": 0,
+   "method": [],
+   "accusation": "",
+   "evidence": "single_source",
+   "inventory": null,
+   "county10": 3060,
+   "lead": "The killing of Mack Henry was the fatal shooting of a Black man by an unknown assailant near Ichetuchnee, Florida, on Friday, July 27, 1888. The only known report, from the Lake City correspondent of the Savannah Morning News, noted that Henry's wife had been shot and killed at the same place about three months earlier.",
+   "tb": "no",
+   "tb_why": [
+    "pretext none_stated"
+   ],
+   "broad": "lynching",
+   "broad_why": [
+    "any pretext (none_stated)"
+   ],
+   "def_from": "dossier"
+  },
+  {
+   "id": "leads:miss:levi-lally-montevallo",
+   "dossier": "levi-lally-montevallo-1888-07-21",
+   "set_aside": null,
+   "title": "Killing of Levi Lally",
+   "date": "1888-07-21",
+   "prec": null,
+   "city": "Montevallo",
+   "county": "Shelby",
+   "state": "AL",
+   "victims": [
+    "Levi Lally"
+   ],
+   "race": "",
+   "type": "other",
+   "stage": "",
+   "lynch_def": null,
+   "killed": 0,
+   "method": [],
+   "accusation": "",
+   "evidence": "single_source",
+   "inventory": "B-T:bt:2301",
+   "county10": 749,
+   "lead": "The killing of Levi Lally was the fatal shooting of a farmer at his house near Montevallo, Alabama, on the night of Saturday, July 21, 1888, by two white men and a Black man who had called him outside. Lally died the next day, and warrants were issued on suspicion against men with whom he had quarrelled over work. The case reached distant papers through a single Montgomery dispatch, and a moonshiner killing in Bibb County, reported about ten days later, bore some resemblance to it.",
+   "tb": "no",
+   "tb_why": [
+    "pretext revenge"
+   ],
+   "broad": "lynching",
+   "broad_why": [
+    "any pretext (revenge)"
+   ],
+   "def_from": "dossier"
+  },
+  {
    "id": "leads:miss:margaret-auxier-yocum",
    "dossier": "margaret-sallie-auxier-yocum-1888-03-02",
    "set_aside": null,
@@ -18869,6 +18973,42 @@
    "inventory": "B-T:bt:2262",
    "county10": 6617,
    "lead": "The killing of Margaret Auxier was the shooting death of a young woman by a party of men at her father's house near Yocum, Morgan County, Kentucky, in early March 1888. Several men were held on suspicion and lynching was talked of, and in August a man charged with the crime was himself found murdered after saying he would turn State's evidence.",
+   "tb": "no",
+   "tb_why": [
+    "pretext none_stated"
+   ],
+   "broad": "lynching",
+   "broad_why": [
+    "any pretext (none_stated)"
+   ],
+   "def_from": "dossier"
+  },
+  {
+   "id": "leads:miss:unknown-man-boone-moonshiners",
+   "dossier": "unidentified-man-harrison-1888-02-12",
+   "set_aside": null,
+   "title": "Death of an unidentified man in the Boston Mountains, Arkansas (1888)",
+   "date": "~1888-02-11",
+   "prec": "day",
+   "city": "Harrison",
+   "county": "Boone",
+   "state": "AR",
+   "victims": [
+    "unidentified man"
+   ],
+   "race": "",
+   "type": "other",
+   "stage": "",
+   "lynch_def": null,
+   "killed": 0,
+   "method": [
+    "hanged"
+   ],
+   "accusation": "",
+   "evidence": "single_source",
+   "inventory": "B-T:bt:2247",
+   "county10": 881,
+   "lead": "In February 1888 two hunters found the body of an unidentified, heavily armed man in the Boston Mountains of Arkansas, near a still where a revenue collector had killed its owner the previous fall. No marks showed how he died, but newspapers supposed he was a detective gathering evidence against illicit distilling and headlined the death \"Murdered by Moonshiners.\"",
    "tb": "no",
    "tb_why": [
     "pretext none_stated"
@@ -19352,11 +19492,11 @@
   "lean_1888-02_lyn:g2": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "pretext none_stated"
    ],
-   "broad": "no",
+   "broad": "possible",
    "broad_why": [
-    "not killed"
+    "any pretext (none_stated)"
    ]
   },
   "lean_1888-02_lyn:g4": {
@@ -19936,11 +20076,11 @@
   "lean_1888-03_lyn:g47": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "group of 1"
    ],
    "broad": "no",
    "broad_why": [
-    "not killed"
+    "group of 1"
    ]
   },
   "lean_1888-03_lyn:g49": {
@@ -20144,11 +20284,11 @@
   "lean_1888-04_lyn:g16": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "group of 1"
    ],
    "broad": "no",
    "broad_why": [
-    "not killed"
+    "group of 1"
    ]
   },
   "lean_1888-04_lyn:g17": {
@@ -20260,11 +20400,11 @@
   "lean_1888-04_lyn:g32": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "officers did the killing"
    ],
    "broad": "no",
    "broad_why": [
-    "not killed"
+    "officers did the killing"
    ]
   },
   "lean_1888-04_lyn:g34": {
@@ -20488,11 +20628,11 @@
   "lean_1888-04_lyn:g72": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "group of 2"
    ],
    "broad": "no",
    "broad_why": [
-    "not killed"
+    "group of 2"
    ]
   },
   "lean_1888-05_lyn:g1": {
@@ -20990,11 +21130,11 @@
   "lean_1888-05_lyn:g79": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "group of 2"
    ],
    "broad": "no",
    "broad_why": [
-    "not killed"
+    "group of 2"
    ]
   },
   "lean_1888-05_lyn:g80": {
@@ -22812,11 +22952,11 @@
   "lean_1888-08_lyn:g102": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "group of 1"
    ],
    "broad": "no",
    "broad_why": [
-    "not killed"
+    "group of 1"
    ]
   },
   "lean_1888-08_lyn:g103": {
@@ -23336,11 +23476,11 @@
   "lean_1888-09_lyn:g88": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "group of 1"
    ],
    "broad": "no",
    "broad_why": [
-    "not killed"
+    "group of 1"
    ]
   },
   "lean_1888-09_lyn:g89": {
@@ -23546,11 +23686,11 @@
   "lean_1888-10_lyn:g20": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "group of 1"
    ],
    "broad": "no",
    "broad_why": [
-    "not killed"
+    "group of 1"
    ]
   },
   "lean_1888-10_lyn:g22": {
@@ -24480,11 +24620,11 @@
   "lean_1888-11_lyn:g82": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "pretext revenge"
    ],
-   "broad": "no",
+   "broad": "lynching",
    "broad_why": [
-    "not killed"
+    "any pretext (revenge)"
    ]
   },
   "lean_1888-11_lyn:g83": {
@@ -24974,11 +25114,11 @@
   "lean_1888-12_lyn:g61": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "perpetrators officers"
    ],
    "broad": "no",
    "broad_why": [
-    "not killed"
+    "perpetrators officers"
    ]
   },
   "lean_1888-12_lyn:g62": {
@@ -25192,21 +25332,21 @@
   "leads:split:mack-henry-killed": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "pretext none_stated"
    ],
-   "broad": "no",
+   "broad": "lynching",
    "broad_why": [
-    "not killed"
+    "any pretext (none_stated)"
    ]
   },
   "leads:split:john-cain-blackburn": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "group of 1"
    ],
    "broad": "no",
    "broad_why": [
-    "not killed"
+    "group of 1"
    ]
   },
   "leads:miss:john-kirkland-nashville": {
@@ -25218,11 +25358,11 @@
   "leads:miss:levi-lally-montevallo": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "pretext revenge"
    ],
-   "broad": "no",
+   "broad": "lynching",
    "broad_why": [
-    "not killed"
+    "any pretext (revenge)"
    ]
   },
   "leads:miss:margaret-auxier-yocum": {
@@ -25238,11 +25378,11 @@
   "leads:miss:unknown-man-boone-moonshiners": {
    "tb": "no",
    "tb_why": [
-    "not killed"
+    "pretext none_stated"
    ],
-   "broad": "no",
+   "broad": "lynching",
    "broad_why": [
-    "not killed"
+    "any pretext (none_stated)"
    ]
   },
   "leads:miss:old-man-kelly-harold": {
