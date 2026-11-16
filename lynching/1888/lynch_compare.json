@@ -7,13 +7,13 @@
   "S-R": "Seguin–Rigby",
   "MWT": "Monroe Work Today"
  },
- "generated_at": "2026-11-16T07:27:48-05:00",
+ "generated_at": "2026-11-16T07:34:21-05:00",
  "counts": {
   "inventory_victims": 202,
-  "matched": 191,
+  "matched": 189,
   "agree": 130,
-  "differ": 61,
-  "inventory_only": 11,
+  "differ": 59,
+  "inventory_only": 13,
   "found_here": 53,
   "standard_definition": 171
  },
@@ -832,12 +832,12 @@
    "match": "name",
    "ours": [
     {
-     "id": "lean_1888-01_lyn:g20",
-     "dossier": null,
+     "id": "lean_1888-01_lyn:g35",
+     "dossier": "henry-buney-1888-01-13",
      "set_aside": null,
-     "title": null,
-     "date": "~1887-12",
-     "prec": "month",
+     "title": "Abduction of Henry Burney",
+     "date": "1888-01-13",
+     "prec": "day",
      "city": "Dublin",
      "county": "Laurens",
      "state": "GA",
@@ -845,18 +845,18 @@
       "Henry Burney"
      ],
      "race": "Black",
-     "type": "mob_assault",
+     "type": "lynching",
      "stage": "completed",
-     "lynch_def": null,
-     "killed": null,
+     "lynch_def": "not a lynching",
+     "killed": 0,
      "method": [],
-     "accusation": "accused of having assaulted and robbed J. N. Reinhart",
-     "evidence": null,
-     "inventory": null,
+     "accusation": "accused of robbery",
+     "evidence": "contested",
+     "inventory": "HAL:1029",
      "county10": 3788,
-     "lead": "",
+     "lead": "The abduction of Henry Burney was the removal of a Black prisoner from the Laurens County jail at Dublin, Georgia, by a party of masked men on the night of Tuesday, January 10, 1888. Burney was being held on a charge of knocking down and robbing J. M. Reinhart of Dublin. Georgia papers said only that he was believed, or possibly, lynched, while national news summaries reported flatly that he had been lynched, placing the event in Laurens County, Kentucky, or at Macon. A month later a Savannah paper reported that he had been sentenced to four years' imprisonment.",
      "grade": {
-      "date": "differ",
+      "date": "agree",
       "state": "agree",
       "county": "agree",
       "name": "agree",
@@ -3916,45 +3916,9 @@
     }
    ],
    "county10": 6072,
-   "match": "name",
-   "ours": [
-    {
-     "id": "lean_1888-12_lyn:g50",
-     "dossier": null,
-     "set_aside": null,
-     "title": null,
-     "date": "",
-     "prec": "year",
-     "city": "",
-     "county": "",
-     "state": "KS",
-     "victims": [
-      "Joe Raymond",
-      "Isaac Raymond"
-     ],
-     "race": "",
-     "type": "mob_assault",
-     "stage": "",
-     "lynch_def": null,
-     "killed": 0,
-     "method": [],
-     "accusation": "suspected of stealing cattle",
-     "evidence": null,
-     "inventory": null,
-     "county10": null,
-     "lead": "",
-     "grade": {
-      "date": "unknown",
-      "state": "agree",
-      "county": "unknown",
-      "name": "agree",
-      "race": "unstated",
-      "outcome": "differ",
-      "method": "unknown"
-     }
-    }
-   ],
-   "verdict": "differ"
+   "match": null,
+   "ours": [],
+   "verdict": "inventory only"
   },
   {
    "key": "S-R:2871",
@@ -6115,44 +6079,9 @@
     }
    ],
    "county10": 8950,
-   "match": "name",
-   "ours": [
-    {
-     "id": "lean_1888-05_lyn:g99",
-     "dossier": null,
-     "set_aside": null,
-     "title": null,
-     "date": "1888-05-26",
-     "prec": "day",
-     "city": "",
-     "county": "",
-     "state": "",
-     "victims": [
-      "Tom Collins"
-     ],
-     "race": "Black",
-     "type": "intimidation",
-     "stage": "",
-     "lynch_def": null,
-     "killed": 0,
-     "method": [],
-     "accusation": "accused of raping Mrs. Standley",
-     "evidence": null,
-     "inventory": null,
-     "county10": null,
-     "lead": "",
-     "grade": {
-      "date": "differ",
-      "state": "unknown",
-      "county": "unknown",
-      "name": "agree",
-      "race": "agree",
-      "outcome": "differ",
-      "method": "unknown"
-     }
-    }
-   ],
-   "verdict": "differ"
+   "match": null,
+   "ours": [],
+   "verdict": "inventory only"
   },
   {
    "key": "bt:2291",
@@ -10565,39 +10494,40 @@
     }
    ],
    "county10": 7065,
-   "match": "name",
+   "match": "sibling",
    "ours": [
     {
-     "id": "lean_1888-09_lyn:g13",
-     "dossier": null,
+     "id": "lean_1888-09_lyn:g27",
+     "dossier": "jean-pierre-salet-ville-platte-prairie-1888-09-16",
      "set_aside": null,
-     "title": null,
-     "date": "1888-09-26",
+     "title": "Lynching of Jean Pierre Salet and Didaere",
+     "date": "1888-09-16",
      "prec": "day",
-     "city": "New Market",
-     "county": "Shenandoah",
-     "state": "",
+     "city": "Ville Platte Prairie",
+     "county": "St. Landry",
+     "state": "LA",
      "victims": [
-      "Frank Johnston"
+      "Jean Pierre Salet",
+      "Didaere"
      ],
      "race": "Black",
-     "type": "police_violence",
-     "stage": "",
-     "lynch_def": null,
-     "killed": 0,
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "lynching",
+     "killed": 2,
      "method": [],
-     "accusation": "accused of assaulting J. W. Rice with a heavy club, fracturing his skull",
-     "evidence": null,
-     "inventory": null,
-     "county10": 16444,
-     "lead": "",
+     "accusation": "said to have used incendiary language",
+     "evidence": "single_source",
+     "inventory": "B-T:bt:2333",
+     "county10": 7065,
+     "lead": "The lynching of Jean Pierre Salet and Didaere was the killing of two Black men by a crowd of armed men at Ville Platte Prairie, near Opelousas in St. Landry Parish, Louisiana, on September 16, 1888. The men were taken from their homes, led a short distance away and shot with buckshot, reportedly because of \"incendiary language\" they had used. A short Opelousas dispatch carried the story to papers across the country, under headlines that gave the victims' speech as the cause of their deaths.",
      "grade": {
-      "date": "differ",
-      "state": "unknown",
-      "county": "differ",
-      "name": "agree",
+      "date": "agree",
+      "state": "agree",
+      "county": "agree",
+      "name": "differ",
       "race": "agree",
-      "outcome": "differ",
+      "outcome": "agree",
       "method": "unknown"
      }
     }
