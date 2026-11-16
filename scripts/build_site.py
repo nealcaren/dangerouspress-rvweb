@@ -110,6 +110,65 @@ def compare_page(ms, mname):
     return len(years)
 
 
+LYN_DEK = ("<p class=\"dek\">Every lynching our {year} sources report, of any victim, with the year&rsquo;s other episodes "
+           "from the same dossiers, on 1910 county lines and month by month, set beside every {year} victim in the "
+           "standard inventories (Beck and Tolnay&rsquo;s 2022 inventory of twelve Southern states, Seguin and Rigby&rsquo;s "
+           "national inventory, and the <a href=\"https://monroeworktoday.org\">Monroe Work Today</a> map data, used under "
+           "CC BY-NC-SA 4.0). Select a mark or a table row to compare our record with the inventory field by field. "
+           "{draft}</p>")
+LYN_REDIRECT = """<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>{title}</title>
+<script>
+var c = new URLSearchParams(location.hash.slice(1)).get("case");
+location.replace("{to}" + (c ? "#case=" + encodeURIComponent(c) : ""));
+</script>
+<p>Moved: <a href="{to}">{title}</a>.</p>
+</html>
+"""
+
+
+def lynching_pages(shared):
+    """lynching/: the lynching-year page (templates/lynching.html, assets/lynching.js) over lynching/<year>/, a site export
+    of a namespaced research collection (1888_lyn) with its lynch_compare.json. Kept out of the August series and
+    years.json. Returns the base-map files it uses, so the shared atlas/ keeps them."""
+    base = ROOT / "lynching"
+    ms = sorted((json.loads((d / "manifest.json").read_text(encoding="utf-8")) for d in base.glob("*")
+                 if d.is_dir() and d.name.isdigit() and (d / "manifest.json").is_file()), key=lambda m: m["year"]) if base.is_dir() else []
+    used = set()
+    for m in ms:
+        y = str(m["year"])
+        bid = json.loads((base / y / "atlas/data.json").read_text(encoding="utf-8"))["basemap"]
+        used.add(f"basemap-{bid}.json")
+        for f in (base / y / "atlas").glob("basemap-*.json"):
+            if not (shared / f.name).exists():
+                f.replace(shared / f.name)
+            else:
+                f.unlink()
+        if not (shared / f"basemap-{bid}.json").exists():
+            raise SystemExit(f"lynching/{y}: base map {bid} missing")
+        reader = (ROOT / "templates/reader.html").read_text(encoding="utf-8").replace('"../../assets/', '"../../../assets/')
+        (base / y / "reader/index.html").write_text(stamp(reader.replace("{{TITLE}}", html.escape(f"Lynching Dossiers, {y}")),
+                                                          "../../../"), encoding="utf-8")
+        (base / y / "atlas/index.html").write_text(LYN_REDIRECT.format(title=f"Lynchings of {y}", to="../../"), encoding="utf-8")
+    if not ms:
+        return used
+    m = ms[-1]
+    y = str(m["year"])
+    write_json(base / "years.json", {"month": "", "years": [{"year": x["year"], "label": f"Lynchings of {x['year']}",
+                                                              "full": True} for x in ms]})
+    (base / "atlas").mkdir(exist_ok=True)
+    (base / "atlas/index.html").write_text(LYN_REDIRECT.format(title=f"Lynchings of {y}", to="../"), encoding="utf-8")
+    title = f"Lynchings of {y}"
+    write_json(base / "view.json", {"data": f"{y}/", "basemaps": "../atlas/", "title": title,
+                                    "dek": LYN_DEK.format(year=y, draft=DRAFT.split(". ", 1)[1])})
+    page = (ROOT / "templates/lynching.html").read_text(encoding="utf-8")
+    (base / "index.html").write_text(stamp(page.replace("{{TITLE}}", html.escape(title)).replace("{{ROOT}}", "../"), "../"),
+                                     encoding="utf-8")
+    return used
+
+
 def main():
     cfg = json.loads((ROOT / "site.json").read_text(encoding="utf-8"))
     month, span = cfg["series"]["month"], cfg["series"]["span"]
@@ -163,6 +222,7 @@ def main():
             (ROOT / y / "atlas/index.html").write_text(atlas_page("../../"), encoding="utf-8")
         else:
             (ROOT / y / "atlas/index.html").write_text(REDIRECT.format(year=y, label=html.escape(m["label"])), encoding="utf-8")
+    used |= lynching_pages(shared)
     for f in shared.glob("basemap-*.json"):
         if f.name not in used:
             f.unlink()
@@ -199,7 +259,8 @@ def main():
     nc = compare_page(ms, mname)
     print(f"Built the {mname} atlas for {', '.join(s['label'] for s in slices)} ({total} episodes on the map), "
           f"full-year atlases for {', '.join(map(str, sorted(full))) or 'none'}, {len(ms)} reader shells, "
-          f"the inventory comparison for {nc} years; wrote years.json.")
+          f"the inventory comparison for {nc} years; wrote years.json"
+          + (", the lynching page." if (ROOT / "lynching/view.json").is_file() else "."))
 
 
 if __name__ == "__main__":

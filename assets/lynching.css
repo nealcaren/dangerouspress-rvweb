@@ -1,0 +1,35 @@
+/* The lynching-year page (lynching/): atlas layout plus comparison chips and the inventory table. */
+header.top .nav{margin:0;font:500 13px/1.3 var(--ui)}
+header.top .nav a{color:var(--accent)}
+.tally{display:flex;flex-wrap:wrap;gap:6px 18px;font:500 14px/1.3 var(--ui);color:var(--muted);font-variant-numeric:tabular-nums}
+.tally b{color:var(--ink);font-weight:600}
+:root{--agree:var(--s3);--differ:var(--k3);--found:var(--s2);--inv:var(--s1)}
+.ringd{width:11px;height:11px;border-radius:50%;display:inline-block;border:2px dashed var(--inv);flex:none}
+.chip{display:inline-block;font:600 11.5px/1 var(--ui);letter-spacing:.03em;padding:3px 6px;border-radius:3px;white-space:nowrap}
+.g-agree{background:color-mix(in srgb,var(--agree) 22%,transparent);color:var(--ink)}
+.g-close{background:color-mix(in srgb,var(--agree) 10%,transparent);color:var(--ink);outline:1px dashed var(--agree)}
+.g-differ{background:color-mix(in srgb,var(--differ) 35%,transparent);color:var(--ink)}
+.g-unknown,.g-unstated{background:transparent;color:var(--muted);outline:1px solid var(--rule)}
+.cmp{width:100%;border-collapse:collapse;font:13.5px/1.35 var(--ui);margin:6px 0 12px}
+.cmp th,.cmp td{text-align:left;vertical-align:top;padding:5px 6px;border-top:1px solid var(--rule)}
+.cmp th{color:var(--muted);font-weight:500;width:5.5em}
+.cmp td.g{width:1%}
+.cmp tr.row-differ td{background:color-mix(in srgb,var(--differ) 9%,transparent)}
+.rows{font:13px/1.4 var(--ui);color:var(--muted);margin:0 0 6px}
+.dossier-text p{margin:0 0 10px}
+.dossier-text h4{font:600 13px/1.2 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:14px 0 6px}
+.readbtn{font:500 14px var(--ui);color:var(--accent);background:var(--sheet);border:1px solid var(--rule);padding:6px 10px;cursor:pointer}
+.ctable{margin-top:34px;display:grid;gap:10px;min-width:0}
+.ctable h2{font:600 25px/1.15 var(--display);margin:0}
+.ctable .filters button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tablewrap{overflow-x:auto;border:1px solid var(--rule);background:var(--sheet)}
+#ct{width:100%;border-collapse:collapse;font:13.5px/1.35 var(--ui);min-width:980px}
+#ct th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:600;padding:7px 8px;border-bottom:1px solid var(--rule);white-space:nowrap}
+#ct td{padding:6px 8px;border-top:1px solid var(--rule);vertical-align:top}
+#ct tbody tr{cursor:pointer}
+#ct tbody tr:hover td,#ct tbody tr:focus-visible td{background:var(--panel)}
+#ct tbody tr:focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
+#ct .d{color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+#ct .sub{color:var(--muted);font-size:12.5px}
+.vchip{font:600 11.5px/1 var(--ui);padding:3px 7px;border-radius:999px;white-space:nowrap;color:var(--paper)}
+.v-agree{background:var(--agree)}.v-differ{background:var(--differ)}.v-found{background:var(--found)}.v-inv{background:var(--inv)}.v-other{background:var(--other)}
