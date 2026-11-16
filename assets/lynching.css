@@ -34,3 +34,11 @@ header.top .nav a{color:var(--accent)}
 .vchip{font:600 11.5px/1 var(--ui);padding:3px 7px;border-radius:999px;white-space:nowrap;color:var(--paper)}
 .v-agree{background:var(--agree)}.v-differ{background:var(--differ)}.v-found{background:var(--found)}.v-inv{background:var(--inv)}.v-threat{background:var(--other)}.v-uncounted{background:var(--k4)}.v-violence{background:var(--k6)}
 .facts .sub{color:var(--muted);font-size:12.5px}
+#btrev h3{font:600 17px/1.2 var(--display);margin:22px 0 8px}
+table.bt{width:100%;border-collapse:collapse;font:13.5px/1.35 var(--ui);min-width:860px}
+table.bt th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:600;padding:7px 8px;border-bottom:1px solid var(--rule)}
+table.bt td{padding:6px 8px;border-top:1px solid var(--rule);vertical-align:top}
+table.bt tr[data-i]{cursor:pointer}
+table.bt tr[data-i]:hover td,table.bt tr[data-i]:focus-visible td{background:var(--panel)}
+table.bt tr.tier td{font:600 12.5px/1.3 var(--ui);letter-spacing:.04em;text-transform:uppercase;color:var(--muted);background:var(--sheet);padding-top:12px}
+table.bt .sub,table.bt .d{color:var(--muted);font-size:12.5px}

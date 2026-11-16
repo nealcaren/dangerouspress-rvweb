@@ -314,6 +314,46 @@ function renderTable() {
     tr.onclick = go; tr.onkeydown = ev => { if (ev.key === "Enter") go(); }; });
 }
 
+/* ---------- disagreements with Beck-Tolnay (lynch_compare.json bt_review) ---------- */
+(function btReview() {
+  const R = C.bt_review;
+  if (!R) return;
+  document.getElementById("btrev").hidden = false;
+  document.getElementById("bt-cap").innerHTML = `Judged under Beck and Tolnay&rsquo;s own definition (Tolnay and Beck 1995, App. A: a killing, illegal, by a group of three or more, under a pretext of justice or tradition), as our coded elements read it. Missed cases are limited to the states their file covers for ${Y} (${R.states.map(esc).join(", ")}). Strength runs from strongest to weakest within each list. Select a row to open the case.`;
+  const why = o => o ? esc((o.tb_why || []).join("; ").replace(/_/g, " ")) : "";
+  const go = key => { const it = byKey[key]; if (it) { select(it); document.getElementById("side").scrollIntoView({behavior: "smooth", block: "start"}); } };
+  const fill = (id, head, rows, cells, keyOf) => {
+    const tb = document.getElementById(id);
+    tb.querySelector("thead").innerHTML = `<tr>${head.map(h => `<th>${h}</th>`).join("")}</tr>`;
+    let last = null;
+    tb.querySelector("tbody").innerHTML = rows.map((r, i) => {
+      const sep = r.tier !== last ? `<tr class="tier"><td colspan="${head.length}">${esc(r.tier)} <span class="d">${rows.filter(x => x.tier === r.tier).length}</span></td></tr>` : "";
+      last = r.tier;
+      return sep + `<tr tabindex="0" data-i="${i}">${cells(r).map(c => `<td>${c}</td>`).join("")}</tr>`;
+    }).join("");
+    tb.querySelectorAll("tbody tr[data-i]").forEach(tr => {
+      const r = rows[+tr.dataset.i];
+      tr.onclick = () => go(keyOf(r));
+      tr.onkeydown = ev => { if (ev.key === "Enter") go(keyOf(r)); };
+    });
+  };
+  document.getElementById("bt-a-h").innerHTML += ` <span class="d">${R.doubt.length}</span>`;
+  document.getElementById("bt-b-h").innerHTML += ` <span class="d">${R.missed.length}</span>`;
+  fill("bt-a", ["Date", "Victim", "Place", "Beck&ndash;Tolnay", "Our reading", "Why"], R.doubt,
+    r => [`<span class="d">${esc(r.date || "")}</span>`, esc(r.name || "Unnamed"), esc(r.place),
+          `${esc(r.bt_status)}<br><span class="sub">${esc(r.bt_row)}</span>`,
+          r.ours ? esc(DEFL[r.ours.tb] || r.ours.tb) + (r.ours.evidence ? `<br><span class="sub">${esc(r.ours.evidence.replace(/_/g, " "))}</span>` : "") : "&mdash;",
+          r.ours ? `<span class="sub">${why(r.ours)}</span>` : `<span class="sub">no matching event in our ${Y} sources</span>`],
+    r => r.ours ? r.ours.id : "inv:" + r.key);
+  fill("bt-b", ["Date", "Event", "Place", "Our reading", "Other inventories", "Notes"], R.missed,
+    r => [`<span class="d">${esc((r.date || "").replace("~", "about "))}</span>`, esc(r.title || (r.victims || []).join(", ")),
+          esc([r.city, r.county && r.county + " Co.", r.state].filter(Boolean).join(", ")),
+          esc(DEFL[r.tb] || r.tb) + (r.evidence ? `<br><span class="sub">${esc(r.evidence.replace(/_/g, " "))}</span>` : ""),
+          r.also_in.length ? r.also_in.map(l => esc(C.lists[l] || l)).join(", ") : "none",
+          `<span class="sub">${why(r)}</span>`],
+    r => r.id);
+})();
+
 /* ---------- start ---------- */
 const want = new URLSearchParams(location.hash.slice(1)).get("case");   /* read before the list view resets the hash */
 refresh();

@@ -7,7 +7,7 @@
   "S-R": "Seguin–Rigby",
   "MWT": "Monroe Work Today"
  },
- "generated_at": "2026-11-16T11:42:52-05:00",
+ "generated_at": "2026-11-16T11:50:52-05:00",
  "counts": {
   "inventory_victims": 202,
   "matched": 189,
@@ -18651,6 +18651,1465 @@
    "def_from": "dossier"
   }
  ],
+ "bt_review": {
+  "states": [
+   "AL",
+   "AR",
+   "FL",
+   "GA",
+   "KY",
+   "LA",
+   "MS",
+   "NC",
+   "SC",
+   "TN",
+   "TX",
+   "VA",
+   "WV"
+  ],
+  "doubt": [
+   {
+    "tier": "our sources contradict it",
+    "bt_row": "bt:2248",
+    "bt_status": "Lynching",
+    "name": "Unnamed Person",
+    "date": "1888-02-08",
+    "place": "In a woods near Hinesville, Liberty Co., GA",
+    "key": "bt:2248",
+    "ours": {
+     "id": "lean_1888-02_lyn:g13",
+     "dossier": "hinesville-hinesville-1888-02-09",
+     "title": "Reported Hinesville lynching of 1888",
+     "date": "1888-02-08",
+     "city": "Hinesville",
+     "county": "Liberty",
+     "state": "GA",
+     "victims": [
+      "George Washington"
+     ],
+     "tb": "no",
+     "tb_why": [
+      "not killed"
+     ],
+     "broad": "no",
+     "evidence": "contested"
+    }
+   },
+   {
+    "tier": "officers did the killing",
+    "bt_row": "bt:2351",
+    "bt_status": "Probable lynching",
+    "name": "Oscar Carmichael",
+    "date": "1888-11-16",
+    "place": "Spalding Co., GA",
+    "key": "bt:2351",
+    "ours": {
+     "id": "lean_1888-11_lyn:g69",
+     "dossier": "oscar-carmichael-sunnyside-1888-11-19",
+     "title": "Killing of Oscar Carmichael",
+     "date": "1888-11-16",
+     "city": "Sunnyside",
+     "county": "Henry",
+     "state": "GA",
+     "victims": [
+      "Oscar Carmichael"
+     ],
+     "tb": "no",
+     "tb_why": [
+      "officers did the killing"
+     ],
+     "broad": "no",
+     "evidence": "corroborated"
+    }
+   },
+   {
+    "tier": "death not established",
+    "bt_row": "bt:2305",
+    "bt_status": "Probable lynching",
+    "name": "Unnamed Person",
+    "date": "1888-08-09",
+    "place": "Henderson Co., NC",
+    "key": "bt:2305",
+    "ours": {
+     "id": "lean_1888-08_lyn:g12",
+     "dossier": "hendersonville-hendersonville-1888-08",
+     "title": "Henderson County abduction of an unknown white man (1888)",
+     "date": "~1888-08",
+     "city": "Hendersonville",
+     "county": "Henderson",
+     "state": "NC",
+     "victims": [],
+     "tb": "possible",
+     "tb_why": [],
+     "broad": "possible",
+     "evidence": "single_source"
+    }
+   },
+   {
+    "tier": "death not established",
+    "bt_row": "bt:2312",
+    "bt_status": "Probable lynching",
+    "name": "Albert Narcisse",
+    "date": "1888-08-21",
+    "place": "Bayou Martin, St. Martin Co., LA",
+    "key": "bt:2312",
+    "ours": {
+     "id": "lean_1888-08_lyn:g7",
+     "dossier": "albert-narcisse-bayou-martin-1888-08-23",
+     "title": "Bayou Martin raid",
+     "date": "1888-08-21",
+     "city": "Bayou Martin",
+     "county": "St. Martin",
+     "state": "LA",
+     "victims": [
+      "Albert Narcisse"
+     ],
+     "tb": "possible",
+     "tb_why": [],
+     "broad": "possible",
+     "evidence": "single_source"
+    }
+   },
+   {
+    "tier": "death not established",
+    "bt_row": "bt:2313",
+    "bt_status": "Probable lynching",
+    "name": "Jules Narcisse",
+    "date": "1888-08-21",
+    "place": "Bayou Martin, St. Martin Co., LA",
+    "key": "bt:2313",
+    "ours": {
+     "id": "lean_1888-08_lyn:g7",
+     "dossier": "albert-narcisse-bayou-martin-1888-08-23",
+     "title": "Bayou Martin raid",
+     "date": "1888-08-21",
+     "city": "Bayou Martin",
+     "county": "St. Martin",
+     "state": "LA",
+     "victims": [
+      "Albert Narcisse"
+     ],
+     "tb": "possible",
+     "tb_why": [],
+     "broad": "possible",
+     "evidence": "single_source"
+    }
+   },
+   {
+    "tier": "death not established",
+    "bt_row": "bt:2330",
+    "bt_status": "Lynching",
+    "name": "Curtis Shortney",
+    "date": "1888-09-12",
+    "place": "6 miles W of Utica, Hinds Co., MS",
+    "key": "bt:2330",
+    "ours": {
+     "id": "lean_1888-09_lyn:g12",
+     "dossier": "curtis-shortney-utica-1888-09-12",
+     "title": "Lynching of Curtis Shortney",
+     "date": "1888-09-12",
+     "city": "Utica",
+     "county": "Hinds",
+     "state": "MS",
+     "victims": [
+      "Curtis Shortney"
+     ],
+     "tb": "possible",
+     "tb_why": [
+      "group size inferred"
+     ],
+     "broad": "possible",
+     "evidence": "single_source"
+    }
+   },
+   {
+    "tier": "weaker evidence",
+    "bt_row": "bt:2355",
+    "bt_status": "Lynching",
+    "name": "John Coleman",
+    "date": "1888-11-27",
+    "place": "Broad River, near Baker’s Ferry, Wilkes Co., GA",
+    "key": "bt:2355",
+    "ours": {
+     "id": "lean_1888-12_lyn:g34",
+     "dossier": "tim-smith-washington-1888-11-27",
+     "title": "Lynching of Tim Smith and John Coleman",
+     "date": "1888-11-27",
+     "city": "Washington",
+     "county": "Wilkes",
+     "state": "GA",
+     "victims": [
+      "Tim Smith",
+      "John Coleman",
+      "Hulda Smith",
+      "Jim Smith"
+     ],
+     "tb": "probable",
+     "tb_why": [],
+     "broad": "probable",
+     "evidence": "corroborated"
+    }
+   },
+   {
+    "tier": "weaker evidence",
+    "bt_row": "bt:2356",
+    "bt_status": "Lynching",
+    "name": "Tom Smith",
+    "date": "1888-11-27",
+    "place": "Broad River, near Baker’s Ferry, Wilkes Co., GA",
+    "key": "bt:2356",
+    "ours": {
+     "id": "lean_1888-12_lyn:g34",
+     "dossier": "tim-smith-washington-1888-11-27",
+     "title": "Lynching of Tim Smith and John Coleman",
+     "date": "1888-11-27",
+     "city": "Washington",
+     "county": "Wilkes",
+     "state": "GA",
+     "victims": [
+      "Tim Smith",
+      "John Coleman",
+      "Hulda Smith",
+      "Jim Smith"
+     ],
+     "tb": "probable",
+     "tb_why": [],
+     "broad": "probable",
+     "evidence": "corroborated"
+    }
+   },
+   {
+    "tier": "weaker evidence",
+    "bt_row": "bt:2363",
+    "bt_status": "Lynching",
+    "name": "Anthony Wilder",
+    "date": "1888-12-19",
+    "place": "Wahalak, Kemper Co., MS",
+    "key": "bt:2363",
+    "ours": {
+     "id": "lean_1888-12_lyn:g101",
+     "dossier": "george-maury-wahalak-1888-12-19",
+     "title": "Wahalak race riot",
+     "date": "1888-12-16",
+     "city": "Wahalak",
+     "county": "Kemper",
+     "state": "MS",
+     "victims": [
+      "Dick Cheatham",
+      "Anthony Wilder",
+      "Zach Maury",
+      "Cash Maury",
+      "Allen Coleman",
+      "Davis",
+      "Stiles Stennis"
+     ],
+     "tb": "probable",
+     "tb_why": [],
+     "broad": "probable",
+     "evidence": "contested"
+    }
+   },
+   {
+    "tier": "weaker evidence",
+    "bt_row": "bt:2364",
+    "bt_status": "Lynching",
+    "name": "Dick Cheatham",
+    "date": "1888-12-19",
+    "place": "Wahalak, Kemper Co., MS",
+    "key": "bt:2364",
+    "ours": {
+     "id": "lean_1888-12_lyn:g101",
+     "dossier": "george-maury-wahalak-1888-12-19",
+     "title": "Wahalak race riot",
+     "date": "1888-12-16",
+     "city": "Wahalak",
+     "county": "Kemper",
+     "state": "MS",
+     "victims": [
+      "Dick Cheatham",
+      "Anthony Wilder",
+      "Zach Maury",
+      "Cash Maury",
+      "Allen Coleman",
+      "Davis",
+      "Stiles Stennis"
+     ],
+     "tb": "probable",
+     "tb_why": [],
+     "broad": "probable",
+     "evidence": "contested"
+    }
+   },
+   {
+    "tier": "weaker evidence",
+    "bt_row": "bt:2365",
+    "bt_status": "Lynching",
+    "name": "Zack Maury",
+    "date": "1888-12-19",
+    "place": "Near Wahalak, Kemper Co., MS",
+    "key": "bt:2365",
+    "ours": {
+     "id": "lean_1888-12_lyn:g101",
+     "dossier": "george-maury-wahalak-1888-12-19",
+     "title": "Wahalak race riot",
+     "date": "1888-12-16",
+     "city": "Wahalak",
+     "county": "Kemper",
+     "state": "MS",
+     "victims": [
+      "Dick Cheatham",
+      "Anthony Wilder",
+      "Zach Maury",
+      "Cash Maury",
+      "Allen Coleman",
+      "Davis",
+      "Stiles Stennis"
+     ],
+     "tb": "probable",
+     "tb_why": [],
+     "broad": "probable",
+     "evidence": "contested"
+    }
+   },
+   {
+    "tier": "weaker evidence",
+    "bt_row": "bt:2368",
+    "bt_status": "Lynching",
+    "name": "Stiles Stennis",
+    "date": "1888-12-28",
+    "place": "Near Wahalak, Kemper Co., MS",
+    "key": "bt:2368",
+    "ours": {
+     "id": "lean_1888-12_lyn:g101",
+     "dossier": "george-maury-wahalak-1888-12-19",
+     "title": "Wahalak race riot",
+     "date": "1888-12-16",
+     "city": "Wahalak",
+     "county": "Kemper",
+     "state": "MS",
+     "victims": [
+      "Dick Cheatham",
+      "Anthony Wilder",
+      "Zach Maury",
+      "Cash Maury",
+      "Allen Coleman",
+      "Davis",
+      "Stiles Stennis"
+     ],
+     "tb": "probable",
+     "tb_why": [],
+     "broad": "probable",
+     "evidence": "contested"
+    }
+   },
+   {
+    "tier": "no crime alleged (stricter pretext than their practice)",
+    "bt_row": "bt:2247",
+    "bt_status": "Probable lynching",
+    "name": "Unnamed Person",
+    "date": null,
+    "place": "Boone Co., AR",
+    "key": "bt:2247",
+    "ours": {
+     "id": "leads:miss:unknown-man-boone-moonshiners",
+     "dossier": "unidentified-man-harrison-1888-02-12",
+     "title": "Death of an unidentified man in the Boston Mountains, Arkansas (1888)",
+     "date": "~1888-02-11",
+     "city": "Harrison",
+     "county": "Boone",
+     "state": "AR",
+     "victims": [
+      "unidentified man"
+     ],
+     "tb": "no",
+     "tb_why": [
+      "pretext none_stated"
+     ],
+     "broad": "lynching",
+     "evidence": "single_source"
+    }
+   },
+   {
+    "tier": "no crime alleged (stricter pretext than their practice)",
+    "bt_row": "bt:2250",
+    "bt_status": "Lynching",
+    "name": "Henry Royal",
+    "date": "1888-02-19",
+    "place": "6 miles from Tuckerman, Jackson Co., AR",
+    "key": "bt:2250",
+    "ours": {
+     "id": "lean_1888-03_lyn:g46",
+     "dossier": "hunlev-royl-newport-1888-03",
+     "title": "Killing of Hunley Royl",
+     "date": "~1888-03",
+     "city": "Newport",
+     "county": "Jackson",
+     "state": "AR",
+     "victims": [
+      "Hunley Royl"
+     ],
+     "tb": "no",
+     "tb_why": [
+      "pretext none_stated"
+     ],
+     "broad": "lynching",
+     "evidence": "single_source"
+    }
+   },
+   {
+    "tier": "no crime alleged (stricter pretext than their practice)",
+    "bt_row": "bt:2262",
+    "bt_status": "Lynching",
+    "name": "Sallie Ohier",
+    "date": "1888-03-05",
+    "place": "Near Yocum, Morgan Co., KY",
+    "key": "bt:2262",
+    "ours": {
+     "id": "leads:miss:margaret-auxier-yocum",
+     "dossier": "margaret-sallie-auxier-yocum-1888-03-02",
+     "title": "Killing of Margaret Auxier",
+     "date": "1888-03-02",
+     "city": "Yocum",
+     "county": "Morgan",
+     "state": "KY",
+     "victims": [
+      "Margaret Auxier"
+     ],
+     "tb": "no",
+     "tb_why": [
+      "pretext none_stated"
+     ],
+     "broad": "lynching",
+     "evidence": "corroborated"
+    }
+   },
+   {
+    "tier": "no crime alleged (stricter pretext than their practice)",
+    "bt_row": "bt:2301",
+    "bt_status": "Probable lynching",
+    "name": "Levi Lally",
+    "date": "1888-07-21",
+    "place": "Near Montevallo, Shelby Co., AL",
+    "key": "bt:2301",
+    "ours": {
+     "id": "leads:miss:levi-lally-montevallo",
+     "dossier": "levi-lally-montevallo-1888-07-21",
+     "title": "Killing of Levi Lally",
+     "date": "1888-07-21",
+     "city": "Montevallo",
+     "county": "Shelby",
+     "state": "AL",
+     "victims": [
+      "Levi Lally"
+     ],
+     "tb": "no",
+     "tb_why": [
+      "pretext revenge"
+     ],
+     "broad": "lynching",
+     "evidence": "single_source"
+    }
+   },
+   {
+    "tier": "no crime alleged (stricter pretext than their practice)",
+    "bt_row": "bt:2315",
+    "bt_status": "Lynching",
+    "name": "Harrison Spencer",
+    "date": "1888-08-26",
+    "place": "West bank of Harris Creek, 3.5 miles from Longview, Harrison Co., TX",
+    "key": "bt:2315",
+    "ours": {
+     "id": "lean_1888-09_lyn:g16",
+     "dossier": "harrison-spencer-longview-1888-08-31",
+     "title": "Lynching of Harrison Spencer",
+     "date": "~1888-08-27",
+     "city": "Longview",
+     "county": "Gregg",
+     "state": "TX",
+     "victims": [
+      "Harrison Spencer"
+     ],
+     "tb": "no",
+     "tb_why": [
+      "pretext revenge"
+     ],
+     "broad": "lynching",
+     "evidence": "corroborated"
+    }
+   },
+   {
+    "tier": "no crime alleged (stricter pretext than their practice)",
+    "bt_row": "bt:2321",
+    "bt_status": "Lynching",
+    "name": "William Lewis",
+    "date": "1888-09-03",
+    "place": "5 miles E of Durant, Holmes Co., MS",
+    "key": "bt:2321",
+    "ours": {
+     "id": "lean_1888-09_lyn:g94",
+     "dossier": "william-lewis-1888-09-04",
+     "title": "Lynching of William Lewis",
+     "date": "1888-09-04",
+     "city": "",
+     "county": "Holmes",
+     "state": "MS",
+     "victims": [
+      "William Lewis"
+     ],
+     "tb": "no",
+     "tb_why": [
+      "pretext none_stated"
+     ],
+     "broad": "lynching",
+     "evidence": "single_source"
+    }
+   },
+   {
+    "tier": "no crime alleged (stricter pretext than their practice)",
+    "bt_row": "bt:2332",
+    "bt_status": "Lynching",
+    "name": "Unnamed Person",
+    "date": "1888-09-14",
+    "place": "1 mile from Breaux Bridge, St. Martin Co., LA",
+    "key": "bt:2332",
+    "ours": {
+     "id": "lean_1888-09_lyn:g104",
+     "dossier": "sam-polk-named-as-one-of-the-gang-not-a-victim-breaux-bridge",
+     "title": "Breaux Bridge night raid",
+     "date": "1888-09-14",
+     "city": "Breaux Bridge",
+     "county": "St. Martin",
+     "state": "LA",
+     "victims": [],
+     "tb": "no",
+     "tb_why": [
+      "pretext none_stated"
+     ],
+     "broad": "lynching",
+     "evidence": "corroborated"
+    }
+   },
+   {
+    "tier": "no crime alleged (stricter pretext than their practice)",
+    "bt_row": "bt:2352",
+    "bt_status": "Lynching",
+    "name": "Wilks Arnold",
+    "date": "1888-11-19",
+    "place": "Near Yazoo City, Yazoo Co., MS",
+    "key": "bt:2352",
+    "ours": {
+     "id": "lean_1888-11_lyn:g17",
+     "dossier": "wilson-arnold-yazoo-city-1888-11-19",
+     "title": "Lynching of Wilson Arnold",
+     "date": "1888-11-19",
+     "city": "Yazoo City",
+     "county": "Yazoo",
+     "state": "MS",
+     "victims": [
+      "Wilson Arnold"
+     ],
+     "tb": "no",
+     "tb_why": [
+      "pretext revenge"
+     ],
+     "broad": "lynching",
+     "evidence": "corroborated"
+    }
+   },
+   {
+    "tier": "no crime alleged (stricter pretext than their practice)",
+    "bt_row": "bt:2361",
+    "bt_status": "Probable lynching",
+    "name": "Adam Golden",
+    "date": "1888-12-17",
+    "place": "Haralson Co., GA",
+    "key": "bt:2361",
+    "ours": {
+     "id": "lean_1888-12_lyn:g49",
+     "dossier": "adam-golden-buchanan-1888-12-17",
+     "title": "Killing of Adam Golden",
+     "date": "1888-12-17",
+     "city": "Buchanan",
+     "county": "Haralson",
+     "state": "GA",
+     "victims": [
+      "Adam Golden"
+     ],
+     "tb": "no",
+     "tb_why": [
+      "pretext none_stated"
+     ],
+     "broad": "lynching",
+     "evidence": "corroborated"
+    }
+   },
+   {
+    "tier": "not in our sources",
+    "bt_row": "bt:2237",
+    "bt_status": "Probable lynching",
+    "name": "George King",
+    "date": "1888-01-08",
+    "place": "Baldwin Co., AL",
+    "key": "bt:2237",
+    "ours": null
+   },
+   {
+    "tier": "not in our sources",
+    "bt_row": "bt:2238",
+    "bt_status": "Probable lynching",
+    "name": "Unnamed Person",
+    "date": "1888-01-08",
+    "place": "Baldwin Co., AL",
+    "key": "bt:2238",
+    "ours": null
+   },
+   {
+    "tier": "not in our sources",
+    "bt_row": "bt:2290",
+    "bt_status": "Lynching",
+    "name": "Spencer Collins",
+    "date": "1888-06-18",
+    "place": "Tree Crossing, near Natchez; a bridge some 200 yards from the mammoth bayou bridge, on the Pine Ridge road, Adams Co., MS",
+    "key": "bt:2290",
+    "ours": null
+   },
+   {
+    "tier": "not in our sources",
+    "bt_row": "bt:2309",
+    "bt_status": "Lynching",
+    "name": "Jeff Brown",
+    "date": "1888-08-17",
+    "place": "5 miles W of Richmond, Fort Bend Co., TX",
+    "key": "bt:2309",
+    "ours": null
+   },
+   {
+    "tier": "not in our sources",
+    "bt_row": "bt:2348",
+    "bt_status": "Lynching",
+    "name": "Eugene Lulin",
+    "date": "1888-11-09",
+    "place": "Southern part of the parish, St. Landry Co., LA",
+    "key": "bt:2348",
+    "ours": null
+   },
+   {
+    "tier": "not in our sources",
+    "bt_row": "bt:2359",
+    "bt_status": "Lynching",
+    "name": "John Russell",
+    "date": "1888-12-14",
+    "place": "Rayville, near graveyard 600 yds from jail, Richland Co., LA",
+    "key": "bt:2359",
+    "ours": null
+   },
+   {
+    "tier": "not in our sources",
+    "bt_row": "bt:2360",
+    "bt_status": "Lynching",
+    "name": "— Russell brother #2",
+    "date": "1888-12-14",
+    "place": "Rayville, near graveyard 600 yds from jail, Richland Co., LA",
+    "key": "bt:2360",
+    "ours": null
+   }
+  ],
+  "missed": [
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [
+     "S-R"
+    ],
+    "id": "lean_1888-01_lyn:g8",
+    "dossier": "reu-page-madisonville-1888-01-03",
+    "title": "Madisonville lynchings (1888)",
+    "date": "1888-01-03",
+    "city": "Madisonville",
+    "county": "Madison",
+    "state": "TX",
+    "victims": [
+     "William Bobo",
+     "Reden S. Page",
+     "Alf Whitten"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [
+     "MWT",
+     "S-R"
+    ],
+    "id": "lean_1888-01_lyn:g3",
+    "dossier": "santas-sallzer-collins-1888-01-22",
+    "title": "Lynching of Santos Salizer",
+    "date": "1888-01-22",
+    "city": "Collins",
+    "county": "Nueces",
+    "state": "TX",
+    "victims": [
+     "Santos Salizer"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [],
+    "id": "lean_1888-03_lyn:g53",
+    "dossier": "aaron-dlckey-button-1888-03",
+    "title": "Lynching of Aaron Dickey",
+    "date": "~1888-03",
+    "city": "Button",
+    "county": "Clay",
+    "state": "GA",
+    "victims": [
+     "Aaron Dickey"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [
+     "MWT"
+    ],
+    "id": "lean_1888-03_lyn:g66",
+    "dossier": "theo-galloway-hayneville-1888-03-29",
+    "title": "Lynching of Theo Calloway",
+    "date": "1888-03-29",
+    "city": "Hayneville",
+    "county": "Lowndes",
+    "state": "AL",
+    "victims": [
+     "Theo. Calloway"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [],
+    "id": "lean_1888-04_lyn:g51",
+    "dossier": "frank-warner-magnolia-1888-04-08",
+    "title": "Lynching of Joseph Prescott",
+    "date": "1888-04-08",
+    "city": "Magnolia",
+    "county": "Pike",
+    "state": "MS",
+    "victims": [
+     "Joseph Prescott",
+     "Frank Warner",
+     "Hardy Kaigler",
+     "Ben Kaigler"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [],
+    "id": "lean_1888-03_lyn:g25",
+    "dossier": "henry-pope-summerville-1888-03",
+    "title": "Lynching of Henry Pope",
+    "date": "1888-04-30",
+    "city": "Summerville",
+    "county": "Chattooga",
+    "state": "GA",
+    "victims": [
+     "Henry Pope"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [],
+    "id": "lean_1888-05_lyn:g93",
+    "dossier": "arthur-harton-1888-05-22",
+    "title": "Killing of Arthur Harton",
+    "date": "1888-05-22",
+    "city": "",
+    "county": "Clark",
+    "state": "AR",
+    "victims": [
+     "Arthur Harton"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [],
+    "id": "lean_1888-10_lyn:g76",
+    "dossier": "asheville-asheville-1888-09",
+    "title": "Lynching of John Humphreys",
+    "date": "1888-07-15",
+    "city": "Asheville",
+    "county": "Buncombe",
+    "state": "NC",
+    "victims": [
+     "John Humphreys"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [],
+    "id": "lean_1888-07_lyn:g74",
+    "dossier": "dr-g-h-thomas-1888-07-16",
+    "title": "Lynching of Dr. G. H. Thomas",
+    "date": "1888-07-17",
+    "city": "",
+    "county": "Lafayette",
+    "state": "MS",
+    "victims": [
+     "Dr. G. H. Thomas"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [],
+    "id": "lean_1888-08_lyn:g31",
+    "dossier": "danville-danville-1888-08-01",
+    "title": "Lynching of Bruce Younger",
+    "date": "1888-07-27",
+    "city": "Danville",
+    "county": "Halifax",
+    "state": "VA",
+    "victims": [
+     "Bruce Younger"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [
+     "MWT"
+    ],
+    "id": "lean_1888-08_lyn:g10",
+    "dossier": "two-unnamed-negro-prisoners-sylvaren-1888-08-17",
+    "title": "Lynching of two prisoners at Sylvaren, Mississippi",
+    "date": "1888-08-17",
+    "city": "Sylvaren",
+    "county": "Smith",
+    "state": "MS",
+    "victims": [
+     "two unnamed Negro prisoners"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [],
+    "id": "lean_1888-08_lyn:g36",
+    "dossier": "beaswell-beaswell-1888-08-26",
+    "title": "Braswell trestle lynching",
+    "date": "1888-08-26",
+    "city": "Beaswell",
+    "county": "Paulding",
+    "state": "GA",
+    "victims": [],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [
+     "MWT"
+    ],
+    "id": "lean_1888-08_lyn:g4",
+    "dossier": "pony-poe-bellefontaine-1888-08-26",
+    "title": "Lynching of Pony Poe",
+    "date": "1888-08-27",
+    "city": "Bellefontaine",
+    "county": "Webster",
+    "state": "MS",
+    "victims": [
+     "Pony Poe"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [
+     "MWT"
+    ],
+    "id": "lean_1888-09_lyn:g15",
+    "dossier": "archer-cook-farmville-1888-08-31",
+    "title": "Lynching of Archer Cook",
+    "date": "1888-08-31",
+    "city": "Farmville",
+    "county": "Prince Edward",
+    "state": "VA",
+    "victims": [
+     "Archer Cook"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [
+     "MWT"
+    ],
+    "id": "lean_1888-10_lyn:g49",
+    "dossier": "sam-cornwall-1888-09-30",
+    "title": "Lynching of Sam Cornwall",
+    "date": "1888-09-30",
+    "city": "",
+    "county": "Chester",
+    "state": "SC",
+    "victims": [
+     "Sam Cornwall"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [],
+    "id": "lean_1888-10_lyn:g38",
+    "dossier": "frank-easterling-1888-10-06",
+    "title": "Lynching of Frank Easterling",
+    "date": "1888-10-06",
+    "city": "",
+    "county": "Rankin",
+    "state": "MS",
+    "victims": [
+     "Frank Easterling",
+     "Sharp Easterling"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [
+     "MWT"
+    ],
+    "id": "lean_1888-10_lyn:g2",
+    "dossier": "joe-joiner-hulto-1888-10-15",
+    "title": "Lynching of Joe Joiner",
+    "date": "1888-10-15",
+    "city": "Hulto",
+    "county": "Williamson",
+    "state": "TX",
+    "victims": [
+     "Joe Joiner"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [
+     "MWT"
+    ],
+    "id": "lean_1888-10_lyn:g35",
+    "dossier": "nat-nathaniel-wharton-1888-10-16",
+    "title": "Lynching of Nat Nathaniel",
+    "date": "1888-10-18",
+    "city": "Wharton",
+    "county": "Brazoria",
+    "state": "TX",
+    "victims": [
+     "Nat Nathaniel"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [
+     "MWT"
+    ],
+    "id": "lean_1888-10_lyn:g63",
+    "dossier": "event-1888-10-28",
+    "title": "Lynching of Thomas Sayers",
+    "date": "1888-10-31",
+    "city": "",
+    "county": "Mercer",
+    "state": "WV",
+    "victims": [
+     "Thomas Sayer"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, corroborated",
+    "also_in": [],
+    "id": "lean_1888-11_lyn:g21",
+    "dossier": "bob-bonner-petersburg-1888-11-16",
+    "title": "Lynching of Bob Bonner",
+    "date": "1888-11-16",
+    "city": "Petersburg",
+    "county": "Lincoln",
+    "state": "TN",
+    "victims": [
+     "Bob Bonner"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [
+     "MWT"
+    ],
+    "id": "lean_1888-01_lyn:g4",
+    "dossier": "ben-edwards-amite-city-1888-01-28",
+    "title": "Lynching of Ben Edwards",
+    "date": "1888-01-28",
+    "city": "Amite City",
+    "county": "Tangipahoa",
+    "state": "LA",
+    "victims": [
+     "Ben Edwards"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-02_lyn:g38",
+    "dossier": "louis-payton-jeanerette-1888-02-09",
+    "title": "Killing of Jake Marshall, his brother and Louis Payton",
+    "date": "~1888-02-07",
+    "city": "Jeanerette",
+    "county": "Iberia",
+    "state": "LA",
+    "victims": [
+     "Louis Payton",
+     "Jake Marshall",
+     "Marshall's brother"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-04_lyn:g45",
+    "dossier": "john-wood-denison-1888-03-28",
+    "title": "Lynching of John Wood",
+    "date": "1888-03-28",
+    "city": "Denison",
+    "county": "Grayson",
+    "state": "TX",
+    "victims": [
+     "John Wood"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-04_lyn:g34",
+    "dossier": "henry-williams-raleigh-1888-04-17",
+    "title": "Lynching of Bill Parkman",
+    "date": "~1888-04-20",
+    "city": "Raleigh",
+    "county": "Meriwether",
+    "state": "GA",
+    "victims": [
+     "Henry Williams",
+     "Bill Parkman"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-05_lyn:g73",
+    "dossier": "james-hicks-1888-05",
+    "title": "Lynching of James Hicks",
+    "date": "~1888-05",
+    "city": "",
+    "county": "Claiborne",
+    "state": "MS",
+    "victims": [
+     "James Hicks"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-05_lyn:g103",
+    "dossier": "manuel-bowers-1888-05",
+    "title": "Lynching of Manuel Bowers",
+    "date": "~1888-05",
+    "city": "",
+    "county": "",
+    "state": "LA",
+    "victims": [
+     "Manuel Bowers"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-05_lyn:g72",
+    "dossier": "event-1888-04",
+    "title": "Lynching in Claiborne County, Mississippi (1888)",
+    "date": "~1888-05-01",
+    "city": "",
+    "county": "Claiborne",
+    "state": "MS",
+    "victims": [],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-06_lyn:g31",
+    "dossier": "joshua-anderson-owensboro-1888-06",
+    "title": "Killing of Joshua Anderson",
+    "date": "~1888-06",
+    "city": "Owensboro",
+    "county": "Daviess",
+    "state": "KY",
+    "victims": [
+     "Joshua Anderson"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-08_lyn:g99",
+    "dossier": "morgan-williams-canton-1888-07",
+    "title": "Lynching of Morgan Williams",
+    "date": "~1888-07",
+    "city": "Canton",
+    "county": "Madison",
+    "state": "MS",
+    "victims": [
+     "Morgan Williams"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-07_lyn:g28",
+    "dossier": "james-hagley-alma-1888-07-03",
+    "title": "Lynching of James Hagley",
+    "date": "1888-07-03",
+    "city": "Alma",
+    "county": "Crawford",
+    "state": "AR",
+    "victims": [
+     "James Hagley"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-08_lyn:g91",
+    "dossier": "will-robinson-1888-08-08",
+    "title": "Lynching of Will Robinson",
+    "date": "1888-08-08",
+    "city": "",
+    "county": "Tallahatchie",
+    "state": "MS",
+    "victims": [
+     "Will Robinson"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-08_lyn:g34",
+    "dossier": "big-cypress-bayou-big-cypress-bayou-1888-08-14",
+    "title": "Lynching near Big Cypress Bayou, Bossier Parish (1888)",
+    "date": "1888-08-14",
+    "city": "Big Cypress Bayou",
+    "county": "Bossier",
+    "state": "LA",
+    "victims": [],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-09_lyn:g54",
+    "dossier": "vim-martin-rome-1888-09",
+    "title": "Lynching of William Martin",
+    "date": "~1888-09",
+    "city": "Rome",
+    "county": "Covington",
+    "state": "AL",
+    "victims": [
+     "William Martin"
+    ],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-11_lyn:g59",
+    "dossier": "nathan-broadnax-marion-1888-10-29",
+    "title": "Lynching at Marion, Louisiana (1888)",
+    "date": "~1888-10-29",
+    "city": "Marion",
+    "county": "Union",
+    "state": "LA",
+    "victims": [],
+    "tb": "lynching",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [],
+    "id": "lean_1888-11_lyn:g80",
+    "dossier": "henry-cook-1888-11-11",
+    "title": "Lynching of Henry Cook",
+    "date": "1888-11-11",
+    "city": "",
+    "county": "Miller",
+    "state": "GA",
+    "victims": [
+     "Henry Cook"
+    ],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "lynching, single source",
+    "also_in": [
+     "MWT"
+    ],
+    "id": "lean_1888-11_lyn:g12",
+    "dossier": "donaldsonville-donaldsonville-1888-11-13",
+    "title": "1888 Donaldsonville lynching",
+    "date": "1888-11-13",
+    "city": "Donaldsonville",
+    "county": "Ascension",
+    "state": "LA",
+    "victims": [],
+    "tb": "lynching",
+    "tb_why": [],
+    "broad": "lynching",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "probable",
+    "also_in": [
+     "S-R"
+    ],
+    "id": "leads:miss:old-man-kelly-harold",
+    "dossier": "old-man-kelly-harold-1888-01-02",
+    "title": "Lynching of old man Kelly",
+    "date": "~1887-12-29",
+    "city": "Harold",
+    "county": "Wilbarger",
+    "state": "TX",
+    "victims": [
+     "old man Kelly"
+    ],
+    "tb": "probable",
+    "tb_why": [],
+    "broad": "probable",
+    "evidence": "contested"
+   },
+   {
+    "tier": "probable",
+    "also_in": [],
+    "id": "lean_1888-05_lyn:g20",
+    "dossier": "jerry-long-washington-1888-05-19",
+    "title": "Rhea County quadruple lynching",
+    "date": "1888-05-18",
+    "city": "Washington",
+    "county": "Rhea",
+    "state": "TN",
+    "victims": [
+     "Jerry Long",
+     "James Strickland",
+     "Nick Webster",
+     "Sam Sibner"
+    ],
+    "tb": "probable",
+    "tb_why": [
+     "group size inferred"
+    ],
+    "broad": "probable",
+    "evidence": "single_source"
+   },
+   {
+    "tier": "probable",
+    "also_in": [],
+    "id": "lean_1888-08_lyn:g65",
+    "dossier": "john-grayson-abingdon-1888-07-23",
+    "title": "Shooting of John Grayson",
+    "date": "1888-07-21",
+    "city": "Abingdon",
+    "county": "Washington",
+    "state": "VA",
+    "victims": [
+     "John Grayson"
+    ],
+    "tb": "probable",
+    "tb_why": [
+     "legality unclear",
+     "group size inferred"
+    ],
+    "broad": "probable",
+    "evidence": "corroborated"
+   },
+   {
+    "tier": "probable",
+    "also_in": [],
+    "id": "lean_1888-09_lyn:g91",
+    "dossier": "martin-willson-nation-1888-08",
+    "title": "Killing of Martin Wilson",
+    "date": "~1888-08",
+    "city": "Nation",
+    "county": "",
+    "state": "AL",
+    "victims": [
+     "Martin Wilson"
+    ],
+    "tb": "probable",
+    "tb_why": [
+     "legality unclear",
+     "group size inferred"
+    ],
+    "broad": "probable",
+    "evidence": "single_source"
+   }
+  ]
+ },
  "defs": {
   "lean_1888-01_lyn:g2": {
    "tb": "lynching",
