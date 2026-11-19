@@ -1,0 +1,385 @@
+{
+ "schema_version": 1,
+ "year": 1881,
+ "month": 8,
+ "generated_at": "2026-11-19T10:23:56-05:00",
+ "source": {
+  "git": "d87f073",
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1881/both/events_1881_both_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1881/dossiers2_all"
+ },
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL",
+  "MWT": "Monroe Work Today"
+ },
+ "inventory": [
+  {
+   "date": "1881-08-05",
+   "day_known": false,
+   "name": "Mike Walls",
+   "place": "",
+   "county": "Dyer",
+   "state": "TN",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched after being accused of attempted assault on a white woman, a widow. He was 19.",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "8181",
+     "name": "Mike Walls"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1881-08_both:g6",
+     "date": "1881-08-01",
+     "city": "Dyersburg",
+     "county": "Dyer",
+     "state": "TN",
+     "victims": [
+      "Mike Wells"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "MWT:8181",
+     "summary": "Citizens lynched Mike Wells, a Black man arrested for an alleged attempted outrage on a white widow, in the Court House yard at Dyersburg between twelve and one a.m. He had reportedly confessed.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "mike-wells-dyersburg-1881-08-01"
+    }
+   ]
+  },
+  {
+   "date": "1881-08-15",
+   "day_known": false,
+   "name": "Ed Reines",
+   "place": "",
+   "county": "Graves",
+   "state": "KY",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched after being accused of attempting to ravish an unmarried white woman",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "8245",
+     "name": "Ed Reines"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1881-08_both:g29",
+     "date": "1881-08-16",
+     "city": "",
+     "county": "Graves",
+     "state": "KY",
+     "victims": [
+      "Ed Reeves"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "MWT:8245",
+     "summary": "Ed Reines, a Negro, accused of assaulting Miss Dora Langston, escaped, was pursued by men intending to lynch him, was arrested in Ballard County, and was taken by a mob from officers bound for Graves County jail and lynched.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "ed-reines-1881-08-17"
+    }
+   ]
+  },
+  {
+   "date": "1881-08-15",
+   "day_known": false,
+   "name": "Alec Wilson",
+   "place": "",
+   "county": "Ouachita",
+   "state": "LA",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched after being accused of the murder of a white man",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "6480",
+     "name": "Alec Wilson"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1881-08_both:g35",
+     "date": "1881-08-22",
+     "city": "Monroe",
+     "county": "Ouachita",
+     "state": "LA",
+     "victims": [
+      "Alex Wilson",
+      "Perry Munson"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "MWT:6480",
+     "summary": "A mob broke into the Monroe sheriff's office on Monday night, took the jail keys, seized Black prisoners Alex Wilson and Perry Munson, and hanged them between town and Bayou DeSiard. A witness saw the mob but could not identify its members' complexion.",
+     "match": "linked",
+     "killed": 2,
+     "killed_max": 2,
+     "dossier": "perry-mason-monroe-1881-08-22"
+    }
+   ]
+  },
+  {
+   "date": "1881-08-15",
+   "day_known": false,
+   "name": "Perry V Munson",
+   "place": "",
+   "county": "Ouachita",
+   "state": "LA",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched after being accused of the murder of a white man",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "6481",
+     "name": "Perry V Munson"
+    }
+   ],
+   "ours": [
+    {
+     "id": "lean_1881-08_both:g35",
+     "date": "1881-08-22",
+     "city": "Monroe",
+     "county": "Ouachita",
+     "state": "LA",
+     "victims": [
+      "Alex Wilson",
+      "Perry Munson"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "MWT:6480",
+     "summary": "A mob broke into the Monroe sheriff's office on Monday night, took the jail keys, seized Black prisoners Alex Wilson and Perry Munson, and hanged them between town and Bayou DeSiard. A witness saw the mob but could not identify its members' complexion.",
+     "match": "name",
+     "killed": 2,
+     "killed_max": 2,
+     "dossier": "perry-mason-monroe-1881-08-22"
+    }
+   ]
+  },
+  {
+   "date": "1881-08-25",
+   "day_known": false,
+   "name": "Black Kid Thomas",
+   "place": "Silverton",
+   "county": "San Juan",
+   "state": "CO",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched after being accused of accessory to murder",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "5820",
+     "name": "Black Kid Thomas"
+    }
+   ],
+   "ours": [
+    {
+     "id": "leads:mwt_miss:silverton-kid-thomas",
+     "date": "~1881-08-26",
+     "city": "Silverton",
+     "county": "San Juan",
+     "state": "CO",
+     "victims": [
+      "'Black Kid' (Jim Catrin?)"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": "lynching",
+     "inventory": "MWT:5820",
+     "summary": "After City Marshal D. G. Ogsbury was killed at Silverton on Aug 26 by Burt Wilkinson and Dyson Eskridge, citizens summarily disposed of three men interested in the murder; MWT lists \"Black Kid\" Thomas, Black, lynched at Silverton in late August.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": null,
+     "dossier": "black-kid-thomas-silverton-1881-08-27"
+    }
+   ]
+  },
+  {
+   "date": "1881-08-25",
+   "day_known": false,
+   "name": "Caleb Jackson",
+   "place": "Vernon",
+   "county": "Jackson",
+   "state": "LA",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched on the allegation of arson of a white man’s home. He was only a boy.",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "6482",
+     "name": "Caleb Jackson"
+    }
+   ],
+   "ours": []
+  }
+ ],
+ "found": [
+  {
+   "id": "lean_1881-08_both:g4",
+   "date": "1881-08-07",
+   "city": "Oroville (hanged ~10 mi out on the Chico road)",
+   "county": "Butte",
+   "state": "CA",
+   "victims": [
+    "T. Noakes",
+    "P. Noakes",
+    "J. F. Noakes",
+    "Noales (OCR garbled)"
+   ],
+   "victim_race": "unclear",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "A mob hanged Thomas James Noakes near Oroville, Butte County, on the morning of August 7. The coroner's inquest found death by mob violence but did not identify any participants. The body bore no marks except from the rope.",
+   "match": "found",
+   "killed": 0,
+   "killed_max": 0,
+   "dossier": "t-noakes-oroville-1881-08-07"
+  },
+  {
+   "id": "lean_1881-08_both:g48",
+   "date": "1881-08-13",
+   "city": "Abbeville",
+   "county": "Vermilion",
+   "state": "LA",
+   "victims": [
+    "William Epperson"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "A mob of two or three hundred men, white and black, seized Harrington from the jail, shackled him, and drove him to the scene of his alleged murders, where a scaffold had been erected. The text breaks off before stating the outcome.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": null,
+   "dossier": "harrington-abbeville-1881-08"
+  },
+  {
+   "id": "lean_1881-08_both:g18",
+   "date": "1881-08-15",
+   "city": "Bay St. Louis",
+   "county": "Hancock",
+   "state": "MS",
+   "victims": [
+    "Charles Stewart"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "A crowd of Black people gathered at the Bay St. Louis courthouse vowing vengeance, bought a rope, and with no guard at the prison a mob broke down the jail gates and doors, took Charles Stewart out and hanged him around midnight; his body still hung Tuesday.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "charles-stewart-bay-st-louis-1881-08-15"
+  },
+  {
+   "id": "lean_1881-08_both:g94",
+   "date": "1881-08-17",
+   "city": "Orange",
+   "county": "Orange",
+   "state": "TX",
+   "victims": [
+    "Robert (Bob) Saxon",
+    "unnamed Black men"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "Sheriff G. W. Michael's posse pursued Sam Saxon and two other Black men returning to Orange after a saloon shooting of a white man. The sheriff was wounded by buckshot, the posse fired and killed one or two of the Black men, and Saxon escaped by train.",
+   "match": "found",
+   "killed": 3,
+   "killed_max": 8,
+   "dossier": "sam-saxon-orange-1881-08-17"
+  },
+  {
+   "id": "lean_1881-08_both:g96",
+   "date": "1881-08-21",
+   "city": "Orange",
+   "county": "Orange",
+   "state": "TX",
+   "victims": [
+    "Sam Saxon",
+    "unnamed Black prisoner"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "lynching",
+   "inventory": null,
+   "summary": "About 20 armed men surrounded the Orange jail in the night, forced the jailor to open the door, took out Sam Saxon and another Black prisoner, and shot them, planning to try Delno next day.",
+   "match": "found",
+   "killed": 2,
+   "killed_max": 4,
+   "dossier": "sam-saxon-orange-1881-08-21"
+  },
+  {
+   "id": "lean_1881-08_both:g32",
+   "date": "1881-08-23",
+   "city": "Riley Township",
+   "county": "Clinton",
+   "state": "MI",
+   "victims": [
+    "Charles Dew"
+   ],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "probable lynching",
+   "inventory": null,
+   "summary": "Charles Dew, a colored farmer in Riley Township, was found dead hanging from a beam in his granary, his head laid open. The paper calls it a probable murder, linked to the earlier tarring by masked men.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "charles-dew-1881-08-23"
+  },
+  {
+   "id": "lean_1881-08_both:g36",
+   "date": "~1881-08",
+   "city": "Horn Lake",
+   "county": "De Soto",
+   "state": "MS",
+   "victims": [],
+   "victim_race": "Black",
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": "probable lynching",
+   "inventory": null,
+   "summary": "Near Horn Lake, a party of four or five armed men met the marshal escorting a Black prisoner to the Hernando jail, ordered him to leave, and then fired a volley that killed the prisoner. No arrests had been made.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "horn-lake-horn-lake-1881-08"
+  }
+ ]
+}
