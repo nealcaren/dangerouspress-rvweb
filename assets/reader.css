@@ -122,3 +122,6 @@ blockquote{margin:6px 0;padding:2px 0 2px 12px;border-left:3px solid var(--tint)
  .desk{position:static;max-height:none}h1{font-size:31px}
  .srclist li{grid-template-columns:26px minmax(0,1fr)}.srclist li .d{grid-column:2}}
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+
+/* parent episode line under a case title (codebook 4: related events under one parent) */
+.parent { margin: .25rem 0 .5rem; font-size: .92em; color: var(--muted, inherit); }

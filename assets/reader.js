@@ -156,7 +156,7 @@ async function renderEpisode(id, key) {
   const clips = ep.sources.filter(s => s.n).sort((a, b) => a.n - b.n);
   document.getElementById("main").innerHTML = `<div class="ep"><article class="article">
     <p class="eyebrow">${esc([ep.city, ep.state].filter(Boolean).join(", "))} · ${esc(ep.when)}</p>
-    <h1 tabindex="-1">${esc(ep.title)}</h1><p class="chips">${scopeChips(ep.chips)}${codes?.disputed ? '<button type="button" class="chip warn" data-go="codes">Disputed coding</button>' : ""}</p>
+    <h1 tabindex="-1">${esc(ep.title)}</h1>${ep.parent ? `<p class="parent">Part of <b>${esc(ep.parent.title)}</b>. Related: ${ep.parent.cases.map(c => `<a href="#${c.id}">${esc(c.title)}</a>`).join(" · ")}</p>` : ""}<p class="chips">${scopeChips(ep.chips)}${codes?.disputed ? '<button type="button" class="chip warn" data-go="codes">Disputed coding</button>' : ""}</p>
     <div class="text">${body}</div>${accts}${framing}${scope}${codesHTML(codes)}${recchk}<h2>Sources</h2>${all}
     ${ep.uncovered.length ? `<p class="small muted">${ep.uncovered.length} statements cite an article beyond the ${ep.n_clips} clippings; their grey links open the full page.</p>` : ""}
     </article>
