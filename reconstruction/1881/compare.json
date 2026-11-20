@@ -2,7 +2,7 @@
  "schema_version": 1,
  "year": 1881,
  "month": 8,
- "generated_at": "2026-11-20T09:39:44-05:00",
+ "generated_at": "2026-11-20T14:10:24-05:00",
  "source": {
   "git": "d87f073",
   "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1881/both/events_1881_both_final_ddlc.json",
@@ -383,27 +383,6 @@
    "killed": 1,
    "killed_max": 1,
    "dossier": "charles-dew-1881-08-23"
-  },
-  {
-   "id": "lean_1881-09_both:g33",
-   "date": "~1881-08",
-   "city": "Del Norte",
-   "county": "Rio Grande",
-   "state": "CO",
-   "victims": [
-    "Billy LeRoy",
-    "his brother"
-   ],
-   "victim_race": null,
-   "type": "lynching",
-   "stage": "completed",
-   "lynch_def": null,
-   "inventory": null,
-   "summary": "A vigilante body of over one hundred citizens and miners overpowered the Del Norte jail guards, took road agent Billy Leroy and his brother, and hanged them from a tree by the river. Both were killed.",
-   "match": "found",
-   "killed": null,
-   "killed_max": null,
-   "dossier": "billy-leroy-del-norte-1881-08"
   },
   {
    "id": "lean_1881-08_both:g36",
