@@ -78,6 +78,7 @@ Each `episodes` entry currently includes:
 | `dir` | Stable public case ID; must equal reader `id` and the case filename. |
 | `title`, `summary` | Case title and short hover/search summary. Plain text. |
 | `type`, `stage` | Classification used for labels and three map categories. |
+| `lynching` | Collections with structured codes (Reconstruction 1881 on, 2026-11-20): lynching stage (`completed` / `attempted` / `threatened` / null) as its own variable; `type` is then a structured-code type (`mob_killing` etc.), `stage` is null, `scope` is `clear` / `review` / `lynching_any_race` / `lone_actor`. The map's lynching category is any episode with a lynching stage. |
 | `date`, `prec` | Date string and precision, used for placement, filtering, and display. |
 | `city`, `state`, `county`, `county_state` | Place labels; `state` is a postal abbreviation. |
 | `fips`, `ahcb`, `x`, `y`, `lat`, `lon`, `loc` | Historical county and location data; `loc` is currently `place` or `county`. |

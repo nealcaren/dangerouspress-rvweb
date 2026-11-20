@@ -18,7 +18,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SAFE = re.compile(r"[a-z0-9-]+")
 TYPES = {"lynching", "mob_assault", "police_violence", "posse_killing", "whitecapping", "expulsion", "labor",
-         "intimidation", "community_attack", "arson_bombing", "peonage", "insufficient", "other"}
+         "intimidation", "community_attack", "arson_bombing", "peonage", "insufficient", "other",
+         "mob_killing", "unclassified"}   # structured-code types (1881 on; lynching is then the `lynching` stage field)
 STAGES = {"", "completed", "attempted", "threatened"}
 PRECS = {"day", "week", "month", "year", "approx", None}
 EVID = {"corroborated", "single_source", "contested", None}
@@ -96,6 +97,8 @@ def check(base):
             warnings.append(f"{tag}: date precision {e.get('prec')!r} not handled by the renderer")
         if e.get("type") not in TYPES:
             warnings.append(f"{tag}: type {e.get('type')!r} has no display label")
+        if (e.get("lynching") or "") not in STAGES:
+            warnings.append(f"{tag}: lynching {e.get('lynching')!r}")
         if (e.get("stage") or "") not in STAGES:
             warnings.append(f"{tag}: stage {e.get('stage')!r}")
         if e.get("evidence") not in EVID:

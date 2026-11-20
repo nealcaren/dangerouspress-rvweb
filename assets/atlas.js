@@ -11,15 +11,18 @@ const V = await fetch("view.json", {cache: "no-cache"}).then(r => { if (!r.ok) t
 const YEARS = V.years.slice().sort((a, b) => a.year - b.year), BY = Object.fromEntries(YEARS.map(y => [y.year, y]));
 const ROOT = V.root, ONE = YEARS.length === 1;
 const NS = "http://www.w3.org/2000/svg";
+/* a lynching: the older exports' type "lynching", or (structured codes, 1881 on) any episode with a lynching stage,
+   whatever its type, since lynching is a variable there and not a type */
+const lyn = e => e.type === "lynching" || !!e.lynching;
 const CATS = [
- {k:"lyn", label:"Lynchings: completed, attempted, threatened", short:"Lynching", v:"--s1", test:e=>e.type==="lynching"},
- {k:"mob", label:"Mob, night-rider and community violence", short:"Mob or community", v:"--s2", test:e=>!["lynching","police_violence","posse_killing"].includes(e.type)},
- {k:"pol", label:"Police and posse violence", short:"Police or posse", v:"--s3", test:e=>["police_violence","posse_killing"].includes(e.type)}];
+ {k:"lyn", label:"Lynchings: completed, attempted, threatened", short:"Lynching", v:"--s1", test:e=>lyn(e)},
+ {k:"mob", label:"Mob, night-rider and community violence", short:"Mob or community", v:"--s2", test:e=>!lyn(e) && !["police_violence","posse_killing"].includes(e.type)},
+ {k:"pol", label:"Police and posse violence", short:"Police or posse", v:"--s3", test:e=>!lyn(e) && ["police_violence","posse_killing"].includes(e.type)}];
 /* a second legend row filters on outcome: a Black person killed (filled dot) or no one killed (ring) */
 const DEATH = [
  {k:"dead", label:"A Black person killed", cls:"solid", test:e=>e.killed>0},
  {k:"none", label:"No one killed", cls:"ring", test:e=>!(e.killed>0)}];
-const TYPE = {lynching:"Lynching", mob_assault:"Mob assault", police_violence:"Police violence", posse_killing:"Posse killing",
+const TYPE = {lynching:"Lynching", mob_killing:"Mob killing", unclassified:"Unclassified", mob_assault:"Mob assault", police_violence:"Police violence", posse_killing:"Posse killing",
  whitecapping:"Whitecapping", expulsion:"Expulsion", labor:"Labor conflict", intimidation:"Intimidation",
  community_attack:"Attack on a community", arson_bombing:"Arson or bombing", peonage:"Peonage", insufficient:"Unclassified",
  other:"Other"};
@@ -431,7 +434,7 @@ async function openEp(e, updateUrl = true) {
     return;
   }
   const facts = [["Date", e.when], ["Place", e.place], ["1910 county", e.county ? `${e.county} County, ${e.county_state || e.state}` + (e.fips && e.fips[0] ? ` (FIPS ${e.fips[0].fips})` : "") : "not assigned"],
-    ["Type", (TYPE[e.type] || String(e.type || "unknown").replace(/_/g, " ")) + (e.stage ? `, ${e.stage}` : "")], ["Black people killed", e.killed ?? "unknown"], ["Evidence", (e.evidence || "").replace(/_/g, " ")]]
+    ["Type", (TYPE[e.type] || String(e.type || "unknown").replace(/_/g, " ")) + (e.lynching ? `; lynching, ${e.lynching}` : e.stage ? `, ${e.stage}` : "")], ["Black people killed", e.killed ?? "unknown"], ["Evidence", (e.evidence || "").replace(/_/g, " ")]]
     .concat(e.lists ? [["On existing lists", e.lists]] : []).concat(sel === "all" ? [["Collection", BY[e.coll].label]] : []);
   const text = (e.text || []).map(s => (SEC[s.section] === "" ? "" : `<h3>${esc(SEC[s.section] || s.section.replace(/_/g, " "))}</h3>`)
     + s.paras.map(p => `<p>${esc(p)}</p>`).join("")).join("");
