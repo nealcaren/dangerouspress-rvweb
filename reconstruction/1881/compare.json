@@ -2,7 +2,7 @@
  "schema_version": 1,
  "year": 1881,
  "month": 8,
- "generated_at": "2026-11-19T10:23:56-05:00",
+ "generated_at": "2026-11-19T22:46:13-05:00",
  "source": {
   "git": "d87f073",
   "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1881/both/events_1881_both_final_ddlc.json",
@@ -234,7 +234,28 @@
      "name": "Caleb Jackson"
     }
    ],
-   "ours": []
+   "ours": [
+    {
+     "id": "lean_1881-09_both:g11",
+     "date": "1881-08-31",
+     "city": "Vernon",
+     "county": "Jackson",
+     "state": "LA",
+     "victims": [
+      "Joe Caleb"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "MWT:6482",
+     "summary": "A party of unknown men overpowered deputy sheriffs James and Jack Smith, took Joe Caleb, a colored prisoner charged with attempting to burn T. J. Fuller's house, from the jail and hanged him from a tree on the Trenton road.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "joe-caleb-vernon-1881-08-31"
+    }
+   ]
   }
  ],
  "found": [
@@ -364,6 +385,27 @@
    "dossier": "charles-dew-1881-08-23"
   },
   {
+   "id": "lean_1881-09_both:g33",
+   "date": "~1881-08",
+   "city": "Del Norte",
+   "county": "Rio Grande",
+   "state": "CO",
+   "victims": [
+    "Billy LeRoy",
+    "his brother"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "A vigilante body of over one hundred citizens and miners overpowered the Del Norte jail guards, took road agent Billy Leroy and his brother, and hanged them from a tree by the river. Both were killed.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": "billy-leroy-del-norte-1881-08"
+  },
+  {
    "id": "lean_1881-08_both:g36",
    "date": "~1881-08",
    "city": "Horn Lake",
@@ -380,6 +422,26 @@
    "killed": 1,
    "killed_max": 1,
    "dossier": "horn-lake-horn-lake-1881-08"
+  },
+  {
+   "id": "lean_1881-09_both:g18",
+   "date": "~1881-08-21",
+   "city": "Ramsey's Canyon (near Tombstone)",
+   "county": "",
+   "state": "AZ",
+   "victims": [
+    "Mexican boy"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "A mob in Tombstone, Arizona Territory, compelled Mexicans to whip a Mexican boy with knotted rawhide thongs; he died a few hours later. The girl's insult story was later said to be untrue.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": "mexican-boy-tombstone-1881-08"
   }
  ]
 }

@@ -16,6 +16,31 @@ function scopeChips(ch) {
   return (ch || []).map(([t, c], i) => `<span class="chip ${c}">${i === 0 ? `<b>${esc(t)}</b>` : esc(t)}</span>`).join("");
 }
 
+const TYPE = t => String(t ?? "").replace(/_/g, " ");
+const STAGE = {completed: "completed", attempted: "attempted", threatened: "threatened"};
+function readingHTML(r, title) {
+  const cell = v => esc(v ?? "") || '<span class="muted">—</span>';
+  const tolls = [r.black_killed && `${r.black_killed} Black person${r.black_killed > 1 ? "s" : ""} killed`,
+    r.black_hurt && `${r.black_hurt} hurt and survived`, r.departed && `${r.departed} left or driven out`].filter(Boolean).join("; ");
+  return `<div class="reading">${title ? `<h3>${esc(title)}</h3>` : ""}<dl class="facts">
+    <dt>Scope</dt><dd>${esc(r.inclusion_label)}</dd>
+    <dt>Type</dt><dd>${esc(TYPE(r.type))}${r.secondary.length ? ` <span class="muted">(also ${esc(r.secondary.map(TYPE).join(", "))})</span>` : ""}</dd>
+    <dt>Lynching</dt><dd>${r.lynching ? esc(STAGE[r.lynching] || r.lynching) : '<span class="muted">none</span>'}</dd>
+    ${tolls ? `<dt>Harm</dt><dd>${esc(tolls)}</dd>` : ""}</dl>
+    <div class="tablewrap"><table><thead><tr><th>Who acted</th><th>Kind</th><th>Authority</th><th>Number</th><th>Race</th></tr></thead><tbody>
+    ${r.actors.map(a => `<tr><td>${cell(a.who)}</td><td>${cell(a.kind)}</td><td>${cell(a.authority)}</td><td>${cell(a.number)}</td><td>${cell(a.race)}</td></tr>`).join("")}</tbody></table></div>
+    <div class="tablewrap"><table><thead><tr><th>Act</th><th>Note</th></tr></thead><tbody>
+    ${r.acts.map(x => `<tr><td>${esc(x.act)}${x.attempted ? " (attempted)" : ""}</td><td>${cell(x.note)}</td></tr>`).join("")}</tbody></table></div>
+    <div class="tablewrap"><table><thead><tr><th>Target</th><th>Kind</th><th>Race</th><th>Outcome</th></tr></thead><tbody>
+    ${r.targets.map(t => `<tr><td>${cell(t.who)}</td><td>${cell(t.kind)}</td><td>${cell(t.race)}</td><td>${cell(t.outcome)}</td></tr>`).join("")}</tbody></table></div></div>`;
+}
+function codesHTML(c) {
+  if (!c) return "";
+  if (c.disputed) return `<h2 id="codes">Coded elements</h2><div class="dispute" role="note"><p><b>Disputed coding.</b> Two independent readings of this dossier disagree on: ${esc(c.differ.join(", "))}. Both are shown; neither has had human review.</p></div>
+    <div class="readings">${readingHTML(c.reading, "First reading")}${readingHTML(c.reading2, "Second reading")}</div>`;
+  return `<h2 id="codes">Coded elements</h2><p class="small muted">Coded from the dossier by a structuring agent${c.second_read ? "; a second, independent reading agreed" : ""}. Draft, no human review.</p>${readingHTML(c.reading)}`;
+}
+
 function cites(ep, ks, ext) {
   const by = Object.fromEntries(ep.sources.map(s => [s.k, s]));
   const links = (ext || []).filter(k => by[k]).map(k => `<a class="cite ext" href="${by[k].url}" target="_blank" rel="noopener"
@@ -24,19 +49,21 @@ function cites(ep, ks, ext) {
     .map(k => `<button class="cite" data-k="${k}" aria-label="Clipping ${by[k].n}">[${by[k].n}]</button>`).join("");
 }
 
-function renderIndex() {
+function renderIndex(onlyDisputed = false) {
   routeRequest++;
   cur = null; pager(null);
   document.querySelectorAll("#eps a").forEach(a => a.getAttribute("href") === "#overview"
     ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
   document.getElementById("main").innerHTML = `<section class="index">
-  ${M.reader_intro || ""}
-  ${E.map(ep => {
+  ${E.some(e => "code_type" in e) ? `<p class="filter">${onlyDisputed ? `<a href="#overview">All ${E.length} episodes</a> · <b>Disputed coding (${E.filter(e => e.disputed).length})</b>`
+    : `<b>All ${E.length} episodes</b> · <a href="#disputed">Disputed coding (${E.filter(e => e.disputed).length})</a>`}</p>` : ""}
+  ${onlyDisputed ? "" : (M.reader_intro || "")}
+  ${E.filter(ep => !onlyDisputed || ep.disputed).map(ep => {
     const lead = ep.lead;
     const nThis = ep.n_this;
     const papers = ep.n_papers;
     return `<a class="card" href="#${ep.id}"><p class="eyebrow">${esc([ep.city, ep.state].filter(Boolean).join(", "))} · ${esc(ep.when)}</p>
-    <h3>${esc(ep.title)}</h3><p>${esc(lead)}</p><p class="chips">${scopeChips(ep.chips)}</p>
+    <h3>${esc(ep.title)}</h3><p>${esc(lead)}</p><p class="chips">${scopeChips(ep.chips)}${ep.disputed ? '<span class="chip warn">Disputed coding</span>' : ""}</p>
     <p class="stats">${nThis} articles in ${papers} papers · ${ep.n_clips} clippings · ${ep.n_accounts} accounts</p></a>`;
   }).join("")}</section>`;
   window.scrollTo(0, 0);
@@ -78,11 +105,12 @@ async function renderEpisode(id, key) {
   const request = ++routeRequest;
   cur = null; pager(entry);
   document.getElementById("main").innerHTML = '<p role="status">Loading dossier…</p>';
-  let ep;
+  let ep, codes;
   try {
     const response = await fetch(`../cases/${encodeURIComponent(id)}.json${V}`);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    ep = (await response.json()).reader;
+    const raw = await response.json();
+    ep = raw.reader; codes = raw.codes;
     if (!ep) throw new Error("Dossier missing");
   } catch (error) {
     if (request !== routeRequest) return;
@@ -128,8 +156,8 @@ async function renderEpisode(id, key) {
   const clips = ep.sources.filter(s => s.n).sort((a, b) => a.n - b.n);
   document.getElementById("main").innerHTML = `<div class="ep"><article class="article">
     <p class="eyebrow">${esc([ep.city, ep.state].filter(Boolean).join(", "))} · ${esc(ep.when)}</p>
-    <h1 tabindex="-1">${esc(ep.title)}</h1><p class="chips">${scopeChips(ep.chips)}</p>
-    <div class="text">${body}</div>${accts}${framing}${scope}${recchk}<h2>Sources</h2>${all}
+    <h1 tabindex="-1">${esc(ep.title)}</h1><p class="chips">${scopeChips(ep.chips)}${codes?.disputed ? '<button type="button" class="chip warn" data-go="codes">Disputed coding</button>' : ""}</p>
+    <div class="text">${body}</div>${accts}${framing}${scope}${codesHTML(codes)}${recchk}<h2>Sources</h2>${all}
     ${ep.uncovered.length ? `<p class="small muted">${ep.uncovered.length} statements cite an article beyond the ${ep.n_clips} clippings; their grey links open the full page.</p>` : ""}
     </article>
     <aside class="desk" aria-label="Clippings"><div class="tabs" role="tablist">${clips.map(s =>
@@ -202,6 +230,8 @@ function pager(ep) {
     + `<span>${i + 1} of ${E.length}</span>${b ? `<a href="#${b.id}" title="${esc(b.title)}">Next &rarr;</a>` : ""}`;
 }
 document.addEventListener("click", e => {
+  const g = e.target.closest("button[data-go]");
+  if (g) { document.getElementById(g.dataset.go)?.scrollIntoView({behavior: "smooth"}); return; }
   const b = e.target.closest("button[data-k]");
   if (!b || !cur) return;
   const s = cur.sources.find(x => x.k === b.dataset.k);
@@ -219,6 +249,7 @@ document.addEventListener("pointerover", e => {
 document.addEventListener("focusin", e => { const b = e.target.closest("[data-tip]"); if (!b) tip.hidden = true; });
 function route() {
   const h = location.hash.slice(1);
+  if (h === "disputed") return renderIndex(true);
   const m = h.match(/^([a-z0-9-]+?)(?:-(A\d+))?$/);
   if (m && !E.some(e => e.id === m[1])) { const e2 = E.find(e => e.id === h); if (e2) return renderEpisode(h); }
   m ? renderEpisode(m[1], m[2]) : renderIndex();

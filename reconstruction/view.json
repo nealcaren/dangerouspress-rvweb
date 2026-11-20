@@ -6,15 +6,15 @@
  "years": [
   {
    "year": 1881,
-   "label": "July–August 1881",
+   "label": "July–December 1881",
    "months": [
     7,
-    8
+    12
    ],
-   "atlas_count": 90,
-   "export_id": "1881_both-20261119102356",
+   "atlas_count": 221,
+   "export_id": "1881_both-20261119224613",
    "full": null,
-   "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes reported in July and August 1881 from our\n <a href=\"../reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a>: lynchings of any race and anti-Black violence, placed on 1910 county lines\n and by month (some June events were first reported in July). Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
+   "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes reported from July through December 1881 in our\n <a href=\"../reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a>: lynchings of any race and anti-Black violence, placed on 1910 county lines\n and by month (some events were first reported the month after). Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
   }
  ]
 }
