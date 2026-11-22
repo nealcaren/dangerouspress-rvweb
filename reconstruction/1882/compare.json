@@ -1,0 +1,213 @@
+{
+ "schema_version": 1,
+ "year": 1882,
+ "month": 8,
+ "generated_at": "2026-11-21T19:25:09-05:00",
+ "source": {
+  "git": "6a9fd5d",
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1882/both/events_1882_both_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1882/dossiers2_all"
+ },
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL",
+  "MWT": "Monroe Work Today"
+ },
+ "inventory": [
+  {
+   "date": "1882-08-08",
+   "day_known": true,
+   "name": "Dan Blakeney",
+   "place": "1.5 miles east of Lancaster",
+   "county": "Lancaster",
+   "state": "SC",
+   "status": "Lynching",
+   "method": "Unreported",
+   "accusation": "Assault on 12 year-old daughter of white employer",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:1613",
+     "name": "Dan Blakeney"
+    },
+    {
+     "list": "HAL",
+     "row": "2536",
+     "name": "Daniel Blakeney"
+    },
+    {
+     "list": "MWT",
+     "row": "3526",
+     "name": "Daniel Blakeney"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1882-08-09",
+   "day_known": true,
+   "name": "Alex Brown",
+   "place": "0.5 mile N of Newnan at Newnan bridge",
+   "county": "Coweta",
+   "state": "GA",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Rape of 15 year-old white girl",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:1614",
+     "name": "Alex Brown"
+    },
+    {
+     "list": "HAL",
+     "row": "884",
+     "name": "Alex Brown"
+    },
+    {
+     "list": "MWT",
+     "row": "4762",
+     "name": "Alex Brown"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1882-08-19",
+   "day_known": true,
+   "name": "Jack Turner",
+   "place": "Main business street of Butler",
+   "county": "Choctaw",
+   "state": "AL",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Alleged ringleader of a plot to kill whites; being a Republican and testifying against a Democrat in U.S. Court",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:1622",
+     "name": "Jack Turner"
+    },
+    {
+     "list": "HAL",
+     "row": "53",
+     "name": "Jack Turner"
+    },
+    {
+     "list": "MWT",
+     "row": "4",
+     "name": "Jack Turner"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1882-08-23",
+   "day_known": true,
+   "name": "— Smith",
+   "place": "Scott township",
+   "county": "Poinsett",
+   "state": "AR",
+   "status": "Lynching",
+   "method": "Shot",
+   "accusation": "Attempted outrage of a white “lady”",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:1623",
+     "name": "— Smith"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1882-08-25",
+   "day_known": true,
+   "name": "Leonard Coker",
+   "place": "30 miles E of Montgomery on the Western RR at Cowles’ Station",
+   "county": "Macon",
+   "state": "AL",
+   "status": "Lynching",
+   "method": "Hanged",
+   "accusation": "Rape and murder of white woman",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:1627",
+     "name": "Leonard Coker"
+    },
+    {
+     "list": "HAL",
+     "row": "200",
+     "name": "Leonard Coker"
+    },
+    {
+     "list": "MWT",
+     "row": "5",
+     "name": "Leonard Coker"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1882-08-25",
+   "day_known": true,
+   "name": "Charles H. Savage",
+   "place": "Madison",
+   "county": "Madison",
+   "state": "FL",
+   "status": "Lynching",
+   "method": "Riddled with bullets",
+   "accusation": "Murder of a white man, a lawyer; being Republican",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:1625",
+     "name": "Charles H. Savage"
+    },
+    {
+     "list": "HAL",
+     "row": "681",
+     "name": "— Savage"
+    },
+    {
+     "list": "MWT",
+     "row": "736",
+     "name": "— Savage"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1882-08-25",
+   "day_known": true,
+   "name": "Howard E. James",
+   "place": "Madison",
+   "county": "Madison",
+   "state": "FL",
+   "status": "Lynching",
+   "method": "Riddled with bullets",
+   "accusation": "Murder of a white man, a lawyer; being a Republican",
+   "rows": [
+    {
+     "list": "B-T",
+     "row": "bt:1626",
+     "name": "Howard E. James"
+    },
+    {
+     "list": "HAL",
+     "row": "682",
+     "name": "— James"
+    },
+    {
+     "list": "MWT",
+     "row": "735",
+     "name": "— James"
+    }
+   ],
+   "ours": []
+  }
+ ],
+ "found": []
+}

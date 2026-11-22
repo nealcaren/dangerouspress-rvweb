@@ -1,7 +1,7 @@
 {
  "root": "",
  "basemaps": "../atlas/",
- "default": 1881,
+ "default": 1882,
  "month": null,
  "years": [
   {
@@ -11,10 +11,22 @@
     1,
     12
    ],
-   "atlas_count": 256,
-   "export_id": "1881_both-20261121130119",
+   "atlas_count": 262,
+   "export_id": "1881_both-20261121192337",
    "full": null,
    "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes reported from January through December 1881 in our\n <a href=\"../reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a> that involve anti-Black violence or threats, placed on 1910 county lines\n and by month (some events were first reported the month after). Lynchings of white, Mexican and Chinese victims, and lynchings where no report gives the victim&rsquo;s race, are in the dossiers but not on the map. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
+  },
+  {
+   "year": 1882,
+   "label": "January–March 1882",
+   "months": [
+    1,
+    3
+   ],
+   "atlas_count": 37,
+   "export_id": "1882_both-20261121192509",
+   "full": null,
+   "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes reported from January through March 1882 in our\n <a href=\"../reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a> that involve anti-Black violence or threats, placed on 1910 county lines\n and by month (some events were first reported the month after). Lynchings of white, Mexican and Native American victims, and lynchings where no report gives the victim&rsquo;s race, are in the dossiers but not on the map. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
   }
  ]
 }
