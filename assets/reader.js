@@ -107,10 +107,12 @@ async function renderEpisode(id, key) {
   document.getElementById("main").innerHTML = '<p role="status">Loading dossier…</p>';
   let ep, codes;
   try {
-    const response = await fetch(`../cases/${encodeURIComponent(id)}.json${V}`);
+    /* a combined reader (reconstruction/all/) lists episodes from several exports: entry.base is the export's folder */
+    const response = await fetch(`${entry.base || "../"}cases/${encodeURIComponent(id)}.json${entry.v ? `?v=${entry.v}` : V}`);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const raw = await response.json();
-    ep = raw.reader; codes = raw.codes;
+    ep = raw.reader; codes = raw.codes; ep.txKey = `${entry.base || ""}${ep.tx}`;
+    ep.txUrl = `${entry.base ? `${entry.base}reader/` : ""}text/t${String(ep.tx).padStart(2, "0")}.json${entry.v ? `?v=${entry.v}` : V}`;
     if (!ep) throw new Error("Dossier missing");
   } catch (error) {
     if (request !== routeRequest) return;
@@ -178,14 +180,14 @@ function claimsFor(ep, k) {
 /* article text lives in text/tNN.json (shard ep.tx), fetched the first time an episode's clipping is shown */
 const TX = {};
 function textOf(ep, k) {
-  const t = TX[ep.tx];
+  const t = TX[ep.txKey];
   return t && !(t instanceof Promise) ? ((t[ep.id] || {})[k] || "") : null;
 }
 function show(k, scroll = true) {
   const ep = cur; if (!ep || !k) return;
-  if (!(ep.tx in TX)) {
-    TX[ep.tx] = fetch(`text/t${String(ep.tx).padStart(2, "0")}.json${V}`).then(r => r.ok ? r.json() : {}).catch(() => ({}))
-      .then(j => { TX[ep.tx] = j; if (cur === ep && active) show(active, false); });
+  if (!(ep.txKey in TX)) {
+    TX[ep.txKey] = fetch(ep.txUrl).then(r => r.ok ? r.json() : {}).catch(() => ({}))
+      .then(j => { TX[ep.txKey] = j; if (cur === ep && active) show(active, false); });
   }
   const s = ep.sources.find(x => x.k === k);
   if (!s) return;

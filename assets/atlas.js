@@ -66,7 +66,7 @@ const G = await get(`${V.basemaps}basemap-${first.basemap}.json`);
 /* controls: year, search, state, month */
 const controls = document.createElement("div");
 controls.className = "filters";
-controls.innerHTML = `<label${ONE ? " hidden" : ""}>Year<select id="year-filter"><option value="all">All years</option>${YEARS.map(y => `<option value="${y.year}">${esc(y.label)}</option>`).join("")}</select></label>
+controls.innerHTML = `<label${ONE || V.all_only ? " hidden" : ""}>Year<select id="year-filter"><option value="all">${esc(V.all_label || "All years")}</option>${YEARS.map(y => `<option value="${y.year}">${esc(y.label)}</option>`).join("")}</select></label>
 <label class="grow">Search cases<input id="case-search" type="search" placeholder="Name, place, or keyword" autocomplete="off"></label>
 <label>State<select id="state-filter"></select></label>
 <label id="month-wrap">Month<select id="month-filter"></select></label>
@@ -78,7 +78,7 @@ const on = new Set(CATS.map(c => c.k)), onD = new Set(DEATH.map(d => d.k));
 let E = [], sel = null, cur = null;
 function matches(e) {
   const q = search.value.trim().toLocaleLowerCase();
-  return on.has(e.cat.k) && DEATH.some(d => onD.has(d.k) && d.test(e)) && (!stateFilter.value || e.state === stateFilter.value) && (!monthFilter.value || e.m === Number(monthFilter.value)) &&
+  return on.has(e.cat.k) && DEATH.some(d => onD.has(d.k) && d.test(e)) && (!stateFilter.value || e.state === stateFilter.value) && (!monthFilter.value || (monthFilter.value.includes("-") ? `${e.yr}-${e.m}` === monthFilter.value : e.m === Number(monthFilter.value))) &&
     (!q || [e.title,e.city,e.state,states[e.state],e.county,e.summary].filter(Boolean).join(" ").toLocaleLowerCase().includes(q));
 }
 [search,stateFilter,monthFilter].forEach(x => x.addEventListener(x === search ? "input" : "change", applyFilter));
@@ -241,7 +241,16 @@ function drawTimeline() {
   tlEl.textContent = "";
   const TW = 960, L = 8, R = 8, AW = TW - L - R, DS = 13;
   let cols, byC, pick = null, xs = null, CW, ticks = null, unit = "month";
-  if (sel === "all") {
+  if (sel === "all" && V.month_span) {
+    /* a continuous view over several collections (reconstruction/): a column per month across view.month_span,
+       [[year, month], [year, month]]; earlier or later dates fold into the end columns, unknown months into the last */
+    const [[Y0, M0], [Y1, M1]] = V.month_span, NM = (Y1 - Y0) * 12 + M1 - M0 + 1, undated = E.some(e => e.prec === "year");
+    cols = Array.from({length: NM}, (_, i) => { const m = (M0 - 1 + i) % 12, yr = Y0 + Math.floor((M0 - 1 + i) / 12);
+      return {label: `${MON[m].slice(0, 3)} ${yr}`, short: MON[m].slice(0, 3), year: m === 0 || i === 0 ? yr : null}; })
+      .concat(undated ? [{label: "Month unknown", short: "?"}] : []);
+    byC = cols.map(() => []);
+    E.forEach(e => byC[e.prec === "year" ? cols.length - 1 : Math.min(NM - 1, Math.max(0, (e.yr - Y0) * 12 + e.m - M0))].push(e));
+  } else if (sel === "all") {
     unit = "year";
     cols = YEARS.map(y => ({label: y.label, short: String(y.year)})); byC = YEARS.map(y => E.filter(e => e.coll === y.year));
     pick = i => { history.pushState(null, "", `#year=${YEARS[i].year}`); route(); };
@@ -288,6 +297,7 @@ function drawTimeline() {
       const x = L + c * CW;
       el("line", {x1: x, x2: x, y1: PADT - 8, y2: base + 22, stroke: "var(--rule)", "stroke-width": 1}, ts);
       if (c < NC) label(x + CW / 2, base + 18, small ? cols[c].short : `${cols[c].label} ${byC[c].length}`, small ? 10 : 13);
+      if (c < NC && cols[c].year) label(x + CW / 2, base + 31, cols[c].year, 11, "var(--ink)");
     }
   }
   el("line", {x1: L, x2: TW - R, y1: base, y2: base, stroke: "var(--state)", "stroke-width": 1}, ts);
@@ -314,7 +324,8 @@ function drawTimeline() {
       mark(g, e, x, y, 4.5); wire(g, e); e.tlG = g;
     });
   });
-  tlCap.innerHTML = sel === "all"
+  tlCap.innerHTML = sel === "all" && V.month_span ? "Each dot is an episode, in the month it happened, grouped by type."
+    : sel === "all"
     ? (ticks ? "Each dot is an episode, in its year&rsquo;s column on the axis, grouped by type; years with no column have not been collected yet."
       : "Each dot is an episode, in its collection&rsquo;s column, grouped by type; the number is the collection&rsquo;s total.")
     : unit === "day" ? "Each dot is an episode, on the day it happened, grouped by type; episodes dated only to the month are in the last column."
@@ -340,8 +351,16 @@ async function showYear(y) {
   stateFilter.innerHTML = `<option value="">All states</option>` + st.map(s => `<option value="${esc(s)}">${esc(states[s] || s)}</option>`).join("");
   const [M0, M1] = y === "all" ? [1, 12] : BY[y].months || [1, 12];
   const allLabel = V.all_label || "all years";
+  if (y === "all" && V.month_span) {
+    const [[Y0, A0], [Y1, A1]] = V.month_span, opts = [];
+    for (let i = 0; i <= (Y1 - Y0) * 12 + A1 - A0; i++) { const m = (A0 - 1 + i) % 12 + 1, yr = Y0 + Math.floor((A0 - 1 + i) / 12);
+      opts.push(`<option value="${yr}-${m}">${MON[m - 1]} ${yr}</option>`); }
+    monthFilter.innerHTML = `<option value="">All months</option>` + opts.join("");
+    document.getElementById("month-wrap").hidden = false;
+  } else {
   monthFilter.innerHTML = `<option value="">All months</option>` + MON.map((m, i) => i + 1 >= M0 && i + 1 <= M1 ? `<option value="${i + 1}">${m}</option>` : "").join("");
   document.getElementById("month-wrap").hidden = y === "all" || M0 === M1;
+  }
   resetFilters();
   CATS.forEach(c => { c.btn.innerHTML = `<span class="dot" style="background:var(${c.v})"></span>${esc(c.label)} <span class="muted">${E.filter(e => e.cat === c).length}</span>`; });
   DEATH.forEach(d => { d.btn.innerHTML = `<span class="${d.cls}"></span>${esc(d.label)} <span class="muted">${E.filter(d.test).length}</span>`; });
@@ -390,7 +409,7 @@ function placeTip(x, y, r) {
 /* side panel */
 const side = document.getElementById("sidein");
 const marks = e => [e.mapG, e.tlG].filter(Boolean);
-const caseHash = e => `#${ONE ? "" : `year=${e.coll}&`}case=${encodeURIComponent(e.dir)}`;
+const caseHash = e => `#${ONE ? "" : `year=${V.all_only ? "all" : e.coll}&`}case=${encodeURIComponent(e.dir)}`;
 function showList(updateUrl = true) {
   if (cur) marks(cur).forEach(g => g.classList.remove("selected"));
   cur = null; hov.setAttribute("d", "");
@@ -444,7 +463,7 @@ async function openEp(e, updateUrl = true) {
    ${e.doubt ? `<div class="doubt"><b>Doubt noted:</b> ${esc(e.doubt)}</div>` : ""}
    ${text}
    <p><a class="more" href="${caseHash(e)}">Link to this case</a></p>
-   <p><a class="more" href="${ROOT}${e.coll}/reader/#${encodeURIComponent(e.dir)}" target="_blank" rel="noopener">Clippings and sources in the dossier reader ↗</a></p>`;
+   <p><a class="more" href="${ROOT}${V.all_reader || `${e.coll}/reader/`}#${encodeURIComponent(e.dir)}" target="_blank" rel="noopener">Clippings and sources in the dossier reader ↗</a></p>`;
   side.querySelector("#back").onclick = () => { showList(); };
   document.getElementById("side").scrollTop = 0;
   if (matchMedia("(max-width:1040px)").matches) document.getElementById("side").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion:reduce)").matches ? "auto" : "smooth", block: "start"});
@@ -467,7 +486,7 @@ function applyFilter() {
 async function route() {
   const params = new URLSearchParams(location.hash.slice(1));
   const last = YEARS[YEARS.length - 1].year, want = params.get("year") || String(V.default || last);
-  const y = want === "all" ? "all" : BY[+want] ? +want : last;
+  const y = V.all_only || want === "all" ? "all" : BY[+want] ? +want : last;   /* all_only: one combined view (reconstruction/) */
   const changed = sel !== y;
   await showYear(y);
   const id = params.get("case");

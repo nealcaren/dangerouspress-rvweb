@@ -4,7 +4,8 @@
 <title>Lynchings of 1888</title>
 <script>
 var c = new URLSearchParams(location.hash.slice(1)).get("case");
-location.replace("../" + (c ? "#case=" + encodeURIComponent(c) : ""));
+var t = "../";   /* a target that already has a hash (#year=Y) takes &case=, otherwise #case= */
+location.replace(t + (c ? (t.indexOf("#") < 0 ? "#" : "&") + "case=" + encodeURIComponent(c) : ""));
 </script>
 <p>Moved: <a href="../">Lynchings of 1888</a>.</p>
 </html>

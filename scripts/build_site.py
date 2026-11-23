@@ -116,13 +116,23 @@ LYN_DEK = ("<p class=\"dek\">Every lynching our {year} sources report, of any vi
            "national inventory, and the <a href=\"https://monroeworktoday.org\">Monroe Work Today</a> map data, used under "
            "CC BY-NC-SA 4.0). Select a mark or a table row to compare our record with the inventory field by field. "
            "{draft}</p>")
+READER_REDIRECT = """<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>{title}</title>
+<script>location.replace("../../all/reader/" + location.hash);</script>
+<p>Moved: <a href="../../all/reader/">{title}</a>.</p>
+</html>
+"""
+
 LYN_REDIRECT = """<!doctype html>
 <html lang="en">
 <meta charset="utf-8">
 <title>{title}</title>
 <script>
 var c = new URLSearchParams(location.hash.slice(1)).get("case");
-location.replace("{to}" + (c ? "#case=" + encodeURIComponent(c) : ""));
+var t = "{to}";   /* a target that already has a hash (#year=Y) takes &case=, otherwise #case= */
+location.replace(t + (c ? (t.indexOf("#") < 0 ? "#" : "&") + "case=" + encodeURIComponent(c) : ""));
 </script>
 <p>Moved: <a href="{to}">{title}</a>.</p>
 </html>
@@ -226,16 +236,20 @@ def reconstruction_pages(shared):
         if not (shared / f"basemap-{bid}.json").exists():
             raise SystemExit(f"reconstruction/{y}: base map {bid} missing")
         used.add(f"basemap-{bid}.json")
-        (base / y / "reader/index.html").write_text(stamp(reader.replace("{{TITLE}}", html.escape(m["reader_title"])),
-                                                          "../../../"), encoding="utf-8")
+        # per-year readers retired (Neal 2026-11-23): old links go to the combined reader, keeping #case anchors;
+        # the year folders still hold the case files, text shards and data the combined reader reads
+        (base / y / "reader/index.html").write_text(READER_REDIRECT.format(title=html.escape(m["reader_title"])),
+                                                    encoding="utf-8")
         (base / y / "atlas/index.html").write_text(LYN_REDIRECT.format(title=html.escape(m["atlas_title"]),
-                                                                       to=f"../../#year={y}"), encoding="utf-8")
+                                                                       to="../../#year=all"), encoding="utf-8")
     write_json(base / "years.json", {"month": "", "years": [{"year": m["year"], "label": m["label"], "full": True} for m in ms]})
     write_json(base / "view.json", {
         "root": "", "basemaps": "../atlas/", "default": ms[-1]["year"], "month": None,
         "years": [{"year": m["year"], "label": m["label"], "months": m["months"], "atlas_count": m["atlas_count"],
                    "export_id": m["export_id"], "full": None, "atlas_dek": m.get("atlas_dek") or ""} for m in ms]})
     (base / "index.html").write_text(atlas_page("../"), encoding="utf-8")
+    from combine_reconstruction import build as combine   # reconstruction/all/ and the all-years view (2+ years)
+    combine(base, stamp)
     return used
 
 
