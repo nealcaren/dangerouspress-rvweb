@@ -2,9 +2,9 @@
  "schema_version": 1,
  "year": 1882,
  "month": 8,
- "generated_at": "2026-11-25T10:36:28-05:00",
+ "generated_at": "2026-11-25T15:09:05-05:00",
  "source": {
-  "git": "dbd87d3c",
+  "git": "c347bbce",
   "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1882/both/events_1882_both_final_ddlc.json",
   "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1882/dossiers2_all"
  },
@@ -42,7 +42,28 @@
      "name": "Daniel Blakeney"
     }
    ],
-   "ours": []
+   "ours": [
+    {
+     "id": "lean_1882-08_both:g45",
+     "date": "1882-08-08",
+     "city": "Lancaster",
+     "county": "Lancaster",
+     "state": "SC",
+     "victims": [
+      "Dan Blakeney"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:1613",
+     "summary": "Dan Blakely, described as colored, was lynched near Lancaster, S.C., on Tuesday, for an alleged attempted assault on a white girl. The paper adds that another man held in the Lancaster jail was threatened with lynching; no crowd action is reported for him.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "dan-blakeney-lancaster-1882-08-08"
+    }
+   ]
   },
   {
    "date": "1882-08-09",
@@ -71,7 +92,28 @@
      "name": "Alex Brown"
     }
    ],
-   "ours": []
+   "ours": [
+    {
+     "id": "lean_1882-08_both:g53",
+     "date": "1882-08-09",
+     "city": "Newman",
+     "county": "Coweta",
+     "state": "GA",
+     "victims": [
+      "Sam Miller"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:1614",
+     "summary": "A Black man named A. Brown, held at Newman, Georgia, for safe keeping after being accused of outraging a fifteen-year-old white girl, was taken from jail by a party of seventy-five men and hanged. The paper says he confessed to the crime with another man.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "sam-miller-newman-1882-08-09"
+    }
+   ]
   },
   {
    "date": "1882-08-19",
@@ -100,7 +142,36 @@
      "name": "Jack Turner"
     }
    ],
-   "ours": []
+   "ours": [
+    {
+     "id": "lean_1882-08_both:g21",
+     "date": "1882-08-19",
+     "city": "Butler",
+     "county": "Choctaw",
+     "state": "AL",
+     "victims": [
+      "Jack Turner",
+      "Fred Bonner",
+      "Rev. Limon",
+      "Rang West",
+      "Peter Hill",
+      "Aaron Scott",
+      "Jesse Wilson",
+      "Willis Lyman",
+      "F. D. Barney"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:1622",
+     "summary": "A mob in Choctaw County, Alabama murdered Jack Turner, an active Black Republican. According to letter writer William V. Turner, the mob also spread a story of a negro plot to kill the white population, which he calls false. Colored Republicans planned a protest meeting in Washington.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "jack-turner-butler-1882-08-19"
+    }
+   ]
   },
   {
    "date": "1882-08-23",
@@ -119,7 +190,28 @@
      "name": "— Smith"
     }
    ],
-   "ours": []
+   "ours": [
+    {
+     "id": "lean_1882-08_both:g62",
+     "date": "1882-08-24",
+     "city": "Little Rock",
+     "county": "Poinsett",
+     "state": "AR",
+     "victims": [
+      "Smith"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:1623",
+     "summary": "Smith, said to have assaulted a white lady near Little Rock, Ark., was lynched by a disguised party that shot him to death. No date is given in the item.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "smith-little-rock-1882-08-24"
+    }
+   ]
   },
   {
    "date": "1882-08-25",
@@ -148,7 +240,28 @@
      "name": "Leonard Coker"
     }
    ],
-   "ours": []
+   "ours": [
+    {
+     "id": "lean_1882-08_both:g6",
+     "date": "1882-08-25",
+     "city": "Montgomery",
+     "county": "Macon",
+     "state": "AL",
+     "victims": [
+      "Leonard Coker"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:1627",
+     "summary": "After Leonard Coker, a Black man, was said to have assaulted and murdered Catherine Hayes, a crowd of whites and blacks searched for him, captured him and hanged him to a tree at the scene of the crime. He had confessed.",
+     "match": "linked",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": "leonard-coker-montgomery-1882-08-25"
+    }
+   ]
   },
   {
    "date": "1882-08-25",
@@ -177,7 +290,30 @@
      "name": "— Savage"
     }
    ],
-   "ours": []
+   "ours": [
+    {
+     "id": "lean_1882-08_both:g33",
+     "date": "1882-08-25",
+     "city": "Madison",
+     "county": "Madison",
+     "state": "FL",
+     "victims": [
+      "James",
+      "Savage",
+      "Lanage"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:1625",
+     "summary": "Garbled wire item: Negroes convicted of murder, whose new trial had been granted by the Supreme Court of Florida, were reported shot to death by a mob near a railroad. A separate fragment mentions a mob hanging a man at Aiken. The OCR is too damaged to confirm dates, names or places.",
+     "match": "linked",
+     "killed": 2,
+     "killed_max": 2,
+     "dossier": "convicted-men-madison-1882-08-25"
+    }
+   ]
   },
   {
    "date": "1882-08-25",
@@ -206,8 +342,295 @@
      "name": "— James"
     }
    ],
-   "ours": []
+   "ours": [
+    {
+     "id": "lean_1882-08_both:g33",
+     "date": "1882-08-25",
+     "city": "Madison",
+     "county": "Madison",
+     "state": "FL",
+     "victims": [
+      "James",
+      "Savage",
+      "Lanage"
+     ],
+     "victim_race": "Black",
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": "B-T:bt:1625",
+     "summary": "Garbled wire item: Negroes convicted of murder, whose new trial had been granted by the Supreme Court of Florida, were reported shot to death by a mob near a railroad. A separate fragment mentions a mob hanging a man at Aiken. The OCR is too damaged to confirm dates, names or places.",
+     "match": "name",
+     "killed": 2,
+     "killed_max": 2,
+     "dossier": "convicted-men-madison-1882-08-25"
+    }
+   ]
   }
  ],
- "found": []
+ "found": [
+  {
+   "id": "lean_1882-08_both:g88",
+   "date": "1882-08-01",
+   "city": "",
+   "county": "Leflore",
+   "state": "MS",
+   "victims": [
+    "John son"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "On the Tallahatchie river in Mississippi, a posse of white men pursuing the Morville brothers captured a Black man, Johnson, and a mob shot him dead. Whites were said to expect an attack from Black residents.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "johnson-tallahatchie-1882-08-01"
+  },
+  {
+   "id": "lean_1882-08_both:g107",
+   "date": "1882-08-03",
+   "city": "Phoenix",
+   "county": "Maricopa",
+   "state": "AZ",
+   "victims": [],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "A fight at Phoenix, Arizona between three cowboys and officers assisted by citizens left one dead and one badly wounded. As the captured prisoners were taken to jail, they were pushed under a tree and calls were made for rope. A posse rescued them and removed them to jail.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": "cowboys-phoenix-1882-08-03"
+  },
+  {
+   "id": "lean_1882-08_both:g47",
+   "date": "1882-08-09",
+   "city": "Lake City",
+   "county": "Hinsdale",
+   "state": "CO",
+   "victims": [
+    "Belts",
+    "Browning"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "A mob of about one hundred men gathered after a rumored prayer meeting, took Belts and Browning from the Lake City jail, and hanged them from the Gunnison River Bridge for the killing of Sheriff Campbell.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": null,
+   "screened": {
+    "reason": "duplicate",
+    "basis": "george-belts-lake-city-1882-04-27"
+   }
+  },
+  {
+   "id": "lean_1882-08_both:g60",
+   "date": "1882-08-10",
+   "city": "",
+   "county": "Lawrence",
+   "state": "MS",
+   "victims": [
+    "John Mullins"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "About fifteen men went to the sister's house on Topisaw, called for Mullins, ordered him to sit up, fired through boards into him, then fired twice more inside and ordered the household to keep their heads covered under penalty of death.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "john-mullins-topisaw-1882-08-10"
+  },
+  {
+   "id": "lean_1882-08_both:g19",
+   "date": "1882-08-20",
+   "city": "West Las Animas",
+   "county": "Bent",
+   "state": "CO",
+   "victims": [
+    "Private Rymer",
+    "McGarvey"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "Rymer, who had stabbed McGarvey to death near Fort Lyon, was taken from jail at West Las Animas and hanged by a mob of forty or fifty masked men, supposed to be soldiers from the fort. Army officers are investigating.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": "private-rymer-west-las-animas-1882-08-20"
+  },
+  {
+   "id": "lean_1882-08_both:g16",
+   "date": "1882-08-20",
+   "city": "Deming",
+   "county": "Grant",
+   "state": "NM",
+   "victims": [],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "A Frenchman was killed, and the accused murderer was taken from the jail and hung from a telegraph pole. The OCR is largely illegible; place, the killers and the victim's name are not recoverable.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": "frenchmans-killer-deming-1882-08-20"
+  },
+  {
+   "id": "lean_1882-08_both:g79",
+   "date": "1882-08-21",
+   "city": "Clarksville",
+   "county": "",
+   "state": "",
+   "victims": [
+    "Dick Williams"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "Dick Williams, a saddle-colored negro said to have raped a young white girl, was placed in the Clarksville jail and was lynched the night of August 21; the jail was then closely guarded.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": "dick-williams-clarksville-1882-08-21",
+   "set_aside": {
+    "reason": "unsupported",
+    "basis": "only a feared lynching reported, no crowd or outcome",
+    "ruled": true
+   }
+  },
+  {
+   "id": "lean_1882-08_both:g41",
+   "date": "1882-08-21",
+   "city": "San Antonio",
+   "county": "Bexar",
+   "state": "TX",
+   "victims": [
+    "Chas. Ward"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "Chas. Ward, a colored discharged United States soldier held in the San Antonio jail for raping a white girl, Dora Ellerman, was hanged in the jail about noon, according to a special dispatch. The text does not name the attackers.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "chas-ward-san-antonio-1882-08-21",
+   "set_aside": {
+    "reason": "legal_act",
+    "basis": "dossier: a legal judicial execution, not a lynching",
+    "ruled": true
+   }
+  },
+  {
+   "id": "lean_1882-08_both:g55",
+   "date": "1882-08-21",
+   "city": "Rock Creek",
+   "county": "Albany",
+   "state": "WY",
+   "victims": [
+    "Robert Aiken",
+    "Gibbon"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "Hunter Gibson instantly killed Robert Aiken, a clerk, at Laramie. Between 9 and 10 that evening citizens took Gibson out, and the headline and fragments indicate he was lynched. OCR is badly garbled.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": "robert-aiken-rock-creek-1882-08-21"
+  },
+  {
+   "id": "lean_1882-08_both:g43",
+   "date": "1882-08-23",
+   "city": "Visalia",
+   "county": "Tulare",
+   "state": "CA",
+   "victims": [
+    "Ben Harris"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "After Ben Harris, a Black man near Visalia, Cal., killed his wife and one stepdaughter and wounded another on Aug. 23, a party of lynchers went after him. The text gives no further action.",
+   "match": "found",
+   "killed": 1,
+   "killed_max": 1,
+   "dossier": "ben-harris-visalia-1882-08-23"
+  },
+  {
+   "id": "lean_1882-08_both:g10",
+   "date": "1882-08-25",
+   "city": "Globe",
+   "county": "Gila",
+   "state": "AZ",
+   "victims": [
+    "L. Y. Grimes",
+    "L. V.",
+    "C. Hawley",
+    "G. B. Hawley",
+    "H. V. Grieve"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "A mob took C. Hawley and L. V., who had confessed to the murder and robbery of Wells Fargo express messengers, from the Tucson jail and hanged them. Cicero Gaines is to be tried at the next term of court.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": "l-y-grimes-globe-1882-08-25"
+  },
+  {
+   "id": "lean_1882-08_both:g56",
+   "date": "~1882-08",
+   "city": "Prineville",
+   "county": "Linn",
+   "state": "OR",
+   "victims": [
+    "Sidney Houston",
+    "John Thorp",
+    "Earnest Wilson",
+    "Emmes Wilson",
+    "Emmett Wilson",
+    "Dinwiddie",
+    "Crab"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "A Portland dispatch of August 12 reports, by rumor carried to Albany, that five Linn County boys were lynched for stealing horses. The names given are John Thorp, Sidney Houston, Earnest Wilson, Dinwiddie and Crab.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": "sidney-houston-prineville-1882-08"
+  }
+ ]
 }
