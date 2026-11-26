@@ -2,9 +2,9 @@
  "schema_version": 1,
  "year": 1882,
  "month": 8,
- "generated_at": "2026-11-25T15:09:05-05:00",
+ "generated_at": "2026-11-25T19:48:03-05:00",
  "source": {
-  "git": "c347bbce",
+  "git": "f2e24db1",
   "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1882/both/events_1882_both_final_ddlc.json",
   "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1882/dossiers2_all"
  },
@@ -62,6 +62,30 @@
      "killed": 1,
      "killed_max": 1,
      "dossier": "dan-blakeney-lancaster-1882-08-08"
+    },
+    {
+     "id": "lean_1882-11_both:g22",
+     "date": "~1882-08",
+     "city": "",
+     "county": "Lancaster",
+     "state": "SC",
+     "victims": [
+      "Daniel Blakney"
+     ],
+     "victim_race": null,
+     "type": "lynching",
+     "stage": "completed",
+     "lynch_def": null,
+     "inventory": null,
+     "summary": "Chandler's letter says Daniel Blakney, a colored boy falsely charged with crime, was lynched in Lancaster County in August 1882. The letter says the murdered William Crockett witnessed it. No mob actors are described.",
+     "match": "name",
+     "killed": 1,
+     "killed_max": 1,
+     "dossier": null,
+     "screened": {
+      "reason": "duplicate",
+      "basis": "dan-blakeney-lancaster-1882-08-08 (Chandler letter)"
+     }
     }
    ]
   },
@@ -158,7 +182,8 @@
       "Aaron Scott",
       "Jesse Wilson",
       "Willis Lyman",
-      "F. D. Barney"
+      "F. D. Barney",
+      "Gus"
      ],
      "victim_race": "Black",
      "type": "lynching",
@@ -369,6 +394,31 @@
   }
  ],
  "found": [
+  {
+   "id": "lean_1882-12_both:g21",
+   "date": "1882-08",
+   "city": "Pioneer",
+   "county": "Yuma",
+   "state": "AZ",
+   "victims": [
+    "L. V. Crime",
+    "C. B. Flawley"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "The article recalls the summary hanging of C. B. Flawley and L. V. Crime, accused murderers of Andy Hall and W. F. Vail, at this place in August. Named only in passing.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": null,
+   "screened": {
+    "reason": "duplicate",
+    "basis": "l-y-grimes-globe-1882-08-25"
+   }
+  },
   {
    "id": "lean_1882-08_both:g88",
    "date": "1882-08-01",
@@ -605,6 +655,75 @@
    "killed": null,
    "killed_max": null,
    "dossier": "l-y-grimes-globe-1882-08-25"
+  },
+  {
+   "id": "lean_1882-12_both:g28",
+   "date": "1882-08-26",
+   "city": "Montgomery",
+   "county": "Montgomery",
+   "state": "AL",
+   "victims": [],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "A lynching bee at Montgomery, Ala., on the date given; the list says the victims in this and the Madison lynching were three Negroes, with no split or names.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": null,
+   "screened": {
+    "reason": "duplicate",
+    "basis": "leonard-coker-montgomery-1882-08-25 (Montgomery, AL 1882-08-26)"
+   }
+  },
+  {
+   "id": "lean_1882-12_both:g27",
+   "date": "1882-08-26",
+   "city": "Madison",
+   "county": "Madison",
+   "state": "FL",
+   "victims": [],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "A lynching bee at Madison, Fla., on the date given; the list says the victims in this and the Montgomery lynching were three Negroes, with no split or names.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": null,
+   "screened": {
+    "reason": "duplicate",
+    "basis": "convicted-men-madison-1882-08-25 (Madison, FL 1882-08-26)"
+   }
+  },
+  {
+   "id": "lean_1882-10_both:g0",
+   "date": "~1882-08",
+   "city": "Globe",
+   "county": "Gila",
+   "state": "AZ",
+   "victims": [
+    "Grimes",
+    "Hawley"
+   ],
+   "victim_race": null,
+   "type": "lynching",
+   "stage": "completed",
+   "lynch_def": null,
+   "inventory": null,
+   "summary": "After the August 1882 robbery and killings of Express Messenger Hall and Dr. Vail near Globe, the murderers were captured and lynched. The text is cut off before it describes the lynching itself.",
+   "match": "found",
+   "killed": null,
+   "killed_max": null,
+   "dossier": null,
+   "screened": {
+    "reason": "duplicate",
+    "basis": "l-y-grimes-globe-1882-08-25 (Globe, AZ ~1882-08)"
+   }
   },
   {
    "id": "lean_1882-08_both:g56",

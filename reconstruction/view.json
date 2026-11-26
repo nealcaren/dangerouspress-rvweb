@@ -18,15 +18,15 @@
   },
   {
    "year": 1882,
-   "label": "January–August 1882",
+   "label": "January–December 1882",
    "months": [
     1,
-    8
+    12
    ],
-   "atlas_count": 138,
-   "export_id": "1882_both-20261125150905",
+   "atlas_count": 202,
+   "export_id": "1882_both-20261125194803",
    "full": null,
-   "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes reported from January through August 1882 in our\n <a href=\"../reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a> that involve anti-Black violence or threats, placed on 1910 county lines\n and by month (some events were first reported the month after). Lynchings of white, Mexican and Native American victims, and lynchings where no report gives the victim&rsquo;s race, are in the dossiers but not on the map. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
+   "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes reported from January through December 1882 in our\n <a href=\"../reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a> that involve anti-Black violence or threats, placed on 1910 county lines\n and by month (some events were first reported the month after). Lynchings of white, Mexican and Native American victims, and lynchings where no report gives the victim&rsquo;s race, are in the dossiers but not on the map. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
   }
  ],
  "all_only": true,
@@ -37,10 +37,10 @@
   ],
   [
    1882,
-   8
+   12
   ]
  ],
- "all_label": "January 1881–August 1882",
+ "all_label": "January 1881–December 1882",
  "all_reader": "all/reader/",
- "all_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes reported from January 1881 through August 1882 in our <a href=\"all/reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a> that involve anti-Black violence or threats, placed on 1910 county lines and by month across the years. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
+ "all_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes reported from January 1881 through December 1882 in our <a href=\"all/reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a> that involve anti-Black violence or threats, placed on 1910 county lines and by month across the years. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
 }

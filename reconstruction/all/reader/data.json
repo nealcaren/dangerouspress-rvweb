@@ -40,6 +40,45 @@
    "coll": 1881
   },
   {
+   "id": "frederick-prisoner-point-of-rocks",
+   "title": "Lynching of James Carroll",
+   "city": "Point of Rocks",
+   "state": "MD",
+   "when": "1879-04",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 25",
+     ""
+    ]
+   ],
+   "lead": "The lynching of James Carroll took place on the evening of April 17, 1879, near Point of Rocks, Frederick County, Maryland, when a crowd took Carroll, a young Black man, from two Washington policemen on a Baltimore and Ohio train and hanged him from a tree. Carroll had been arrested in Georgetown that day, accused of an 'outrage' on Mrs. Richard Thomas of Licksville, and was being taken to Frederick for trial. Two Evening Star reporters rode the train and described the seizure, and a coroner's jury found that he had been 'unlawfully hanged' by men unknown.",
+   "n_this": 23,
+   "n_papers": 14,
+   "n_clips": 10,
+   "n_accounts": 5,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
    "id": "john-j-moore-spartanburg",
    "title": "Lynching of John J. Moore",
    "city": "",
@@ -122,7 +161,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -7183,7 +7222,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -13219,7 +13258,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -15924,7 +15963,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -15963,7 +16002,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -15998,7 +16037,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16033,7 +16072,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16076,7 +16115,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16107,7 +16146,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16146,7 +16185,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16185,7 +16224,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16216,7 +16255,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16255,7 +16294,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16294,7 +16333,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16329,7 +16368,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16368,7 +16407,7 @@
    "disputed": false,
    "code_type": "arson_bombing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16399,7 +16438,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16442,7 +16481,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16473,7 +16512,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16504,7 +16543,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16543,7 +16582,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16586,7 +16625,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16617,7 +16656,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16656,7 +16695,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16691,7 +16730,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16730,7 +16769,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16769,7 +16808,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16800,7 +16839,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16839,7 +16878,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16882,7 +16921,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16925,7 +16964,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16960,7 +16999,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -16991,7 +17030,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17030,7 +17069,7 @@
    "disputed": false,
    "code_type": "unclassified",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17073,7 +17112,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17112,7 +17151,7 @@
    "disputed": false,
    "code_type": "expulsion",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17143,7 +17182,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17186,7 +17225,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17217,7 +17256,7 @@
    "disputed": false,
    "code_type": "labor",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17256,7 +17295,7 @@
    "disputed": true,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17299,7 +17338,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17338,7 +17377,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17377,7 +17416,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17416,7 +17455,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17447,7 +17486,7 @@
    "disputed": false,
    "code_type": "unclassified",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17486,7 +17525,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17517,7 +17556,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17556,7 +17595,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17595,7 +17634,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17638,7 +17677,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17673,7 +17712,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17712,7 +17751,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17751,7 +17790,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17790,7 +17829,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17825,7 +17864,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17864,7 +17903,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17899,7 +17938,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17938,7 +17977,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -17981,7 +18020,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18020,7 +18059,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18051,7 +18090,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18090,7 +18129,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18129,7 +18168,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18164,7 +18203,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18195,7 +18234,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18234,7 +18273,7 @@
    "disputed": true,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18265,7 +18304,7 @@
    "disputed": false,
    "code_type": "arson_bombing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18304,7 +18343,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18335,7 +18374,7 @@
    "disputed": false,
    "code_type": "arson_bombing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18374,7 +18413,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18413,7 +18452,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18456,7 +18495,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18499,7 +18538,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18534,7 +18573,7 @@
    "disputed": false,
    "code_type": "unclassified",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18565,7 +18604,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18604,7 +18643,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18643,7 +18682,7 @@
    "disputed": true,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18674,7 +18713,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18717,7 +18756,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18748,7 +18787,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18787,7 +18826,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18818,7 +18857,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18849,7 +18888,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18880,7 +18919,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18911,7 +18950,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18946,7 +18985,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -18989,7 +19028,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19028,7 +19067,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19071,7 +19110,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19102,7 +19141,7 @@
    "disputed": false,
    "code_type": "expulsion",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19145,7 +19184,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19176,7 +19215,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19211,7 +19250,7 @@
    "disputed": false,
    "code_type": "unclassified",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19246,7 +19285,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19277,7 +19316,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19316,7 +19355,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19359,7 +19398,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19390,7 +19429,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19433,7 +19472,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19476,7 +19515,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19511,7 +19550,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19554,7 +19593,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19593,7 +19632,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19632,7 +19671,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19675,7 +19714,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19718,7 +19757,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19757,7 +19796,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19796,7 +19835,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19835,7 +19874,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19874,7 +19913,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19913,7 +19952,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19944,7 +19983,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -19987,7 +20026,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20022,7 +20061,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20061,7 +20100,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20104,7 +20143,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20135,7 +20174,7 @@
    "disputed": false,
    "code_type": "whitecapping",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20178,7 +20217,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20209,7 +20248,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20248,7 +20287,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20287,7 +20326,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20330,7 +20369,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20369,7 +20408,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20408,7 +20447,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20439,7 +20478,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20470,7 +20509,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20509,7 +20548,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20548,7 +20587,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20587,7 +20626,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20626,7 +20665,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20665,7 +20704,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20704,7 +20743,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20743,7 +20782,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20786,7 +20825,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20825,7 +20864,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20856,7 +20895,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20891,7 +20930,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20926,7 +20965,7 @@
    "disputed": false,
    "code_type": "unclassified",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20965,7 +21004,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -20996,7 +21035,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21027,7 +21066,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21062,7 +21101,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21097,7 +21136,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21136,7 +21175,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21167,7 +21206,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21206,7 +21245,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21237,7 +21276,7 @@
    "disputed": false,
    "code_type": "unclassified",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21280,7 +21319,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21311,7 +21350,7 @@
    "disputed": false,
    "code_type": "expulsion",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21346,7 +21385,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21389,7 +21428,7 @@
    "disputed": false,
    "code_type": "posse_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21428,7 +21467,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21471,7 +21510,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21510,7 +21549,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21553,7 +21592,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21592,7 +21631,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21623,7 +21662,7 @@
    "disputed": false,
    "code_type": "community_attack",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21662,7 +21701,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21693,7 +21732,7 @@
    "disputed": false,
    "code_type": "posse_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21736,7 +21775,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21775,7 +21814,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21806,7 +21845,7 @@
    "disputed": false,
    "code_type": "peonage",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21845,7 +21884,50 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "john-tibbits",
+   "title": "Lynching of John Tibbetts",
+   "city": "",
+   "state": "MN",
+   "when": "1882-06",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 9",
+     ""
+    ]
+   ],
+   "lead": "The lynching of John Tibbetts took place at Perham, Otter Tail County, Minnesota, in the early morning of June 9, 1882, when men broke into the jail and hanged the boy, reported as fifteen years old, from a telegraph pole. Tibbetts was accused of murdering a surveyor and his young companion north of the town. Papers across the country carried the case, and editors later used it to discuss crime among boys and the influence of dime novels.",
+   "n_this": 8,
+   "n_papers": 8,
+   "n_clips": 6,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21876,7 +21958,7 @@
    "disputed": false,
    "code_type": "labor",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21915,7 +21997,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21954,7 +22036,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -21993,7 +22075,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22036,7 +22118,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22067,7 +22149,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22098,7 +22180,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22137,7 +22219,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22176,7 +22258,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22207,7 +22289,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22246,7 +22328,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22281,7 +22363,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22320,7 +22402,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22363,7 +22445,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22406,7 +22488,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22445,7 +22527,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22480,7 +22562,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22519,7 +22601,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22558,7 +22640,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22597,7 +22679,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22636,7 +22718,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22675,7 +22757,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22706,7 +22788,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22745,7 +22827,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22784,7 +22866,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22823,7 +22905,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22858,7 +22940,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22897,7 +22979,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22936,7 +23018,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -22975,7 +23057,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23006,7 +23088,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23045,7 +23127,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23088,7 +23170,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23127,7 +23209,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23166,7 +23248,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23205,7 +23287,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23244,7 +23326,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23287,7 +23369,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23322,7 +23404,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23361,7 +23443,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23396,7 +23478,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23431,7 +23513,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23470,7 +23552,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23509,7 +23591,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23548,7 +23630,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23587,7 +23669,7 @@
    "disputed": false,
    "code_type": "unclassified",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23618,7 +23700,50 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "two-murderers-flagstaff-1882-07-07",
+   "title": "Reported lynching of Jim Brown and \"Blind Jim\" at Flagstaff",
+   "city": "Flagstaff",
+   "state": "NM",
+   "when": "1882-07",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Possible lynching (standard definition)",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Contested",
+     "warn"
+    ],
+    [
+     "Black press 0 · white press 12",
+     ""
+    ]
+   ],
+   "lead": "The reported lynching of Jim Brown and \"Blind Jim\" at Flagstaff was the hanging, announced in July 1882, of two men accused of shooting two residents of Flagstaff, then in Arizona Territory though wire reports placed it in New Mexico. Wire dispatches said the whole town had caught and hanged them, and the item entered a year-end chronology as \"Two murderers lynched at Flagstaff, N. M.\" Weeks later, however, Blind Jim was arrested alive in Kansas, and he was acquitted of murder at Prescott that winter.",
+   "n_this": 8,
+   "n_papers": 11,
+   "n_clips": 6,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23657,7 +23782,7 @@
    "disputed": false,
    "code_type": "intimidation",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23696,7 +23821,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23727,7 +23852,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23762,7 +23887,7 @@
    "disputed": false,
    "code_type": "unclassified",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23793,7 +23918,7 @@
    "disputed": false,
    "code_type": "posse_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23836,7 +23961,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23875,7 +24000,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23906,7 +24031,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23949,7 +24074,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -23988,7 +24113,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24027,7 +24152,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24066,7 +24191,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24097,7 +24222,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24132,7 +24257,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24163,7 +24288,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24206,7 +24331,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24249,7 +24374,46 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "george-lenhart-evansville",
+   "title": "Threatened lynching of George Lenhart",
+   "city": "Evansville",
+   "state": "IN",
+   "when": "1882-08",
+   "chips": [
+    [
+     "Whitecapping",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 12",
+     ""
+    ]
+   ],
+   "lead": "The threatened lynching of George Lenhart took place in August 1882 in and around Evansville, Indiana, after Lenhart, a German laborer, was arrested in the murder of saloon keeper Alexander Wieber, his wife and their young son. A vigilance committee was organized and men were reported gathering to lynch him, but the sheriff moved him to the jail at Boonville in Warrick County. In December 1882 Lenhart was discharged when the State attorney could not make a case, and a German-language paper cited the affair as proof that innocent men could fall victim to lynch law.",
+   "n_this": 11,
+   "n_papers": 7,
+   "n_clips": 7,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "whitecapping",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24292,7 +24456,85 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "ira-hall-mandan-1882-08-28",
+   "title": "Mandan citizens' order to Ira Hall and John Trumbull to leave town",
+   "city": "Mandan",
+   "state": "ND",
+   "when": "1882-08",
+   "chips": [
+    [
+     "Whitecapping",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 7",
+     ""
+    ]
+   ],
+   "lead": "The Mandan citizens' order to Ira Hall and John Trumbull to leave town was a threat of lynching made on August 28, 1882, when a mass meeting in Mandan, Dakota Territory, sent a committee to tell the two men, accused in the killing of Jacob Book, to leave by noon the next day. Hall promised to go and Trumbull disappeared, and no report shows that either man was harmed. Territorial papers treated the meeting as the climax of local anger at a federal commissioner who had freed one of the accused.",
+   "n_this": 2,
+   "n_papers": 5,
+   "n_clips": 6,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "whitecapping",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "j-j-jater-indianapolis-1882-08",
+   "title": "Killing of Hugh Burns and threatened lynching of John J. Jater",
+   "city": "Indianapolis",
+   "state": "IN",
+   "when": "1882-08",
+   "chips": [
+    [
+     "Intimidation",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 6",
+     ""
+    ]
+   ],
+   "lead": "The killing of Hugh Burns and threatened lynching of John J. Jater took place in Indianapolis, Indiana, on the night of August 28, 1882, when a Kentucky man named in the papers as Jater shot and killed Policeman Hugh Burns, who was trying to arrest him. Jater was caught and jailed, and a widely reprinted telegram said he had \"narrowly escaped lynching.\" No report gave Jater's race or described the threat in racial terms.",
+   "n_this": 4,
+   "n_papers": 5,
+   "n_clips": 4,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "intimidation",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24327,7 +24569,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24358,7 +24600,7 @@
    "disputed": false,
    "code_type": "community_attack",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24397,7 +24639,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24436,7 +24678,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24471,7 +24713,7 @@
    "disputed": false,
    "code_type": "posse_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24514,7 +24756,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24557,7 +24799,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24596,7 +24838,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24635,7 +24877,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24674,7 +24916,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24717,7 +24959,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24748,7 +24990,7 @@
    "disputed": false,
    "code_type": "expulsion",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24783,7 +25025,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24826,7 +25068,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24865,7 +25107,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24896,7 +25138,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24931,7 +25173,7 @@
    "disputed": false,
    "code_type": "unclassified",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -24970,7 +25212,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -25009,7 +25251,42 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "train-crowd-troy-1882-08-25",
+   "title": "Troy depot crowd incident",
+   "city": "Troy",
+   "state": "PA",
+   "when": "1882-08",
+   "chips": [
+    [
+     "Intimidation",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Contested",
+     "warn"
+    ],
+    [
+     "Black press 0 · white press 3",
+     ""
+    ]
+   ],
+   "lead": "The Troy depot crowd incident was a confrontation at the railway depot in Troy, Pennsylvania, about August 25, 1882, in which a crowd shouted threats at a Black man boarding a night train with a white woman. Told that the pair were eloping, the crowd cried \"Hang the man,\" and the man left the train; no one was reported hurt.",
+   "n_this": 3,
+   "n_papers": 2,
+   "n_clips": 3,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "intimidation",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -25044,7 +25321,3735 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "a-j-adams-bonanza-1882-09-20",
+   "title": "Attempted lynching of A. G. Adams",
+   "city": "Bonanza",
+   "state": "CA",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 9",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of A. G. Adams was a failed attempt, in late September 1882 at Bonanza, Colorado, to lynch the cashier of the Bonanza Exchange Bank after his arrest following the bank's suspension. According to the single dispatch that reported it, the lynching was prevented by \"some law-abiding citizens,\" and Adams was not reported harmed.",
+   "n_this": 5,
+   "n_papers": 9,
+   "n_clips": 4,
+   "n_accounts": 1,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "armed-man-arnaudville-1882-09-22",
+   "title": "Arnaudville night raid on Narcisse Semain's cabin",
+   "city": "Arnaudville",
+   "state": "LA",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Arson or bombing",
+     ""
+    ],
+    [
+     "Contested",
+     "warn"
+    ],
+    [
+     "Black press 0 · white press 6",
+     ""
+    ]
+   ],
+   "lead": "The Arnaudville night raid on Narcisse Semain's cabin took place in September 1882, when an armed party of white men went at night to the home of Semain, a Black man living near Arnaudville, Louisiana, after a quarrel in the town. Semain shot and killed Marcellus Guitrot, a member of the party, and escaped. Local papers then disputed whether the men had come to punish him or as a constable's posse, and four of them were arrested on Semain's own affidavit.",
+   "n_this": 6,
+   "n_papers": 5,
+   "n_clips": 5,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "arson_bombing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "bob-harris-des-moines-1882-09-16",
+   "title": "Attempted lynching of Bob Harris",
+   "city": "Des Moines",
+   "state": "IA",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 30",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of Bob Harris took place in Des Moines, Iowa, on the night of September 16, 1882, when a crowd of several hundred to perhaps 1,500 men rushed the county jail to hang a prisoner accused of beating and robbing the grocer John B. James. Sheriff Littleton had already sent Harris out of the city, and the crowd searched the jail, the courthouse and the state arsenal without finding him. Papers across the country carried the story as a frustrated case of \"lynch law\", and in December Harris was convicted and sentenced to the penitentiary.",
+   "n_this": 20,
+   "n_papers": 27,
+   "n_clips": 9,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "chas-cook-columbus-1882-09",
+   "title": "Attempted lynching of Charles Cook",
+   "city": "Columbus",
+   "state": "IN",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 3",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of Charles Cook took place at Columbus, Indiana, on the night of September 20, 1882, when a band of masked men went after Cook, whom the dispatch called \"a notorious wife beater,\" with the object of lynching him. Cook escaped, and the episode reached the press only as a one-sentence telegraphic item; none of the reports gives his race.",
+   "n_this": 3,
+   "n_papers": 3,
+   "n_clips": 2,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "crockett-jenkins-caldwell-county-1882-09",
+   "title": "Killing of Crockett Jenkins",
+   "city": "",
+   "state": "KY",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Unclassified",
+     ""
+    ],
+    [
+     "Upper bound (review)",
+     "warn"
+    ],
+    [
+     "Contested",
+     "warn"
+    ],
+    [
+     "Black press 0 · white press 15",
+     ""
+    ]
+   ],
+   "lead": "The killing of Crockett Jenkins was the hanging of a man described as a member of the Campbell gang, whose body was found on a hilltop oak near Princeton in Caldwell County, Kentucky, in late September 1882. One Kentucky paper called it another hanging by a mob, but the fuller accounts said suspicion fell on Mary Sullivan and female relatives, who were arrested and released. The case drew attention chiefly because Mary Sullivan was herself hanged by a mob from the same limb about a week later.",
+   "n_this": 3,
+   "n_papers": 11,
+   "n_clips": 6,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "unclassified",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "crockett-lancaster-1882-09-27",
+   "title": "Lancaster riot of 1882",
+   "city": "Lancaster",
+   "state": "SC",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 22",
+     ""
+    ]
+   ],
+   "lead": "The Lancaster riot of 1882 was a shooting on 27 September 1882 in the main street of Lancaster, South Carolina, in which armed white men killed at least four Black men from a mounted procession after a political meeting addressed by the Independent congressional candidate E. B. C. Cash. Reported deaths rose from four to as many as twelve, while no white man was said to have been seriously hurt. Southern Democratic papers called the shooting self-defense against a drunken mob, whereas Northern Republican voices called it a massacre and political murder.",
+   "n_this": 17,
+   "n_papers": 20,
+   "n_clips": 10,
+   "n_accounts": 7,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "dolly-durand-1882-10",
+   "title": "Killing of Dolly Durand",
+   "city": "",
+   "state": "TX",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 8",
+     ""
+    ]
+   ],
+   "lead": "The killing of Dolly Durand was the shooting of a state's witness in a Texas murder trial by unidentified men as he slept outdoors near the Ingle settlement, reported from San Antonio, on the night of Saturday, September 30, 1882. No one was reported arrested, and the papers treated the killing as revenge for his testimony against John Lyons, whom a San Antonio jury had just acquitted.",
+   "n_this": 2,
+   "n_papers": 3,
+   "n_clips": 6,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "election-day-helena-1882-09-05",
+   "title": "Helena election-day violence (1882)",
+   "city": "Helena",
+   "state": "AR",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Expulsion",
+     ""
+    ],
+    [
+     "Contested",
+     "warn"
+    ],
+    [
+     "Black press 0 · white press 27",
+     ""
+    ]
+   ],
+   "lead": "The Helena election-day violence took place at the Phillips County courthouse in Helena, Arkansas, on September 4, 1882, when Democrats and deputy sheriffs beat Republican ticket distributors and drove a crowd of about 1,000 Black voters from the polls. A deputy sheriff fired three times at a Black man, few Black men voted, and the Democrats claimed the county. Republican papers across the North treated the episode as the worst case of \"bulldozing\" in the state election, while Democratic papers dismissed it as invention.",
+   "n_this": 22,
+   "n_papers": 21,
+   "n_clips": 9,
+   "n_accounts": 5,
+   "disputed": false,
+   "code_type": "expulsion",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "fleeing-man-maysville-1882-09-19",
+   "title": "Shooting of a fleeing prisoner in Maysville, Kentucky (1882)",
+   "city": "Maysville",
+   "state": "KY",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 1",
+     ""
+    ]
+   ],
+   "lead": "The shooting of a fleeing prisoner in Maysville, Kentucky, took place on the night of September 19, 1882, when special policeman Fred. Bodie shot a Black man who had broken away from him after an arrest for obstructing the sidewalk. The man, whose name was not printed, was wounded in the hip, an injury the local paper described as slight.",
+   "n_this": 1,
+   "n_papers": 1,
+   "n_clips": 1,
+   "n_accounts": 1,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "frank-allen-milwaukee-1882-09-07",
+   "title": "Attempted lynching of Frank Allen",
+   "city": "Milwaukee",
+   "state": "WI",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 7",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of Frank Allen took place in Milwaukee, Wisconsin, on the night of September 6, 1882, when a mob fought police officers in an effort to lynch Allen after he was accused of shooting two men in a saloon. The officers secured Allen and he was locked up; the mob's attempt is known from a single wire dispatch, and no report gives the race of anyone involved.",
+   "n_this": 4,
+   "n_papers": 7,
+   "n_clips": 3,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "gus-knight-barlow-1882-09-11",
+   "title": "Lynching of Gus Knight",
+   "city": "Barlow",
+   "state": "GA",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 8",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Gus Knight was the killing of a Black man by a mob near Bartow, Jefferson County, Georgia, on September 11, 1882. Knight, accused of assaulting a married white woman that morning, was taken from two constables and shot. Georgia papers presented the killing as deserved vengeance, and a short wire telegram carried it to papers across the South and Midwest.",
+   "n_this": 4,
+   "n_papers": 7,
+   "n_clips": 4,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "henrietta-robinson-washington-1882-09-02",
+   "title": "Rape of Henrietta Robinson",
+   "city": "Washington",
+   "state": "DC",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob assault",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 33",
+     ""
+    ]
+   ],
+   "lead": "The rape of Henrietta Robinson was an assault on a Black woman by three white men, Maurice Connors, Patrick McNulty and James Reynolds, in the Swampoodle district of northeast Washington, D.C., in the early hours of September 3, 1882. Police arrested all three that night, and in November a jury convicted Connors of rape and found the other two guilty as accessories, a verdict the judge then set aside. The Washington dailies followed the case for nearly four months, and one paper's first headline said it was a case where \"Judge Lynch\" should have a say.",
+   "n_this": 18,
+   "n_papers": 6,
+   "n_clips": 8,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_assault",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "j-j-bowles-near-fort-maginnis-1882-09",
+   "title": "False report of the lynching of J. J. Bowles",
+   "city": "near Fort Maginnis",
+   "state": "MT",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Unclassified",
+     ""
+    ],
+    [
+     "Upper bound (review)",
+     "warn"
+    ],
+    [
+     "Contested",
+     "warn"
+    ],
+    [
+     "Black press 0 · white press 17",
+     ""
+    ]
+   ],
+   "lead": "The false report of the lynching of J. J. Bowles was a story, printed in Montana Territory newspapers in September 1882, that cowboys had hanged Bowles, a Judith Basin saloon keeper, near Fort Maginnis for setting a prairie fire. The story was reprinted as far away as Omaha, Cheyenne and Savannah before Bowles himself wrote in October that it was a lie. The Fort Benton River Press, which first published it, admitted in November that it had been wrong.",
+   "n_this": 11,
+   "n_papers": 12,
+   "n_clips": 10,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "unclassified",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "jailed-man-gonzales-1882-09",
+   "title": "Attempted lynching in Gonzales County, Texas (1882)",
+   "city": "Gonzales",
+   "state": "TX",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Intimidation",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 2",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching in Gonzales County, Texas, was the pursuit in late September 1882 of an unnamed Black prisoner, charged with assaulting a 12-year-old girl near Gonzales, by a mob reported at about 250 men. Officers moved him from jail to jail and finally by night and rail to San Antonio, where he was lodged safely in jail. The Dallas Herald told the story as a 'thrilling game of hide-and-seek' won by a state Ranger, Sergeant Rudd.",
+   "n_this": 1,
+   "n_papers": 2,
+   "n_clips": 1,
+   "n_accounts": 1,
+   "disputed": false,
+   "code_type": "intimidation",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "john-hunter-washington-1882-09-10",
+   "title": "Attempted lynching of John Hunter",
+   "city": "Washington",
+   "state": "IN",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 21",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of John Hunter was a failed attack by a masked mob on the jail at Washington, Daviess County, Indiana, in the night of September 9-10, 1882, to seize and lynch Hunter, who was held for the killing of William Lentz. An armed guard placed by the sheriff held the jail, and the mob dispersed after appeals from the sheriff and the prosecuting attorney. The story ran as a telegraphic brief across the country, and Hunter was later convicted at Vincennes and sentenced to hang.",
+   "n_this": 18,
+   "n_papers": 20,
+   "n_clips": 7,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "lucius-edmunds-learys-1882-09-27",
+   "title": "Killing of John Spicy",
+   "city": "Learys",
+   "state": "GA",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Posse killing",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 23",
+     ""
+    ]
+   ],
+   "lead": "The killing of John Spicy was the fatal shooting of a Black man, also named in the papers as Lucius Edmunds, by men sent to arrest him at or near Leary's, Georgia, in late September 1882. The telegraphic dispatch from Atlanta described a fight with a sheriff's posse in which Spicy wounded one of the posse and accidentally shot his wife before he was killed. The brief dispatch ran in papers from Washington to Seattle, while a later Georgia account gave a different, longer sequence of events.",
+   "n_this": 12,
+   "n_papers": 22,
+   "n_clips": 5,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "posse_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "marshal-shooting-rising-fawn-1882-09-29",
+   "title": "Rising Fawn marshal shooting",
+   "city": "Rising Fawn",
+   "state": "AL",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 4",
+     ""
+    ]
+   ],
+   "lead": "The Rising Fawn marshal shooting was the killing of an unnamed Black man by Marshal J. M. Surry at Rising Fawn on the morning of September 29, 1882. According to the only account, a special telegraphed from Decatur, Alabama, the man tried to shoot the marshal as he was about to be arrested, and the marshal shot him dead. The story reached papers across the West as a one-sentence wire item.",
+   "n_this": 3,
+   "n_papers": 4,
+   "n_clips": 2,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "nathan-bonnet-williston-1882-09-13",
+   "title": "Lynching of Nathan Bonnet",
+   "city": "Williston",
+   "state": "SC",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 20",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Nathan Bonnet took place at Williston, South Carolina, on the night of Wednesday, September 13, 1882, when a body of lynchers overpowered the jailer, took Bonnet, a Black prisoner, from the town jail, hanged him and riddled his body with bullets. Bonnet, described as seventeen years old, had been accused of entering a white man's house at midnight and attempting to rape his daughter, and was said to have confessed in jail. A short wire dispatch carried the story across the country within days, often under headlines approving the killing, while a South Carolina paper published a fuller account that praised it.",
+   "n_this": 17,
+   "n_papers": 18,
+   "n_clips": 5,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "nick-hathaway-carlisle-1882-10",
+   "title": "Killing of George Hathaway",
+   "city": "Carlisle",
+   "state": "KY",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 12",
+     ""
+    ]
+   ],
+   "lead": "The killing of George Hathaway was the fatal shooting of a Black man by a white man, Martin Murphy, at a Black dance in Carlisle, Kentucky, on the night of September 27, 1882. Hathaway died on October 2, and Murphy escaped while armed men searched for him. A national wire brief retold the case as a white man defying a ban on white dancers, and it circulated from Delaware to Montana.",
+   "n_this": 8,
+   "n_papers": 10,
+   "n_clips": 8,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "p-carmody-1882-09-30",
+   "title": "Attempted lynching of Pat Carmody",
+   "city": "",
+   "state": "NM",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 4",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of Pat Carmody was a Saturday-night armed attack, most likely on September 23, 1882, on the house of P. (Pat) Carmody near San Marcial, New Mexico Territory, by people who suspected him of leading the mob that had hanged Wm. Wiggins the night before. Carmody held his fortified house through an exchange of some two hundred shots and later took refuge with soldiers at Fort Craig.",
+   "n_this": 1,
+   "n_papers": 3,
+   "n_clips": 3,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "rape-suspect-dallas-1882-09-08",
+   "title": "Lynching near Comanche, Texas (September 1882)",
+   "city": "Dallas",
+   "state": "TX",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 8",
+     ""
+    ]
+   ],
+   "lead": "The lynching near Comanche, Texas, was the killing in September 1882 of an unnamed Black man accused of raping a white girl, whom a posse pursued for ten miles, captured and lynched. The episode is known only from one-sentence telegraphic briefs that ran in papers from Tennessee to Dakota over the following two weeks.",
+   "n_this": 6,
+   "n_papers": 8,
+   "n_clips": 4,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "roustabouts-dubuque-jail-1882-09",
+   "title": "Dubuque jail attack on two Black roustabouts",
+   "city": "Dubuque",
+   "state": "IA",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob assault",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 5",
+     ""
+    ]
+   ],
+   "lead": "The Dubuque jail attack on two Black roustabouts was a beating of two Black prisoners by white fellow inmates in the jail at Dubuque, Iowa, in late summer 1882. The two men were struck with chair-rounds and table-legs until court-house officers stopped what the papers called a riot. Papers outside Iowa ran the item as an example of race prejudice in the North, describing it as 'an effort to draw the color line'.",
+   "n_this": 3,
+   "n_papers": 5,
+   "n_clips": 2,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_assault",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "school-fights-east-st-louis-1882-09-12",
+   "title": "East St. Louis school dispute of 1882",
+   "city": "East St. Louis",
+   "state": "IL",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Unclassified",
+     ""
+    ],
+    [
+     "Upper bound (review)",
+     "warn"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 28",
+     ""
+    ]
+   ],
+   "lead": "The East St. Louis school dispute of 1882 was a conflict in East St. Louis, Illinois, in September 1882, when Black children refused a separate school site were turned away from the white schools and street fights followed. The schools were closed on two successive days, and fights between white and Black children were reported before the dispute was said to have ended on September 13 with Black families accepting separate schools. Wire versions ran nationally under headlines such as \"A War of Races\" and \"The Color Line.\"",
+   "n_this": 25,
+   "n_papers": 28,
+   "n_clips": 8,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "unclassified",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "taylor-brothers-chattanooga-1882-09",
+   "title": "Chattanooga jail mob of September 1882",
+   "city": "Chattanooga",
+   "state": "TN",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Intimidation",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 11",
+     ""
+    ]
+   ],
+   "lead": "The Chattanooga jail mob of September 1882 was a gathering of a crowd reported at 5,000 around the jail at Chattanooga, Tennessee, on the night of September 18, 1882, demanding the Taylor brothers, who were wanted for killing the Hamilton County sheriff and his deputy. The brothers had not in fact been captured, and after a committee from the crowd searched the jail and found them absent, the crowd dispersed without harming anyone. Wire reports noted that leading citizens took part, and dispatches the next day labeled the crowd \"Disappointed Lynchers.\"",
+   "n_this": 7,
+   "n_papers": 8,
+   "n_clips": 8,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "intimidation",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "thomas-phearby-spartanburg-1882-09-01",
+   "title": "Killing of Thomas Phearby",
+   "city": "Spartanburg",
+   "state": "SC",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 1",
+     ""
+    ]
+   ],
+   "lead": "The killing of Thomas Phearby took place on September 1, 1882, when Officer John Foster shot Phearby, a Black prisoner in his charge, in the woods about four miles from Spartanburg, South Carolina. A coroner's jury found that Phearby died from a pistol ball fired by Foster, and Foster was jailed.",
+   "n_this": 1,
+   "n_papers": 1,
+   "n_clips": 1,
+   "n_accounts": 1,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "wiggins-peonage-witness-new-mexico-1882-09",
+   "title": "Hanging of William Wiggins",
+   "city": "",
+   "state": "NM",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 2",
+     ""
+    ]
+   ],
+   "lead": "The hanging of William Wiggins was the killing of an old man at San Marcial, New Mexico Territory, about September 22, 1882, by men who took him from his house and hanged him over its door. A Socorro correspondent called it 'cold blooded murder' and said Wiggins was killed because he was the main witness in a peonage case. Soon afterward a crowd blamed a local man, P. Carmody, and tried without success to lynch him.",
+   "n_this": 2,
+   "n_papers": 1,
+   "n_clips": 1,
+   "n_accounts": 1,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "winston-wade-union-city-1882-09-05",
+   "title": "Lynching of Winston Wade",
+   "city": "Union City",
+   "state": "TN",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 19",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Winston Wade took place at Union City, Tennessee, on the night of September 5, 1882, when a mob of about one hundred men took Wade, a Black man, from custody and hanged him to the limb of a tree. Wade had been accused of outraging Mrs. Sarah J. Young, a white woman, near the town three days earlier. A Nashville dispatch carried the story across the country within a day, and several papers printed it under headlines approving the hanging.",
+   "n_this": 18,
+   "n_papers": 19,
+   "n_clips": 8,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "wm-beauer-leesburg-1882-09-07",
+   "title": "Attempted lynching of William Beaner",
+   "city": "Leesburg",
+   "state": "VA",
+   "when": "1882-09",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 3",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of William Beaner was a night ride by a party of horsemen on the Loudoun County jail at Leesburg, Virginia, on 7 September 1882, aimed at seizing and lynching a Black youth held there. The riders reached the jail, met the jailor and his sons, and turned back without trying to enter, and Beaner was not harmed. Local papers treated the failed raid with derision or, in one case, regret that the sheriff had been ready.",
+   "n_this": 3,
+   "n_papers": 3,
+   "n_clips": 3,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "a-archuletta-1882-10-29",
+   "title": "Lynching of J. A. Archuleta",
+   "city": "",
+   "state": "",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 14",
+     ""
+    ]
+   ],
+   "lead": "The lynching of J. A. Archuleta took place on the night of Sunday, October 29, 1882, when a crowd of Mexicans took Archuleta, a justice of the peace and banker of Conejos, Colorado, from custody in northwestern New Mexico and lynched him. He was accused of shooting and killing Deputy Sheriff Blancett a few days earlier. Papers across the country carried the news chiefly because the dead man was a judge and 'prominent banker and merchant'.",
+   "n_this": 9,
+   "n_papers": 13,
+   "n_clips": 5,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "andrew-elliott-grand-forks-1882-11",
+   "title": "Tarring and feathering of Andrew Elliott",
+   "city": "Grand Forks",
+   "state": "DT",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Whitecapping",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 11",
+     ""
+    ]
+   ],
+   "lead": "The tarring and feathering of Andrew Elliott was a night attack at Grand Forks, Dakota Territory, in late October 1882, in which a 'vigilance committee' seized a man accused of exposing himself to school girls, threatened to hang him, and covered him with tar and feathers. Elliott survived, and within days Grand Forks dispatches reported that townspeople doubted his guilt and called the affair an outrage.",
+   "n_this": 8,
+   "n_papers": 10,
+   "n_clips": 5,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "whitecapping",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "antonio-de-rita-st-louis-1882-11",
+   "title": "Attempted lynching of Antonio de Ritta",
+   "city": "St. Louis",
+   "state": "MO",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 9",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of Antonio de Ritta took place in St. Louis, Missouri, on the evening of October 26, 1882, when a crowd of Italian neighbors seized de Ritta, a Sicilian rag-picker, after a 7-year-old boy was shot dead in the yard of their Almond Street row. A police officer got him away from the crowd by locking him inside a street alarm box until a patrol wagon arrived, and a coroner's jury later held him for the boy's murder.",
+   "n_this": 5,
+   "n_papers": 8,
+   "n_clips": 4,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "bob-wilson-memphis-1882-10-01",
+   "title": "Attempted lynching of Robert Wilson",
+   "city": "Memphis",
+   "state": "TN",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 14",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of Robert Wilson took place in Memphis, Tennessee, in the early hours of October 2, 1882, when a crowd of about 200 to 250 people gathered at the Shelby County jail and demanded Wilson, a 19-year-old Black prisoner accused of fatally shooting a grocer. The jailer refused to give up the keys and the crowd dispersed, and Wilson was later convicted of murder and sentenced to hang. Wire reports carried the story nationally as a failed lynching by a crowd that lacked a leader, while a Memphis daily openly regretted the failure.",
+   "n_this": 9,
+   "n_papers": 6,
+   "n_clips": 8,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "burglar-nebraska-city-1882-10",
+   "title": "Mock hanging of an accused burglar at Nebraska City",
+   "city": "Nebraska City",
+   "state": "NE",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob assault",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 1",
+     ""
+    ]
+   ],
+   "lead": "The mock hanging of an accused burglar at Nebraska City was an episode in October 1882 in which a party of Nebraska City 'lynchers' repeatedly hanged and revived a man accused of burglary. The man survived and, given the choice between a final hanging and leaving the country, he left. A Connecticut weekly carried the story as an oddity because the lynchers had 'varied the usual course of proceedings'.",
+   "n_this": 1,
+   "n_papers": 1,
+   "n_clips": 1,
+   "n_accounts": 1,
+   "disputed": true,
+   "code_type": "mob_assault",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "charles-thurber-grand-forks-1882-10-24",
+   "title": "Lynching of Charles Thurber",
+   "city": "Grand Forks",
+   "state": "DT",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 21",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Charles Thurber took place on October 24, 1882, at Grand Forks, Dakota Territory, when a crowd broke into the county jail, took Thurber, a Black barber, from the sheriff, and hanged him from the railroad bridge. Thurber had been accused the day before of assaulting a fifteen-year-old girl and Mrs. Samuel Burbank, the wife of a railroad conductor, near Norton. The papers dwelt on the fight with the officers and the husband's part in the hanging, and several editors defended it.",
+   "n_this": 19,
+   "n_papers": 15,
+   "n_clips": 8,
+   "n_accounts": 6,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "daniel-king-kenner-1882-10",
+   "title": "Killing of Daniel King at Kenner, Louisiana",
+   "city": "Kenner",
+   "state": "LA",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob assault",
+     ""
+    ],
+    [
+     "Contested",
+     "warn"
+    ],
+    [
+     "Black press 0 · white press 6",
+     ""
+    ]
+   ],
+   "lead": "The killing of Daniel King was the fatal shooting of a drummer-boy at Kenner, Louisiana, on a Saturday evening in early October 1882, during the fall election season. The two surviving accounts disagree on who he was: a Mississippi weekly described a Black Democrat boy shot by a crowd of Black Republicans, while a wire brief called him a white drummer-boy killed in a political riot.",
+   "n_this": 2,
+   "n_papers": 6,
+   "n_clips": 2,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_assault",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "emil-pepperkom-blair-1882-10-23",
+   "title": "Threatened lynching of Emil Peppercorn",
+   "city": "Blair",
+   "state": "NE",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Intimidation",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Contested",
+     "warn"
+    ],
+    [
+     "Black press 0 · white press 8",
+     ""
+    ]
+   ],
+   "lead": "The threatened lynching of Emil Peppercorn took place on October 23, 1882, when crowds at Calhoun and Blair, in Washington County, Nebraska, threatened a German music teacher being brought back from St. Louis to stand trial for eloping with a 14-year-old pupil. Sheriff Gross got him into the Blair jail ahead of the crowd, and no report says he was harmed.",
+   "n_this": 4,
+   "n_papers": 5,
+   "n_clips": 6,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "intimidation",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "f-elgin-laramie-city-1882-10-12",
+   "title": "Lynching of J. H. Capps",
+   "city": "Laramie City",
+   "state": "WY",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 21",
+     ""
+    ]
+   ],
+   "lead": "The lynching of J. H. Capps took place at Fort Fetterman, Albany County, Wyoming Territory, on the night of October 12, 1882, when a party of masked men took the cowboy from the post guard house and hanged him. Capps had been accused of shooting dead Richard P. Elgin, a bookkeeper for the cattle firm of Searight Bros., earlier that afternoon. Wyoming papers openly approved the hanging, and wire reports carried it nationally as the second lynching in the county within a short time.",
+   "n_this": 18,
+   "n_papers": 15,
+   "n_clips": 8,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "george-h-tew-newport-1882-10-12",
+   "title": "Attempted lynching of George H. Tew",
+   "city": "Newport",
+   "state": "RI",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 8",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of George H. Tew took place on October 12, 1882, at the Aquidneck Park fair near Newport, Rhode Island, when a crowd tried to lynch Tew, a young special officer, after he struck a boy with his club. Tew escaped to a neighboring farmhouse, where regular officers protected him, and the next day he was charged with beating the boy. Papers across the country carried the story as a near-lynching of a policeman, and most of them blamed the officer.",
+   "n_this": 8,
+   "n_papers": 8,
+   "n_clips": 4,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "henry-holloway-elkton-1882-10-03",
+   "title": "Lynching of Henry Holloway",
+   "city": "Elkton",
+   "state": "TN",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 20",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Henry Holloway took place on Tuesday, October 3, 1882, when a crowd seized Holloway, a young Black man accused of raping a white woman, at the end of a magistrates' hearing at Elkton in Giles County, Tennessee, and hanged him from the iron bridge over the Elk River. A short wire dispatch carried the story across the country within a day, and Tennessee papers openly approved the killing.",
+   "n_this": 11,
+   "n_papers": 17,
+   "n_clips": 6,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "henry-lempke-st-peter-1882-10-13",
+   "title": "Attempted lynching of Henry Lempke",
+   "city": "St. Peter",
+   "state": "MN",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 8",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of Henry Lempke was a failed attempt by residents of St. Peter, Minnesota, to hang a cigar-factory worker accused on October 13, 1882, of attempting to rape a three-year-old girl. Lempke was held in jail, tried a month later and sentenced to two and a half years in the penitentiary, a term several Minnesota papers called too light.",
+   "n_this": 4,
+   "n_papers": 4,
+   "n_clips": 6,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "hume-redman-evansville-1882-10-11",
+   "title": "Lynching of Hume Redman",
+   "city": "Evansville",
+   "state": "IN",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 26",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Hume Redman took place in Evansville, Indiana, early on October 11, 1882, when about 100 armed men from Posey County broke into the county jail, took out Redman, who was accused of killing his wife, and killed him in the street. Police fired on the retreating mob, and one of its members, David Murphy, was also killed. Papers across the country carried the story as a street battle between officers and lynchers, and several editors defended the killing of Redman.",
+   "n_this": 19,
+   "n_papers": 21,
+   "n_clips": 10,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "jim-rhodes-charlottesville-1882-10-01",
+   "title": "Lynching of Jim Rhodes",
+   "city": "Charlottesville",
+   "state": "VA",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Upper bound (review)",
+     "warn"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 34",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Jim Rhodes took place in the early morning of October 2, 1882, when masked, armed men took him from the jail at Charlottesville, Virginia, and hanged him from an oak tree on the Free Bridge road. Rhodes was awaiting trial for the axe murders of John O. Massie and his wife, an elderly Albemarle County couple, and the lynchers held off the commonwealth's attorney at gunpoint. Virginia papers disputed whether his last words were a confession and whether the jail's guards had been overpowered.",
+   "n_this": 23,
+   "n_papers": 23,
+   "n_clips": 10,
+   "n_accounts": 6,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "john-brooks-jacksonville-1882-10-04",
+   "title": "Lynching of John Brooks",
+   "city": "Jacksonville",
+   "state": "AL",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 16",
+     ""
+    ]
+   ],
+   "lead": "The lynching of John Brooks took place at Jacksonville, Alabama, on October 5, 1882, when a large crowd took Brooks, a Black prisoner, from the sheriff after his preliminary hearing and hanged him on the outskirts of the town. Brooks had been accused of assaulting a little girl near Anniston, and a wire dispatch from Anniston carried the story to dailies across the country.",
+   "n_this": 10,
+   "n_papers": 16,
+   "n_clips": 7,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "john-watson-patterson-s-station-1882-11-17",
+   "title": "Lynching of John Watson",
+   "city": "Patterson's Station",
+   "state": "DT",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 7",
+     ""
+    ]
+   ],
+   "lead": "The lynching of John Watson took place about October 27, 1882, when railroad laborers on the Oregon Short Line hanged him at the Kelton road crossing, about ten miles below Patton's station, after an improvised trial. Watson was accused of shooting and robbing a fellow laborer, William Fox, and his alleged accomplice, Cash Austin, was handed to a deputy sheriff and later freed. A wire story three weeks later carried the case to eastern papers, placing it at \"Pattersons Station\" with a Yankton, Dakota dateline.",
+   "n_this": 6,
+   "n_papers": 6,
+   "n_clips": 4,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "johnson-american-falls-1882-10-15",
+   "title": "Lynching of Johnson and \"Tex\" at American Falls",
+   "city": "American Falls",
+   "state": "ID",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 7",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Johnson and \"Tex\" took place at American Falls, Idaho Territory, on the night of Sunday, 8 October 1882, when townsmen hanged two men they suspected of murdering a Chinese man from the Oregon Short Line Railroad bridge over the Snake river. The hanging followed an order to leave town and a gunfight with the citizens and the night watchman. An Ogden account carried the story through Idaho, Utah, Nevada, California and Montana papers, and no report gives the race of either man.",
+   "n_this": 5,
+   "n_papers": 7,
+   "n_clips": 4,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "louis-guilford-tarboro-1882-10",
+   "title": "Shooting of Louis Guilford",
+   "city": "Tarboro",
+   "state": "NC",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob assault",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 7",
+     ""
+    ]
+   ],
+   "lead": "The shooting of Louis Guilford took place at Tarboro, North Carolina, on October 23, 1882, when Guilford, a Black man under arrest, was shot and mortally wounded by men who pursued and recaptured him after he escaped. According to the dispatch, Guilford had cut the arresting constable with a razor and wounded two of his captors, and papers across the country ran the story as the act of a \"fighting\" or \"murderous\" Black man.",
+   "n_this": 7,
+   "n_papers": 7,
+   "n_clips": 3,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_assault",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "mary-sullivan-1882-10-06",
+   "title": "Lynching of Mary Sullivan",
+   "city": "",
+   "state": "KY",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 11",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Mary Sullivan was the hanging of a woman by a mob of about fifty men in Caldwell County, Kentucky, in early October 1882, after she was taken at night from a house near Dalton in neighboring Hopkins County. She had been accused of a part in the hanging of Crockett Jenkins, a member of the Campbell gang, and released, and no clue to her killers was reported. Papers across the country retold her story as that of a \"female desperado,\" while two Kentucky papers objected to the mob hanging of a woman.",
+   "n_this": 7,
+   "n_papers": 9,
+   "n_clips": 8,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "riley-anderson-greenville-1882-10-02",
+   "title": "Attempted lynching of Riley Anderson (October 1882)",
+   "city": "Greenville",
+   "state": "SC",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 8",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of Riley Anderson was a night raid on the Greenville County jail in Greenville, South Carolina, on October 2, 1882, by a party of white and Black men seeking to hang Anderson, a Black man accused of murdering a woman and her infant. Warned in advance, Sheriff Gilreath had already hidden Anderson, and the crowd dispersed after the sheriff spoke to it. South Carolina papers carried the story chiefly from the Greenville News, dwelling on the sheriff's stratagem.",
+   "n_this": 4,
+   "n_papers": 6,
+   "n_clips": 6,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "sid-dixon-hickman-1882-10-11",
+   "title": "Killing of Sid Dixon",
+   "city": "Hickman",
+   "state": "KY",
+   "when": "1882-10",
+   "chips": [
+    [
+     "Mob assault",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Contested",
+     "warn"
+    ],
+    [
+     "Black press 0 · white press 6",
+     ""
+    ]
+   ],
+   "lead": "The killing of Sid Dixon was the fatal shooting of a Black mill hand by armed white pursuers in western Fulton County, Kentucky, near Hickman, in October 1882. After a week of quarrels, whites calling themselves a sheriff's posse hunted Dixon and other Black men; one report said Dixon was shot dead and two others wounded, while the local paper reported only wounds.",
+   "n_this": 5,
+   "n_papers": 6,
+   "n_clips": 4,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_assault",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "andrew-jackson-vicksburg-1882-11-02",
+   "title": "Lynching of Andrew Jackson",
+   "city": "Vicksburg",
+   "state": "MS",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 7",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Andrew Jackson was the killing of a Black man by a mob in early November 1882, reported as having taken place near Vienna, in Lincoln Parish, Louisiana. Jackson was accused of assaulting a white girl, whom one report described as eight years old. The killing reached national readers only as a one-sentence item, first under a Vicksburg, Mississippi, dateline and then in weekly news-brief columns.",
+   "n_this": 5,
+   "n_papers": 6,
+   "n_clips": 3,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "bersh-breckenridge-1882-11",
+   "title": "Death of William Berg at Breckenridge, Minnesota",
+   "city": "Breckenridge",
+   "state": "MN",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 5",
+     ""
+    ]
+   ],
+   "lead": "The death of William Berg at Breckenridge, Minnesota, occurred about November 20, 1882, when Berg, who had just shot William Little in a drunken row, drowned in the river while fleeing. Little died days later on a train taking him home to Dubuque. One Montana paper reported that a crowd had rushed Berg intending to lynch him and was cheated of him by his drowning, a detail absent from the Minnesota accounts.",
+   "n_this": 5,
+   "n_papers": 4,
+   "n_clips": 3,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "bill-harris-shreveport-1882-11-01",
+   "title": "Lynching of Bill Harris",
+   "city": "Shreveport",
+   "state": "LA",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 6",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Bill Harris was the shooting of a Black man by a pursuing mob at his wife's house in Bastrop parish, Louisiana, around November 1, 1882. Harris was accused of attacking the young daughter of a white planter named Wilder, and the party that captured him fired twenty guns at him at once. The story reached papers across the country through a Shreveport wire dispatch under headlines such as \"Twenty Shots at One Man.\"",
+   "n_this": 6,
+   "n_papers": 6,
+   "n_clips": 3,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "cattle-thief-coleman-1882-11",
+   "title": "Lynching of an alleged cattle thief near Coleman, Texas (1882)",
+   "city": "Coleman",
+   "state": "TX",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 4",
+     ""
+    ]
+   ],
+   "lead": "The lynching of an alleged cattle thief near Coleman, Texas, was the hanging in late November 1882 of an unnamed man described as one of a gang charged with stealing cattle near Comanche. It was one of several hangings of the alleged gang's members within about a week, which Texas and wire reports said broke the gang up. No report gives the man's name, his race, or who hanged him.",
+   "n_this": 3,
+   "n_papers": 4,
+   "n_clips": 3,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "chain-gang-convicts-bibb-county",
+   "title": "Whipping of Bibb County chain gang convicts",
+   "city": "",
+   "state": "GA",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 2",
+     ""
+    ]
+   ],
+   "lead": "The whipping of Bibb County chain gang convicts was the beating of two Black convicts by a guard of the county chain gang in Bibb County, Georgia, reported in November 1882. The Bibb County grand jury proposed to investigate the case, and within days the county's Road Commissioners gave up control of the chain gang to the County Commissioners.",
+   "n_this": 2,
+   "n_papers": 1,
+   "n_clips": 2,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "election-riot-florence-1882-11-07",
+   "title": "Florence election riot (1882)",
+   "city": "Florence",
+   "state": "SC",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob assault",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 17",
+     ""
+    ]
+   ],
+   "lead": "The Florence election riot was an attack on Black voters at the polls at or near Florence, South Carolina, on election day, November 7, 1882, in which two or three \"colored men\" were shot and the election there was broken up. The news came chiefly from a telegram by E. H. Deas, the Republican candidate for Congress in the Sixth District, who said the men were shot for insisting on voting the Republican ticket. Wire reports turned his account into two or three killed, and Republican papers in the North cited it as an example of Democratic intimidation.",
+   "n_this": 12,
+   "n_papers": 16,
+   "n_clips": 6,
+   "n_accounts": 5,
+   "disputed": false,
+   "code_type": "mob_assault",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "hicks-clinton-1882-11",
+   "title": "Shooting of Hicks by Constable King",
+   "city": "Clinton",
+   "state": "NC",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 1",
+     ""
+    ]
+   ],
+   "lead": "The shooting of Hicks by Constable King took place in Sampson County, North Carolina, in late November 1882, when a constable serving an arrest warrant seriously wounded Hicks, a Black schoolteacher. The only surviving report, a brief item from the Clinton Caucasian reprinted in Raleigh, said that Hicks had resisted the officer with an axe.",
+   "n_this": 1,
+   "n_papers": 1,
+   "n_clips": 1,
+   "n_accounts": 1,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "israel-graf-frederick-1882-11-07",
+   "title": "Killing of Israel Groff",
+   "city": "Frederick",
+   "state": "MD",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 11",
+     ""
+    ]
+   ],
+   "lead": "The killing of Israel Groff took place on November 7, 1882, election day, when Frederick, Maryland, policeman Porter shot Groff, a Black man, dead during a fight at a city polling precinct. A crowd that the National Republican put at several hundred Black men then surrounded the house of Judge John A. Lynch, where the officer had taken refuge, and threatened to lynch him before he was taken to jail. Porter was released on bail eleven days later, and accounts of why he fired differed sharply.",
+   "n_this": 11,
+   "n_papers": 10,
+   "n_clips": 9,
+   "n_accounts": 5,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "jack-hendricks-lynchburg-1882-11-09",
+   "title": "Killing of Jack Hendricks",
+   "city": "Lynchburg",
+   "state": "VA",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 7",
+     ""
+    ]
+   ],
+   "lead": "The killing of Jack Hendricks was the fatal shooting of a Black man by Constable Wright in Campbell County, Virginia, near Lynchburg, on November 9, 1882. Hendricks was under arrest for \"malicious cutting,\" and the only published account, a brief Lynchburg dispatch, said he was shot while trying to escape. The dispatch ran the next day in papers from Richmond to Dallas and St. Paul, usually as a single line among other news.",
+   "n_this": 3,
+   "n_papers": 7,
+   "n_clips": 2,
+   "n_accounts": 1,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "james-mcdonald-ashland-1882-11-01",
+   "title": "Ashland mob attack on the Granite State (1882)",
+   "city": "Ashland",
+   "state": "KY",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob assault",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 32",
+     ""
+    ]
+   ],
+   "lead": "The Ashland mob attack on the Granite State took place on November 1, 1882, when a mob at Ashland, Kentucky, tried to seize William Neal and Ellis Craft, prisoners accused of murder, from State Guard troops carrying them down the Ohio River. The troops fired on the mob's ferryboat and on the crowd watching from the bank, killing five or six townspeople, while the prisoners reached jail unharmed. A coroner's jury held the troops' commander culpable for the killings.",
+   "n_this": 28,
+   "n_papers": 19,
+   "n_clips": 10,
+   "n_accounts": 5,
+   "disputed": false,
+   "code_type": "mob_assault",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "joseph-stout-crawfordsville-1882-11-20",
+   "title": "Attempted lynching of Joseph Stout",
+   "city": "Crawfordsville",
+   "state": "IN",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Intimidation",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 6",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of Joseph Stout was a threatened mob hanging in Montgomery County, Indiana, on the night of November 25, 1882, when mobs gathered at Colfax and Darlington to seize Stout as officers took him by train to the Crawfordsville jail. Stout had been arrested in Indianapolis that day, accused of murdering and robbing a Darlington grocer, Taylor Dunbar. The officers left the train early and drove to Crawfordsville, where Stout was jailed unharmed, and wire reports carried the story under headlines about his narrow escape.",
+   "n_this": 4,
+   "n_papers": 6,
+   "n_clips": 4,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "intimidation",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "julius-hart-campbellsville-1882-11-27",
+   "title": "Killing of Julius Hurt",
+   "city": "Campbellsville",
+   "state": "KY",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 8",
+     ""
+    ]
+   ],
+   "lead": "The killing of Julius Hurt was the fatal shooting of a Black man by a local officer, William Jones, at Campbellsville, Kentucky, on November 27, 1882. Jones said Hurt had resisted arrest on a bench warrant, and he was acquitted at an examining trial the same day. A short dispatch about the killing ran in papers from Washington to California, one of which counted it as Kentucky's \"daily murder.\"",
+   "n_this": 5,
+   "n_papers": 8,
+   "n_clips": 4,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "martin-fagan-wilmington-1882-11-07",
+   "title": "Wilmington Third Ward election riot",
+   "city": "Wilmington",
+   "state": "DE",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob assault",
+     ""
+    ],
+    [
+     "Contested",
+     "warn"
+    ],
+    [
+     "Black press 0 · white press 12",
+     ""
+    ]
+   ],
+   "lead": "The Wilmington Third Ward election riot was a fight between a white crowd and a party of Black men near the Third Ward polls in Wilmington, Delaware, on the afternoon of election day, November 7, 1882. Several men in the crowd were shot, a Black man named Lewis Woodland had his skull fractured by a stone, and three Black men were later charged with riot. The local Republican paper said the whites began the fight, while the Associated Press dispatch printed across the country called the Black men the assailants.",
+   "n_this": 8,
+   "n_papers": 7,
+   "n_clips": 6,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_assault",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "mexican-man-loma-parda-1882-11",
+   "title": "Lynching of a Mexican man near Loma Parda, New Mexico",
+   "city": "Loma Parda",
+   "state": "NM",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 4",
+     ""
+    ]
+   ],
+   "lead": "The lynching of a Mexican man near Loma Parda, New Mexico, took place on November 13, 1882, when he was hanged for the alleged murder of a Fort Union soldier of the 23rd infantry. Accounts differ on whether soldiers or 'unknown parties' hanged him, and a later western-news brief said he had been proved innocent.",
+   "n_this": 3,
+   "n_papers": 3,
+   "n_clips": 3,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "n-david-lee-holly-grove-1882-11-18",
+   "title": "Lynching of David N. Lee",
+   "city": "Holly Grove",
+   "state": "LA",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 2",
+     ""
+    ]
+   ],
+   "lead": "The lynching of David N. Lee was the hanging of a young man by unknown parties on the Brake road near Holly Grove Church in Franklin Parish, Louisiana, in late 1882. A card left in his pocket blamed \"hog meat,\" and the Lake Charles Echo reported that a mob had hanged him on mere suspicion of stealing hogs. The governor offered a reward for each member of the mob, and both papers that reported the killing condemned it.",
+   "n_this": 2,
+   "n_papers": 2,
+   "n_clips": 2,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "o-j-spears-rockingham-1882-11-07",
+   "title": "Rockingham registration fight (1882)",
+   "city": "Rockingham",
+   "state": "NC",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Attack on a community",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 3",
+     ""
+    ]
+   ],
+   "lead": "The Rockingham registration fight was an attack by a large party of white men on a revenue officer named Spears and about 100 Black men he had brought to register as voters at Rockingham, North Carolina, on election day, November 7, 1882. Spears was badly beaten and several of the Black men were severely injured, and many arrests were reported.",
+   "n_this": 3,
+   "n_papers": 3,
+   "n_clips": 3,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "community_attack",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "o-neill-dublin-1882-11-23",
+   "title": "Lynching of Counce O'Neal",
+   "city": "Dublin",
+   "state": "GA",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 10",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Counce O'Neal was the killing of a Black man near Dublin, Georgia, in late November 1882, when a group of men took him from his house at night and riddled his body with bullets. A Macon dispatch said he had been killed for an alleged assault on a little girl and was afterward found to be innocent, while other reports blamed Black neighbors with a grudge.",
+   "n_this": 6,
+   "n_papers": 8,
+   "n_clips": 5,
+   "n_accounts": 5,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "rubber-factory-setauket-1882-11",
+   "title": "Setauket rubber factory riot",
+   "city": "Setauket",
+   "state": "NY",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob assault",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 12",
+     ""
+    ]
+   ],
+   "lead": "The Setauket rubber factory riot was an attack in late October or early November 1882 by Irish and other white residents of Setauket, Long Island, New York, on the town's Black residents, who, like the Irish, had recently come there in large numbers to work in the rubber factory. After a white man was reported beaten by Black men, whites beat every Black man they found on the streets and attacked Black homes until armed Black residents drove them off. No deaths were reported, and the story ran nationally as a race feud under headings such as \"An Irish-African Feud\" and \"A War of Races.\"",
+   "n_this": 11,
+   "n_papers": 12,
+   "n_clips": 4,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_assault",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "smith-ogden-1882-11",
+   "title": "Attempted lynching of Frank Smith (Ogden, 1882)",
+   "city": "Ogden",
+   "state": "",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 6",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of Frank Smith took place in Ogden, Utah Territory, on the night of Saturday, 18 November 1882, when a party of men set out to lynch Smith, who was held in custody, accused of shooting a railroad brakeman, Patsy Jones. The men could not find the place where Smith was confined and disbanded; Jones later died, and Smith was reported held in the Penitentiary. No report gives the race of Smith or of Jones.",
+   "n_this": 5,
+   "n_papers": 3,
+   "n_clips": 4,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "streetcar-driver-nashville-1882-11-06",
+   "title": "Nashville streetcar riot (1882)",
+   "city": "Nashville",
+   "state": "TN",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 5",
+     ""
+    ]
+   ],
+   "lead": "The Nashville streetcar riot took place on the night of November 6, 1882, when a Black crowd at a Republican rally on Cherry street in Nashville, Tennessee, seized the driver of a streetcar that had run over and killed an elderly Black man, Alfred King, and tried to lynch him. Police and a constable got the wounded driver, Benjamin Woodward, to jail, which citizens and soldiers then guarded against the crowd.",
+   "n_this": 5,
+   "n_papers": 5,
+   "n_clips": 5,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "two-unnamed-black-prisoners-vienna-1882-11-06",
+   "title": "Vienna, Louisiana, jail lynching (1882)",
+   "city": "Vienna",
+   "state": "LA",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 24",
+     ""
+    ]
+   ],
+   "lead": "The Vienna, Louisiana, jail lynching took place on the night of November 6, 1882, when a group of men forced the jail at Vienna and took out four Black prisoners who had been sent there from Jackson parish for safekeeping. Two of the prisoners, charged with robbing and trying to kill an elderly white man named Ray, were found the next morning shot to death outside town, while one escaped and another was reportedly spared. An Associated Press dispatch carried the story to papers across the country, and Louisiana papers followed with their own notices.",
+   "n_this": 19,
+   "n_papers": 20,
+   "n_clips": 9,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "wan-coulter-taylorville-1882-11-18",
+   "title": "Attempted lynching of John Keller and William Coulter",
+   "city": "Taylorville",
+   "state": "IL",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Intimidation",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 11",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of John Keller and William Coulter took place on the night of Saturday, 18 November 1882, when a mob surrounded the jail at Taylorville, Christian County, Illinois, where the two men were held. The men had been arrested for the alleged criminal assault of a 16-year-old girl at Pana, and the mob had not taken them at last report. Papers outside the state tied the case to other Christian County crimes, and two predicted a lynching to come.",
+   "n_this": 10,
+   "n_papers": 10,
+   "n_clips": 7,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "intimidation",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "wesley-fisher-cumberland-1882-11-03",
+   "title": "Manhunt and shooting of Wesley Fisher",
+   "city": "Cumberland",
+   "state": "MD",
+   "when": "1882-11",
+   "chips": [
+    [
+     "Mob assault",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 19",
+     ""
+    ]
+   ],
+   "lead": "The manhunt and shooting of Wesley Fisher took place near Cumberland, Maryland, in late October and early November 1882, when Fisher, a young Black man accused of raping a farmer's wife, was hunted by armed citizens and shot by two private captors on November 3. He survived his wounds and was jailed amid threats of lynching, which the sheriff was reported determined to resist. Fisher denied the charge, was identified by the woman at a hearing, and was held for the grand jury.",
+   "n_this": 19,
+   "n_papers": 11,
+   "n_clips": 8,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_assault",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "accused-man-millen-1882-12-22",
+   "title": "Lynching of an unnamed Black man near Millen, Georgia (1882)",
+   "city": "Millen",
+   "state": "GA",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 14",
+     ""
+    ]
+   ],
+   "lead": "The lynching of an unnamed Black man near Millen, Georgia, took place in December 1882, when a mob overpowered the posse taking him to jail and killed him. He had been accused of attempting to assault a young white woman and had been bound over for trial. A Waynesboro letter in the Savannah Morning News and an Augusta wire dispatch reported the killing, and the wire carried it to papers across the country under headings such as \"Lynch Law in Georgia.\"",
+   "n_this": 14,
+   "n_papers": 14,
+   "n_clips": 5,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "asa-lawson-oconee-1882-12-30",
+   "title": "Oconee Christmas Day riot",
+   "city": "Oconee",
+   "state": "GA",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Upper bound (review)",
+     "warn"
+    ],
+    [
+     "Contested",
+     "warn"
+    ],
+    [
+     "Black press 0 · white press 9",
+     ""
+    ]
+   ],
+   "lead": "The Oconee Christmas Day riot was an armed clash on December 25, 1882, at Oconee, Georgia, between the town marshal, the mayor and white citizens and a group of Black men the marshal was trying to arrest. Three or four Black men were shot, one reportedly mortally, and the marshal and his son were wounded. A Macon wire sent across the country on December 30 called it a \"race riot\" that had killed a white man, but a second Macon dispatch the same day said no one had been killed.",
+   "n_this": 7,
+   "n_papers": 8,
+   "n_clips": 4,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "bill-allen-chicago-1882-12-03",
+   "title": "Killing of Bill Allen",
+   "city": "Chicago",
+   "state": "IL",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 22",
+     ""
+    ]
+   ],
+   "lead": "The killing of Bill Allen was the shooting by Chicago police of a Black waiter in a chicken coop near the North Halsted Street rail yards on Sunday afternoon, December 3, 1882, after a city-wide manhunt. Allen was accused of killing Officer Clarence E. Wright four days earlier, and the most widely printed dispatch said police shot him after he threw up his hands and offered to surrender. A crowd of thousands then tried to hang his body, and a coroner's jury exonerated the two officers who shot him.",
+   "n_this": 21,
+   "n_papers": 16,
+   "n_clips": 8,
+   "n_accounts": 6,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "charles-smith-waxahachie-1882-12-18",
+   "title": "Killing of Charles Smith (Waxahachie, 1882)",
+   "city": "Waxahachie",
+   "state": "TX",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Posse killing",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 10",
+     ""
+    ]
+   ],
+   "lead": "The killing of Charles Smith was the shooting of a Black man by a posse of armed citizens at Waxahachie, Texas, in December 1882, shortly after he was said to have shot and killed City Marshal J. H. Spalding, who was trying to arrest him. Cornered in a privy about an hour after the marshal's death, Smith was 'riddled with bullets', and a coroner's jury attributed his death to unknown parties summoned by the sheriff. The story circulated nationally as a brief wire item in which the marshal's 'murderer' met a swift end.",
+   "n_this": 7,
+   "n_papers": 10,
+   "n_clips": 4,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "posse_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "charley-branch-varner-station-1882-12-26",
+   "title": "Lynching of Charley Branch",
+   "city": "Varner Station",
+   "state": "AR",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 17",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Charley Branch took place late on the night of Tuesday, December 26, 1882, near Varner Station, Arkansas, when an armed mob took Branch, a Black man, from his guards and hanged him to a telegraph pole. Branch had been arrested two days earlier, accused of ravishing and murdering a nine-year-old girl. A short Little Rock wire dispatch carried the news across the country, and several papers headlined it with approval, the Omaha Daily Bee calling it \"A Deed to Applaud.\"",
+   "n_this": 17,
+   "n_papers": 16,
+   "n_clips": 5,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "christmas-police-shooting-atlanta-1882-12-25",
+   "title": "Atlanta Christmas police shooting (1882)",
+   "city": "Atlanta",
+   "state": "GA",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 5",
+     ""
+    ]
+   ],
+   "lead": "The Atlanta Christmas police shooting was the wounding of an unnamed Black man by an Atlanta policeman, who shot him in the leg on Christmas Day, 1882. The only reason given was that the man had tried to take the officer's club, and the shooting reached northern papers as one line in a wire list of Atlanta's Christmas \"casualties.\"",
+   "n_this": 4,
+   "n_papers": 5,
+   "n_clips": 4,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "dick-the-diver-weeksville-1882-12-05",
+   "title": "Lynching of Dick the Diver",
+   "city": "Weeksville",
+   "state": "MT",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 11",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Dick the Diver was the killing of a man known only by that nickname by a crowd of vigilantes at Weeksville, a Northern Pacific Railroad construction camp in Missoula County, Montana Territory, on the evening of December 5, 1882. Accused of robbery, he was shot and, by most Montana accounts, hanged by a crowd of seventy or eighty citizens acting on a mass meeting's vow to clear the town of desperadoes. Papers in Montana, the Dakotas, Nevada and Washington treated it as a sign of the lawlessness of the camp, and none gave the victim's real name or race.",
+   "n_this": 9,
+   "n_papers": 8,
+   "n_clips": 6,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "hannibal-lee-pineville-1882-12-02",
+   "title": "Shooting of Hannibal Lee",
+   "city": "Pineville",
+   "state": "LA",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Upper bound (review)",
+     "warn"
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 1",
+     ""
+    ]
+   ],
+   "lead": "The shooting of Hannibal Lee was the wounding of a Black man by Town Marshal Jim Walker in Pineville, Louisiana, on Saturday, December 2, 1882. Lee was reported \"dangerously wounded,\" and the only surviving report justified the shooting by saying he had resisted arrest and assaulted the marshal.",
+   "n_this": 1,
+   "n_papers": 1,
+   "n_clips": 1,
+   "n_accounts": 1,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "henry-forman-helena-1882-12",
+   "title": "Attempted lynching of Henry Forman",
+   "city": "Helena",
+   "state": "MT",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Intimidation",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 8",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of Henry Forman was a gathering of a crowd at the jail in Helena, Montana Territory, on the night of December 22, 1882, aimed at hanging Forman, who was being held for shooting his son-in-law, Jacob Kenck. The crowd was persuaded to disperse, and Forman was later remanded to await the grand jury.",
+   "n_this": 4,
+   "n_papers": 5,
+   "n_clips": 5,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "intimidation",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "henry-herndon-springfield-1882-12",
+   "title": "Killing of Henry Herndon",
+   "city": "Springfield",
+   "state": "MO",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 1",
+     ""
+    ]
+   ],
+   "lead": "The killing of Henry Herndon was the fatal shooting of a Black man, described as \"colored,\" by James Dameron, a policeman, at Springfield, Missouri, in late 1882. It is known only from a one-line item in a Kentucky paper's news column, which attributed the shooting to \"an old grudge.\"",
+   "n_this": 1,
+   "n_papers": 1,
+   "n_clips": 1,
+   "n_accounts": 1,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "j-b-lindsey-james-bayou-1882-12-25",
+   "title": "Threatened lynching of Ben Rushing at James Bayou, Missouri",
+   "city": "James Bayou",
+   "state": "MO",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Intimidation",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 9",
+     ""
+    ]
+   ],
+   "lead": "The threatened lynching of Ben Rushing took place at James Bayou, Missouri, after Rushing was accused of shooting J. B. Lindsey dead there on Christmas Day, December 25, 1882. A wire dispatch from Cairo, Illinois, reported that the accused man was in the hands of a mob and that lynching was expected, but the Cairo Bulletin later reported that he had been captured and jailed at Charleston, Missouri. No report gives the race of either man.",
+   "n_this": 9,
+   "n_papers": 9,
+   "n_clips": 6,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "intimidation",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "jim-fraley-hazel-dell-1882-12-10",
+   "title": "Lynching of George W. and Jim Fraley",
+   "city": "Hazel Dell",
+   "state": "TX",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 16",
+     ""
+    ]
+   ],
+   "lead": "The lynching of George W. and Jim Fraley was the hanging of two brothers by an armed mob near Hazel Dell, Comanche County, Texas, in late 1882, after they had been arrested on a charge of stealing cotton. The mob took the brothers from their guard at night and hanged them from the same limb of a tree. Wire dispatches from Dallas carried the story to papers across the country, several of which stressed that the younger brother was 'a mere boy.'",
+   "n_this": 11,
+   "n_papers": 15,
+   "n_clips": 5,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "jim-williams-1882-12-23",
+   "title": "Killing of Gray in Hawkins County, Tennessee",
+   "city": "",
+   "state": "TN",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob assault",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 10",
+     ""
+    ]
+   ],
+   "lead": "The killing of Gray took place in December 1882 in the mountainous part of Hawkins County, Tennessee, when a party of white men came to his cabin at night to whip him over an accusation that he had stolen hogs. In the gunfire that followed, Gray, a Black man, was mortally wounded and died, his stepson's thigh was broken, and two of the white men were wounded. A Knoxville dispatch describing it as a \"terrible tragedy\" ran in papers across the country.",
+   "n_this": 9,
+   "n_papers": 10,
+   "n_clips": 3,
+   "n_accounts": 2,
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "joe-ross-1882-12-06",
+   "title": "Killing of Joe Ross",
+   "city": "",
+   "state": "SC",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Unclassified",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 17",
+     ""
+    ]
+   ],
+   "lead": "The killing of Joe Ross was the fatal shooting of Joe Ross, a Black man also known as Joe Wilson, by ferryman Alonzo Huntley at Ivy's Mill on the Catawba River in Lancaster County, South Carolina, on the night of December 6, 1882. Ross was being hunted by a party of Camden citizens as the accused killer of F. N. McDowell, and they had posted the ferryman at the crossing. Wire services carried the news across the country, and North Carolina papers hailed it as revenge for two killings Ross was said to have confessed.",
+   "n_this": 13,
+   "n_papers": 13,
+   "n_clips": 7,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "unclassified",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "joe-walker-skipwith-1882-12-09",
+   "title": "Killing of Joe Walker",
+   "city": "Skipwith",
+   "state": "MS",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 7",
+     ""
+    ]
+   ],
+   "lead": "The killing of Joe Walker took place at Skipwith, Mississippi, on the night of Saturday, December 9, 1882, when constable J. A. Lawson shot Walker, a Black man, while trying to arrest him for gambling. Walker died of the wound two days later, and Lawson was arrested and released on bail. The only account, a dispatch from Skipwith giving the constable's side, ran as a short crime item in papers from Mississippi to Minnesota.",
+   "n_this": 6,
+   "n_papers": 7,
+   "n_clips": 4,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "joe-wilson-1882-11-30",
+   "title": "Killing of Joe Ross",
+   "city": "",
+   "state": "SC",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Posse killing",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 19",
+     ""
+    ]
+   ],
+   "lead": "The killing of Joe Ross was the fatal shooting of a Black man, known in Camden, South Carolina, as Joe Wilson, by ferryman Alonzo Huntley at Ivey's Mill on the Catawba River in Lancaster County on the night of December 6, 1882. Ross was accused of killing F. M. McDowell, a white Camden man, with an axe on Thanksgiving morning, and he was shot while fleeing a citizens' party from Camden that was described as 'bent on lynching him' and that had posted the ferryman. He died the next morning after giving what the papers called a confession, and his death was reported by wire across the country.",
+   "n_this": 19,
+   "n_papers": 15,
+   "n_clips": 6,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "posse_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "john-franklin-south-charleston-1882-12-25",
+   "title": "Killing of John Franklin",
+   "city": "South Charleston",
+   "state": "OH",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 11",
+     ""
+    ]
+   ],
+   "lead": "The killing of John Franklin was the fatal shooting of a Black prisoner by City Marshal John Way in a cell of the jail at South Charleston, Ohio, on the night of December 25, 1882. Way said Franklin attacked him when he entered the cell, and that account, from a single dispatch, was printed across the country among the season's 'Christmas crimes'.",
+   "n_this": 10,
+   "n_papers": 11,
+   "n_clips": 5,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "levi-chew-philadelphia-1882-12-05",
+   "title": "Attempted lynching of the Lebanon Cemetery body snatchers",
+   "city": "Philadelphia",
+   "state": "PA",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 13",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of the Lebanon Cemetery body snatchers took place in Philadelphia on December 5, 1882, when a crowd of Black residents outside a magistrate's office threatened to lynch four men charged with stealing bodies from a Black burial ground. Police held off two rushes and took the prisoners to the Central station, and the wire carried the story under headlines such as \"The Ghouls Nearly Lynched.\"",
+   "n_this": 7,
+   "n_papers": 12,
+   "n_clips": 7,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "locking-thompson-1882-12-11",
+   "title": "Threatened lynching of Lockie at Thomson, Georgia",
+   "city": "Thompson",
+   "state": "GA",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Intimidation",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 8",
+     ""
+    ]
+   ],
+   "lead": "The threatened lynching of Lockie at Thomson, Georgia, took place after John L. Cushion was shot and killed there on the night of December 10, 1882, and a Black man named Lockie was arrested on suspicion. According to an Augusta dispatch, \"the people\" were restrained \"with great difficulty\" from lynching him, and no killing of the accused was reported. The story ran as a one-sentence wire item in December 1882 and was carried into weekly news digests later that month.",
+   "n_this": 7,
+   "n_papers": 7,
+   "n_clips": 4,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "intimidation",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "marshal-fight-oconee-1882-12-11",
+   "title": "Oconee riot of 1882",
+   "city": "Oconee",
+   "state": "GA",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Upper bound (review)",
+     "warn"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 5",
+     ""
+    ]
+   ],
+   "lead": "The Oconee riot of 1882 was a gun and knife fight at Oconee, Georgia, on Christmas Day, Dec. 25, 1882, in which the town marshal, his son, the mayor and white citizens shot several Black men who resisted an arrest. Three or four Black men were wounded, one of them reported likely to die, and the marshal and his son were also hurt. Georgia and national papers called it a 'riot' and a 'race riot', but their counts of the dead and wounded differed widely.",
+   "n_this": 5,
+   "n_papers": 4,
+   "n_clips": 3,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "police-shooting-dallas-1882-12-04",
+   "title": "Sedalia police shooting of 1882",
+   "city": "Dallas",
+   "state": "TX",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Police violence",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 1",
+     ""
+    ]
+   ],
+   "lead": "The Sedalia police shooting of 1882 was an incident in Sedalia, Missouri, probably on the afternoon of 4 December 1882, in which Officer Wentzelman clubbed an unnamed Black man he had arrested and then fired three pistol shots at him as he fled. None of the shots hit him, and the man escaped. The only known account is a short local item in the Sedalia Weekly Bazoo, told from the officer's side.",
+   "n_this": 1,
+   "n_papers": 1,
+   "n_clips": 1,
+   "n_accounts": 1,
+   "disputed": false,
+   "code_type": "police_violence",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "prisoner-nelson-1882-12",
+   "title": "Lynching near Millen, Georgia (1882)",
+   "city": "Nelson",
+   "state": "CA",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 13",
+     ""
+    ]
+   ],
+   "lead": "The lynching near Millen, Georgia, was the killing in December 1882 of an unnamed Black man whom a mob took from the officers escorting him to jail. He had been arrested and bound over for trial on a charge of attempting to outrage a young white woman. An Augusta wire dispatch carried the case to papers across the country, where shortened copies misnamed the place as \"Nelson\" or \"Wilton.\"",
+   "n_this": 13,
+   "n_papers": 12,
+   "n_clips": 4,
+   "n_accounts": 3,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "riley-caddoa-1882-12",
+   "title": "Lynching of Riley at Caddoa",
+   "city": "Caddoa",
+   "state": "",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 4",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Riley at Caddoa was the killing of a man named Riley by twelve to fifteen armed men at the Santa Fe railroad station at Caddoa, reported as in New Mexico, one night in mid-December 1882. Accused of murdering a tank tender, he was taken from the emigrant train, shot as he ran, and hanged from a telegraph pole in front of the passengers. The Wichita City Eagle printed the fullest account and complained that the Associated Press had published nothing about it.",
+   "n_this": 2,
+   "n_papers": 4,
+   "n_clips": 3,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "riot-lincolnton-1882-12",
+   "title": "Lincolnton riot arrests and banishment (1882)",
+   "city": "Lincolnton",
+   "state": "NC",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Expulsion",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 16",
+     ""
+    ]
+   ],
+   "lead": "The Lincolnton riot arrests and banishment took place in Lincolnton, North Carolina, in December 1882, when thirty Black men were jailed for a riot and, after trial, all but one were acquitted on condition that they leave the town. Wire reports of armed patrols, threats to burn the town and troops ordered to the scene spread nationally before dispatches from Charlotte and Lincolnton denied that any renewed trouble had occurred.",
+   "n_this": 15,
+   "n_papers": 12,
+   "n_clips": 7,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "expulsion",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "sid-houston-prineville-1882-12-25",
+   "title": "Prineville vigilante killings (1882)",
+   "city": "Prineville",
+   "state": "OR",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 22",
+     ""
+    ]
+   ],
+   "lead": "The Prineville vigilante killings were the shooting of A. C. Swartz and the hanging of Sid Huston and Charles Luster by masked men at Prineville, Crook County, Oregon, on a night shortly before Christmas 1882. All three were accused of belonging to an organized band of horse thieves, and the killings were attributed to a vigilance committee of stockmen. Wire reports carried the story nationally as a lynching of desperate cowboys, while an Oregon paper condemned it as murder.",
+   "n_this": 22,
+   "n_papers": 19,
+   "n_clips": 6,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "stafford-shooter-columbus-1882-12-27",
+   "title": "Hanging of Stafford's assailant at Columbus, Texas",
+   "city": "Columbus",
+   "state": "",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 2",
+     ""
+    ]
+   ],
+   "lead": "The hanging of Stafford's assailant at Columbus, Texas, was the killing of an unnamed man by friends of a son of Capt. Stafford on December 27, 1882, after the man was said to have shot young Stafford. The story survives only as a brief Galveston News special from Houston, reprinted in papers outside Texas among other crime news, and it gives neither the hanged man's name nor his race.",
+   "n_this": 2,
+   "n_papers": 2,
+   "n_clips": 2,
+   "n_accounts": 1,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "thomas-kerr-pioneer-1882-12-26",
+   "title": "Lynching of Thomas Kerr",
+   "city": "Pioneer",
+   "state": "AZ",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 15",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Thomas Kerr was the hanging of Thomas P. Kerr from a sycamore tree at the Pioneer mining camp in Arizona Territory early on December 26, 1882, by men of the camp who had tried him before their own jury of twelve. Kerr had been accused of shooting a man named as William Hartley or William Hartnett in a Pioneer saloon hours before. A Tucson Citizen dispatch carried the story across the country, and a coroner's jury later found that Kerr died by hanging by unknown parties.",
+   "n_this": 10,
+   "n_papers": 13,
+   "n_clips": 7,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "tom-robinson-bastrop-1882-12-06",
+   "title": "Lynching of Tom Robinson and Bill Cephas",
+   "city": "Bastrop",
+   "state": "LA",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 17",
+     ""
+    ]
+   ],
+   "lead": "The lynching of Tom Robinson and Bill Cephas took place at Bastrop, in Morehouse Parish, Louisiana, in early December 1882, when a body of men broke open the jail and hanged the two Black prisoners from a tree near the town. The two men were being held on a charge of shooting a young white man named Curry, who survived. The wire account, which said local opinion sided with the lynchers and blamed 'indulgent juries', ran in papers from Maine to California.",
+   "n_this": 12,
+   "n_papers": 17,
+   "n_clips": 7,
+   "n_accounts": 5,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "w-s-sims-aiken-1882-12-06",
+   "title": "Attempted lynching of W. S. Sims",
+   "city": "Aiken",
+   "state": "SC",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Attempted lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 10",
+     ""
+    ]
+   ],
+   "lead": "The attempted lynching of W. S. Sims was a failed attempt by an armed band to take Sims, a white physician, from the Aiken County jail in Aiken, South Carolina, on the night of December 5, 1882. Militia ordered out by Governor Thompson guarded the jail, and the band of more than one hundred men turned back without attacking. The case drew notice because of the unnamed charge against Sims, and a week later he was moved to Columbia for safekeeping.",
+   "n_this": 8,
+   "n_papers": 9,
+   "n_clips": 5,
+   "n_accounts": 4,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
+   "id": "will-smith-covington-1882-12-24",
+   "title": "Covington lynching threat against Will Smith",
+   "city": "Covington",
+   "state": "GA",
+   "when": "1882-12",
+   "chips": [
+    [
+     "Intimidation",
+     ""
+    ],
+    [
+     "Threatened lynching",
+     ""
+    ],
+    [
+     "Lynching of any race (not in the anti-Black count)",
+     ""
+    ],
+    [
+     "Corroborated",
+     "good"
+    ],
+    [
+     "Black press 0 · white press 8",
+     ""
+    ]
+   ],
+   "lead": "The Covington lynching threat against Will Smith took place in Covington, Georgia, on the afternoon of December 23, 1882, when a large crowd met Sheriff Anderson bringing in Smith, who was accused of two shootings, and cried for him to be killed and hanged. The sheriff got Smith to jail through the crowd, and a strong guard was posted. Southern papers headed the story as a lynching threatened or in prospect, while short wires elsewhere reported only the killings.",
+   "n_this": 4,
+   "n_papers": 8,
+   "n_clips": 4,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "intimidation",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -25348,6 +29353,45 @@
    "coll": 1881
   },
   {
+   "id": "bradford-county-prisoner-starke",
+   "title": "Lynching of an unnamed prisoner at Starke, Florida",
+   "city": "",
+   "state": "FL",
+   "when": "",
+   "chips": [
+    [
+     "Mob killing",
+     ""
+    ],
+    [
+     "Lynching",
+     ""
+    ],
+    [
+     "Lynching (standard definition)",
+     "good"
+    ],
+    [
+     "Single source",
+     ""
+    ],
+    [
+     "Black press 0 · white press 2",
+     ""
+    ]
+   ],
+   "lead": "The lynching of an unnamed prisoner at Starke, Florida, took place in Bradford County some time before early October 1882, when lynchers broke open the county jail and hanged a Black man held on a charge of assaulting a young woman. The only account is a short item in the Starke Weekly Telegraph, known from a reprint in the Savannah Morning News, and a Tallahassee editorial later listed the killing among Florida crimes whose perpetrators were still unpunished.",
+   "n_this": 1,
+   "n_papers": 2,
+   "n_clips": 2,
+   "n_accounts": 2,
+   "disputed": false,
+   "code_type": "mob_killing",
+   "base": "../../1882/",
+   "v": "1882_both-20261125194803",
+   "coll": 1882
+  },
+  {
    "id": "canless-blair-shelby",
    "title": "Shooting of Canless Blair",
    "city": "Shelby",
@@ -25375,7 +29419,7 @@
    "disputed": false,
    "code_type": "police_violence",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -25418,7 +29462,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -25449,7 +29493,7 @@
    "disputed": false,
    "code_type": "mob_assault",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -25488,7 +29532,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -25531,7 +29575,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   },
   {
@@ -25574,7 +29618,7 @@
    "disputed": false,
    "code_type": "mob_killing",
    "base": "../../1882/",
-   "v": "1882_both-20261125150905",
+   "v": "1882_both-20261125194803",
    "coll": 1882
   }
  ],
@@ -25589,5 +29633,5 @@
    "disputed": "Disputed accounts"
   }
  },
- "built": "all-016ff77bbcdb"
+ "built": "all-7fb5f5c13a50"
 }
