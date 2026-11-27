@@ -1,0 +1,77 @@
+{
+ "schema_version": 1,
+ "year": 1880,
+ "month": 8,
+ "generated_at": "2026-11-26T18:41:19-05:00",
+ "source": {
+  "git": "fe7003af",
+  "table": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1880/both/events_1880_both_final_ddlc.json",
+  "dossiers": "/Users/nealcaren/Github/dangerouspress-racialviolence/data/events/1880/dossiers2_all"
+ },
+ "lists": {
+  "B-T": "Beck–Tolnay",
+  "S-R": "Seguin–Rigby",
+  "HAL": "HAL",
+  "MWT": "Monroe Work Today"
+ },
+ "inventory": [
+  {
+   "date": "1880-08-05",
+   "day_known": false,
+   "name": "Unnamed #1",
+   "place": "",
+   "county": "Mason",
+   "state": "KY",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched after being accused of killing a white man",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "8251",
+     "name": "Unnamed #1"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1880-08-05",
+   "day_known": false,
+   "name": "Unnamed #2",
+   "place": "",
+   "county": "Mason",
+   "state": "KY",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched after being accused of killing a white man",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "8252",
+     "name": "Unnamed #2"
+    }
+   ],
+   "ours": []
+  },
+  {
+   "date": "1880-08-15",
+   "day_known": false,
+   "name": "Green Ellis",
+   "place": "",
+   "county": "Todd",
+   "state": "KY",
+   "status": "",
+   "method": "",
+   "accusation": "He was lynched after being accused of robbing and beating a white woman",
+   "rows": [
+    {
+     "list": "MWT",
+     "row": "8246",
+     "name": "Green Ellis"
+    }
+   ],
+   "ours": []
+  }
+ ],
+ "found": []
+}

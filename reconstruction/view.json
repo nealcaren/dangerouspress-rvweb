@@ -5,6 +5,18 @@
  "month": null,
  "years": [
   {
+   "year": 1880,
+   "label": "November–December 1880",
+   "months": [
+    11,
+    12
+   ],
+   "atlas_count": 38,
+   "export_id": "1880_both-20261126184119",
+   "full": null,
+   "atlas_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes reported from November through December 1880 in our\n <a href=\"../reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a> that involve anti-Black violence or threats, placed on 1910 county lines\n and by month (some events were first reported the month after). Lynchings of white victims and others, and lynchings where no report gives the victim&rsquo;s race, are in the dossiers but not on the map. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
+  },
+  {
    "year": 1881,
    "label": "January–December 1881",
    "months": [
@@ -32,15 +44,15 @@
  "all_only": true,
  "month_span": [
   [
-   1881,
-   1
+   1880,
+   11
   ],
   [
    1882,
    12
   ]
  ],
- "all_label": "January 1881–December 1882",
+ "all_label": "November 1880–December 1882",
  "all_reader": "all/reader/",
- "all_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes reported from January 1881 through December 1882 in our <a href=\"all/reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a> that involve anti-Black violence or threats, placed on 1910 county lines and by month across the years. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
+ "all_dek": "<p class=\"dek\">The <span id=\"n\"></span> episodes reported from November 1880 through December 1882 in our <a href=\"all/reader/\" target=\"_blank\" rel=\"noopener\">dossiers</a> that involve anti-Black violence or threats, placed on 1910 county lines and by month across the years. Hover for a short summary; select a dot to read the account in the sidebar. Drafts: no entry has had human review.</p>"
 }
